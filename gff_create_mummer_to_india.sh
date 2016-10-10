@@ -1,0 +1,1 @@
+nucmer -maxmatch -p india_gff_match /home/vdp5/data/gca-000320625.2-pv-india-vii-v2-genomic.fsa.fna /home/vdp5/data/table_gff2nuc_plusID.txt

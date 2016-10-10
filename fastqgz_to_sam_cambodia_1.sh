@@ -1,0 +1,36 @@
+cd /home/vdp5/data/cambodia_samples/sequences_sam
+stampy.py -o KP068.sam -f sam --substitutionrate=0.05 -g /home/vdp5/data/salvador_vivax/salvador.fasta -h /home/vdp5/data/salvador_vivax/salvador.fasta -M /home/vdp5/data/cambodia_samples/sequences_gz/KP068-BiooBarcode_28_CAAAAG_R2.fastq.gz /home/vdp5/data/cambodia_samples/sequences_gz/KP068-BiooBarcode_28_CAAAAG_R1.fastq.gz 
+ > $LOGDIR/KP068_align_log.txtcd /home/vdp5/data/cambodia_samples/sequences_sam
+stampy.py -o OM032.sam -f sam --substitutionrate=0.05 -g /home/vdp5/data/salvador_vivax/salvador.fasta -h /home/vdp5/data/salvador_vivax/salvador.fasta -M /home/vdp5/data/cambodia_samples/sequences_gz/OM032-BiooBarcode7_ATCACG_R1.fastq.gz /home/vdp5/data/cambodia_samples/sequences_gz/OM032-BiooBarcode7_ATCACG_R2.fastq.gz 
+ > $LOGDIR/OM032_align_log.txtcd /home/vdp5/data/cambodia_samples/sequences_sam
+stampy.py -o KP063.sam -f sam --substitutionrate=0.05 -g /home/vdp5/data/salvador_vivax/salvador.fasta -h /home/vdp5/data/salvador_vivax/salvador.fasta -M /home/vdp5/data/cambodia_samples/sequences_gz/KP063-BiooBarcode_26_ATGAGC_R1.fastq.gz /home/vdp5/data/cambodia_samples/sequences_gz/KP063-BiooBarcode_26_ATGAGC_R2.fastq.gz 
+ > $LOGDIR/KP063_align_log.txtcd /home/vdp5/data/cambodia_samples/sequences_sam
+stampy.py -o OM093.sam -f sam --substitutionrate=0.05 -g /home/vdp5/data/salvador_vivax/salvador.fasta -h /home/vdp5/data/salvador_vivax/salvador.fasta -M /home/vdp5/data/cambodia_samples/sequences_gz/OM-093_CGATGT_R1.fastq.gz /home/vdp5/data/cambodia_samples/sequences_gz/OM-093_CGATGT_R2.fastq.gz 
+ > $LOGDIR/OM093_align_log.txtcd /home/vdp5/data/cambodia_samples/sequences_sam
+stampy.py -o OM342.sam -f sam --substitutionrate=0.05 -g /home/vdp5/data/salvador_vivax/salvador.fasta -h /home/vdp5/data/salvador_vivax/salvador.fasta -M /home/vdp5/data/cambodia_samples/sequences_gz/OM342-BiooBarcode44_TATAAT_R2.fastq.gz /home/vdp5/data/cambodia_samples/sequences_gz/OM342-BiooBarcode44_TATAAT_R1.fastq.gz 
+ > $LOGDIR/OM342_align_log.txtcd /home/vdp5/data/cambodia_samples/sequences_sam
+stampy.py -o OM325.sam -f sam --substitutionrate=0.05 -g /home/vdp5/data/salvador_vivax/salvador.fasta -h /home/vdp5/data/salvador_vivax/salvador.fasta -M /home/vdp5/data/cambodia_samples/sequences_gz/OM325-BiooBarcode35_CATTTT_R1.fastq.gz /home/vdp5/data/cambodia_samples/sequences_gz/OM325-BiooBarcode35_CATTTT_R2.fastq.gz 
+ > $LOGDIR/OM325_align_log.txtcd /home/vdp5/data/cambodia_samples/sequences_sam
+stampy.py -o OM346.sam -f sam --substitutionrate=0.05 -g /home/vdp5/data/salvador_vivax/salvador.fasta -h /home/vdp5/data/salvador_vivax/salvador.fasta -M /home/vdp5/data/cambodia_samples/sequences_gz/OM346-BiooBarcode46_TCCCGA_R2.fastq.gz /home/vdp5/data/cambodia_samples/sequences_gz/OM346-BiooBarcode46_TCCCGA_R1.fastq.gz 
+ > $LOGDIR/OM346_align_log.txtcd /home/vdp5/data/cambodia_samples/sequences_sam
+stampy.py -o OM322.sam -f sam --substitutionrate=0.05 -g /home/vdp5/data/salvador_vivax/salvador.fasta -h /home/vdp5/data/salvador_vivax/salvador.fasta -M /home/vdp5/data/cambodia_samples/sequences_gz/OM322-BiooBarcode42_TAATCG_R1.fastq.gz /home/vdp5/data/cambodia_samples/sequences_gz/OM322-BiooBarcode42_TAATCG_R2.fastq.gz 
+ > $LOGDIR/OM322_align_log.txtcd /home/vdp5/data/cambodia_samples/sequences_sam
+stampy.py -o OM345.sam -f sam --substitutionrate=0.05 -g /home/vdp5/data/salvador_vivax/salvador.fasta -h /home/vdp5/data/salvador_vivax/salvador.fasta -M /home/vdp5/data/cambodia_samples/sequences_gz/OM345-BiooBarcode45_TCATTC_R1.fastq.gz /home/vdp5/data/cambodia_samples/sequences_gz/OM345-BiooBarcode45_TCATTC_R2.fastq.gz 
+ > $LOGDIR/OM345_align_log.txtcd /home/vdp5/data/cambodia_samples/sequences_sam
+stampy.py -o KP068.sam -f sam --substitutionrate=0.05 -g /home/vdp5/data/salvador_vivax/salvador.fasta -h /home/vdp5/data/salvador_vivax/salvador.fasta -M /home/vdp5/data/cambodia_samples/sequences_gz/KP068-BiooBarcode_28_CAAAAG_R2.fastq.gz /home/vdp5/data/cambodia_samples/sequences_gz/KP068-BiooBarcode_28_CAAAAG_R1.fastq.gz > $LOGDIR/KP068_align_log.txt
+cd /home/vdp5/data/cambodia_samples/sequences_sam
+stampy.py -o OM032.sam -f sam --substitutionrate=0.05 -g /home/vdp5/data/salvador_vivax/salvador.fasta -h /home/vdp5/data/salvador_vivax/salvador.fasta -M /home/vdp5/data/cambodia_samples/sequences_gz/OM032-BiooBarcode7_ATCACG_R1.fastq.gz /home/vdp5/data/cambodia_samples/sequences_gz/OM032-BiooBarcode7_ATCACG_R2.fastq.gz > $LOGDIR/OM032_align_log.txt
+cd /home/vdp5/data/cambodia_samples/sequences_sam
+stampy.py -o KP063.sam -f sam --substitutionrate=0.05 -g /home/vdp5/data/salvador_vivax/salvador.fasta -h /home/vdp5/data/salvador_vivax/salvador.fasta -M /home/vdp5/data/cambodia_samples/sequences_gz/KP063-BiooBarcode_26_ATGAGC_R1.fastq.gz /home/vdp5/data/cambodia_samples/sequences_gz/KP063-BiooBarcode_26_ATGAGC_R2.fastq.gz > $LOGDIR/KP063_align_log.txt
+cd /home/vdp5/data/cambodia_samples/sequences_sam
+stampy.py -o OM093.sam -f sam --substitutionrate=0.05 -g /home/vdp5/data/salvador_vivax/salvador.fasta -h /home/vdp5/data/salvador_vivax/salvador.fasta -M /home/vdp5/data/cambodia_samples/sequences_gz/OM-093_CGATGT_R1.fastq.gz /home/vdp5/data/cambodia_samples/sequences_gz/OM-093_CGATGT_R2.fastq.gz > $LOGDIR/OM093_align_log.txt
+cd /home/vdp5/data/cambodia_samples/sequences_sam
+stampy.py -o OM342.sam -f sam --substitutionrate=0.05 -g /home/vdp5/data/salvador_vivax/salvador.fasta -h /home/vdp5/data/salvador_vivax/salvador.fasta -M /home/vdp5/data/cambodia_samples/sequences_gz/OM342-BiooBarcode44_TATAAT_R2.fastq.gz /home/vdp5/data/cambodia_samples/sequences_gz/OM342-BiooBarcode44_TATAAT_R1.fastq.gz > $LOGDIR/OM342_align_log.txt
+cd /home/vdp5/data/cambodia_samples/sequences_sam
+stampy.py -o OM325.sam -f sam --substitutionrate=0.05 -g /home/vdp5/data/salvador_vivax/salvador.fasta -h /home/vdp5/data/salvador_vivax/salvador.fasta -M /home/vdp5/data/cambodia_samples/sequences_gz/OM325-BiooBarcode35_CATTTT_R1.fastq.gz /home/vdp5/data/cambodia_samples/sequences_gz/OM325-BiooBarcode35_CATTTT_R2.fastq.gz > $LOGDIR/OM325_align_log.txt
+cd /home/vdp5/data/cambodia_samples/sequences_sam
+stampy.py -o OM346.sam -f sam --substitutionrate=0.05 -g /home/vdp5/data/salvador_vivax/salvador.fasta -h /home/vdp5/data/salvador_vivax/salvador.fasta -M /home/vdp5/data/cambodia_samples/sequences_gz/OM346-BiooBarcode46_TCCCGA_R2.fastq.gz /home/vdp5/data/cambodia_samples/sequences_gz/OM346-BiooBarcode46_TCCCGA_R1.fastq.gz > $LOGDIR/OM346_align_log.txt
+cd /home/vdp5/data/cambodia_samples/sequences_sam
+stampy.py -o OM322.sam -f sam --substitutionrate=0.05 -g /home/vdp5/data/salvador_vivax/salvador.fasta -h /home/vdp5/data/salvador_vivax/salvador.fasta -M /home/vdp5/data/cambodia_samples/sequences_gz/OM322-BiooBarcode42_TAATCG_R1.fastq.gz /home/vdp5/data/cambodia_samples/sequences_gz/OM322-BiooBarcode42_TAATCG_R2.fastq.gz > $LOGDIR/OM322_align_log.txt
+cd /home/vdp5/data/cambodia_samples/sequences_sam
+stampy.py -o OM345.sam -f sam --substitutionrate=0.05 -g /home/vdp5/data/salvador_vivax/salvador.fasta -h /home/vdp5/data/salvador_vivax/salvador.fasta -M /home/vdp5/data/cambodia_samples/sequences_gz/OM345-BiooBarcode45_TCATTC_R1.fastq.gz /home/vdp5/data/cambodia_samples/sequences_gz/OM345-BiooBarcode45_TCATTC_R2.fastq.gz > $LOGDIR/OM345_align_log.txt
