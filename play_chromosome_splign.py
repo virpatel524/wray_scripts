@@ -14,9 +14,9 @@ for index, line in enumerate(data):
 		cur_chrome = line[0]
 	else:
 		if cur_chrome not in chrom_dict:
-			chrom_dict[cur_chrome] = line[0]
+			chrom_dict[cur_chrome] = line
 		else:
-			chrom_dict[cur_chrome] = chrom_dict[cur_chrome] + line[0]
+			chrom_dict[cur_chrome] = chrom_dict[cur_chrome] + line
 
 
 for key in chrom_dict:
@@ -28,4 +28,3 @@ for alpha in chrom_dict:
 	newfle.write('%s\n' %(alpha))
 	for beta in chrom_dict[alpha]:
 		newfle.write('%s\n'%(beta))
-		
