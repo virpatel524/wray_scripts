@@ -26,5 +26,4 @@ new_thing = '/home/vdp5/data/fasta_editing/consolidated_lines_vivax_SAMEA2376790
 newfle = open(new_thing, 'w')
 for alpha in chrom_dict:
 	newfle.write('%s\n' %(alpha))
-	for beta in chrom_dict[alpha]:
-		newfle.write('%s\n'%(beta))
+	newfle.write('%s\n'%(chrom_dict[alpha]))
