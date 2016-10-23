@@ -1,5 +1,8 @@
 import csv
 import sys, os
+import subprocess
+
+
 
 item_dict = {}
 
@@ -22,8 +25,7 @@ current_number = 1
 for alpha in range(1, len(item_dict.keys()) + 1):
 	if alpha % 10 == 0:
 		current_number+=1
-	with open('fastqgz_to_sam_cambodia_%d.sh' %(current_number), 'a') as abouttoputin:
-		abouttoputin.write('cd /home/vdp5/data/cambodia_samples/sequences_sam\n')
+	with open('cambodia_align_scripts/fastqgz_to_sam_cambodia_%d.sh' %(current_number), 'a') as abouttoputin:
 		beta = item_dict.keys()[alpha - 1]	
-		abouttoputin.write('stampy.py -o %s.sam -f sam --substitutionrate=0.05 -g /home/vdp5/data/salvador_vivax/salvador.fasta -h /home/vdp5/data/salvador_vivax/salvador.fasta -M %s %s > $LOGDIR/%s_align_log.txt\n' %(beta, item_dict[beta][0], item_dict[beta][1], beta))
+		abouttoputin.write('bwa mem -M /home/vdp5/data/salvador_vivax_asia_2016/first-SAMEA2376790/pvivax_sal1_SAMEA2376790.fasta %s %s | samtools view  -Sb - | samtools sort - /home/vdp5/data/cambodia_samples/sequences_bam/%s.sorted.bam\n\n' %(item_dict[beta][0], item_dict[beta][1], beta.split('.')[0]))
 
