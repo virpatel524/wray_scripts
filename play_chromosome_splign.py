@@ -27,3 +27,12 @@ newfle = open(new_thing, 'w')
 for alpha in chrom_dict:
 	newfle.write('%s\n' %(alpha))
 	newfle.write('%s\n'%(chrom_dict[alpha]))
+
+newfle.close()
+new_thing = '/home/vdp5/data/fasta_editing/alltogehter.fasta'
+newfle = open(new_thing, 'w')
+for alpha in chrom_dict:
+	newfle.write('%s'%(chrom_dict[alpha]))
+newfle.write('\n')
+newfle.close()
+
