@@ -6,8 +6,10 @@ data = list(csv.reader(open('/home/vdp5/data/salvador_vivax_asia_2016/first-SAME
 cur_chrome = 'beta'
 chrom_dict = {}
 
-for line in data:
-	print line
+for index, line in enumerate(data):
+	print index, len(data)
+	if len(line) == 0:
+		continue
 	if line[0][0] == '>':
 		cur_chrome = line[0]
 	else:
@@ -19,8 +21,3 @@ for line in data:
 
 for key in chrom_dict:
 	print len(chrom_dict[key])
-
-
-
-
-
