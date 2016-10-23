@@ -7,16 +7,16 @@ cur_chrome = 'beta'
 chrom_dict = {}
 
 for index, line in enumerate(data):
-	print index, len(data)
 	if len(line) == 0:
 		continue
 	if line[0][0] == '>':
 		cur_chrome = line[0]
 	else:
 		if cur_chrome not in chrom_dict:
-			chrom_dict[cur_chrome] = line
+			print line[0]
+			chrom_dict[cur_chrome] = line[0]
 		else:
-			chrom_dict[cur_chrome] = chrom_dict[cur_chrome] + line
+			chrom_dict[cur_chrome] = chrom_dict[cur_chrome] + line[0]
 
 
 for key in chrom_dict:
