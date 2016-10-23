@@ -1,0 +1,144 @@
+BamQC report
+-----------------------------------
+
+>>>>>>> Input
+
+     bam file = /home/vdp5/data/cambodia_samples/sequences_bam/OM292.sorted.bam.bam
+     outfile = /home/vdp5/data/cambodia_samples/bam_align_quality/OM292/genome_results.txt
+
+
+>>>>>>> Reference
+
+     number of bases = 23,958,997 bp
+     number of contigs = 14
+
+
+>>>>>>> Globals
+
+     number of windows = 413
+
+     number of reads = 4,187,474
+     number of mapped reads = 1,167,887 (27.89%)
+
+     number of mapped paired reads (first in pair) = 588,135
+     number of mapped paired reads (second in pair) = 579,752
+     number of mapped paired reads (both in pair) = 1,124,387
+     number of mapped paired reads (singletons) = 43,500
+
+     number of mapped bases = 111,918,611 bp
+     number of sequenced bases = 111,794,584 bp
+     number of aligned bases = 0 bp
+     number of duplicated reads (estimated) = 102,105
+     duplication rate = 6.17%
+
+
+>>>>>>> Insert size
+
+     mean insert size = 960.2182
+     std insert size = 30,772.7519
+     median insert size = 339
+
+
+>>>>>>> Mapping quality
+
+     mean mapping quality = 58.3477
+
+
+>>>>>>> ACTG content
+
+     number of A's = 33,658,881 bp (30.11%)
+     number of C's = 22,188,994 bp (19.85%)
+     number of T's = 33,819,449 bp (30.25%)
+     number of G's = 22,127,260 bp (19.79%)
+     number of N's = 8,973 bp (0.01%)
+
+     GC percentage = 39.64%
+
+
+>>>>>>> Mismatches and indels
+
+    general error rate = 0.0161
+    number of mismatches = 1,710,948
+    number of insertions = 38,358
+    mapped reads with insertion percentage = 3.1%
+    number of deletions = 43,351
+    mapped reads with deletion percentage = 3.48%
+    homopolymer indels = 62.84%
+
+
+>>>>>>> Coverage
+
+     mean coverageData = 4.6713X
+     std coverageData = 5.5849X
+
+     There is a 94.84% of reference with a coverageData >= 1X
+     There is a 86.42% of reference with a coverageData >= 2X
+     There is a 73.41% of reference with a coverageData >= 3X
+     There is a 58.13% of reference with a coverageData >= 4X
+     There is a 43.29% of reference with a coverageData >= 5X
+     There is a 30.6% of reference with a coverageData >= 6X
+     There is a 20.78% of reference with a coverageData >= 7X
+     There is a 13.67% of reference with a coverageData >= 8X
+     There is a 8.87% of reference with a coverageData >= 9X
+     There is a 5.78% of reference with a coverageData >= 10X
+     There is a 3.88% of reference with a coverageData >= 11X
+     There is a 2.73% of reference with a coverageData >= 12X
+     There is a 2.05% of reference with a coverageData >= 13X
+     There is a 1.63% of reference with a coverageData >= 14X
+     There is a 1.38% of reference with a coverageData >= 15X
+     There is a 1.21% of reference with a coverageData >= 16X
+     There is a 1.09% of reference with a coverageData >= 17X
+     There is a 0.99% of reference with a coverageData >= 18X
+     There is a 0.9% of reference with a coverageData >= 19X
+     There is a 0.83% of reference with a coverageData >= 20X
+     There is a 0.76% of reference with a coverageData >= 21X
+     There is a 0.7% of reference with a coverageData >= 22X
+     There is a 0.65% of reference with a coverageData >= 23X
+     There is a 0.6% of reference with a coverageData >= 24X
+     There is a 0.56% of reference with a coverageData >= 25X
+     There is a 0.52% of reference with a coverageData >= 26X
+     There is a 0.49% of reference with a coverageData >= 27X
+     There is a 0.45% of reference with a coverageData >= 28X
+     There is a 0.42% of reference with a coverageData >= 29X
+     There is a 0.4% of reference with a coverageData >= 30X
+     There is a 0.37% of reference with a coverageData >= 31X
+     There is a 0.35% of reference with a coverageData >= 32X
+     There is a 0.33% of reference with a coverageData >= 33X
+     There is a 0.31% of reference with a coverageData >= 34X
+     There is a 0.29% of reference with a coverageData >= 35X
+     There is a 0.27% of reference with a coverageData >= 36X
+     There is a 0.26% of reference with a coverageData >= 37X
+     There is a 0.24% of reference with a coverageData >= 38X
+     There is a 0.23% of reference with a coverageData >= 39X
+     There is a 0.22% of reference with a coverageData >= 40X
+     There is a 0.2% of reference with a coverageData >= 41X
+     There is a 0.19% of reference with a coverageData >= 42X
+     There is a 0.18% of reference with a coverageData >= 43X
+     There is a 0.17% of reference with a coverageData >= 44X
+     There is a 0.16% of reference with a coverageData >= 45X
+     There is a 0.15% of reference with a coverageData >= 46X
+     There is a 0.15% of reference with a coverageData >= 47X
+     There is a 0.14% of reference with a coverageData >= 48X
+     There is a 0.13% of reference with a coverageData >= 49X
+     There is a 0.13% of reference with a coverageData >= 50X
+     There is a 0.12% of reference with a coverageData >= 51X
+
+
+>>>>>>> Coverage per contig
+
+	gi|1074120478|emb|LT615256.1|	977217	4034440	4.128499606535703	3.450619282441397
+	gi|1074120682|emb|LT615257.1|	860454	4200985	4.882288884705051	4.976589887913318
+	gi|1074120865|emb|LT615258.1|	989719	5395620	5.451668604927257	8.628667658808267
+	gi|1074121086|emb|LT615259.1|	935450	4719078	5.044714308621519	8.006011816269105
+	gi|1074121301|emb|LT615260.1|	1432239	7014814	4.897795689127303	5.371659686844632
+	gi|1074121615|emb|LT615261.1|	1080962	5107317	4.724788660470951	4.93170190763881
+	gi|1074121871|emb|LT615262.1|	1545099	6731554	4.356713712195788	2.7307198249370384
+	gi|1074122235|emb|LT615263.1|	1585108	7303864	4.607802118215289	5.59160809451612
+	gi|1074122590|emb|LT615264.1|	2122358	9516924	4.48412756000637	3.317113344526234
+	gi|1074123050|emb|LT615265.1|	1754192	8315342	4.740269024143309	8.781655644299917
+	gi|1074123421|emb|LT615266.1|	2150147	10238366	4.761705129928326	8.647317505255458
+	gi|1074123898|emb|LT615267.1|	3031036	13837096	4.565137464550075	4.0093571085365145
+	gi|1074124588|emb|LT615268.1|	2359348	10482859	4.443116911960423	4.835805598969123
+	gi|1074125065|emb|LT615269.1|	3135668	15020352	4.790160182774452	2.941321379678622
+
+
