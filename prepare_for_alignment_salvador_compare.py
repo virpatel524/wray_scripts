@@ -27,5 +27,5 @@ for alpha in range(1, len(item_dict.keys()) + 1):
 		current_number+=1
 	with open('salvador_align_scripts/fastqgz_to_sam_cambodia__salvador%d.sh' %(current_number), 'a') as abouttoputin:
 		beta = item_dict.keys()[alpha - 1]	
-		abouttoputin.write('bwa mem -M /home/vdp5/data/salvador_vivax_asia_2016/first-SAMEA2376790/pvivax_sal1_SAMEA2376790.fasta %s %s | samtools view  -Sb - | samtools sort - /home/vdp5/data/cambodia_samples/salvador_align/%s.sorted.bam\n\n' %(item_dict[beta][0], item_dict[beta][1], beta.split('.')[0]))
+		abouttoputin.write('bwa mem -M /home/vdp5/data/vivax_2009/salvador.fasta %s %s | samtools view  -Sb - | samtools sort - /home/vdp5/data/cambodia_samples/salvador_align/%s.sorted.bam\n\n' %(item_dict[beta][0], item_dict[beta][1], beta.split('.')[0]))
 
