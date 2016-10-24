@@ -13,3 +13,11 @@ for subdir, dirs, files in os.walk(rootdir):
 		continue
 	tmp = list(csv.reader(open(os.path.join(subdir, sortedfles[0])),delimiter='\t'))
 	gene=sortedfles[0].split('_')[1]
+	tmplst = []
+	for alpha in tmp:
+		if len(alpha) == 0: continue
+		if 'Exon' in alpha[0]:
+			data = alpha[0].split(' ')
+			if float(data[-1]) < 0.95:
+				continue
+			
