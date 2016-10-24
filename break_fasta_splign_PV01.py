@@ -26,6 +26,6 @@ for alpha in chrom_dict:
 	zeta = alpha.split(':')[0].split('.')[0]
 	zeta = int(zeta)
 	zeta = zeta.nfill(2)
-	newfle = open(baes_new + '/' + alpha + '.fasta', 'w')
+	newfle = open(baes_new + '/' + zeta + '.fasta', 'w')
 	newfle.write('%s\n' %(alpha))
 	newfle.write('%s\n'%(chrom_dict[alpha]))
