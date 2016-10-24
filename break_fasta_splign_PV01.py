@@ -25,7 +25,7 @@ baes_new = '/home/vdp5/data/cdna_analysis_SAMEA2376790/fasta_PV01'
 for alpha in chrom_dict:
 	zeta = alpha.split(':')[1].split('.')[0]
 	zeta = int(zeta)
-	zeta = zeta.nfill(2)
+	zeta = zeta.zfill(2)
 	newfle = open(baes_new + '/' + zeta + '.fasta', 'w')
 	newfle.write('%s\n' %(alpha))
 	newfle.write('%s\n'%(chrom_dict[alpha]))
