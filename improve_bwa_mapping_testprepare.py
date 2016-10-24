@@ -22,11 +22,11 @@ for filename in os.listdir('/home/vdp5/data/cambodia_samples/sequences_gz'):
 	item_dict.setdefault(sample_id, []).append(os.path.join('/home/vdp5/data/cambodia_samples/sequences_gz', filename))
 
 
-klist = [5, 10, 15, 20, 30, 50, 100]
-lowerwlist = [25, 50, 100, 150, 200]
-rlist = [0.25, 0.5, 1.0, 1.5, 1.75, 2.0]
-dlist = [25, 50, 100, 150, 200]
-clist = [0,25,50,100,150,200]
+klist = [5, 10, 15, 20, 50, 100]
+lowerwlist = [50, 100, 150]
+rlist = [0.5, 1.0, 1.5, 2.0]
+dlist = [50, 100, 150]
+clist = [50,100,150]
 
 current_number = 1
 for alpha in range(1, 11):
