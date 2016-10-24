@@ -19,5 +19,7 @@ for subdir, dirs, files in os.walk(rootdir):
 		if 'Exon' in alpha[0]:
 			data = alpha[0].split(' ')
 			if float(data[-1]) < 0.95:
-				continue
-		
+				continue 
+			tmplst.append('exon{}:{}'.format(data[2], data[3].split('(')[-1].split(',')[0]))
+
+	print sorted(tmplst), sortedfles[0]
