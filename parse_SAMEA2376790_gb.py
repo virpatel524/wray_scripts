@@ -34,6 +34,3 @@ for filename in os.listdir('/home/vdp5/data/gene_finder/SAMEA2376790_genbank/SAM
 
 
 masterfle.close()
-
-
-
