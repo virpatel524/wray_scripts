@@ -13,17 +13,19 @@ for index, line in enumerate(data):
 		cur_chrome = line[0]
 	else:
 		if cur_chrome not in chrom_dict:
-			print line[0]
 			chrom_dict[cur_chrome] = line[0]
 		else:
 			chrom_dict[cur_chrome] = chrom_dict[cur_chrome] + line[0]
 
 
-for key in chrom_dict:
-	print len(chrom_dict[key])
 
-new_thing = '/home/vdp5/data/fasta_editing/consolidated_lines_vivax_SAMEA2376790.fasta'
-newfle = open(new_thing, 'w')
+
+baes_new = '/home/vdp5/data/cdna_analysis_SAMEA2376790/fasta_PV01'
+
 for alpha in chrom_dict:
+	zeta = alpha.split(':')[0].split('.')[0]
+	zeta = int(zeta)
+	zeta = zeta.nfill(2)
+	newfle = open(baes_new + '/' + alpha + '.fasta', 'w')
 	newfle.write('%s\n' %(alpha))
 	newfle.write('%s\n'%(chrom_dict[alpha]))
