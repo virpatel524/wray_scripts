@@ -20,4 +20,4 @@ for subdir, dirs, files in os.walk(rootdir):
 			data = alpha[0].split(' ')
 			if float(data[-1]) < 0.95:
 				continue
-			
+		
