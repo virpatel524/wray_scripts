@@ -6,9 +6,8 @@ for alpha in $iterarray; do
 		IFS=. read -ra newerarray <<< ${newarray[-1]}
 		IFS=_ read -ra chromarray <<< ${newerarray[0]}
 		chrom=${chromarray[-1]}
-		echo $chrom
 		mkdir ${newerarray[0]}
 		cd ${newerarray[0]}
-		splign -query $beta -subj /home/vdp5/data/cdna_analysis_SAMEA2376790/fasta_PV01/$chrom.fasta -aln
+		splign -query $beta -subj /home/vdp5/data/cdna_analysis_SAMEA2376790/fasta_PV01/$chrom.fasta -aln ${newerarray[0]}_splign
 	done
 done
