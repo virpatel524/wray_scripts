@@ -1,7 +1,7 @@
 import Bio
 from Bio import SeqIO
 import os
-
+counter = 1
 masterfle = open('/home/vdp5/data/gene_finder/vir_bychrom/allgenes.txt', 'w')
 
 for filename in os.listdir('/home/vdp5/data/gene_finder/SAMEA2376790_genbank/SAMEA2376790_gb/'):
@@ -25,8 +25,9 @@ for filename in os.listdir('/home/vdp5/data/gene_finder/SAMEA2376790_genbank/SAM
 				output_fle.write('%s\n' %(sequence))
 				output_fle.close()
 
-				masterfle.write('>%s_%s\n' %(tmp['locus_tag'][0], chromname))
+				masterfle.write('>%s_%s vir %d \n' %(tmp['locus_tag'][0], chromname, counter))
 				masterfle.write('%s\n' %(sequence))
+				counter += 1
 
 
 
