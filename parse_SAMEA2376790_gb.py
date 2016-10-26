@@ -3,6 +3,9 @@ from Bio import SeqIO
 import os
 counter = 1
 masterfle = open('/home/vdp5/data/gene_finder/vir_bychrom/allgenes.txt', 'w')
+masterfle_prot = open('/home/vdp5/data/gene_finder/vir_bychrom/allgenes_prot.txt', 'w')
+
+
 
 for filename in os.listdir('/home/vdp5/data/gene_finder/SAMEA2376790_genbank/SAMEA2376790_gb/'):
 	chromname =  filename.split('.')[0]
@@ -21,6 +24,8 @@ for filename in os.listdir('/home/vdp5/data/gene_finder/SAMEA2376790_genbank/SAM
 			if 'VIR' in tmp['product'][0]:
 				sequence =  alpha.extract(data.seq)
 				output_fle = open('%s_%s.fasta' %(tmp['locus_tag'][0], chromname), 'w')
+				output_fle_prot = open('%s_%s_prot.fasta' %(tmp['locus_tag'][0], chromname), 'w')
+
 				output_fle.write('>%s | %s\n' %(tmp['locus_tag'][0], chromname))
 				output_fle.write('%s\n' %(sequence))
 				output_fle.close()
