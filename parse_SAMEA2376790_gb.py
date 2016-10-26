@@ -19,11 +19,11 @@ for filename in os.listdir('/home/vdp5/data/gene_finder/SAMEA2376790_genbank/SAM
 	os.chdir(os.path.join('/home/vdp5/data/gene_finder/vir_bychrom', chromname))
 	data = SeqIO.read(open(gb_file_test,"r"), "genbank")
 	for alpha in data.features:
-		print alpha
 		tmp =  alpha.qualifiers
-		if 'product' in tmp:
+		if 'translation' in tmp:
 			if 'VIR' in tmp['product'][0]:
 				sequence =  alpha.extract(data.seq)
+				protseq = tmp['translation'][0]
 				# prottrans = tmp['translation'][0]
 				# print prottrans
 				output_fle = open('%s_%s.fasta' %(tmp['locus_tag'][0], chromname), 'w')
@@ -35,14 +35,14 @@ for filename in os.listdir('/home/vdp5/data/gene_finder/SAMEA2376790_genbank/SAM
 
 
 				output_fle_prot.write('>%s | %s\n' %(tmp['locus_tag'][0], chromname))
-				output_fle_prot.write('%s\n' %(sequence))
+				output_fle_prot.write('%s\n' %(protseq))
 				output_fle_prot.close()
 
 				masterfle.write('>%s_%s vir %d \n' %(tmp['locus_tag'][0], chromname, counter))
 				masterfle.write('%s\n' %(sequence))
 
 				masterfle_prot.write('>%s_%s vir %d \n' %(tmp['locus_tag'][0], chromname, counter))
-				masterfle_prot.write('%s\n' %(sequence))
+				masterfle_prot.write('%s\n' %(protseq))
 
 
 				counter += 1
