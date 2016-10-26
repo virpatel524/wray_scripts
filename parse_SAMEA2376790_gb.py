@@ -20,10 +20,10 @@ for filename in os.listdir('/home/vdp5/data/gene_finder/SAMEA2376790_genbank/SAM
 	data = SeqIO.read(open(gb_file_test,"r"), "genbank")
 	for alpha in data.features:
 		tmp =  alpha.qualifiers
-		if 'translation' in tmp:
+		if 'product' in tmp:
 			if 'VIR' in tmp['product'][0]:
 				sequence =  alpha.extract(data.seq)
-				protseq = tmp['translation'][0]
+				protseq = alpha.extract(data.seq).translate(cds=True)
 				# prottrans = tmp['translation'][0]
 				# print prottrans
 				output_fle = open('%s_%s.fasta' %(tmp['locus_tag'][0], chromname), 'w')
