@@ -2,21 +2,21 @@ import Bio
 from Bio import SeqIO
 import os
 counter = 1
-masterfle = open('/home/vdp5/data/gene_finder/vir_bychrom_SAMEA2376790/allgenes.txt', 'w')
-masterfle_prot = open('/home/vdp5/data/gene_finder/vir_bychrom_SAMEA2376790/allgenes_prot.txt', 'w')
+masterfle = open('/home/vdp5/data/gene_finder/vir_bychrom_ASM241v2/allgenes.txt', 'w')
+masterfle_prot = open('/home/vdp5/data/gene_finder/vir_bychrom_ASM241v2/allgenes_prot.txt', 'w')
 
 
 
-for filename in os.listdir('/home/vdp5/data/gene_finder/SAMEA2376790_genbank/SAMEA2376790_gb/'):
+for filename in os.listdir('/home/vdp5/data/gene_finder/ASM241v2_genbank/'):
 	chromname =  filename.split('.')[0]
-	gb_file_test = os.path.join('/home/vdp5/data/gene_finder/SAMEA2376790_genbank/SAMEA2376790_gb', filename)
+	gb_file_test = os.path.join('/home/vdp5/data/gene_finder/ASM241v2_genbank/', filename)
 	
 
 	try: 
-		os.mkdir(os.path.join('/home/vdp5/data/gene_finder/vir_bychrom_SAMEA2376790', chromname))
+		os.mkdir(os.path.join('/home/vdp5/data/gene_finder/vir_bychrom_ASM241v2', chromname))
 	except:
 		pass
-	os.chdir(os.path.join('/home/vdp5/data/gene_finder/vir_bychrom_SAMEA2376790', chromname))
+	os.chdir(os.path.join('/home/vdp5/data/gene_finder/vir_bychrom_ASM241v2', chromname))
 	data = SeqIO.read(open(gb_file_test,"r"), "genbank")
 	for alpha in data.features:
 		tmp =  alpha.qualifiers
