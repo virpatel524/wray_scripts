@@ -21,8 +21,9 @@ for filename in os.listdir('/home/vdp5/data/gene_finder/ASM241v2_genbank/'):
 	for alpha in data.features:
 		tmp =  alpha.qualifiers
 		if 'product' in tmp:
-			if 'VIR' in tmp['product'][0]:
+			if 'Vir' in tmp['product'][0]:
 				sequence =  alpha.extract(data.seq)
+				print sequence
 				protseq = alpha.extract(data.seq).translate(cds=True)
 				# prottrans = tmp['translation'][0]
 				# print prottrans
