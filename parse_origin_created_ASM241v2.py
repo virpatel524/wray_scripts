@@ -25,7 +25,7 @@ for alpha in data:
 		continue
 
 
-base = '/home/vdp5/data/gene_finder/origin_sequences/splitup/ASM241v2'
+base = '/home/vdp5/data/gene_finder/origin_sequences/splitup/ASM241v2/'
 
 for alpha in chrom2seq:
 	output = base + alpha + '.txt'
