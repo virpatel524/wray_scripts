@@ -3,7 +3,7 @@ from Bio import SeqIO
 from Bio.Alphabet import generic_dna
 
 input_handle = open("/home/vdp5/data/salvador_vivax_asia_2016/first-SAMEA2376790/pvivax_shortid.fasta", "r")
-output_handle = open("/home/vdp5/data/gene_finder/origin_sequences/all_origin.gb", "w")
+output_handle = open("/home/vdp5/data/gene_finder/origin_sequences/all_archive/SAMEA2376790.gb", "w")
 
 sequences = list(SeqIO.parse(input_handle, "fasta"))
 

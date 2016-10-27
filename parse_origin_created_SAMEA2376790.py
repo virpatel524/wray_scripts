@@ -2,7 +2,7 @@ import os
 import csv
 
 
-data = list(csv.reader(open('/home/vdp5/data/gene_finder/origin_sequences/all_archive/all_origin.gb'),delimiter='\t'))
+data = list(csv.reader(open('/home/vdp5/data/gene_finder/origin_sequences/all_archive/SAMEA2376790.gb'),delimiter='\t'))
 chrom2seq = {}
 
 currchrom = 'fuck it'
@@ -25,7 +25,7 @@ for alpha in data:
 		continue
 
 
-base = '/home/vdp5/data/gene_finder/origin_sequences/splitup/'
+base = '/home/vdp5/data/gene_finder/origin_sequences/splitup/SAMEA2376790'
 
 for alpha in chrom2seq:
 	output = base + alpha + '.txt'
