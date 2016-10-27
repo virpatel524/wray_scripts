@@ -1,0 +1,2 @@
+# run multiple sed commands on /home/vdp5/data/gff_data/GCF_000002415.2_ASM241v2_genomic.gff to replace orignal NC chromosme identifiers with proper identifiers
+# manually replace text with chromosome identifier in file /home/vdp5/data/vivax_2009/GCA_000002415.2_ASM241v2_genomic.fasta
