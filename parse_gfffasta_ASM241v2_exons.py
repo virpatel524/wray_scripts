@@ -1,4 +1,5 @@
 import csv, os,sys
+import operator
 csv.field_size_limit(sys.maxsize)
 
 
@@ -16,5 +17,10 @@ for index, data in enumerate(input_data):
 		gene = tmp[4].split(' ')[-1][:-1]
 		gene2exon.setdefault(gene, []).append([ident, input_data[index + 1]])
 
+for gene in gene2exon:
+	newlst = sorted(gene2exon[gene], key=lambda x: x[0])
+	if len(gene2exon[gene]) > 1:
+		print zip(newlst)[0]
+		
 
 
