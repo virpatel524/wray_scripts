@@ -4,6 +4,13 @@ csv.field_size_limit(sys.maxsize)
 
 input_data = list(csv.reader(open('/home/vdp5/data/gene_finder/ASM241v2_exongrab/ASM241v2_exons.fasta'),delimiter='\t'))
 
+gene2exon = {}
+
 for index, data in enumerate(input_data):
-	if data[0][0] == '>':
-		print index
+	if data[0][0] != '>':
+		continue
+	tmp = data[0].split(';')
+	tmp[0] = tmp[0][1:]
+	if tmp[0] == 'exon':
+		gene = tmp[4].split(' ')[-1][:-1]
+		gene2exon.setdefault(gene, []).append(input_data[index + 1])
