@@ -31,8 +31,10 @@ for gene in gene2numexon:
 	if tot == 3:
 		gene3exons.append(gene)
 
-for name in portillodata:
-	print portillodata
+for name in sorted(portillodata):
+	for alpha in gene3exons:
+		if alpha in name:
+			print name.split('_')
 
 
 
