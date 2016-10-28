@@ -15,12 +15,18 @@ for index, data in enumerate(input_data):
 	if tmp[0] == 'exon':
 		ident = tmp[1][5:]
 		gene = tmp[4].split(' ')[-1][:-1]
-		gene2exon.setdefault(gene, []).append([ident, input_data[index + 1]])
+		gene2exon.setdefault(gene, []).append([ident, input_data[index + 1][0]])
 
 for gene in gene2exon:
 	newlst = sorted(gene2exon[gene], key=lambda x: x[0])
-	if len(gene2exon[gene]) > 1:
-		print zip(*newlst)[0]
+	counter = 1
+	for alpha in newlst:
+		output_data.write('>{}_exon{}\n'.format(gene, counter))
+		output_data.write('{}\n'.format(alpha[-1]))
+		counter += 1
+
+
 		
 
+output_data.close()
 
