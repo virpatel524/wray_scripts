@@ -31,7 +31,11 @@ for gene in gene2numexon:
 	if tot == 3:
 		gene3exons.append(gene)
 
-print len(gene3exons)
+for name in portillodata:
+	print portillodata
+
+
+
 # sns.countplot(gene2numexon.values(), color='b')
 # plt.savefig('/home/vdp5/figures/portilloG_numberexons.pdf',bbox_inches='tight')
 # plt.close()
