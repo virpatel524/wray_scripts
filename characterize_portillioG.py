@@ -44,7 +44,7 @@ for name in sorted(portillodata):
 	for alpha in gene3exons:
 		if alpha in name:
 			if 'exon1' in name:
-			print translate(portillodata[name])
+				print translate(portillodata[name])
 
 
 
