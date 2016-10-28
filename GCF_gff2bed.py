@@ -19,7 +19,7 @@ for alpha in input_data:
 	col11='354,109,1189,'
 	col12='0,739,1347,'
 
-	lst = [col1, col2, col3, col4, col5, col6, col7, col8, col9, col10, col11, col12]
+	lst = [col1, col2, col3, col4]
 	newstr = '\t'.join(lst) + '\n'
 	outputdata.write(newstr)
 
