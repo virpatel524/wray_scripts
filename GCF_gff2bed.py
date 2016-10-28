@@ -1,17 +1,17 @@
 import csv, os
 
 input_data = list(csv.reader(open('/home/vdp5/data/gff_data/GCF_000002415.2_ASM241v2_genomic.gff'),delimiter='\t'))
-print len(input_data)
+outputdata = open('/home/vdp5/data/gff_data/GCF_000002415.2_ASM241v2_fakebed.bed', 'w')
 input_data = [a for a in input_data if a[0][0] != '#']
 newbedarray = []
 
 for alpha in input_data:
-	col1=input_data[0]
-	col2=input_data[3]
-	col3=input_data[4]
-	col4=input_data[2]+ ';' + input_data[-1]
+	col1=alpha[0]
+	col2=alpha[3]
+	col3=alpha[4]
+	col4=alpha[2]+ ';' + alpha[-1]
 	col5='up'
-	col6=input_data[6]
+	col6=alpha[6]
 	col7='um'
 	col8='uh'
 	col9='uhhhhhh'
@@ -19,4 +19,8 @@ for alpha in input_data:
 	col11='354,109,1189,'
 	col12='0,739,1347,'
 
-	
+	lst = [col1, col2, col3, col4, col5, col6, col7, col8, col9, col10, col11, col12]
+	newstr = '\t'.join(lst) + '\n'
+	outputdata.write(newstr)
+
+
