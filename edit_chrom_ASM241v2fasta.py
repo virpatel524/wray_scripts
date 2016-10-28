@@ -6,7 +6,10 @@ output_data = open('/home/vdp5/data/vivax_2009/GCA_000002415.2_ASM241v2_genomic_
 
 for alpha in input_data:
 	if alpha[0][0] == '>':
-		print alpha[0].split(' ')[0]
+		alpha[0] = alpha[0].split(' ')[0]
 
+
+for alpha in input_data:
+	output_data.write('{}\n'.format(alpha[0]))
 
 output_data.close()
