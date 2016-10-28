@@ -23,9 +23,15 @@ for index, data in enumerate(input_data):
 			gene2numexon.setdefault(gene, []).append(1)
 			portillodata[data[0]] = input_data[index + 1][0]
 
-for gene in gene2numexon:
-	gene2numexon[gene] = sum(gene2numexon[gene])
+gene3exons = []
 
+for gene in gene2numexon:
+	tot = sum(gene2numexon[gene])
+	gene2numexon[gene] = sum(gene2numexon[gene])
+	if tot == 3:
+		gene3exons.append(gene)
+
+print len(gene3exons)
 # sns.countplot(gene2numexon.values(), color='b')
 # plt.savefig('/home/vdp5/figures/portilloG_numberexons.pdf',bbox_inches='tight')
 # plt.close()
@@ -36,3 +42,6 @@ for line in sorted(portillodata.keys()):
 	output_data.write('{}\n{}\n'.format(line, portillodata[line]))
 
 output_data.close()
+
+
+
