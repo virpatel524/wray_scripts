@@ -1,5 +1,6 @@
-# import matplotlib as mpl
-# mpl.use('Agg')
+from Bio.Data import CodonTable
+from Bio.Seq import translate
+table = CodonTable.ambiguous_dna_by_id[1]
 
 
 import csv, os, sys
@@ -31,10 +32,19 @@ for gene in gene2numexon:
 	if tot == 3:
 		gene3exons.append(gene)
 
+
+
+exon1fle = open('/home/vdp5/data/gene_finder/ASM241v2_genes_exons/gfamily_exon1.fasta','w')
+exon2fle = open('/home/vdp5/data/gene_finder/ASM241v2_genes_exons/gfamily_exon2.fasta','w')
+exon3fle = open('/home/vdp5/data/gene_finder/ASM241v2_genes_exons/gfamily_exon3.fasta','w')
+
+
+
 for name in sorted(portillodata):
 	for alpha in gene3exons:
 		if alpha in name:
-			print name.split('_')
+			if 'exon1' in name:
+			print translate(portillodata[name])
 
 
 
