@@ -1,8 +1,8 @@
-import matplotlib as mpl
-mpl.use('Agg')
+# import matplotlib as mpl
+# mpl.use('Agg')
 
 
-# import csv, os, sys
+import csv, os, sys
 # import matplotlib.pyplot as plt
 # import seaborn as sns
 
@@ -30,4 +30,9 @@ for gene in gene2numexon:
 # plt.savefig('/home/vdp5/figures/portilloG_numberexons.pdf',bbox_inches='tight')
 # plt.close()
 
-print portillodata
+output_data = open('/home/vdp5/data/gene_finder/ASM241v2_genes_exons/portillog_exons.fasta', 'w')
+
+for line in sorted(portillodata.keys()):
+	output_data.write('{}\n{}\n'.format(line, portillodata[line]))
+
+output_data.close()
