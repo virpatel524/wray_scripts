@@ -1,6 +1,6 @@
 import csv, os
 
-input_data = list(csv.reader(open('/home/vdp5/data/gff_data/GCF_000002415.2_ASM241v2_genomic.gff'),delimiter='\t'))
+input_data = list(csv.reader(open('/home/vdp5/data/gff_data/GCF_000002415.2_ASM241v2_genomic_originalchromid.gff'),delimiter='\t'))
 outputdata = open('/home/vdp5/data/gff_data/GCF_000002415.2_ASM241v2_fakebed.bed', 'w')
 input_data = [a for a in input_data if a[0][0] != '#']
 newbedarray = []
