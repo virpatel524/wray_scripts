@@ -1,3 +1,7 @@
+import matplotlib as mpl
+mpl.use('Agg')
+
+
 import csv, os, sys
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -15,5 +19,8 @@ for index, data in enumerate(input_data):
 			gene2numexon.setdefault(gene, []).append(1)
 
 for gene in gene2numexon:
-	gene[gene2numexon] = sum(gene2numexon[gene])
+	gene2numexon[gene] = sum(gene2numexon[gene])
 
+sns.distplot(gene2numexon.values(), kde=False, color='b')
+plt.savefig('/home/vdp5/figures/portilloG_numberexons.pdf',bbox_inches='tight')
+plt.close()
