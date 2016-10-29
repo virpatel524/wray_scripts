@@ -44,9 +44,14 @@ for name in sorted(portillodata):
 	for alpha in gene3exons:
 		if alpha in name:
 			if 'exon1' in name:
-				print translate(portillodata[name])
-
-
+				exon1fle.write(name + '\n')
+				exon1fle.write(translate(portillodata[name]) + '\n')
+			if 'exon2' in name:
+				exon2fle.write(name + '\n')
+				exon2fle.write(translate(portillodata[name]) + '\n')
+			if 'exon3' in name:
+				exon3fle.write(name + '\n')
+				exon3fle.write(translate(portillodata[name]) + '\n')
 
 # sns.countplot(gene2numexon.values(), color='b')
 # plt.savefig('/home/vdp5/figures/portilloG_numberexons.pdf',bbox_inches='tight')
