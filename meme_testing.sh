@@ -1,1 +1,1 @@
-meme  -protein -oc ./motif_e1/meme -maxsize 450000 -mod zoops -nmotifs 50 -minw 15 -maxw 200
+meme /home/vdp5/data/gene_finder/ASM241v2_genes_exons/gfamily_exon1.fasta  -protein -oc /home/vdp5/data/hmm_meme -maxsize 450000 -mod zoops -nmotifs 50 -minw 15 -maxw 200
