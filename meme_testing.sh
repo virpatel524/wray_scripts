@@ -1,0 +1,1 @@
+meme  -protein -oc ./motif_e1/meme -maxsize 450000 -mod zoops -nmotifs 50 -minw 15 -maxw 200
