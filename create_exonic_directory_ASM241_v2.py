@@ -7,7 +7,7 @@ import csv
 def create_indexable(chrom, fle):
 	chromdata = list(csv.reader(open('/home/vdp5/data/gene_finder/vir_bychrom_ASM241v2/{}/{}'.format(chrom, fle)),delimiter='\t'))
 	stringineed = chromdata[-1][0]
-	return ' ' + stringineed
+	return stringineed
 
 
 exitfle = open('/home/vdp5/data/cdna_analysis_ASM241_v2/gene2exon_ASM241_v2.txt', 'w')
@@ -35,7 +35,7 @@ for subdir, dirs, files in os.walk(rootdir):
 			if float(data[-1]) < 0.95:
 				continue
 			indices =  [int(a) for a in data[3].split('(')[-1].split(',')[0].split('-')]
-			tmplst.append('>{}_exon{}\n{}'.format(data[2], data[3].split('(')[-1].split(',')[0]))
+			tmplst.append('>{}_exon{}\n{}'.format(gene, data[2], chrombyindex[indices[0]-1:indices[1]]))
 
 			exonnums.append(int(data[2]))
 	tmplst = sorted(tmplst)
