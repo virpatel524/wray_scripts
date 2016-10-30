@@ -1,0 +1,69 @@
+Script started on Sun 30 Oct 2016 10:16:11 AM EDT
+]0;vdp5@wraylab01:~[?1034h[vdp5@wraylab01 ~]$ ls
+[0m[38;5;27mbin[0m  [38;5;27mdata[0m  [38;5;51mdiana_hmm[0m  [38;5;27mexecutables[0m  [38;5;27mfigures[0m  [38;5;27mother[0m  [38;5;27mscripts[0m  [38;5;27msource_code[0m  [38;5;27mtmp[0m
+]0;vdp5@wraylab01:~[vdp5@wraylab01 ~]$ source .bashproscript 
+]0;vdp5@wraylab01:~[vdp5@wraylab01 ~]$ ls
+cd[0m[38;5;27mbin[0m  [38;5;27mdata[0m  [38;5;51mdiana_hmm[0m  [38;5;27mexecutables[0m  [38;5;27mfigures[0m  [38;5;27mother[0m  [38;5;27mscripts[0m  [38;5;27msource_code[0m  [38;5;27mtmp[0m
+]0;vdp5@wraylab01:~[vdp5@wraylab01 ~]$ cd 
+]0;vdp5@wraylab01:~[vdp5@wraylab01 ~]$ cd scripts/i
+bash: cd: scripts/i: No such file or directory
+]0;vdp5@wraylab01:~[vdp5@wraylab01 ~]$ cd scripts/
+]0;vdp5@wraylab01:~/scripts[vdp5@wraylab01 scripts]$ ls
+align_cambodia_samples.sh        gff_parse_ASM241v2.sh
+ASM241v2_gff_transfer.sh         [0m[38;5;27mgit_data[0m
+[38;5;27mbash_histories[0m                   improve_bwa_mapping_testprepare.py
+break_fasta_splign_ASM241_v2.py  india1_cat.sh
+break_fasta_splign_PV01.py       india2_cat.sh
+break_gff.py                     india_korea_align.sh
+[38;5;27mcambodia_align_scripts[0m           make_sam_cambodia.sh
+[38;5;27mcambodia_PV01_improve_align[0m      meme_testing.sh
+cat_india_korea.sh               open_gz_cambodia.sh
+characerize_bam.sh               parse_ASM241v2_gb.py
+characterize_portillioG.py       parse_gfffasta_ASM241v2_exons.py
+createblastdb_forvir.sh          parse_origin_created_ASM241v2.py
+create_exonic_directory.py       parse_origin_created_SAMEA2376790.py
+create_origin_ASM241v2.py        parse_SAMEA2376790_gb.py
+create_origin_SAMEA2376790.py    play_chromosome_splign.py
+determine_coverage.sh            prepare_for_alignment.py
+edit_chrom_ASM241v2fasta.py      prepare_for_alignment_salvador_compare.py
+edit_original_ASM241v2_data.sh   runallvir_bychrom.sh
+GCF_gff2bed.py                   run_cambodia_alignments.sh
+get_annotated_vir.py             run_salvador_comparisons.sh
+gff2fasta.pl                     salvador_align_compare.sh
+gff3_to_bed_converter.py         [38;5;27msalvador_align_scripts[0m
+gff_break_mummer_india.py        tblastn_vir_from_SAMEA2376790_using_ASM241v2_genes.sh
+gff_create_mummer_to_india.sh
+]0;vdp5@wraylab01:~/scripts[vdp5@wraylab01 scripts]$ cd bash_histories/
+]0;vdp5@wraylab01:~/scripts/bash_histories[vdp5@wraylab01 bash_histories]$ sl
+bash: sl: command not found
+]0;vdp5@wraylab01:~/scripts/bash_histories[vdp5@wraylab01 bash_histories]$ ls
+10.16-10:10:10.log  10.16-10.13.20.log  10.16-10.15.12.log  10.16-10.16.11.log
+]0;vdp5@wraylab01:~/scripts/bash_histories[vdp5@wraylab01 bash_histories]$ cd
+]0;vdp5@wraylab01:~[vdp5@wraylab01 ~]$ ls
+[0m[38;5;27mbin[0m  [38;5;27mdata[0m  [38;5;51mdiana_hmm[0m  [38;5;27mexecutables[0m  [38;5;27mfigures[0m  [38;5;27mother[0m  [38;5;27mscripts[0m  [38;5;27msource_code[0m  [38;5;27mtmp[0m
+]0;vdp5@wraylab01:~[vdp5@wraylab01 ~]$ cd
+]0;vdp5@wraylab01:~[vdp5@wraylab01 ~]$ cd diana_hmm/
+]0;vdp5@wraylab01:~/diana_hmm[vdp5@wraylab01 diana_hmm]$ ls
+[0m[38;5;27mbin[0m          pacbio.nog                                prev.fa                        summary.xlsx
+[38;5;27mcodes[0m        pacbio.nsd                                [38;5;27mpseudo[0m                         test.fa
+exon2_aa.fa  pacbio.nsi                                RegionsNotCovered.xlsx         [38;5;27mvar[0m
+[38;5;27mmeme[0m         pacbio.nsq                                [38;5;27mrif[0m                            [38;5;27mvar_exons[0m
+new.fa       pairwise_rif.xlsx                         [38;5;27mstevor[0m                         var_falciparum_aa
+nohup.out    pairwise_stevor.xlsx                      summary_falciparum.gff.xlsx    var_falciparum.tab
+pacbio.nhr   pairwise_var.xlsx                         summary_falciparumIT.gff.xlsx  var_rechonowi_aa
+pacbio.nin   PlasmoDB-28_Pfalciparum3D7_ORFs_AA.fasta  summary_reichenowi.gff.xlsx
+]0;vdp5@wraylab01:~/diana_hmm[vdp5@wraylab01 diana_hmm]$ exit[K[K[K[Khead PL[KlasmoDB-28_Pfalciparum3D7_ORFs_AA.fasta 
+>Pf3D7_11_v3-5-1029787-1029605 | organism=Plasmodium_falciparum_3D7 | location=Pf3D7_11_v3:1029605-1029787(-) | length=61 | sequence_SO=chromosome
+QNYYKKKKKRKKKEKKKKKKNNKKGYYLTIKMSPTYDILYIYIYIYIYIYVYSLFLFLTI
+K
+>Pf3D7_11_v3-5-1030732-1030559 | organism=Plasmodium_falciparum_3D7 | location=Pf3D7_11_v3:1030559-1030732(-) | length=58 | sequence_SO=chromosome
+ILDLFYRVIARWRCKIHHFVQPFLKIKKIYIYRYIIHPKTKKKRKKIISLKKYYHLFI
+>Pf3D7_11_v3-5-1033267-1032983 | organism=Plasmodium_falciparum_3D7 | location=Pf3D7_11_v3:1032983-1033267(-) | length=95 | sequence_SO=chromosome
+FNCNKFTSLLKFLFFNINSFSNLLEYSFSKISSSNLSNTSTLSSSFAFVSLKILSGIHSL
+LTYSLLPSIRKTKGNKIFIYINKYIYIYIYIYVTK
+>Pf3D7_11_v3-5-1035319-1035107 | organism=Plasmodium_falciparum_3D7 | location=Pf3D7_11_v3:1035107-1035319(-) | length=71 | sequence_SO=chromosome
+SSYLFVSSFINSFLFLLLLDIISSTSERSLDSLLDSSLESSVEYSWQLAKLLILSSYIVL
+]0;vdp5@wraylab01:~/diana_hmm[vdp5@wraylab01 diana_hmm]$ exit
+exit
+
+Script done on Sun 30 Oct 2016 10:16:43 AM EDT

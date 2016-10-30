@@ -1,5 +1,7 @@
-Script started on Sun 30 Oct 2016 09:52:40 AM EDT
-]0;vdp5@wraylab01:~/other/housekeeping[?1034h[vdp5@wraylab01 housekeeping]$ exit
+Script started on Sun 30 Oct 2016 10:17:41 AM EDT
+shell-init: error retrieving current directory: getcwd: cannot access parent directories: No such file or directory
+shell-init: error retrieving current directory: getcwd: cannot access parent directories: No such file or directory
+kvdp5@wraylab01:~/source_code/Python-3.4.5\[vdp5@wraylab01 Python-3.4.5]$ exit
 exit
 
-Script done on Sun 30 Oct 2016 09:53:02 AM EDT
+Script done on Sun 30 Oct 2016 10:17:45 AM EDT
