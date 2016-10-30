@@ -1,6 +1,14 @@
 import os
 import csv
 
+
+
+
+def create_indexable(chrom, fle):
+	chromdata = list(csv.reader(open('/home/vdp5/data/gene_finder/vir_bychrom_ASM241v2/{}/{}'.format(chrom, fle)),delimiter='\t'))
+	print chromdata
+
+
 exitfle = open('/home/vdp5/data/cdna_analysis_ASM241_v2/gene2exon_ASM241_v2.txt', 'w')
 rootdir = '/home/vdp5/data/cdna_analysis_ASM241_v2/vir_genes'
 flag_file = open('/home/vdp5/data/cdna_analysis_ASM241_v2/flagged_genes.txt', 'w')
@@ -15,7 +23,7 @@ for subdir, dirs, files in os.walk(rootdir):
 	holder = sortedfles[0][:-7].split('_')[-2:]
 	chrom_file_search = '_'.join(holder)
 	fastaname = sortedfles[0][:-7] + '.fasta'
-	print fastaname
+	create_indexable(chrom_file_search, fastaname)
 	gene='_'.join(sortedfles[0].split('_')[:2])
 	exonnums = []
 	tmplst = []
@@ -38,7 +46,3 @@ for subdir, dirs, files in os.walk(rootdir):
 
 exitfle.close()
 flag_file.close()
-
-def create_indexable(chrom, fle):
-	chromdata = list(csv.reader(open('/home/vdp5/data/gene_finder/vir_bychrom_ASM241v2/{}/{}'.format(chrom, fle)),delimiter='\t'))
-	
