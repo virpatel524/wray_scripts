@@ -391,4 +391,45 @@ r=[38;5;89m'\t'[39;49m))[K[5;109H[?12l[?25h[?12;25h[?25l[38;5;89m'[39
                 [38;5;129mcontinue[39;49m[K
         [38;5;129mif[39;49m line[0][0] == [38;5;89m'>'[39;49m:[K
                 [38;5;130mcur_chrome[39;49m = line[0][K
-        [38;5;129melse[39;49m:[K[29;48H[30m[48;5;250mTop L14[39;49m[15;13H[?12l[?25h[?12;25h[29;54H[?25l[30m[48;5;250m3[39;49m[14;9H[?12l[?25h[?12;25h[29;54H[?25l[30m[48;5;250m2[39;49m[13;13H[?12l[?25h[?12;25h[29;54H[?25l[30m[48;5;250m1[39;49m[12;9H[?12l[?25h[?12;25h[30;1H[?25l[38;5;20mSave file /home/vdp5/scripts/break_fasta_splign_ASM241_v2.py? (y, n, !, ., q, C-r, d or C-h) [39;49m[?12l[?25h[?12;25h[?25lSave file /home/vdp5/scripts/break_fasta_splign_ASM241_v2.py? (y, n, !, ., q, C-r, d or C-h) y[?12l[?25h[?12;25h[30;4H[?25ling file /home/vdp5/scripts/break_fasta_splign_ASM241_v2.py...[K[12;9H[?12l[?25h[?12;25h[30;1H[?25lWrote /home/vdp5/scripts/break_fasta_splign_ASM241_v2.py[K[12;9H[?12l[?25h[?12;25h[30;1H[K[12;9H[30;1H[K[?2004l[?1l>[?12l[?25h[?1049l[39;49m]0;vdp5@wraylab01:~/scripts[vdp5@wraylab01 scripts]$ 
+        [38;5;129melse[39;49m:[K[29;48H[30m[48;5;250mTop L14[39;49m[15;13H[?12l[?25h[?12;25h[29;54H[?25l[30m[48;5;250m3[39;49m[14;9H[?12l[?25h[?12;25h[29;54H[?25l[30m[48;5;250m2[39;49m[13;13H[?12l[?25h[?12;25h[29;54H[?25l[30m[48;5;250m1[39;49m[12;9H[?12l[?25h[?12;25h[30;1H[?25l[38;5;20mSave file /home/vdp5/scripts/break_fasta_splign_ASM241_v2.py? (y, n, !, ., q, C-r, d or C-h) [39;49m[?12l[?25h[?12;25h[?25lSave file /home/vdp5/scripts/break_fasta_splign_ASM241_v2.py? (y, n, !, ., q, C-r, d or C-h) y[?12l[?25h[?12;25h[30;4H[?25ling file /home/vdp5/scripts/break_fasta_splign_ASM241_v2.py...[K[12;9H[?12l[?25h[?12;25h[30;1H[?25lWrote /home/vdp5/scripts/break_fasta_splign_ASM241_v2.py[K[12;9H[?12l[?25h[?12;25h[30;1H[K[12;9H[30;1H[K[?2004l[?1l>[?12l[?25h[?1049l[39;49m]0;vdp5@wraylab01:~/scripts[vdp5@wraylab01 scripts]$ cd
+]0;vdp5@wraylab01:~[vdp5@wraylab01 ~]$ ls
+[0m[38;5;27mbin[0m  [38;5;27mdata[0m  [38;5;51mdiana_hmm[0m  [38;5;27mexecutables[0m  [38;5;27mfigures[0m  [38;5;27mother[0m  [38;5;27mscripts[0m  [38;5;27msource_code[0m  [38;5;27mtmp[0m
+]0;vdp5@wraylab01:~[vdp5@wraylab01 ~]$ cd data/
+]0;vdp5@wraylab01:~/data[vdp5@wraylab01 data]$ ls
+[0m[38;5;27mblast_results[0m     [38;5;27mcdna_analysis_ASM241_v2[0m     [38;5;27mgene_finder[0m  [38;5;27mhmm_meme[0m  [38;5;27mother_data[0m                [38;5;27mtmp[0m
+[38;5;27mcambodia_samples[0m  [38;5;27mcdna_analysis_SAMEA2376790[0m  [38;5;27mgff_data[0m     [38;5;27mlog[0m       [38;5;27msalvador_vivax_asia_2016[0m  [38;5;27mvivax_2009[0m
+]0;vdp5@wraylab01:~/data[vdp5@wraylab01 data]$ cd vivax_2009/
+]0;vdp5@wraylab01:~/data/vivax_2009[vdp5@wraylab01 vivax_2009]$ ls
+GCA_000002415.2_ASM241v2_genomic_edited_originalchromid.fasta      salvador.fasta.amb  salvador.fasta.sthash
+GCA_000002415.2_ASM241v2_genomic_edited_originalchromid.fasta.fai  salvador.fasta.ann  salvador.fasta.stidx
+GCA_000002415.2_ASM241v2_genomic.fasta                             salvador.fasta.bwt  salvador_gff_extract.fasta
+GCA_000002415.2_ASM241v2_genomic.fasta.fai                         salvador.fasta.fai  vivax-sal.gff
+GCA_000002415.2_ASM241v2_genomic_originalchromid.fasta             salvador.fasta.pac
+salvador.fasta                                                     salvador.fasta.sa
+]0;vdp5@wraylab01:~/data/vivax_2009[vdp5@wraylab01 vivax_2009]$ readlink -f GCA_000002415.2_ASM241v2_genomic_originalchromid.fasta 
+/home/vdp5/data/vivax_2009/GCA_000002415.2_ASM241v2_genomic_originalchromid.fasta
+]0;vdp5@wraylab01:~/data/vivax_2009[vdp5@wraylab01 vivax_2009]$ head GCA_000002415.2_ASM241v2_genomic_originalchromid.fasta 
+>NC_009906.1 Plasmodium vivax SaI-1 chromosome 1, whole genome shotgun sequence
+cctaaaccctgaaccctaaaccctaaaccctgaaccctaaaccctgaaccctgaaccctaaaccctgaaccctaaaccta
+aaccctgaaccctgaaccctaaaccctgaaccctaaaccctaaaccctaaacctaaaccctgaaccctaaacctaaaccc
+tgaaccctaaaccctaaaccctgaaccctaaacctaaaccctgaaccctaacccctgaaccctaaaccctgaaccctaaa
+ccctgaaacctgaaccctgaaccctaaaccctaaaccctgaaccctaaaccctgaaccctgaaccctaaaccctgaaccc
+taaaccctgaaccctaaaccctaaaccctgaaccctaaacctaaaccatgaaccctaaaccctgaaccctaaaccctaaa
+ccctgaaccctaaaccctgaaccctaaacctaaaccctaaaccctgaaccctaaacctgaaccctaaacccctaaaccta
+aaccctgaaacctaaaccctaaaccctgaaccctaaaccctaaaccctgaaccctgaaaccctgaaccctaaaccatgaa
+ccctgaaccctaaaccctaaaccctaaaccctgaaccctgaaccctaaacctaaaccctgaaccctgaaccctaaaccct
+gaaccctaaaccctaaaccctgaaccctaaaccctgaaccctaaaccctgaaccctgaaccctaaaccctgaaccctaaa
+]0;vdp5@wraylab01:~/data/vivax_2009[vdp5@wraylab01 vivax_2009]$ readlink -f GCA_000002415.2_ASM241v2_genomic_edited_originalchromid.fasta
+/home/vdp5/data/vivax_2009/GCA_000002415.2_ASM241v2_genomic_edited_originalchromid.fasta
+]0;vdp5@wraylab01:~/data/vivax_2009[vdp5@wraylab01 vivax_2009]$ head GCA_000002415.2_ASM241v2_genomic_edited_originalchromid.fasta
+>NC_009906.1
+cctaaaccctgaaccctaaaccctaaaccctgaaccctaaaccctgaaccctgaaccctaaaccctgaaccctaaaccta
+aaccctgaaccctgaaccctaaaccctgaaccctaaaccctaaaccctaaacctaaaccctgaaccctaaacctaaaccc
+tgaaccctaaaccctaaaccctgaaccctaaacctaaaccctgaaccctaacccctgaaccctaaaccctgaaccctaaa
+ccctgaaacctgaaccctgaaccctaaaccctaaaccctgaaccctaaaccctgaaccctgaaccctaaaccctgaaccc
+taaaccctgaaccctaaaccctaaaccctgaaccctaaacctaaaccatgaaccctaaaccctgaaccctaaaccctaaa
+ccctgaaccctaaaccctgaaccctaaacctaaaccctaaaccctgaaccctaaacctgaaccctaaacccctaaaccta
+aaccctgaaacctaaaccctaaaccctgaaccctaaaccctaaaccctgaaccctgaaaccctgaaccctaaaccatgaa
+ccctgaaccctaaaccctaaaccctaaaccctgaaccctgaaccctaaacctaaaccctgaaccctgaaccctaaaccct
+gaaccctaaaccctaaaccctgaaccctaaaccctgaaccctaaaccctgaaccctgaaccctaaaccctgaaccctaaa
+]0;vdp5@wraylab01:~/data/vivax_2009[vdp5@wraylab01 vivax_2009]$ 
