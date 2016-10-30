@@ -1,7 +1,7 @@
 iterarray=(  01 02 03 04 05 06 07 08 09 10 11 12 13 14  )
 for alpha in ${iterarray[@]}; do
-	for beta in /home/vdp5/data/gene_finder/vir_bychrom_ASM241_v2/*; do
-		echo $beta
+	for beta in /home/vdp5/data/gene_finder/vir_bychrom_ASM241v2/*/; do
+		for delta in $beta/*
 		# cd /home/vdp5/data/cdna_analysis_SAMEA2376790/vir_genes
 		# IFS=/ read -ra newarray <<< $beta
 		# IFS=. read -ra newerarray <<< ${newarray[-1]}
