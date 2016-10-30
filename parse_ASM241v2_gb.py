@@ -35,9 +35,9 @@ for filename in os.listdir('/home/vdp5/data/gene_finder/ASM241v2_genbank/'):
 				output_fle.close()
 
 
-				output_fle_prot.write('>%s | %s\n' %(tmp['locus_tag'][0], chromname))
-				output_fle_prot.write('%s\n' %(protseq))
-				output_fle_prot.close()
+				# output_fle_prot.write('>%s | %s\n' %(tmp['locus_tag'][0], chromname))
+				# output_fle_prot.write('%s\n' %(protseq))
+				# output_fle_prot.close()
 
 				masterfle.write('>%s_%s vir %d \n' %(tmp['locus_tag'][0], chromname, counter))
 				masterfle.write('%s\n' %(sequence))
