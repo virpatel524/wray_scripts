@@ -16834,4 +16834,6 @@ NC_009906.1/ NC_009907.1/ NC_009908.2/ NC_009909.1/
 ]0;vdp5@wraylab01:~/data/gene_finder/vir_bychrom_ASM241v2/NC_009906.1[vdp5@wraylab01 NC_009906.1]$ ls
 PVX_093705_NC_009906.1.fasta  PVX_093715_NC_009906.1.fasta  PVX_093725_NC_009906.1.fasta
 PVX_093710_NC_009906.1.fasta  PVX_093720_NC_009906.1.fasta
-]0;vdp5@wraylab01:~/data/gene_finder/vir_bychrom_ASM241v2/NC_009906.1[vdp5@wraylab01 NC_009906.1]$ 
+]0;vdp5@wraylab01:~/data/gene_finder/vir_bychrom_ASM241v2/NC_009906.1[vdp5@wraylab01 NC_009906.1]$ pwd
+/home/vdp5/data/gene_finder/vir_bychrom_ASM241v2/NC_009906.1
+]0;vdp5@wraylab01:~/data/gene_finder/vir_bychrom_ASM241v2/NC_009906.1[vdp5@wraylab01 NC_009906.1]$ readlink -f [K[K[K[K[K[K[K[K[K[K[K

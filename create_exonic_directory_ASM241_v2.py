@@ -38,3 +38,7 @@ for subdir, dirs, files in os.walk(rootdir):
 
 exitfle.close()
 flag_file.close()
+
+def create_indexable(chrom, fle):
+	chromdata = list(csv.reader(open('/home/vdp5/data/gene_finder/vir_bychrom_ASM241v2/{}/{}'.format(chrom, fle)),delimiter='\t'))
+	
