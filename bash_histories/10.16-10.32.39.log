@@ -1394,4 +1394,46 @@ vir_bychrom_ASM241v2/     vir_bychrom_SAMEA2376790/
 /home/vdp5/data/gene_finder/vir_bychrom_ASM241v2/NC_009917.1/
 /home/vdp5/data/gene_finder/vir_bychrom_ASM241v2/NC_009918.1/
 /home/vdp5/data/gene_finder/vir_bychrom_ASM241v2/NC_009919.1/
+]0;vdp5@wraylab01:~/scripts[vdp5@wraylab01 scripts]$ bash runallvir_bycrhom_ASM241v2.sh 
+Error: (CObjReaderParseException::eEOF) CFastaReader: Expected defline around line 0 (m_Pos = 0)
+Error: (106.16) Application's execution failed(CObjReaderParseException::eEOF) CFastaReader: Expected defline around line 0 (m_Pos = 0)
+mkdir: cannot create directory ‘NC_009906’: File exists
+Error: (CObjReaderParseException::eEOF) CFastaReader: Expected defline around line 0 (m_Pos = 0)
+Error: (106.16) Application's execution failed(CObjReaderParseException::eEOF) CFastaReader: Expected defline around line 0 (m_Pos = 0)
+mkdir: cannot create directory ‘NC_009906’: File exists
+Error: (CObjReaderParseException::eEOF) CFastaReader: Expected defline around line 0 (m_Pos = 0)
+Error: (106.16) Application's execution failed(CObjReaderParseException::eEOF) CFastaReader: Expected defline around line 0 (m_Pos = 0)
+mkdir: cannot create directory ‘NC_009906’: File exists
+Error: (CObjReaderParseException::eEOF) CFastaReader: Expected defline around line 0 (m_Pos = 0)
+Error: (106.16) Application's execution failed(CObjReaderParseException::eEOF) CFastaReader: Expected defline around line 0 (m_Pos = 0)
+mkdir: cannot create directory ‘NC_009906’: File exists
+Error: (CObjReaderParseException::eEOF) CFastaReader: Expected defline around line 0 (m_Pos = 0)
+Error: (106.16) Application's execution failed(CObjReaderParseException::eEOF) CFastaReader: Expected defline around line 0 (m_Pos = 0)
+mkdir: cannot create directory ‘NC_009906’: File exists
+Error: (CObjReaderParseException::eEOF) CFastaReader: Expected defline around line 0 (m_Pos = 0)
+Error: (106.16) Application's execution failed(CObjReaderParseException::eEOF) CFastaReader: Expected defline around line 0 (m_Pos = 0)
+mkdir: cannot create directory ‘NC_009906’: File exists
+Error: (CObjReaderParseException::eEOF) CFastaReader: Expected defline around line 0 (m_Pos = 0)
+Error: (106.16) Application's execution failed(CObjReaderParseException::eEOF) CFastaReader: Expected defline around line 0 (m_Pos = 0)
+mkdir: cannot create directory ‘NC_009906’: File exists
+Error: (CObjReaderParseException::eEOF) CFastaReader: Expected defline around line 0 (m_Pos = 0)
+Error: (106.16) Application's execution failed(CObjReaderParseException::eEOF) CFastaReader: Expected defline around line 0 (m_Pos = 0)
+mkdir: cannot create directory ‘NC_009906’: File exists
+Error: (CObjReaderParseException::eEOF) CFastaReader: Expected defline around line 0 (m_Pos = 0)
+Error: (106.16) Application's execution failed(CObjReaderParseException::eEOF) CFastaReader: Expected defline around line 0 (m_Pos = 0)
+mkdir: cannot create directory ‘NC_009906’: File exists
+Error: (CObjReaderParseException::eEOF) CFastaReader: Expected defline around line 0 (m_Pos = 0)
+Error: (106.16) Application's execution failed(CObjReaderParseException::eEOF) CFastaReader: Expected defline around line 0 (m_Pos = 0)
+Error: (CObjReaderParseException::eEOF) CFastaReader: Expected defline around line 0 (m_Pos = 0)
+Error: (106.16) Application's execution failed(CObjReaderParseException::eEOF) CFastaReader: Expected defline around line 0 (m_Pos = 0)
+mkdir: cannot create directory ‘NC_009907’: File exists
+Error: (CObjReaderParseException::eEOF) CFastaReader: Expected defline around line 0 (m_Pos = 0)
+Error: (106.16) Application's execution failed(CObjReaderParseException::eEOF) CFastaReader: Expected defline around line 0 (m_Pos = 0)
+mkdir: cannot create directory ‘NC_009907’: File exists
+Error: (CObjReaderParseException::eEOF) CFastaReader: Expected defline around line 0 (m_Pos = 0)
+Error: (106.16) Application's execution failed(CObjReaderParseException::eEOF) CFastaReader: Expected defline around line 0 (m_Pos = 0)
+mkdir: cannot create directory ‘NC_009907’: File exists
+^C
+]0;vdp5@wraylab01:~/scripts[vdp5@wraylab01 scripts]$ ^C
+]0;vdp5@wraylab01:~/scripts[vdp5@wraylab01 scripts]$ ^C
 ]0;vdp5@wraylab01:~/scripts[vdp5@wraylab01 scripts]$ 
