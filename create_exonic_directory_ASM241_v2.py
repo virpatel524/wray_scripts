@@ -34,8 +34,8 @@ for subdir, dirs, files in os.walk(rootdir):
 			data = alpha[0].split(' ')
 			if float(data[-1]) < 0.95:
 				continue
-			print data[3].split('(')[-1].split(',')[0].split('-') 
-			tmplst.append('exon{}:{}'.format(data[2], data[3].split('(')[-1].split(',')[0]))
+			indices =  [int(a) for a in data[3].split('(')[-1].split(',')[0].split('-')]
+			tmplst.append('>{}_exon{}\n{}'.format(data[2], data[3].split('(')[-1].split(',')[0]))
 
 			exonnums.append(int(data[2]))
 	tmplst = sorted(tmplst)
