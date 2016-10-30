@@ -8,8 +8,8 @@ for alpha in ${iterarray[@]}; do
 			fullname=${newerarray[0]}
 			fullname=${fullname::-1}
 			IFS=_ read -ra chromarray <<< ${newerarray[0]}
-			echo ${chromarray[@]}
-			chrom=${chromarray[-1]}
+			chrom=${chromarray[-2]}_${chromarray[-1]}
+			echo $chrom
 			# mkdir ${newerarray[0]}
 			# cd ${newerarray[0]}
 			# splign -query $delta -subj /home/vdp5/data/cdna_analysis_SAMEA2376790/fasta_PV01/$chrom.fasta -aln ${newerarray[0]}_splign
