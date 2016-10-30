@@ -1,7 +1,7 @@
 import os
 import csv
 
-data = list(csv.reader(open('/home/vdp5/data/salvador_vivax_asia_2016/first-SAMEA2376790/pvivax_sal1_SAMEA2376790.fasta'),delimiter='\t'))
+data = list(csv.reader(open(''),delimiter='\t'))
 
 cur_chrome = 'beta'
 chrom_dict = {}
@@ -20,7 +20,7 @@ for index, line in enumerate(data):
 
 
 
-baes_new = '/home/vdp5/data/cdna_analysis_SAMEA2376790/fasta_PV01'
+baes_new = ''
 
 for alpha in chrom_dict:
 	zeta = alpha.split(':')[1].split('.')[0]
