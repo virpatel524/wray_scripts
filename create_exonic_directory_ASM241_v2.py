@@ -12,8 +12,8 @@ for subdir, dirs, files in os.walk(rootdir):
 	if len(sortedfles)!=2:
 		continue
 	tmp = list(csv.reader(open(os.path.join(subdir, sortedfles[0])),delimiter='\t'))
+	print sortedfles[0]
 	gene='_'.join(sortedfles[0].split('_')[:2])
-	print gene
 	exonnums = []
 	tmplst = []
 	for alpha in tmp:
