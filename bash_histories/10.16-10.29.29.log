@@ -1,0 +1,38 @@
+Script started on Sun 30 Oct 2016 10:29:29 AM EDT
+[vdp5@wraylab01 ~]$ bin  data  diana_hmm  executables  figures  other  scripts  source_code  tmp
+[vdp5@wraylab01 ~]$ total 1491
+drwxr-xr-x.  21 vdp5 Grads    786 Oct 30 10:24 .
+drwxr-xr-x. 590 root root   13671 Oct  4 14:57 ..
+-rw-r--r--.   1 vdp5 Grads 111136 Oct  6 17:27 .bash_all_history
+-rw-------.   1 vdp5 Grads   5298 Oct 30 10:27 .bash_history
+-rw-r--r--.   1 vdp5 Grads     18 Sep  7 13:04 .bash_logout
+-rw-r--r--.   1 vdp5 Grads   2085 Oct 30 10:22 .bash_profile
+-rw-r--r--.   1 vdp5 Grads   2087 Oct 30 10:16 .bashproscript
+-rw-r--r--.   1 vdp5 Grads    613 Oct 17 10:58 .bashrc
+drwxr-xr-x.  11 vdp5 Grads  16795 Oct 30 00:44 bin
+drwx------.   3 vdp5 Grads     21 Sep 26 23:01 .cache
+drwxr-xr-x.   6 vdp5 Grads    149 Oct 17 11:31 .cpan
+drwxr-xr-x.  14 vdp5 Grads    399 Oct 29 23:27 data
+lrwxrwxrwx.   1 vdp5 Grads     23 Oct 12 00:14 diana_hmm -> /nfs/wraycompute/diana/
+-rw-r--r--.   1 vdp5 Grads     52 Oct 10 18:47 .emacs
+drwx------.   3 vdp5 Grads     32 Oct 23 11:04 .emacs.d
+drwxr-xr-x.   2 vdp5 Grads   1180 Oct 30 01:29 executables
+drwxr-xr-x.   2 vdp5 Grads     93 Oct 28 13:37 figures
+-rw-r--r--.   1 vdp5 Grads     18 Sep 20 14:09 .gnuplot_history
+drwxr-xr-x.   3 vdp5 Grads     23 Oct 23 11:30 .java
+drwx------.   5 vdp5 Grads     63 Oct 11 23:13 .local
+drwxr-xr-x.   3 vdp5 Grads     28 Oct 21 01:49 .m2
+drwxr-xr-x.   3 vdp5 Grads     27 Oct 28 13:44 .matplotlib
+-rw-r--r--.   1 vdp5 Grads      0 Sep 15 22:25 .mugsy.log
+drwxr-xr-x.   5 vdp5 Grads     80 Oct 23 11:34 other
+drwxr-----.   3 vdp5 Grads     23 Sep 20 13:56 .pki
+drwxr-xr-x.   2 vdp5 Grads    277 Oct 26 10:28 .saves
+-rw-r--r--.   1 vdp5 Grads     14 Oct 20 23:08 .screenrc
+drwxr-xr-x.   8 vdp5 Grads   1986 Oct 29 23:37 scripts
+drwxr-xr-x.  33 vdp5 Grads   1287 Oct 30 01:04 source_code
+drwxr-xr-x.   2 vdp5 Grads    114 Oct 10 01:29 .ssh
+drwxr-xr-x.   3 vdp5 Grads     99 Sep 21 13:05 .subversion
+drwxr-xr-x.   2 vdp5 Grads      0 Oct 27 00:16 tmp
+[vdp5@wraylab01 ~]$ exit
+
+Script done on Sun 30 Oct 2016 10:30:26 AM EDT

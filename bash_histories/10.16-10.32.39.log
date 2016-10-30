@@ -1,0 +1,82 @@
+Script started on Sun 30 Oct 2016 10:32:39 AM EDT
+]0;vdp5@wraylab01:~[?1034h[vdp5@wraylab01 ~]$ ls
+[0m[38;5;27mbin[0m  [38;5;27mdata[0m  [38;5;51mdiana_hmm[0m  [38;5;27mexecutables[0m  [38;5;27mfigures[0m  [38;5;27mother[0m  [38;5;27mscripts[0m  [38;5;27msource_code[0m  [38;5;27mtmp[0m
+]0;vdp5@wraylab01:~[vdp5@wraylab01 ~]$ cd [K[K[Kupdateb^C
+]0;vdp5@wraylab01:~[vdp5@wraylab01 ~]$ ls
+[0m[38;5;27mbin[0m  [38;5;27mdata[0m  [38;5;51mdiana_hmm[0m  [38;5;27mexecutables[0m  [38;5;27mfigures[0m  [38;5;27mother[0m  [38;5;27mscripts[0m  [38;5;27msource_code[0m  [38;5;27mtmp[0m
+]0;vdp5@wraylab01:~[vdp5@wraylab01 ~]$ source .ash[K[K[K[Ka[Kbash_pro[K[K[K[K[K[K[K[K[K .bash_profile 
+l]0;vdp5@wraylab01:~[vdp5@wraylab01 ~]$ ls
+[0m[38;5;27mbin[0m  [38;5;27mdata[0m  [38;5;51mdiana_hmm[0m  [38;5;27mexecutables[0m  [38;5;27mfigures[0m  [38;5;27mother[0m  [38;5;27mscripts[0m  [38;5;27msource_code[0m  [38;5;27mtmp[0m
+]0;vdp5@wraylab01:~[vdp5@wraylab01 ~]$ screen -s
+Use: screen [-opts] [cmd [args]]
+ or: screen -r [host.tty]
+
+Options:
+-4            Resolve hostnames only to IPv4 addresses.
+-6            Resolve hostnames only to IPv6 addresses.
+-a            Force all capabilities into each window's termcap.
+-A -[r|R]     Adapt all windows to the new display width & height.
+-c file       Read configuration file instead of '.screenrc'.
+-d (-r)       Detach the elsewhere running screen (and reattach here).
+-dmS name     Start as daemon: Screen session in detached mode.
+-D (-r)       Detach and logout remote (and reattach here).
+-D -RR        Do whatever is needed to get a screen session.
+-e xy         Change command characters.
+-f            Flow control on, -fn = off, -fa = auto.
+-h lines      Set the size of the scrollback history buffer.
+-i            Interrupt output sooner when flow control is on.
+-l            Login mode on (update /var/run/utmp), -ln = off.
+-ls [match]   or
+-list         Do nothing, just list our SockDir [on possible matches].
+-L            Turn on output logging.
+-m            ignore $STY variable, do create a new screen session.
+-O            Choose optimal output rather than exact vt100 emulation.
+-p window     Preselect the named window if it exists.
+-q            Quiet startup. Exits with non-zero return code if unsuccessful.
+-Q            Commands will send the response to the stdout of the querying process.
+-r [session]  Reattach to a detached screen process.
+-R            Reattach if possible, otherwise start a new session.
+-s shell      Shell to execute rather than $SHELL.
+-S sockname   Name this session <pid>.sockname instead of <pid>.<tty>.<host>.
+-t title      Set title. (window's name).
+-T term       Use term as $TERM for windows, rather than "screen".
+-U            Tell screen to use UTF-8 encoding.
+-v            Print "Screen version 4.01.00devel (GNU) 2-May-06".
+-wipe [match] Do nothing, just clean up SockDir [on possible matches].
+-x            Attach to a not detached screen. (Multi display mode).
+-X            Execute <cmd> as a screen command in the specified session.
+
+Error: Specify shell with -s
+]0;vdp5@wraylab01:~[vdp5@wraylab01 ~]$ screen -s[Kr
+[!p[?3;4l[4l>[?1049h[4l[?1h=[0m(B[1;30r[H[2J[H[2JScript started, file is /home/vdp5/scripts/bash_histories/10.16-10.19.54.log
+[vdp5@wraylab01 bash_histories]$ exit
+exit
+Script done, file is /home/vdp5/scripts/bash_histories/10.16-10.19.54.log
+[vdp5@wraylab01 bash_histories]$ ls
+10.16-10:10:10.log  10.16-10.15.12.log  10.16-10.18.14.log  10.16-10.19.02.log  10.16-10.19.54.log
+10.16-10.13.20.log  10.16-10.16.11.log  10.16-10.18.43.log  10.16-10.19.07.log
+[vdp5@wraylab01 bash_histories]$ cd
+[vdp5@wraylab01 ~]$ ls
+[1m[34mbin[2Cdata[2C[36mdiana_hmm[2C[34mexecutables[2Cfigures[2Cother[2Cscripts[2Csource_code[2Ctmp
+[0m[vdp5@wraylab01 ~]$ cd data/
+[vdp5@wraylab01 data]$ ls
+[1m[34mblast_results[5Ccdna_analysis_ASM241_v2[5Cgene_finder[2Chmm_meme[2Cother_data[16Ctmp
+cambodia_samples[2Ccdna_analysis_SAMEA2376790[2Cgff_data[5Clog[7Csalvador_vivax_asia_2016[2Cvivax_2009
+[0m[vdp5@wraylab01 data]$ ls
+[1m[34mblast_results[5Ccdna_analysis_ASM241_v2[5Cgene_finder[2Chmm_meme[2Cother_data[16Ctmp
+cambodia_samples[2Ccdna_analysis_SAMEA2376790[2Cgff_data[5Clog[7Csalvador_vivax_asia_2016[2Cvivax_2009
+[0m[vdp5@wraylab01 data]$ cd
+[vdp5@wraylab01 ~]$]2;[screen 0: vdp5@wraylab01:~]  exit
+logout
+[?1l>]2;screen[30;1H
+[?1049l[screen is terminating]
+]0;vdp5@wraylab01:~[vdp5@wraylab01 ~]$ screen -r[KS gitrun
+[!p[?3;4l[4l>[?1049h[4l[?1h=[0m(B[1;30r[H[2J]2;[screen -] [H[2J]2;screen]2;[screen 0: bash] ]2;screen]2;[screen 0: vdp5@wraylab01:~] [vdp5@wraylab01 ~]$ ls
+[1m[34mbin[0m  [1m[34mdata[0m  [1m[36mdiana_hmm[0m  [1m[34mexecutables[0m  [1m[34mfigures[0m  [1m[34mother[0m  [1m[34mscripts[0m  [1m[34msource_code[0m  [1m[34mtmp[0m
+]2;screen]2;[screen 0: vdp5@wraylab01:~] [vdp5@wraylab01 ~]$ cd other/
+]2;screen]2;[screen 0: vdp5@wraylab01:~/other] [vdp5@wraylab01 other]$ ls
+[1m[34mhousekeeping[0m  [1m[34mmailscripts[0m  [1m[34mscp[0m
+]2;screen]2;[screen 0: vdp5@wraylab01:~/other] [vdp5@wraylab01 other]$ cd housekeeping/
+]2;screen]2;[screen 0: vdp5@wraylab01:~/other/housekeeping] [vdp5@wraylab01 housekeeping]$ ls
+[1m[32mgitscripts.sh[0m  screendatetime.sh
+]2;screen]2;[screen 0: vdp5@wraylab01:~/other/housekeeping] [vdp5@wraylab01 housekeeping]$ bash ge[Kitscripts.sh 
