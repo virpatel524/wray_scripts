@@ -16817,4 +16817,21 @@ PVX_001645
 ]0;vdp5@wraylab01:~/data/gene_finder/vir_bychrom_ASM241v2[vdp5@wraylab01 vir_bychrom_ASM241v2]$ ls
 allgenes_prot.txt  [0m[38;5;27mNC_009906.1[0m  [38;5;27mNC_009908.2[0m  [38;5;27mNC_009910.1[0m  [38;5;27mNC_009912.1[0m  [38;5;27mNC_009914.1[0m  [38;5;27mNC_009916.1[0m  [38;5;27mNC_009918.1[0m
 allgenes.txt       [38;5;27mNC_009907.1[0m  [38;5;27mNC_009909.1[0m  [38;5;27mNC_009911.1[0m  [38;5;27mNC_009913.1[0m  [38;5;27mNC_009915.1[0m  [38;5;27mNC_009917.1[0m  [38;5;27mNC_009919.1[0m
-]0;vdp5@wraylab01:~/data/gene_finder/vir_bychrom_ASM241v2[vdp5@wraylab01 vir_bychrom_ASM241v2]$ 
+]0;vdp5@wraylab01:~/data/gene_finder/vir_bychrom_ASM241v2[vdp5@wraylab01 vir_bychrom_ASM241v2]$ cd NC_009961[K.
+bash: cd: NC_00996.: No such file or directory
+]0;vdp5@wraylab01:~/data/gene_finder/vir_bychrom_ASM241v2[vdp5@wraylab01 vir_bychrom_ASM241v2]$ cd NC_00996.1
+bash: cd: NC_00996.1: No such file or directory
+]0;vdp5@wraylab01:~/data/gene_finder/vir_bychrom_ASM241v2[vdp5@wraylab01 vir_bychrom_ASM241v2]$ ls
+allgenes_prot.txt  [0m[38;5;27mNC_009906.1[0m  [38;5;27mNC_009908.2[0m  [38;5;27mNC_009910.1[0m  [38;5;27mNC_009912.1[0m  [38;5;27mNC_009914.1[0m  [38;5;27mNC_009916.1[0m  [38;5;27mNC_009918.1[0m
+allgenes.txt       [38;5;27mNC_009907.1[0m  [38;5;27mNC_009909.1[0m  [38;5;27mNC_009911.1[0m  [38;5;27mNC_009913.1[0m  [38;5;27mNC_009915.1[0m  [38;5;27mNC_009917.1[0m  [38;5;27mNC_009919.1[0m
+]0;vdp5@wraylab01:~/data/gene_finder/vir_bychrom_ASM241v2[vdp5@wraylab01 vir_bychrom_ASM241v2]$ cd NC_00990
+NC_009906.1/ NC_009907.1/ NC_009908.2/ NC_009909.1/ 
+[vdp5@wraylab01 vir_bychrom_ASM241v2]$ cd NC_00990
+NC_009906.1/ NC_009907.1/ NC_009908.2/ NC_009909.1/ 
+[vdp5@wraylab01 vir_bychrom_ASM241v2]$ cd NC_00990
+NC_009906.1/ NC_009907.1/ NC_009908.2/ NC_009909.1/ 
+[vdp5@wraylab01 vir_bychrom_ASM241v2]$ cd NC_009906.1/
+]0;vdp5@wraylab01:~/data/gene_finder/vir_bychrom_ASM241v2/NC_009906.1[vdp5@wraylab01 NC_009906.1]$ ls
+PVX_093705_NC_009906.1.fasta  PVX_093715_NC_009906.1.fasta  PVX_093725_NC_009906.1.fasta
+PVX_093710_NC_009906.1.fasta  PVX_093720_NC_009906.1.fasta
+]0;vdp5@wraylab01:~/data/gene_finder/vir_bychrom_ASM241v2/NC_009906.1[vdp5@wraylab01 NC_009906.1]$ 
