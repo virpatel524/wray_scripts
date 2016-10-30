@@ -941,4 +941,28 @@ grep: git_data: Is a directory
 grep: salvador_align_scripts: Is a directory
 ]0;vdp5@wraylab01:~/scripts[vdp5@wraylab01 scripts]$ cp runvi[K[K[K[K[K[K[K[Kcp run[Knallvir_bychrom.sh runallvir_bychrom.sh [K[K[K[K_SAE.sh
 ]0;vdp5@wraylab01:~/scripts[vdp5@wraylab01 scripts]$ cp runallvir_bychrom_SAE.sh [K[K[K[K[K[K[K[K[Km.sh runallvir_bycrhom_ASM241.[Kv2.sh
+]0;vdp5@wraylab01:~/scripts[vdp5@wraylab01 scripts]$ pytho[K[K[K[K[Kbash runvi[K[K[Kn
+runallvir_bychrom_SAE.sh       runallvir_bycrhom_ASM241v2.sh  run_salvador_comparisons.sh
+runallvir_bychrom.sh           run_cambodia_alignments.sh     
+[vdp5@wraylab01 scripts]$ bash run
+runallvir_bychrom_SAE.sh       runallvir_bycrhom_ASM241v2.sh  run_salvador_comparisons.sh
+runallvir_bychrom.sh           run_cambodia_alignments.sh     
+[vdp5@wraylab01 scripts]$ bash run
+runallvir_bychrom_SAE.sh       runallvir_bycrhom_ASM241v2.sh  run_salvador_comparisons.sh
+runallvir_bychrom.sh           run_cambodia_alignments.sh     
+[vdp5@wraylab01 scripts]$ bash runv[Kallvir_bycv[Khrom[K[K[K[Krhom_ASM241v2.sh 
+/home/vdp5/data/gene_finder/vir_bychrom_ASM241_v2/*
+/home/vdp5/data/gene_finder/vir_bychrom_ASM241_v2/*
+/home/vdp5/data/gene_finder/vir_bychrom_ASM241_v2/*
+/home/vdp5/data/gene_finder/vir_bychrom_ASM241_v2/*
+/home/vdp5/data/gene_finder/vir_bychrom_ASM241_v2/*
+/home/vdp5/data/gene_finder/vir_bychrom_ASM241_v2/*
+/home/vdp5/data/gene_finder/vir_bychrom_ASM241_v2/*
+/home/vdp5/data/gene_finder/vir_bychrom_ASM241_v2/*
+/home/vdp5/data/gene_finder/vir_bychrom_ASM241_v2/*
+/home/vdp5/data/gene_finder/vir_bychrom_ASM241_v2/*
+/home/vdp5/data/gene_finder/vir_bychrom_ASM241_v2/*
+/home/vdp5/data/gene_finder/vir_bychrom_ASM241_v2/*
+/home/vdp5/data/gene_finder/vir_bychrom_ASM241_v2/*
+/home/vdp5/data/gene_finder/vir_bychrom_ASM241_v2/*
 ]0;vdp5@wraylab01:~/scripts[vdp5@wraylab01 scripts]$ 
