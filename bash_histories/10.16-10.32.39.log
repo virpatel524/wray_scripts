@@ -204,3 +204,137 @@ bash: cd: cdna_analysis_: No such file or directory
 ]0;vdp5@wraylab01:~/data/cdna_analysis_ASM241_v2[vdp5@wraylab01 cdna_analysis_ASM241_v2]$ ls
 ]0;vdp5@wraylab01:~/data/cdna_analysis_ASM241_v2[vdp5@wraylab01 cdna_analysis_ASM241_v2]$ cd ..
 ]0;vdp5@wraylab01:~/data[vdp5@wraylab01 data]$ cd cdna_analysis_SAMEA2376790/
+]0;vdp5@wraylab01:~/data/cdna_analysis_SAMEA2376790[vdp5@wraylab01 cdna_analysis_SAMEA2376790]$ sl
+bash: sl: command not found
+]0;vdp5@wraylab01:~/data/cdna_analysis_SAMEA2376790[vdp5@wraylab01 cdna_analysis_SAMEA2376790]$ ls
+[0m[38;5;27mfasta_PV01[0m  flagged_genes.txt  gene2exon_PV01.txt  [38;5;27mvir_genes[0m
+]0;vdp5@wraylab01:~/data/cdna_analysis_SAMEA2376790[vdp5@wraylab01 cdna_analysis_SAMEA2376790]$ cd fa[K[K[K[K[Kcd
+]0;vdp5@wraylab01:~[vdp5@wraylab01 ~]$ ls
+[0m[38;5;27mbin[0m  [38;5;27mdata[0m  [38;5;51mdiana_hmm[0m  [38;5;27mexecutables[0m  [38;5;27mfigures[0m  [38;5;27mother[0m  [38;5;27mscripts[0m  [38;5;27msource_code[0m  [38;5;27mtmp[0m
+]0;vdp5@wraylab01:~[vdp5@wraylab01 ~]$ cd c[Kscripts/
+]0;vdp5@wraylab01:~/scripts[vdp5@wraylab01 scripts]$ ls
+align_cambodia_samples.sh        gff_parse_ASM241v2.sh
+ASM241v2_gff_transfer.sh         [0m[38;5;27mgit_data[0m
+[38;5;27mbash_histories[0m                   improve_bwa_mapping_testprepare.py
+break_fasta_splign_ASM241_v2.py  india1_cat.sh
+break_fasta_splign_PV01.py       india2_cat.sh
+break_gff.py                     india_korea_align.sh
+[38;5;27mcambodia_align_scripts[0m           make_sam_cambodia.sh
+[38;5;27mcambodia_PV01_improve_align[0m      meme_testing.sh
+cat_india_korea.sh               open_gz_cambodia.sh
+characerize_bam.sh               parse_ASM241v2_gb.py
+characterize_portillioG.py       parse_gfffasta_ASM241v2_exons.py
+createblastdb_forvir.sh          parse_origin_created_ASM241v2.py
+create_exonic_directory.py       parse_origin_created_SAMEA2376790.py
+create_origin_ASM241v2.py        parse_SAMEA2376790_gb.py
+create_origin_SAMEA2376790.py    play_chromosome_splign.py
+determine_coverage.sh            prepare_for_alignment.py
+edit_chrom_ASM241v2fasta.py      prepare_for_alignment_salvador_compare.py
+edit_original_ASM241v2_data.sh   runallvir_bychrom.sh
+GCF_gff2bed.py                   run_cambodia_alignments.sh
+get_annotated_vir.py             run_salvador_comparisons.sh
+gff2fasta.pl                     salvador_align_compare.sh
+gff3_to_bed_converter.py         [38;5;27msalvador_align_scripts[0m
+gff_break_mummer_india.py        tblastn_vir_from_SAMEA2376790_using_ASM241v2_genes.sh
+gff_create_mummer_to_india.sh
+]0;vdp5@wraylab01:~/scripts[vdp5@wraylab01 scripts]$ gre [Kp fasta_PV01 &
+[1] 4329
+]0;vdp5@wraylab01:~/scripts[vdp5@wraylab01 scripts]$ grep fasta_PV01 &[K*
+grep: bash_histories: Is a directory
+[35m[Kbreak_fasta_splign_ASM241_v2.py[m[K[36m[K:[m[Kbaes_new = '/home/vdp5/data/cdna_analysis_SAMEA2376790/[01;31m[Kfasta_PV01[m[K'
+[35m[Kbreak_fasta_splign_PV01.py[m[K[36m[K:[m[Kbaes_new = '/home/vdp5/data/cdna_analysis_SAMEA2376790/[01;31m[Kfasta_PV01[m[K'
+grep: cambodia_align_scripts: Is a directory
+grep: cambodia_PV01_improve_align: Is a directory
+grep: git_data: Is a directory
+[35m[Krunallvir_bychrom.sh[m[K[36m[K:[m[K		splign -query $beta -subj /home/vdp5/data/cdna_analysis_SAMEA2376790/[01;31m[Kfasta_PV01[m[K/$chrom.fasta -aln ${newerarray[0]}_splign
+grep: salvador_align_scripts: Is a directory
+
+[1]+  Stopped                 grep --color=auto fasta_PV01
+]0;vdp5@wraylab01:~/scripts[vdp5@wraylab01 scripts]$ emacs break_fasta_splign_ASM241_v2.py 
+[?1049h[?12;25h[?1h=[H[2J[30d[K[?1l>[?12l[?25h[?1049l[39;49m[?1049h[?12;25h[?1h=[>0c[H[2J[30d[K[H[?25l[7mFile Edit Options Buffers Tools Lisp-Interaction Help                                                                   [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[30m[48;5;250m-UUU:----F1  [39;49m[1m[30m[48;5;250m*scratch*   [0m[39;49m[30m[48;5;250m   All L1     (Lisp Interaction) --------------------------------------------------------------[39;49m
+[A[2d[?12l[?25h[?12;25h[?2004h[30d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[H
+[?12l[?25h[?12;25h[30d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Python Help                                                                             [0m[39;49m[27m
+[A
+[38;5;129mimport[39;49m os[K
+[38;5;129mimport[39;49m csv[K
+[K
+[38;5;130mdata[39;49m = [38;5;60mlist[39;49m(csv.reader([38;5;60mopen[39;49m([38;5;89m'/home/vdp5/data/salvador_vivax_asia_2016/first-SAMEA2376790/pvivax_sal1_SAMEA2376790.fasta[39;49m\
+[A
+[38;5;89m'[39;49m),delimiter=[38;5;89m'\t'[39;49m))[K
+[K
+[38;5;130mcur_chrome[39;49m = [38;5;89m'beta'[39;49m[K
+[38;5;130mchrom_dict[39;49m = {}[K
+[K
+[38;5;129mfor[39;49m index, line [38;5;129min[39;49m [38;5;60menumerate[39;49m(data):[K
+        [38;5;129mif[39;49m [38;5;60mlen[39;49m(line) == 0:[K
+                [38;5;129mcontinue[39;49m[K
+        [38;5;129mif[39;49m line[0][0] == [38;5;89m'>'[39;49m:[K
+                [38;5;130mcur_chrome[39;49m = line[0][K
+        [38;5;129melse[39;49m:[K
+                [38;5;129mif[39;49m cur_chrome [38;5;129mnot[39;49m [38;5;129min[39;49m chrom_dict:[K
+                        [38;5;130mchrom_dict[39;49m[cur_chrome] = line[0][K
+                [38;5;129melse[39;49m:[K
+                        [38;5;130mchrom_dict[39;49m[cur_chrome] = chrom_dict[cur_chrome] + line[0][K
+[K
+[K
+[K
+[K
+[38;5;130mbaes_new[39;49m = [38;5;89m'/home/vdp5/data/cdna_analysis_SAMEA2376790/fasta_PV01'[39;49m[K
+[K
+[38;5;129mfor[39;49m alpha [38;5;129min[39;49m chrom_dict:[K
+        [38;5;130mzeta[39;49m = alpha.split([38;5;89m':'[39;49m)[1].split([38;5;89m'.'[39;49m)[0][K
+[30m[48;5;250m-UU-:----F1  [39;49m[1m[30m[48;5;250mbreak_fasta_splign_ASM241_v2.py[0m[39;49m[30m[48;5;250m   Top L1    Git-master  (Python) ------------------------------------------[39;49m
+[A[2d[?12l[?25h[?12;25h[30d[K[29;53H[?25l[30m[48;5;250m2[39;49m[H
+
+[?12l[?25h[?12;25h[29;53H[?25l[30m[48;5;250m3[39;49m[4;1H[?12l[?25h[?12;25h[29;53H[?25l[30m[48;5;250m4[39;49m[5;1H[?12l[?25h[?12;25h
+[A[29;53H[?25l[30m[48;5;250m3[39;49m[4;1H[?12l[?25h[?12;25h[29;53H[?25l[30m[48;5;250m4[39;49m[5;1H[?12l[?25h[?12;25h
+[A[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[C	[5;110H[C		[C[C[C[C[C[C
+[5;119H[?25l[38;5;89ma'[39;49m
+[1P[29;6H[30m[48;5;250m**[39;49m[5;118H[?12l[?25h[?12;25h[?25l[38;5;89ma'[39;49m)
+[1P[5;117H[?12l[?25h[?12;25h[?25l[38;5;89m'[39;49m),
+[1P[5;116H[?12l[?25h[?12;25h[?25l[38;5;89ma'[39;49m),d
+[1P[5;115H[?12l[?25h[?12;25h[C[?25l[38;5;89m'[39;49m),de
+[1P[5;115H[?12l[?25h[?12;25h[?25l[38;5;89m'[39;49m),del
+[1P[5;114H[?12l[?25h[?12;25h[?25l[38;5;89m'[39;49m),deli
+[1P[5;113H[?12l[?25h[?12;25h[?25l[38;5;89m'[39;49m),delim
+[1P[5;112H[?12l[?25h[?12;25h[?25l[38;5;89m'[39;49m),delimi
+[1P[5;111H[?12l[?25h[?12;25h[?25l[38;5;89m'[39;49m),delimit
+[1P[5;110H[?12l[?25h[?12;25h[?25l[38;5;89m'[39;49m),delimite
+r=[38;5;89m'\t'[39;49m))[K[5;109H[?12l[?25h[?12;25h[?25l[38;5;89m'[39;49m),delimiter
+=[38;5;89m'\t'[39;49m))[K[5;108H[?12l[?25h[?12;25h[?25l[38;5;89m'[39;49m),delimiter=
+[38;5;89m'\t'[39;49m))[K[5;107H[?12l[?25h[?12;25h[?25l[38;5;89m'[39;49m),delimiter=[38;5;89m'[39;49m
+[38;5;89m\t'[39;49m))[K[5;106H[?12l[?25h[?12;25h[?25l[38;5;89m'[39;49m),delimiter=[38;5;89m'\[39;49m
+[38;5;89mt'[39;49m))[K[5;105H[?12l[?25h[?12;25h[?25l[38;5;89m'[39;49m),delimiter=[38;5;89m'\t[39;49m
+[38;5;89m'[39;49m))[K[5;104H[?12l[?25h[?12;25h[?25l[38;5;89m'[39;49m),delimiter=[38;5;89m'\t'[39;49m
+))[K[5;103H[?12l[?25h[?12;25h[?25l[38;5;89m'[39;49m),delimiter=[38;5;89m'\t'[39;49m)
+[C[K[5;102H[?12l[?25h[?12;25h[1;28r[7;1H[1M[1;30r[5;101H[?25l[38;5;89m'[39;49m),delimiter=[38;5;89m'\t'[39;49m))[K
+[K[28d        [38;5;130mzeta[39;49m = [38;5;60mint[39;49m(zeta)[K[5;101H[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[29;53H[?25l[30m[48;5;250m5[39;49m[6;1H[?12l[?25h[?12;25h[29;53H[?25l[30m[48;5;250m6[39;49m[7;20H[?12l[?25h[?12;25h[29;53H[?25l[30m[48;5;250m7[39;49m[8;16H[?12l[?25h[?12;25h[29;53H[?25l[30m[48;5;250m8[39;49m[9;1H[?12l[?25h[?12;25h[29;53H[?25l[30m[48;5;250m9[39;49m[10;30H[?12l[?25h[?12;25h[29;53H[?25l[30m[48;5;250m10[39;49m[11;27H[?12l[?25h[?12;25h[29;54H[?25l[30m[48;5;250m1[39;49m[12;25H[?12l[?25h[?12;25h[29;54H[?25l[30m[48;5;250m2[39;49m[13;30H[?12l[?25h[?12;25h[29;54H[?25l[30m[48;5;250m3[39;49m[14;30H[?12l[?25h[?12;25h[29;54H[?25l[30m[48;5;250m4[39;49m[15;14H[?12l[?25h[?12;25h[29;54H[?25l[30m[48;5;250m5[39;49m[16;30H[?12l[?25h[?12;25h[29;54H[?25l[30m[48;5;250m6[39;49m[17;30H[?12l[?25h[?12;25h[29;54H[?25l[30m[48;5;250m7[39;49m[18;22H[?12l[?25h[?12;25h[29;54H[?25l[30m[48;5;250m8[39;49m[19;30H[?12l[?25h[?12;25h[29;54H[?25l[30m[48;5;250m9[39;49m[20;1H[?12l[?25h[?12;25h[29;53H[?25l[30m[48;5;250m20[39;49m[21;1H[?12l[?25h[?12;25h[29;54H[?25l[30m[48;5;250m1[39;49m[22;1H[?12l[?25h[?12;25h[29;54H[?25l[30m[48;5;250m2[39;49m[23;1H[?12l[?25h[?12;25h[29;54H[?25l[30m[48;5;250m3[39;49m[24;30H[?12l[?25h[?12;25h[C
