@@ -6,8 +6,9 @@ for alpha in ${iterarray[@]}; do
 			IFS=/ read -ra newarray <<< $delta
 			IFS=fasta read -ra newerarray <<< ${newarray[-1]}
 			fullname=${newerarray[0]}
-			echo $fullname
+			fullname=${fullname::-1}
 			IFS=_ read -ra chromarray <<< ${newerarray[0]}
+			echo ${chromarray[@]}
 			chrom=${chromarray[-1]}
 			# mkdir ${newerarray[0]}
 			# cd ${newerarray[0]}
