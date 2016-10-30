@@ -23,11 +23,7 @@ print chrom_dict
 
 baes_new = '/home/vdp5/data/cdna_analysis_ASM241_v2/fasta_ASM241_v2'
 
-# for alpha in chrom_dict:
-# 	zeta = alpha.split(':')[1].split('.')[0]
-# 	zeta = int(zeta)
-# 	zeta = str(zeta)
-# 	zeta = 'chrom' + zeta.zfill(2)
-# 	newfle = open(baes_new + '/' + zeta + '.fasta', 'w')
-# 	newfle.write('%s\n' %(alpha))
-# 	newfle.write('%s\n'%(chrom_dict[alpha]))
+for alpha in chrom_dict:
+	newfle = open(baes_new + '/' + zeta + '.fasta', 'w')
+	newfle.write('%s\n' %(alpha))
+	newfle.write('%s\n'%(chrom_dict[alpha]))
