@@ -7,3 +7,51 @@ Script started, file is /home/vdp5/scripts/bash_histories/10.16-10.19.07.log
 kvdp5@wraylab01:~/other/housekeeping\[vdp5@wraylab01 housekeeping]$ exit
 exit
 Script done, file is /home/vdp5/scripts/bash_histories/10.16-10.19.07.log
+[master 3d26b85] routine upload
+ Committer: Vir Patel <vdp5@wraylab01.genome.duke.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 6 files changed, 109 insertions(+), 5 deletions(-)
+ rewrite bash_histories/.log (96%)
+ create mode 100644 bash_histories/10.16-10.16.11.log
+ create mode 100644 bash_histories/10.16-10.18.14.log
+ create mode 100644 bash_histories/10.16-10.18.43.log
+ create mode 100644 bash_histories/10.16-10.19.02.log
+ create mode 100644 bash_histories/10.16-10.19.07.log
+warning: push.default is unset; its implicit value is changing in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the current behavior after the default changes, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Counting objects: 1   Counting objects: 2   Counting objects: 12, done.
+eDelta compression using up to 20 threads.
+Compressing objects:  11% (1/9)   Compressing objects:  22% (2/9)   Compressing objects:  33% (3/9)   Compressing objects:  44% (4/9)   Compressing objects:  55% (5/9)   Compressing objects:  66% (6/9)   Compressing objects:  77% (7/9)   Compressing objects:  88% (8/9)   Compressing objects: 100% (9/9)   Compressing objects: 100% (9/9), done.
+Writing objects:  11% (1/9)   Writing objects:  22% (2/9)   Writing objects:  33% (3/9)   Writing objects:  44% (4/9)   Writing objects:  55% (5/9)    Writing objects:  66% (6/9)   Writing objects:  77% (7/9)   Writing objects:  88% (8/9)   Writing objects: 100% (9/9)   Writing objects: 100% (9/9), 2.67 KiB | 0 bytes/s, done.
+Total 9 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/4)   [Kremote: Resolving deltas:  50% (2/4)   [Kremote: Resolving deltas:  75% (3/4)   [Kremote: Resolving deltas: 100% (4/4)   [Kremote: Resolving deltas: 100% (4/4), completed with 2 local objects.[K
+To git@github.com:virpatel524/wray_scripts.git
+   6b56a2c..3d26b85  master -> master
+^C
+kvdp5@wraylab01:~/other/housekeeping\[vdp5@wraylab01 housekeeping]$ ^C
+kvdp5@wraylab01:~/other/housekeeping\[vdp5@wraylab01 housekeeping]$ ^C
+kvdp5@wraylab01:~/other/housekeeping\[vdp5@wraylab01 housekeeping]$ exit
+exit
+Script done, file is /home/vdp5/scripts/bash_histories/10.16-10.19.02.log
