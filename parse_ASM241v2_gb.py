@@ -8,7 +8,7 @@ masterfle_prot = open('/home/vdp5/data/gene_finder/vir_bychrom_ASM241v2/allgenes
 
 
 for filename in os.listdir('/home/vdp5/data/gene_finder/ASM241v2_genbank/'):
-	chromname =  filename.split('.')[0]
+	chromname =  filename[:-3]
 	gb_file_test = os.path.join('/home/vdp5/data/gene_finder/ASM241v2_genbank/', filename)
 	
 
