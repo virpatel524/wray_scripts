@@ -925,4 +925,11 @@ find: paths must precede expression: align_cambodia_samples.sh
 Usage: find [-H] [-L] [-P] [-Olevel] [-D help|tree|search|stat|rates|opt|exec] [path...] [expression]
 ]0;vdp5@wraylab01:~/scripts[vdp5@wraylab01 scripts]$ find . -name "splign" *[K
 ^C
-]0;vdp5@wraylab01:~/scripts[vdp5@wraylab01 scripts]$ find . -name "splign" [K[K*
+]0;vdp5@wraylab01:~/scripts[vdp5@wraylab01 scripts]$ find . -name "splign" [K[K*[1Psplign**splign*
+find: paths must precede expression: break_fasta_splign_PV01.py
+Usage: find [-H] [-L] [-P] [-Olevel] [-D help|tree|search|stat|rates|opt|exec] [path...] [expression]
+]0;vdp5@wraylab01:~/scripts[vdp5@wraylab01 scripts]$ find . -name *splign* *
+find: paths must precede expression: break_fasta_splign_PV01.py
+Usage: find [-H] [-L] [-P] [-Olevel] [-D help|tree|search|stat|rates|opt|exec] [path...] [expression]
+]0;vdp5@wraylab01:~/scripts[vdp5@wraylab01 scripts]$ find . -name *splign* *^C
+]0;vdp5@wraylab01:~/scripts[vdp5@wraylab01 scripts]$ 
