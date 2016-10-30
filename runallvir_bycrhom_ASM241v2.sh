@@ -12,7 +12,7 @@ for alpha in ${iterarray[@]}; do
 			chrom=${chrom::-1}
 			mkdir ${fullname}
 			cd ${fullname}
-			splign -query $delta -subj /home/vdp5/data/cdna_analysis_ASM241_v2/fasta_ASM241_v2/$chrom.fasta -aln ${}_splign
+			splign -query $delta -subj /home/vdp5/data/cdna_analysis_ASM241_v2/fasta_ASM241_v2/$chrom.fasta -aln ${fullname}_splign
 		done
 	done
 done
