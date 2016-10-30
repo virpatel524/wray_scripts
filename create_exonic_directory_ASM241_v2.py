@@ -1,9 +1,9 @@
 import os
 import csv
 
-exitfle = open('/home/vdp5/data/cdna_analysis_SAMEA2376790/gene2exon_PV01.txt', 'w')
-rootdir = '/home/vdp5/data/cdna_analysis_SAMEA2376790/vir_genes'
-flag_file = open('/home/vdp5/data/cdna_analysis_SAMEA2376790/flagged_genes.txt', 'w')
+exitfle = open('/home/vdp5/data/cdna_analysis_ASM241_v2/gene2exon_ASM241_v2.txt', 'w')
+rootdir = '/home/vdp5/data/cdna_analysis_ASM241_v2/vir_genes'
+flag_file = open('/home/vdp5/data/cdna_analysis_ASM241_v2/flagged_genes.txt', 'w')
 
 gene2exons = {}
 
@@ -13,6 +13,7 @@ for subdir, dirs, files in os.walk(rootdir):
 		continue
 	tmp = list(csv.reader(open(os.path.join(subdir, sortedfles[0])),delimiter='\t'))
 	gene='_'.join(sortedfles[0].split('_')[:2])
+	print gene
 	exonnums = []
 	tmplst = []
 	for alpha in tmp:
