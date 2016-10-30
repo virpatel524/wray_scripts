@@ -9,6 +9,7 @@ for alpha in ${iterarray[@]}; do
 			fullname=${fullname::-1}
 			IFS=_ read -ra chromarray <<< ${newerarray[0]}
 			chrom=${chromarray[-2]}_${chromarray[-1]}
+			chrom=${chrom::-1}
 			echo $chrom
 			# mkdir ${newerarray[0]}
 			# cd ${newerarray[0]}
