@@ -95,3 +95,39 @@ See 'git help config' and search for 'push.default' for further information.
 kvdp5@wraylab01:~/other/housekeeping\[vdp5@wraylab01 housekeeping]$ exit
 exit
 Script done, file is /home/vdp5/scripts/bash_histories/10.16-10.18.43.log
+[master ffa6309] routine upload
+ Committer: Vir Patel <vdp5@wraylab01.genome.duke.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 73 insertions(+)
+warning: push.default is unset; its implicit value is changing in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the current behavior after the default changes, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+^CKilled by signal 2.
+kvdp5@wraylab01:~/other/housekeeping\[vdp5@wraylab01 housekeeping]$ ^C
+kvdp5@wraylab01:~/other/housekeeping\[vdp5@wraylab01 housekeeping]$ ^C
+kvdp5@wraylab01:~/other/housekeeping\[vdp5@wraylab01 housekeeping]$ ^C
+kvdp5@wraylab01:~/other/housekeeping\[vdp5@wraylab01 housekeeping]$ exit
+exit
+
+Script done on Sun 30 Oct 2016 10:19:27 AM EDT
