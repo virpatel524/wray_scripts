@@ -6771,4 +6771,5 @@ gff_parse_ASM241v2.sh
 /home/vdp5/data/gene_finder/vir_bychrom_ASM241v2/NC_009919.1/PVX_101620_NC_009919.1.fasta
 /home/vdp5/data/gene_finder/vir_bychrom_ASM241v2/NC_009919.1/PVX_101625_NC_009919.1.fasta
 /home/vdp5/data/gene_finder/vir_bychrom_ASM241v2/NC_009919.1/PVX_121855_NC_009919.1.fasta
+]0;vdp5@wraylab01:~/scripts[vdp5@wraylab01 scripts]$ bash runallvir_bycrhom_ASM241v2.sh 
 ]0;vdp5@wraylab01:~/scripts[vdp5@wraylab01 scripts]$ 
