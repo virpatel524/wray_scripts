@@ -24,7 +24,7 @@ for filename in os.listdir('/home/vdp5/data/gene_finder/ASM241v2_genbank/'):
 			if 'Vir' in tmp['product'][0]:
 				sequence =  alpha.extract(data.seq)
 				print sequence
-				protseq = alpha.extract(data.seq).translate(cds=True)
+				protseq = alpha.extract(data.seq).translate()
 				# prottrans = tmp['translation'][0]
 				# print prottrans
 				output_fle = open('%s_%s.fasta' %(tmp['locus_tag'][0], chromname), 'w')
