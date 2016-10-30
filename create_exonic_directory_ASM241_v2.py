@@ -42,8 +42,7 @@ for subdir, dirs, files in os.walk(rootdir):
 	if len(tmplst) != len(list(set(exonnums))):
 		flag_file.write('{}\n'.format(gene))
 		continue
-	exitfle.write('>{}\n'.format(gene))
-	exitfle.write('{}\n'.format('\n'.join(tmplst)))
+	exitfle.write('\n'.join(tmplst) + '\n')
 
 
 exitfle.close()
