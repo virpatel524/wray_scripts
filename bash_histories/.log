@@ -925,4 +925,989 @@ make -f ./Makefile.shared -e \
 	PERL="/usr/bin/perl" SRCDIR=. \
 	APPNAME=test/buildtest_ocsp OBJECTS="test/buildtest_ocsp.o" \
 	LIBDEPS=' '" -L. -lssl -L. -lcrypto"' -ldl ' \
-	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_A
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/buildtest_ocsp test/buildtest_ocsp.o -L. -lssl -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+/usr/bin/perl test/generate_buildtest.pl opensslv > test/buildtest_opensslv.c
+gcc  -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/buildtest_opensslv.d.tmp -MT test/buildtest_opensslv.o -c -o test/buildtest_opensslv.o test/buildtest_opensslv.c
+rm -f test/buildtest_opensslv
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/buildtest_opensslv OBJECTS="test/buildtest_opensslv.o" \
+	LIBDEPS=' '" -L. -lssl -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/buildtest_opensslv test/buildtest_opensslv.o -L. -lssl -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+/usr/bin/perl test/generate_buildtest.pl ossl_typ > test/buildtest_ossl_typ.c
+gcc  -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/buildtest_ossl_typ.d.tmp -MT test/buildtest_ossl_typ.o -c -o test/buildtest_ossl_typ.o test/buildtest_ossl_typ.c
+rm -f test/buildtest_ossl_typ
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/buildtest_ossl_typ OBJECTS="test/buildtest_ossl_typ.o" \
+	LIBDEPS=' '" -L. -lssl -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/buildtest_ossl_typ test/buildtest_ossl_typ.o -L. -lssl -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+/usr/bin/perl test/generate_buildtest.pl pem > test/buildtest_pem.c
+gcc  -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/buildtest_pem.d.tmp -MT test/buildtest_pem.o -c -o test/buildtest_pem.o test/buildtest_pem.c
+rm -f test/buildtest_pem
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/buildtest_pem OBJECTS="test/buildtest_pem.o" \
+	LIBDEPS=' '" -L. -lssl -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/buildtest_pem test/buildtest_pem.o -L. -lssl -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+/usr/bin/perl test/generate_buildtest.pl pem2 > test/buildtest_pem2.c
+gcc  -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/buildtest_pem2.d.tmp -MT test/buildtest_pem2.o -c -o test/buildtest_pem2.o test/buildtest_pem2.c
+rm -f test/buildtest_pem2
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/buildtest_pem2 OBJECTS="test/buildtest_pem2.o" \
+	LIBDEPS=' '" -L. -lssl -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/buildtest_pem2 test/buildtest_pem2.o -L. -lssl -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+/usr/bin/perl test/generate_buildtest.pl pkcs12 > test/buildtest_pkcs12.c
+gcc  -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/buildtest_pkcs12.d.tmp -MT test/buildtest_pkcs12.o -c -o test/buildtest_pkcs12.o test/buildtest_pkcs12.c
+rm -f test/buildtest_pkcs12
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/buildtest_pkcs12 OBJECTS="test/buildtest_pkcs12.o" \
+	LIBDEPS=' '" -L. -lssl -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/buildtest_pkcs12 test/buildtest_pkcs12.o -L. -lssl -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+/usr/bin/perl test/generate_buildtest.pl pkcs7 > test/buildtest_pkcs7.c
+gcc  -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/buildtest_pkcs7.d.tmp -MT test/buildtest_pkcs7.o -c -o test/buildtest_pkcs7.o test/buildtest_pkcs7.c
+rm -f test/buildtest_pkcs7
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/buildtest_pkcs7 OBJECTS="test/buildtest_pkcs7.o" \
+	LIBDEPS=' '" -L. -lssl -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/buildtest_pkcs7 test/buildtest_pkcs7.o -L. -lssl -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+/usr/bin/perl test/generate_buildtest.pl rand > test/buildtest_rand.c
+gcc  -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/buildtest_rand.d.tmp -MT test/buildtest_rand.o -c -o test/buildtest_rand.o test/buildtest_rand.c
+rm -f test/buildtest_rand
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/buildtest_rand OBJECTS="test/buildtest_rand.o" \
+	LIBDEPS=' '" -L. -lssl -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/buildtest_rand test/buildtest_rand.o -L. -lssl -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+/usr/bin/perl test/generate_buildtest.pl rc2 > test/buildtest_rc2.c
+gcc  -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/buildtest_rc2.d.tmp -MT test/buildtest_rc2.o -c -o test/buildtest_rc2.o test/buildtest_rc2.c
+rm -f test/buildtest_rc2
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/buildtest_rc2 OBJECTS="test/buildtest_rc2.o" \
+	LIBDEPS=' '" -L. -lssl -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/buildtest_rc2 test/buildtest_rc2.o -L. -lssl -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+/usr/bin/perl test/generate_buildtest.pl rc4 > test/buildtest_rc4.c
+gcc  -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/buildtest_rc4.d.tmp -MT test/buildtest_rc4.o -c -o test/buildtest_rc4.o test/buildtest_rc4.c
+rm -f test/buildtest_rc4
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/buildtest_rc4 OBJECTS="test/buildtest_rc4.o" \
+	LIBDEPS=' '" -L. -lssl -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/buildtest_rc4 test/buildtest_rc4.o -L. -lssl -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+/usr/bin/perl test/generate_buildtest.pl ripemd > test/buildtest_ripemd.c
+gcc  -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/buildtest_ripemd.d.tmp -MT test/buildtest_ripemd.o -c -o test/buildtest_ripemd.o test/buildtest_ripemd.c
+rm -f test/buildtest_ripemd
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/buildtest_ripemd OBJECTS="test/buildtest_ripemd.o" \
+	LIBDEPS=' '" -L. -lssl -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/buildtest_ripemd test/buildtest_ripemd.o -L. -lssl -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+/usr/bin/perl test/generate_buildtest.pl rsa > test/buildtest_rsa.c
+gcc  -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/buildtest_rsa.d.tmp -MT test/buildtest_rsa.o -c -o test/buildtest_rsa.o test/buildtest_rsa.c
+rm -f test/buildtest_rsa
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/buildtest_rsa OBJECTS="test/buildtest_rsa.o" \
+	LIBDEPS=' '" -L. -lssl -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/buildtest_rsa test/buildtest_rsa.o -L. -lssl -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+/usr/bin/perl test/generate_buildtest.pl safestack > test/buildtest_safestack.c
+gcc  -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/buildtest_safestack.d.tmp -MT test/buildtest_safestack.o -c -o test/buildtest_safestack.o test/buildtest_safestack.c
+rm -f test/buildtest_safestack
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/buildtest_safestack OBJECTS="test/buildtest_safestack.o" \
+	LIBDEPS=' '" -L. -lssl -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/buildtest_safestack test/buildtest_safestack.o -L. -lssl -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+/usr/bin/perl test/generate_buildtest.pl seed > test/buildtest_seed.c
+gcc  -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/buildtest_seed.d.tmp -MT test/buildtest_seed.o -c -o test/buildtest_seed.o test/buildtest_seed.c
+rm -f test/buildtest_seed
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/buildtest_seed OBJECTS="test/buildtest_seed.o" \
+	LIBDEPS=' '" -L. -lssl -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/buildtest_seed test/buildtest_seed.o -L. -lssl -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+/usr/bin/perl test/generate_buildtest.pl sha > test/buildtest_sha.c
+gcc  -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/buildtest_sha.d.tmp -MT test/buildtest_sha.o -c -o test/buildtest_sha.o test/buildtest_sha.c
+rm -f test/buildtest_sha
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/buildtest_sha OBJECTS="test/buildtest_sha.o" \
+	LIBDEPS=' '" -L. -lssl -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/buildtest_sha test/buildtest_sha.o -L. -lssl -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+/usr/bin/perl test/generate_buildtest.pl srp > test/buildtest_srp.c
+gcc  -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/buildtest_srp.d.tmp -MT test/buildtest_srp.o -c -o test/buildtest_srp.o test/buildtest_srp.c
+rm -f test/buildtest_srp
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/buildtest_srp OBJECTS="test/buildtest_srp.o" \
+	LIBDEPS=' '" -L. -lssl -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/buildtest_srp test/buildtest_srp.o -L. -lssl -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+/usr/bin/perl test/generate_buildtest.pl srtp > test/buildtest_srtp.c
+gcc  -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/buildtest_srtp.d.tmp -MT test/buildtest_srtp.o -c -o test/buildtest_srtp.o test/buildtest_srtp.c
+rm -f test/buildtest_srtp
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/buildtest_srtp OBJECTS="test/buildtest_srtp.o" \
+	LIBDEPS=' '" -L. -lssl -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/buildtest_srtp test/buildtest_srtp.o -L. -lssl -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+/usr/bin/perl test/generate_buildtest.pl ssl > test/buildtest_ssl.c
+gcc  -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/buildtest_ssl.d.tmp -MT test/buildtest_ssl.o -c -o test/buildtest_ssl.o test/buildtest_ssl.c
+rm -f test/buildtest_ssl
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/buildtest_ssl OBJECTS="test/buildtest_ssl.o" \
+	LIBDEPS=' '" -L. -lssl -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/buildtest_ssl test/buildtest_ssl.o -L. -lssl -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+/usr/bin/perl test/generate_buildtest.pl ssl2 > test/buildtest_ssl2.c
+gcc  -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/buildtest_ssl2.d.tmp -MT test/buildtest_ssl2.o -c -o test/buildtest_ssl2.o test/buildtest_ssl2.c
+rm -f test/buildtest_ssl2
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/buildtest_ssl2 OBJECTS="test/buildtest_ssl2.o" \
+	LIBDEPS=' '" -L. -lssl -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/buildtest_ssl2 test/buildtest_ssl2.o -L. -lssl -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+/usr/bin/perl test/generate_buildtest.pl stack > test/buildtest_stack.c
+gcc  -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/buildtest_stack.d.tmp -MT test/buildtest_stack.o -c -o test/buildtest_stack.o test/buildtest_stack.c
+rm -f test/buildtest_stack
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/buildtest_stack OBJECTS="test/buildtest_stack.o" \
+	LIBDEPS=' '" -L. -lssl -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/buildtest_stack test/buildtest_stack.o -L. -lssl -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+/usr/bin/perl test/generate_buildtest.pl symhacks > test/buildtest_symhacks.c
+gcc  -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/buildtest_symhacks.d.tmp -MT test/buildtest_symhacks.o -c -o test/buildtest_symhacks.o test/buildtest_symhacks.c
+rm -f test/buildtest_symhacks
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/buildtest_symhacks OBJECTS="test/buildtest_symhacks.o" \
+	LIBDEPS=' '" -L. -lssl -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/buildtest_symhacks test/buildtest_symhacks.o -L. -lssl -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+/usr/bin/perl test/generate_buildtest.pl tls1 > test/buildtest_tls1.c
+gcc  -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/buildtest_tls1.d.tmp -MT test/buildtest_tls1.o -c -o test/buildtest_tls1.o test/buildtest_tls1.c
+rm -f test/buildtest_tls1
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/buildtest_tls1 OBJECTS="test/buildtest_tls1.o" \
+	LIBDEPS=' '" -L. -lssl -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/buildtest_tls1 test/buildtest_tls1.o -L. -lssl -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+/usr/bin/perl test/generate_buildtest.pl ts > test/buildtest_ts.c
+gcc  -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/buildtest_ts.d.tmp -MT test/buildtest_ts.o -c -o test/buildtest_ts.o test/buildtest_ts.c
+rm -f test/buildtest_ts
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/buildtest_ts OBJECTS="test/buildtest_ts.o" \
+	LIBDEPS=' '" -L. -lssl -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/buildtest_ts test/buildtest_ts.o -L. -lssl -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+/usr/bin/perl test/generate_buildtest.pl txt_db > test/buildtest_txt_db.c
+gcc  -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/buildtest_txt_db.d.tmp -MT test/buildtest_txt_db.o -c -o test/buildtest_txt_db.o test/buildtest_txt_db.c
+rm -f test/buildtest_txt_db
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/buildtest_txt_db OBJECTS="test/buildtest_txt_db.o" \
+	LIBDEPS=' '" -L. -lssl -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/buildtest_txt_db test/buildtest_txt_db.o -L. -lssl -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+/usr/bin/perl test/generate_buildtest.pl ui > test/buildtest_ui.c
+gcc  -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/buildtest_ui.d.tmp -MT test/buildtest_ui.o -c -o test/buildtest_ui.o test/buildtest_ui.c
+rm -f test/buildtest_ui
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/buildtest_ui OBJECTS="test/buildtest_ui.o" \
+	LIBDEPS=' '" -L. -lssl -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/buildtest_ui test/buildtest_ui.o -L. -lssl -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+/usr/bin/perl test/generate_buildtest.pl whrlpool > test/buildtest_whrlpool.c
+gcc  -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/buildtest_whrlpool.d.tmp -MT test/buildtest_whrlpool.o -c -o test/buildtest_whrlpool.o test/buildtest_whrlpool.c
+rm -f test/buildtest_whrlpool
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/buildtest_whrlpool OBJECTS="test/buildtest_whrlpool.o" \
+	LIBDEPS=' '" -L. -lssl -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/buildtest_whrlpool test/buildtest_whrlpool.o -L. -lssl -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+/usr/bin/perl test/generate_buildtest.pl x509 > test/buildtest_x509.c
+gcc  -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/buildtest_x509.d.tmp -MT test/buildtest_x509.o -c -o test/buildtest_x509.o test/buildtest_x509.c
+rm -f test/buildtest_x509
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/buildtest_x509 OBJECTS="test/buildtest_x509.o" \
+	LIBDEPS=' '" -L. -lssl -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/buildtest_x509 test/buildtest_x509.o -L. -lssl -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+/usr/bin/perl test/generate_buildtest.pl x509_vfy > test/buildtest_x509_vfy.c
+gcc  -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/buildtest_x509_vfy.d.tmp -MT test/buildtest_x509_vfy.o -c -o test/buildtest_x509_vfy.o test/buildtest_x509_vfy.c
+rm -f test/buildtest_x509_vfy
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/buildtest_x509_vfy OBJECTS="test/buildtest_x509_vfy.o" \
+	LIBDEPS=' '" -L. -lssl -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/buildtest_x509_vfy test/buildtest_x509_vfy.o -L. -lssl -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+/usr/bin/perl test/generate_buildtest.pl x509v3 > test/buildtest_x509v3.c
+gcc  -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/buildtest_x509v3.d.tmp -MT test/buildtest_x509v3.o -c -o test/buildtest_x509v3.o test/buildtest_x509v3.c
+rm -f test/buildtest_x509v3
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/buildtest_x509v3 OBJECTS="test/buildtest_x509v3.o" \
+	LIBDEPS=' '" -L. -lssl -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/buildtest_x509v3 test/buildtest_x509v3.o -L. -lssl -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+gcc  -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/casttest.d.tmp -MT test/casttest.o -c -o test/casttest.o test/casttest.c
+rm -f test/casttest
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/casttest OBJECTS="test/casttest.o" \
+	LIBDEPS=' '" -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/casttest test/casttest.o -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+gcc  -I. -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/cipherlist_test.d.tmp -MT test/cipherlist_test.o -c -o test/cipherlist_test.o test/cipherlist_test.c
+gcc  -I. -Iinclude -I. -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/testutil.d.tmp -MT test/testutil.o -c -o test/testutil.o test/testutil.c
+rm -f test/cipherlist_test
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/cipherlist_test OBJECTS="test/cipherlist_test.o test/testutil.o" \
+	LIBDEPS=' '" -L. -lssl -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/cipherlist_test test/cipherlist_test.o test/testutil.o -L. -lssl -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+gcc  -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/clienthellotest.d.tmp -MT test/clienthellotest.o -c -o test/clienthellotest.o test/clienthellotest.c
+rm -f test/clienthellotest
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/clienthellotest OBJECTS="test/clienthellotest.o" \
+	LIBDEPS=' '" -L. -lssl -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/clienthellotest test/clienthellotest.o -L. -lssl -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+gcc  -I. -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/constant_time_test.d.tmp -MT test/constant_time_test.o -c -o test/constant_time_test.o test/constant_time_test.c
+rm -f test/constant_time_test
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/constant_time_test OBJECTS="test/constant_time_test.o" \
+	LIBDEPS=' '" -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/constant_time_test test/constant_time_test.o -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+gcc  -Icrypto/include -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/ct_test.d.tmp -MT test/ct_test.o -c -o test/ct_test.o test/ct_test.c
+rm -f test/ct_test
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/ct_test OBJECTS="test/ct_test.o test/testutil.o" \
+	LIBDEPS=' '" -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/ct_test test/ct_test.o test/testutil.o -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+gcc  -I. -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/d2i_test.d.tmp -MT test/d2i_test.o -c -o test/d2i_test.o test/d2i_test.c
+rm -f test/d2i_test
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/d2i_test OBJECTS="test/d2i_test.o test/testutil.o" \
+	LIBDEPS=' '" -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/d2i_test test/d2i_test.o test/testutil.o -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+gcc  -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/danetest.d.tmp -MT test/danetest.o -c -o test/danetest.o test/danetest.c
+rm -f test/danetest
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/danetest OBJECTS="test/danetest.o" \
+	LIBDEPS=' '" -L. -lssl -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/danetest test/danetest.o -L. -lssl -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+gcc  -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/destest.d.tmp -MT test/destest.o -c -o test/destest.o test/destest.c
+rm -f test/destest
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/destest OBJECTS="test/destest.o" \
+	LIBDEPS=' '" -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/destest test/destest.o -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+gcc  -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/dhtest.d.tmp -MT test/dhtest.o -c -o test/dhtest.o test/dhtest.c
+rm -f test/dhtest
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/dhtest OBJECTS="test/dhtest.o" \
+	LIBDEPS=' '" -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/dhtest test/dhtest.o -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+gcc  -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/dsatest.d.tmp -MT test/dsatest.o -c -o test/dsatest.o test/dsatest.c
+rm -f test/dsatest
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/dsatest OBJECTS="test/dsatest.o" \
+	LIBDEPS=' '" -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/dsatest test/dsatest.o -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+gcc  -Iinclude -Itest -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/dtlstest.d.tmp -MT test/dtlstest.o -c -o test/dtlstest.o test/dtlstest.c
+rm -f test/dtlstest
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/dtlstest OBJECTS="test/dtlstest.o test/ssltestlib.o test/testutil.o" \
+	LIBDEPS=' '" -L. -lssl -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/dtlstest test/dtlstest.o test/ssltestlib.o test/testutil.o -L. -lssl -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+gcc  -I. -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/dtlsv1listentest.d.tmp -MT test/dtlsv1listentest.o -c -o test/dtlsv1listentest.o test/dtlsv1listentest.c
+rm -f test/dtlsv1listentest
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/dtlsv1listentest OBJECTS="test/dtlsv1listentest.o" \
+	LIBDEPS=' '" -L. -lssl -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/dtlsv1listentest test/dtlsv1listentest.o -L. -lssl -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+gcc  -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/ecdhtest.d.tmp -MT test/ecdhtest.o -c -o test/ecdhtest.o test/ecdhtest.c
+rm -f test/ecdhtest
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/ecdhtest OBJECTS="test/ecdhtest.o" \
+	LIBDEPS=' '" -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/ecdhtest test/ecdhtest.o -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+gcc  -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/ecdsatest.d.tmp -MT test/ecdsatest.o -c -o test/ecdsatest.o test/ecdsatest.c
+rm -f test/ecdsatest
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/ecdsatest OBJECTS="test/ecdsatest.o" \
+	LIBDEPS=' '" -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/ecdsatest test/ecdsatest.o -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+gcc  -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/ectest.d.tmp -MT test/ectest.o -c -o test/ectest.o test/ectest.c
+rm -f test/ectest
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/ectest OBJECTS="test/ectest.o" \
+	LIBDEPS=' '" -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/ectest test/ectest.o -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+gcc  -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/enginetest.d.tmp -MT test/enginetest.o -c -o test/enginetest.o test/enginetest.c
+rm -f test/enginetest
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/enginetest OBJECTS="test/enginetest.o" \
+	LIBDEPS=' '" -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/enginetest test/enginetest.o -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+gcc  -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/evp_extra_test.d.tmp -MT test/evp_extra_test.o -c -o test/evp_extra_test.o test/evp_extra_test.c
+rm -f test/evp_extra_test
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/evp_extra_test OBJECTS="test/evp_extra_test.o" \
+	LIBDEPS=' '" -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/evp_extra_test test/evp_extra_test.o -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+gcc  -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/evp_test.d.tmp -MT test/evp_test.o -c -o test/evp_test.o test/evp_test.c
+rm -f test/evp_test
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/evp_test OBJECTS="test/evp_test.o" \
+	LIBDEPS=' '" -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/evp_test test/evp_test.o -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+gcc  -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/exptest.d.tmp -MT test/exptest.o -c -o test/exptest.o test/exptest.c
+rm -f test/exptest
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/exptest OBJECTS="test/exptest.o" \
+	LIBDEPS=' '" -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/exptest test/exptest.o -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+gcc  -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/gmdifftest.d.tmp -MT test/gmdifftest.o -c -o test/gmdifftest.o test/gmdifftest.c
+rm -f test/gmdifftest
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/gmdifftest OBJECTS="test/gmdifftest.o" \
+	LIBDEPS=' '" -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/gmdifftest test/gmdifftest.o -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+gcc  -I. -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/heartbeat_test.d.tmp -MT test/heartbeat_test.o -c -o test/heartbeat_test.o test/heartbeat_test.c
+rm -f test/heartbeat_test
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/heartbeat_test OBJECTS="test/heartbeat_test.o test/testutil.o" \
+	LIBDEPS=' '" -L. -lssl -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/heartbeat_test test/heartbeat_test.o test/testutil.o -L. -lssl -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+gcc  -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/hmactest.d.tmp -MT test/hmactest.o -c -o test/hmactest.o test/hmactest.c
+rm -f test/hmactest
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/hmactest OBJECTS="test/hmactest.o" \
+	LIBDEPS=' '" -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/hmactest test/hmactest.o -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+gcc  -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/ideatest.d.tmp -MT test/ideatest.o -c -o test/ideatest.o test/ideatest.c
+rm -f test/ideatest
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/ideatest OBJECTS="test/ideatest.o" \
+	LIBDEPS=' '" -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/ideatest test/ideatest.o -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+gcc  -I. -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/igetest.d.tmp -MT test/igetest.o -c -o test/igetest.o test/igetest.c
+rm -f test/igetest
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/igetest OBJECTS="test/igetest.o" \
+	LIBDEPS=' '" -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/igetest test/igetest.o -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+gcc  -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/md2test.d.tmp -MT test/md2test.o -c -o test/md2test.o test/md2test.c
+rm -f test/md2test
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/md2test OBJECTS="test/md2test.o" \
+	LIBDEPS=' '" -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/md2test test/md2test.o -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+gcc  -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/md4test.d.tmp -MT test/md4test.o -c -o test/md4test.o test/md4test.c
+rm -f test/md4test
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/md4test OBJECTS="test/md4test.o" \
+	LIBDEPS=' '" -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/md4test test/md4test.o -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+gcc  -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/md5test.d.tmp -MT test/md5test.o -c -o test/md5test.o test/md5test.c
+rm -f test/md5test
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/md5test OBJECTS="test/md5test.o" \
+	LIBDEPS=' '" -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/md5test test/md5test.o -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+gcc  -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/mdc2test.d.tmp -MT test/mdc2test.o -c -o test/mdc2test.o test/mdc2test.c
+rm -f test/mdc2test
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/mdc2test OBJECTS="test/mdc2test.o" \
+	LIBDEPS=' '" -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/mdc2test test/mdc2test.o -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+gcc  -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/memleaktest.d.tmp -MT test/memleaktest.o -c -o test/memleaktest.o test/memleaktest.c
+rm -f test/memleaktest
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/memleaktest OBJECTS="test/memleaktest.o" \
+	LIBDEPS=' '" -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/memleaktest test/memleaktest.o -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+gcc  -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/p5_crpt2_test.d.tmp -MT test/p5_crpt2_test.o -c -o test/p5_crpt2_test.o test/p5_crpt2_test.c
+rm -f test/p5_crpt2_test
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/p5_crpt2_test OBJECTS="test/p5_crpt2_test.o" \
+	LIBDEPS=' '" -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/p5_crpt2_test test/p5_crpt2_test.o -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+gcc  -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/packettest.d.tmp -MT test/packettest.o -c -o test/packettest.o test/packettest.c
+rm -f test/packettest
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/packettest OBJECTS="test/packettest.o" \
+	LIBDEPS=' '" -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/packettest test/packettest.o -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+gcc  -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/pbelutest.d.tmp -MT test/pbelutest.o -c -o test/pbelutest.o test/pbelutest.c
+rm -f test/pbelutest
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/pbelutest OBJECTS="test/pbelutest.o" \
+	LIBDEPS=' '" -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/pbelutest test/pbelutest.o -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+gcc  -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/randtest.d.tmp -MT test/randtest.o -c -o test/randtest.o test/randtest.c
+rm -f test/randtest
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/randtest OBJECTS="test/randtest.o" \
+	LIBDEPS=' '" -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/randtest test/randtest.o -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+gcc  -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/rc2test.d.tmp -MT test/rc2test.o -c -o test/rc2test.o test/rc2test.c
+rm -f test/rc2test
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/rc2test OBJECTS="test/rc2test.o" \
+	LIBDEPS=' '" -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/rc2test test/rc2test.o -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+gcc  -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/rc4test.d.tmp -MT test/rc4test.o -c -o test/rc4test.o test/rc4test.c
+rm -f test/rc4test
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/rc4test OBJECTS="test/rc4test.o" \
+	LIBDEPS=' '" -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/rc4test test/rc4test.o -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+gcc  -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/rc5test.d.tmp -MT test/rc5test.o -c -o test/rc5test.o test/rc5test.c
+rm -f test/rc5test
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/rc5test OBJECTS="test/rc5test.o" \
+	LIBDEPS=' '" -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/rc5test test/rc5test.o -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+gcc  -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/rmdtest.d.tmp -MT test/rmdtest.o -c -o test/rmdtest.o test/rmdtest.c
+rm -f test/rmdtest
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/rmdtest OBJECTS="test/rmdtest.o" \
+	LIBDEPS=' '" -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/rmdtest test/rmdtest.o -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+gcc  -I. -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/rsa_test.d.tmp -MT test/rsa_test.o -c -o test/rsa_test.o test/rsa_test.c
+rm -f test/rsa_test
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/rsa_test OBJECTS="test/rsa_test.o" \
+	LIBDEPS=' '" -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/rsa_test test/rsa_test.o -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+gcc  -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/sanitytest.d.tmp -MT test/sanitytest.o -c -o test/sanitytest.o test/sanitytest.c
+rm -f test/sanitytest
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/sanitytest OBJECTS="test/sanitytest.o" \
+	LIBDEPS=' '" -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/sanitytest test/sanitytest.o -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+gcc  -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/secmemtest.d.tmp -MT test/secmemtest.o -c -o test/secmemtest.o test/secmemtest.c
+rm -f test/secmemtest
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/secmemtest OBJECTS="test/secmemtest.o" \
+	LIBDEPS=' '" -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/secmemtest test/secmemtest.o -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+gcc  -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/sha1test.d.tmp -MT test/sha1test.o -c -o test/sha1test.o test/sha1test.c
+rm -f test/sha1test
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/sha1test OBJECTS="test/sha1test.o" \
+	LIBDEPS=' '" -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/sha1test test/sha1test.o -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+gcc  -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/sha256t.d.tmp -MT test/sha256t.o -c -o test/sha256t.o test/sha256t.c
+rm -f test/sha256t
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/sha256t OBJECTS="test/sha256t.o" \
+	LIBDEPS=' '" -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/sha256t test/sha256t.o -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+gcc  -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/sha512t.d.tmp -MT test/sha512t.o -c -o test/sha512t.o test/sha512t.c
+rm -f test/sha512t
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/sha512t OBJECTS="test/sha512t.o" \
+	LIBDEPS=' '" -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/sha512t test/sha512t.o -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+gcc  -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/srptest.d.tmp -MT test/srptest.o -c -o test/srptest.o test/srptest.c
+rm -f test/srptest
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/srptest OBJECTS="test/srptest.o" \
+	LIBDEPS=' '" -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/srptest test/srptest.o -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+gcc  -I. -Iinclude -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/handshake_helper.d.tmp -MT test/handshake_helper.o -c -o test/handshake_helper.o test/handshake_helper.c
+gcc  -I. -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/ssl_test.d.tmp -MT test/ssl_test.o -c -o test/ssl_test.o test/ssl_test.c
+gcc  -I. -Iinclude -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/ssl_test_ctx.d.tmp -MT test/ssl_test_ctx.o -c -o test/ssl_test_ctx.o test/ssl_test_ctx.c
+rm -f test/ssl_test
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/ssl_test OBJECTS="test/handshake_helper.o test/ssl_test.o test/ssl_test_ctx.o test/testutil.o" \
+	LIBDEPS=' '" -L. -lssl -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/ssl_test test/handshake_helper.o test/ssl_test.o test/ssl_test_ctx.o test/testutil.o -L. -lssl -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+gcc  -I. -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/ssl_test_ctx_test.d.tmp -MT test/ssl_test_ctx_test.o -c -o test/ssl_test_ctx_test.o test/ssl_test_ctx_test.c
+rm -f test/ssl_test_ctx_test
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/ssl_test_ctx_test OBJECTS="test/ssl_test_ctx.o test/ssl_test_ctx_test.o test/testutil.o" \
+	LIBDEPS=' '" -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/ssl_test_ctx_test test/ssl_test_ctx.o test/ssl_test_ctx_test.o test/testutil.o -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+gcc  -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/sslapitest.d.tmp -MT test/sslapitest.o -c -o test/sslapitest.o test/sslapitest.c
+rm -f test/sslapitest
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/sslapitest OBJECTS="test/sslapitest.o test/ssltestlib.o test/testutil.o" \
+	LIBDEPS=' '" -L. -lssl -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/sslapitest test/sslapitest.o test/ssltestlib.o test/testutil.o -L. -lssl -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+gcc  -I. -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/ssltest_old.d.tmp -MT test/ssltest_old.o -c -o test/ssltest_old.o test/ssltest_old.c
+rm -f test/ssltest_old
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/ssltest_old OBJECTS="test/ssltest_old.o" \
+	LIBDEPS=' '" -L. -lssl -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/ssltest_old test/ssltest_old.o -L. -lssl -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+gcc  -I. -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/threadstest.d.tmp -MT test/threadstest.o -c -o test/threadstest.o test/threadstest.c
+rm -f test/threadstest
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/threadstest OBJECTS="test/threadstest.o" \
+	LIBDEPS=' '" -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/threadstest test/threadstest.o -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+gcc  -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/v3ext.d.tmp -MT test/v3ext.o -c -o test/v3ext.o test/v3ext.c
+rm -f test/v3ext
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/v3ext OBJECTS="test/v3ext.o" \
+	LIBDEPS=' '" -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/v3ext test/v3ext.o -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+gcc  -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack  -MMD -MF test/v3nametest.d.tmp -MT test/v3nametest.o -c -o test/v3nametest.o test/v3nametest.c
+rm -f test/v3nametest
+make -f ./Makefile.shared -e \
+	PERL="/usr/bin/perl" SRCDIR=. \
+	APPNAME=test/v3nametest OBJECTS="test/v3nametest.o" \
+	LIBDEPS=' '" -L. -lcrypto"' -ldl ' \
+	CC='gcc' CFLAGS='-DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/bin/lib/engines-1.1\"" -Wall -O3 -pthread -m64 -DL_ENDIAN  -Wa,--noexecstack ' \
+	LDFLAGS='' \
+	link_app.linux-shared
+make[2]: Entering directory `/home/vdp5/source_code/openssl-master'
+LD_LIBRARY_PATH=.:/home/vdp5/bin/lib:/home/vdp5/bin gcc -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="/home/vdp5/bin/ssl" -DENGINESDIR="/home/vdp5/bin/lib/engines-1.1" -Wall -O3 -pthread -m64 -DL_ENDIAN -Wa,--noexecstack -o test/v3nametest test/v3nametest.o -L. -lcrypto -ldl
+make[2]: Leaving directory `/home/vdp5/source_code/openssl-master'
+gcc  -Iinclude -DDSO_DLFCN -DHAVE_DLFCN_H -DNDEBUG -DOPENSSL_THREADS -DOPENSSL_NO_STATIC_ENGINE -DOPENSSL_PIC -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DRC4_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DPOLY1305_ASM -DOPENSSLDIR="\"/home/vdp5/bin/ssl\"" -DENGINESDIR="\"/home/vdp5/
