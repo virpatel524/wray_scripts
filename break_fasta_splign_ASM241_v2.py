@@ -21,7 +21,7 @@ for index, line in enumerate(data):
 print chrom_dict
 
 
-# baes_new = ''
+baes_new = '/home/vdp5/data/cdna_analysis_ASM241_v2/fasta_ASM241_v2'
 
 # for alpha in chrom_dict:
 # 	zeta = alpha.split(':')[1].split('.')[0]
