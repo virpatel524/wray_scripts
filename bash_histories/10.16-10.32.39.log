@@ -432,4 +432,34 @@ ccctgaaccctaaaccctgaaccctaaacctaaaccctaaaccctgaaccctaaacctgaaccctaaacccctaaaccta
 aaccctgaaacctaaaccctaaaccctgaaccctaaaccctaaaccctgaaccctgaaaccctgaaccctaaaccatgaa
 ccctgaaccctaaaccctaaaccctaaaccctgaaccctgaaccctaaacctaaaccctgaaccctgaaccctaaaccct
 gaaccctaaaccctaaaccctgaaccctaaaccctgaaccctaaaccctgaaccctgaaccctaaaccctgaaccctaaa
-]0;vdp5@wraylab01:~/data/vivax_2009[vdp5@wraylab01 vivax_2009]$ 
+]0;vdp5@wraylab01:~/data/vivax_2009[vdp5@wraylab01 vivax_2009]$ cd
+]0;vdp5@wraylab01:~[vdp5@wraylab01 ~]$ ls
+[0m[38;5;27mbin[0m  [38;5;27mdata[0m  [38;5;51mdiana_hmm[0m  [38;5;27mexecutables[0m  [38;5;27mfigures[0m  [38;5;27mother[0m  [38;5;27mscripts[0m  [38;5;27msource_code[0m  [38;5;27mtmp[0m
+]0;vdp5@wraylab01:~[vdp5@wraylab01 ~]$ cd data/
+]0;vdp5@wraylab01:~/data[vdp5@wraylab01 data]$ ls
+[0m[38;5;27mblast_results[0m     [38;5;27mcdna_analysis_ASM241_v2[0m     [38;5;27mgene_finder[0m  [38;5;27mhmm_meme[0m  [38;5;27mother_data[0m                [38;5;27mtmp[0m
+[38;5;27mcambodia_samples[0m  [38;5;27mcdna_analysis_SAMEA2376790[0m  [38;5;27mgff_data[0m     [38;5;27mlog[0m       [38;5;27msalvador_vivax_asia_2016[0m  [38;5;27mvivax_2009[0m
+]0;vdp5@wraylab01:~/data[vdp5@wraylab01 data]$ cd cdna_analysis_ASM241_v2/
+]0;vdp5@wraylab01:~/data/cdna_analysis_ASM241_v2[vdp5@wraylab01 cdna_analysis_ASM241_v2]$ ls
+]0;vdp5@wraylab01:~/data/cdna_analysis_ASM241_v2[vdp5@wraylab01 cdna_analysis_ASM241_v2]$ cd [K[K[Kmdir [K[K[K[K[Kcd ..
+]0;vdp5@wraylab01:~/data[vdp5@wraylab01 data]$ s[Kls
+[0m[38;5;27mblast_results[0m     [38;5;27mcdna_analysis_ASM241_v2[0m     [38;5;27mgene_finder[0m  [38;5;27mhmm_meme[0m  [38;5;27mother_data[0m                [38;5;27mtmp[0m
+[38;5;27mcambodia_samples[0m  [38;5;27mcdna_analysis_SAMEA2376790[0m  [38;5;27mgff_data[0m     [38;5;27mlog[0m       [38;5;27msalvador_vivax_asia_2016[0m  [38;5;27mvivax_2009[0m
+]0;vdp5@wraylab01:~/data[vdp5@wraylab01 data]$ cd cdna_analysis_SAMEA2376790/
+]0;vdp5@wraylab01:~/data/cdna_analysis_SAMEA2376790[vdp5@wraylab01 cdna_analysis_SAMEA2376790]$ ls
+[0m[38;5;27mfasta_PV01[0m  flagged_genes.txt  gene2exon_PV01.txt  [38;5;27mvir_genes[0m
+]0;vdp5@wraylab01:~/data/cdna_analysis_SAMEA2376790[vdp5@wraylab01 cdna_analysis_SAMEA2376790]$ cd ..
+]0;vdp5@wraylab01:~/data[vdp5@wraylab01 data]$ ls
+[0m[38;5;27mblast_results[0m     [38;5;27mcdna_analysis_ASM241_v2[0m     [38;5;27mgene_finder[0m  [38;5;27mhmm_meme[0m  [38;5;27mother_data[0m                [38;5;27mtmp[0m
+[38;5;27mcambodia_samples[0m  [38;5;27mcdna_analysis_SAMEA2376790[0m  [38;5;27mgff_data[0m     [38;5;27mlog[0m       [38;5;27msalvador_vivax_asia_2016[0m  [38;5;27mvivax_2009[0m
+]0;vdp5@wraylab01:~/data[vdp5@wraylab01 data]$ cd cdna_analysis_
+bash: cd: cdna_analysis_: No such file or directory
+]0;vdp5@wraylab01:~/data[vdp5@wraylab01 data]$ ls
+[0m[38;5;27mblast_results[0m     [38;5;27mcdna_analysis_ASM241_v2[0m     [38;5;27mgene_finder[0m  [38;5;27mhmm_meme[0m  [38;5;27mother_data[0m                [38;5;27mtmp[0m
+[38;5;27mcambodia_samples[0m  [38;5;27mcdna_analysis_SAMEA2376790[0m  [38;5;27mgff_data[0m     [38;5;27mlog[0m       [38;5;27msalvador_vivax_asia_2016[0m  [38;5;27mvivax_2009[0m
+]0;vdp5@wraylab01:~/data[vdp5@wraylab01 data]$ lsA[Kcd cdna_analysis_ASM241_v2/
+]0;vdp5@wraylab01:~/data/cdna_analysis_ASM241_v2[vdp5@wraylab01 cdna_analysis_ASM241_v2]$ ls
+]0;vdp5@wraylab01:~/data/cdna_analysis_ASM241_v2[vdp5@wraylab01 cdna_analysis_ASM241_v2]$ re[K[Kmkdir fasta_ASS[KM241_v2
+]0;vdp5@wraylab01:~/data/cdna_analysis_ASM241_v2[vdp5@wraylab01 cdna_analysis_ASM241_v2]$ readlink -f fasta_ASM241_v2/
+/home/vdp5/data/cdna_analysis_ASM241_v2/fasta_ASM241_v2
+]0;vdp5@wraylab01:~/data/cdna_analysis_ASM241_v2[vdp5@wraylab01 cdna_analysis_ASM241_v2]$ 
