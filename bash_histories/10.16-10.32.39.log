@@ -853,4 +853,76 @@ bash: cd: cdna_analysis_: No such file or directory
 ]0;vdp5@wraylab01:~/data[vdp5@wraylab01 data]$ cd cdna_analysis_As[KSM241_v2/
 ]0;vdp5@wraylab01:~/data/cdna_analysis_ASM241_v2[vdp5@wraylab01 cdna_analysis_ASM241_v2]$ ls
 [0m[38;5;27mfasta_ASM241_v2[0m
-]0;vdp5@wraylab01:~/data/cdna_analysis_ASM241_v2[vdp5@wraylab01 cdna_analysis_ASM241_v2]$ cd 
+]0;vdp5@wraylab01:~/data/cdna_analysis_ASM241_v2[vdp5@wraylab01 cdna_analysis_ASM241_v2]$ cd ..
+]0;vdp5@wraylab01:~/data[vdp5@wraylab01 data]$ ls
+[0m[38;5;27mblast_results[0m     [38;5;27mcdna_analysis_ASM241_v2[0m     [38;5;27mgene_finder[0m  [38;5;27mhmm_meme[0m  [38;5;27mother_data[0m                [38;5;27mtmp[0m
+[38;5;27mcambodia_samples[0m  [38;5;27mcdna_analysis_SAMEA2376790[0m  [38;5;27mgff_data[0m     [38;5;27mlog[0m       [38;5;27msalvador_vivax_asia_2016[0m  [38;5;27mvivax_2009[0m
+]0;vdp5@wraylab01:~/data[vdp5@wraylab01 data]$ cd cdna_analysis_
+bash: cd: cdna_analysis_: No such file or directory
+]0;vdp5@wraylab01:~/data[vdp5@wraylab01 data]$ ls
+[0m[38;5;27mblast_results[0m     [38;5;27mcdna_analysis_ASM241_v2[0m     [38;5;27mgene_finder[0m  [38;5;27mhmm_meme[0m  [38;5;27mother_data[0m                [38;5;27mtmp[0m
+[38;5;27mcambodia_samples[0m  [38;5;27mcdna_analysis_SAMEA2376790[0m  [38;5;27mgff_data[0m     [38;5;27mlog[0m       [38;5;27msalvador_vivax_asia_2016[0m  [38;5;27mvivax_2009[0m
+]0;vdp5@wraylab01:~/data[vdp5@wraylab01 data]$ lsAcd cdna_analysis_ASM241_v2/
+]0;vdp5@wraylab01:~/data/cdna_analysis_ASM241_v2[vdp5@wraylab01 cdna_analysis_ASM241_v2]$ ls
+[0m[38;5;27mfasta_ASM241_v2[0m
+]0;vdp5@wraylab01:~/data/cdna_analysis_ASM241_v2[vdp5@wraylab01 cdna_analysis_ASM241_v2]$ cd ..
+]0;vdp5@wraylab01:~/data[vdp5@wraylab01 data]$ l[Kcd [K[K[Kcd gene_finder/
+]0;vdp5@wraylab01:~/data/gene_finder[vdp5@wraylab01 gene_finder]$ ls
+[0m[38;5;27mASM241v2_exongrab[0m  [38;5;27mASM241v2_genes_exons[0m  [38;5;27mSAMEA2376790_genbank[0m      [38;5;27mvir_bychrom_ASM241v2[0m
+[38;5;27mASM241v2_genbank[0m   [38;5;27morigin_sequences[0m      table_gff2nuc_plusID.txt  [38;5;27mvir_bychrom_SAMEA2376790[0m
+]0;vdp5@wraylab01:~/data/gene_finder[vdp5@wraylab01 gene_finder]$ cd vir_bychrom_ASM241v2/
+]0;vdp5@wraylab01:~/data/gene_finder/vir_bychrom_ASM241v2[vdp5@wraylab01 vir_bychrom_ASM241v2]$ ls
+allgenes_prot.txt  [0m[38;5;27mchrom02[0m  [38;5;27mchrom07[0m  [38;5;27mchrom11[0m  [38;5;27mNC_009906.1[0m  [38;5;27mNC_009909.1[0m  [38;5;27mNC_009912.1[0m  [38;5;27mNC_009915.1[0m  [38;5;27mNC_009918.1[0m
+allgenes.txt       [38;5;27mchrom05[0m  [38;5;27mchrom08[0m  [38;5;27mchrom13[0m  [38;5;27mNC_009907.1[0m  [38;5;27mNC_009910.1[0m  [38;5;27mNC_009913.1[0m  [38;5;27mNC_009916.1[0m  [38;5;27mNC_009919.1[0m
+[38;5;27mchrom01[0m            [38;5;27mchrom06[0m  [38;5;27mchrom09[0m  [38;5;27mchrom14[0m  [38;5;27mNC_009908.2[0m  [38;5;27mNC_009911.1[0m  [38;5;27mNC_009914.1[0m  [38;5;27mNC_009917.1[0m
+]0;vdp5@wraylab01:~/data/gene_finder/vir_bychrom_ASM241v2[vdp5@wraylab01 vir_bychrom_ASM241v2]$ rm -rf c[K[K[K[K[K[K[K[Krm -rf chrom*
+]0;vdp5@wraylab01:~/data/gene_finder/vir_bychrom_ASM241v2[vdp5@wraylab01 vir_bychrom_ASM241v2]$ cd NC_00990
+NC_009906.1/ NC_009907.1/ NC_009908.2/ NC_009909.1/ 
+[vdp5@wraylab01 vir_bychrom_ASM241v2]$ cd NC_00990
+NC_009906.1/ NC_009907.1/ NC_009908.2/ NC_009909.1/ 
+[vdp5@wraylab01 vir_bychrom_ASM241v2]$ cd NC_00990
+NC_009906.1/ NC_009907.1/ NC_009908.2/ NC_009909.1/ 
+[vdp5@wraylab01 vir_bychrom_ASM241v2]$ cd NC_009906.1/
+]0;vdp5@wraylab01:~/data/gene_finder/vir_bychrom_ASM241v2/NC_009906.1[vdp5@wraylab01 NC_009906.1]$ ls
+PVX_093705_NC_009906.1.fasta       PVX_093715_NC_009906.1.fasta       PVX_093725_NC_009906.1.fasta
+PVX_093705_NC_009906.1_prot.fasta  PVX_093715_NC_009906.1_prot.fasta  PVX_093725_NC_009906.1_prot.fasta
+PVX_093710_NC_009906.1.fasta       PVX_093720_NC_009906.1.fasta
+PVX_093710_NC_009906.1_prot.fasta  PVX_093720_NC_009906.1_prot.fasta
+]0;vdp5@wraylab01:~/data/gene_finder/vir_bychrom_ASM241v2/NC_009906.1[vdp5@wraylab01 NC_009906.1]$ head PVX_093705_NC_009906.1.fasta 
+>PVX_093705 | NC_009906.1
+ATGGGGAGAATACAAATTCAAAATTATGATCGGAAGCAAATTTTAAATGAACAGGAATGTCTAAATAGATATGATGAATTGGTAAAAGAAATTGAACCTATAATTGCCGAAGTTAATATAAATGATCCTGACGGTTTCGACAAATGGGAAGAAGTAAATAAACAAATACAGGAGAAAGAAAAGGAATTAAATCCATGCCGTGAAAAAGGATTCTTATCAATTTATTTATATGGTGATGAAGACATACAGGTTTTTAATAAAAAATGTACTGAAAATCCGGAATGTCCTAGTAGTCCATTAAATCCCAAAAATATACCTGCTCCATTAAAAAGCAAAAGTGTAGGTCCTTGTGAAGAAGGTGATCGGTGTAATGAAGGAGAACTAAAAACAACTGCACATGAAGTTAAAGCTGAATCAAGAGATGGTGCACTTACCTCTAACGCTGTAAAATTGGAAGGGCAAGACTCTGGGAAGAATCAAAACAAGAACAAGTACTTACACAGACCCAAGTGGGGTCAAATACTCACGGGAGCGATGCTGGACCTGATAATAAAGCATCTGATGCAATGGTTGGTCAACCTTCTGATAAACCTGGAGAGAGAGAGGATCAACCACAAGTTCAATCCGCCGCAGCTCCTCCCGAAAATGATCGTGGTGATGCTGATGAGCAACATAATTCCGACACAGTTGGTGTTAAAGCAGCAGATCATGGTGAAAGAAATAGCCGTTGTCCTACTCGTAGTGAAAATGTTGGTTATGAAGCACCTGCTGGTGAAACTTCTTGTAGTGAAGAGCAATCAAACACCACAGAGAGAATACATCATGATGGGGTTAGCCCCCGTGGCACTCATCCTCCTATTGACGTTTCTCTTTAAATACACCCCCATGAAGATGCTTTTTAGACAGAAAAAGAGCAAGAACAAAAAAATAGGGCAGAAAAAATGCAAAGGGTATTAA
+]0;vdp5@wraylab01:~/data/gene_finder/vir_bychrom_ASM241v2/NC_009906.1[vdp5@wraylab01 NC_009906.1]$ cd
+]0;vdp5@wraylab01:~[vdp5@wraylab01 ~]$ ls
+[0m[38;5;27mbin[0m  [38;5;27mdata[0m  [38;5;51mdiana_hmm[0m  [38;5;27mexecutables[0m  [38;5;27mfigures[0m  [38;5;27mother[0m  [38;5;27mscripts[0m  [38;5;27msource_code[0m  [38;5;27mtmp[0m
+]0;vdp5@wraylab01:~[vdp5@wraylab01 ~]$ cd scripts/
+]0;vdp5@wraylab01:~/scripts[vdp5@wraylab01 scripts]$ ls
+align_cambodia_samples.sh        gff_parse_ASM241v2.sh
+ASM241v2_gff_transfer.sh         [0m[38;5;27mgit_data[0m
+[38;5;27mbash_histories[0m                   improve_bwa_mapping_testprepare.py
+break_fasta_splign_ASM241_v2.py  india1_cat.sh
+break_fasta_splign_PV01.py       india2_cat.sh
+break_gff.py                     india_korea_align.sh
+[38;5;27mcambodia_align_scripts[0m           make_sam_cambodia.sh
+[38;5;27mcambodia_PV01_improve_align[0m      meme_testing.sh
+cat_india_korea.sh               open_gz_cambodia.sh
+characerize_bam.sh               parse_ASM241v2_gb.py
+characterize_portillioG.py       parse_gfffasta_ASM241v2_exons.py
+createblastdb_forvir.sh          parse_origin_created_ASM241v2.py
+create_exonic_directory.py       parse_origin_created_SAMEA2376790.py
+create_origin_ASM241v2.py        parse_SAMEA2376790_gb.py
+create_origin_SAMEA2376790.py    play_chromosome_splign.py
+determine_coverage.sh            prepare_for_alignment.py
+edit_chrom_ASM241v2fasta.py      prepare_for_alignment_salvador_compare.py
+edit_original_ASM241v2_data.sh   runallvir_bychrom.sh
+GCF_gff2bed.py                   run_cambodia_alignments.sh
+get_annotated_vir.py             run_salvador_comparisons.sh
+gff2fasta.pl                     salvador_align_compare.sh
+gff3_to_bed_converter.py         [38;5;27msalvador_align_scripts[0m
+gff_break_mummer_india.py        tblastn_vir_from_SAMEA2376790_using_ASM241v2_genes.sh
+gff_create_mummer_to_india.sh
+]0;vdp5@wraylab01:~/scripts[vdp5@wraylab01 scripts]$ cp [K[K[Kfind . na[K[K-name "splign" *
+find: paths must precede expression: align_cambodia_samples.sh
+Usage: find [-H] [-L] [-P] [-Olevel] [-D help|tree|search|stat|rates|opt|exec] [path...] [expression]
+]0;vdp5@wraylab01:~/scripts[vdp5@wraylab01 scripts]$ find . -name "splign" *[K
+^C
+]0;vdp5@wraylab01:~/scripts[vdp5@wraylab01 scripts]$ find . -name "splign" [K[K*
