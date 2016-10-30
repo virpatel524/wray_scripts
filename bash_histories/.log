@@ -1,0 +1,84 @@
+Script started on Sun 30 Oct 2016 01:03:52 AM EDT
+]0;vdp5@wraylab01:~[?1034h[vdp5@wraylab01 ~]$ cd Dow
+bash: cd: Dow: No such file or directory
+]0;vdp5@wraylab01:~[vdp5@wraylab01 ~]$ ls
+[0m[38;5;27mbin[0m  [38;5;27mdata[0m  [38;5;51mdiana_hmm[0m  [38;5;27mexecutables[0m  [38;5;27mfigures[0m  [38;5;27mother[0m  [38;5;27mscripts[0m  [38;5;27msource_code[0m  [38;5;27mtmp[0m
+]0;vdp5@wraylab01:~[vdp5@wraylab01 ~]$ cd source_code/
+]0;vdp5@wraylab01:~/source_code[vdp5@wraylab01 source_code]$ ls
+[0m[38;5;27mapache-maven-3.3.9[0m             [38;5;27mexonerate-2.2.0[0m             [38;5;27mncbi_cxx--12_0_0[0m  [38;5;27mresources[0m
+[38;5;27margtable2-13[0m                   [38;5;27mexonerate-2.2.0-i386[0m        [38;5;27mopenssl-master[0m    [38;5;27mruby-2.3.1[0m
+[38;5;27masciinema[0m                      [38;5;9mGenomeAnalysisTK.jar[0m        [38;5;27mpcre-8.39[0m         [38;5;27mSC-sample_20140228[0m
+[38;5;27mboost_1_62_0[0m                   [38;5;27mgnuplot-5.0.4[0m               [38;5;27mphyml-master[0m      [38;5;27msratoolkit.2.8.0-centos_linux64[0m
+[38;5;27mbroadinstitute-picard-915ffa7[0m  [38;5;9mmaster.zip[0m                  [38;5;9mpicard.jar[0m        [38;5;27msra-tools-master[0m
+[38;5;27mbwa-0.7.15[0m                     [38;5;27mmdrasmus-argweaver-fee3d32[0m  [38;5;34mprocompart[0m        [38;5;27mstampy-1.0.29[0m
+[38;5;27mclustal-omega-1.2.3[0m            [38;5;27mmeme_4.11.2[0m                 [38;5;34mprosplign[0m         [38;5;27mThe Unarchiver[0m
+[38;5;27mcufflinks-2.2.1.Linux_x86_64[0m   [38;5;9mmeme_4.11.2_2.tar.gz[0m        [38;5;27mPython-3.4.5[0m      [38;5;27mverticalize-master[0m
+[38;5;27mdiCal2_2_0_0[0m                   [38;5;27mmugsy_x86-64-v1r2.3[0m         [38;5;9mPython-3.4.5.tgz[0m
+[38;5;27memacs-25.1[0m                     [38;5;27mMUMmer3.23[0m                  [38;5;27mqualimap_v2.2.1[0m
+]0;vdp5@wraylab01:~/source_code[vdp5@wraylab01 source_code]$ wget 
+wget: missing URL
+Usage: wget [OPTION]... [URL]...
+
+Try `wget --help' for more options.
+]0;vdp5@wraylab01:~/source_code[vdp5@wraylab01 source_code]$ wget https://www.python.org/ftp/python/3.1/Python-3.1.tgz
+--2016-10-30 01:03:58--  https://www.python.org/ftp/python/3.1/Python-3.1.tgz
+Resolving www.python.org (www.python.org)... 151.101.56.223, 2a04:4e42:e::223
+Connecting to www.python.org (www.python.org)|151.101.56.223|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 11359455 (11M) [application/octet-stream]
+Saving to: ‘Python-3.1.tgz’
+
+ 0% [                                                                               ] 0           --.-K/s               3% [=>                                                                             ] 417,792     1.99MB/s             10% [=======>                                                                       ] 1,171,456   2.76MB/s             19% [==============>                                                                ] 2,170,880   3.42MB/s             30% [=======================>                                                       ] 3,514,368   4.16MB/s             46% [===================================>                                           ] 5,300,224   5.02MB/s             66% [===================================================>                           ] 7,577,600   5.99MB/s             94% [=========================================================================>     ] 10,723,328  7.27MB/s             100%[==============================================================================>] 11,359,455  7.52MB/s   in 1.4s   
+
+2016-10-30 01:04:02 (7.52 MB/s) - ‘Python-3.1.tgz’ saved [11359455/11359455]
+
+]0;vdp5@wraylab01:~/source_code[vdp5@wraylab01 source_code]$ unzip Python-3.1.tgz 
+Archive:  Python-3.1.tgz
+  End-of-central-directory signature not found.  Either this file is not
+  a zipfile, or it constitutes one disk of a multi-part archive.  In the
+  latter case the central directory and zipfile comment will be found on
+  the last disk(s) of this archive.
+unzip:  cannot find zipfile directory in one of Python-3.1.tgz or
+        Python-3.1.tgz.zip, and cannot find Python-3.1.tgz.ZIP, period.
+]0;vdp5@wraylab01:~/source_code[vdp5@wraylab01 source_code]$ targzopen Python-3.
+bash: targzopen: command not found
+]0;vdp5@wraylab01:~/source_code[vdp5@wraylab01 source_code]$ targzopen Python-3.^C
+]0;vdp5@wraylab01:~/source_code[vdp5@wraylab01 source_code]$ tar 
+apache-maven-3.3.9/              gnuplot-5.0.4/                   Python-3.1.tgz
+argtable2-13/                    master.zip                       Python-3.4.5/
+asciinema/                       mdrasmus-argweaver-fee3d32/      Python-3.4.5.tgz
+boost_1_62_0/                    meme_4.11.2/                     qualimap_v2.2.1/
+broadinstitute-picard-915ffa7/   meme_4.11.2_2.tar.gz             resources/
+bwa-0.7.15/                      mugsy_x86-64-v1r2.3/             ruby-2.3.1/
+clustal-omega-1.2.3/             MUMmer3.23/                      SC-sample_20140228/
+cufflinks-2.2.1.Linux_x86_64/    ncbi_cxx--12_0_0/                sratoolkit.2.8.0-centos_linux64/
+._diCal2_2_0_0                   openssl-master/                  sra-tools-master/
+diCal2_2_0_0/                    pcre-8.39/                       stampy-1.0.29/
+emacs-25.1/                      phyml-master/                    The Unarchiver/
+exonerate-2.2.0/                 picard.jar                       verticalize-master/
+exonerate-2.2.0-i386/            procompart                       
+GenomeAnalysisTK.jar             prosplign                        
+[vdp5@wraylab01 source_code]$ tar 
+apache-maven-3.3.9/              gnuplot-5.0.4/                   Python-3.1.tgz
+argtable2-13/                    master.zip                       Python-3.4.5/
+asciinema/                       mdrasmus-argweaver-fee3d32/      Python-3.4.5.tgz
+boost_1_62_0/                    meme_4.11.2/                     qualimap_v2.2.1/
+broadinstitute-picard-915ffa7/   meme_4.11.2_2.tar.gz             resources/
+bwa-0.7.15/                      mugsy_x86-64-v1r2.3/             ruby-2.3.1/
+clustal-omega-1.2.3/             MUMmer3.23/                      SC-sample_20140228/
+cufflinks-2.2.1.Linux_x86_64/    ncbi_cxx--12_0_0/                sratoolkit.2.8.0-centos_linux64/
+._diCal2_2_0_0                   openssl-master/                  sra-tools-master/
+diCal2_2_0_0/                    pcre-8.39/                       stampy-1.0.29/
+emacs-25.1/                      phyml-master/                    The Unarchiver/
+exonerate-2.2.0/                 picard.jar                       verticalize-master/
+exonerate-2.2.0-i386/            procompart                       
+GenomeAnalysisTK.jar             prosplign                        
+[vdp5@wraylab01 source_code]$ tar [K[K[K[Kopen[K[K[K[Kupdate
+update-alternatives      update-ca-trust          update-gtk-immodules     update-mime-database
+update_blastdb.pl        update-desktop-database  update_java_home.sh      
+[vdp5@wraylab01 source_code]$ updatebacd^C
+]0;vdp5@wraylab01:~/source_code[vdp5@wraylab01 source_code]$ ^C
+]0;vdp5@wraylab01:~/source_code[vdp5@wraylab01 source_code]$ exit
+exit
+
+Script done on Sun 30 Oct 2016 01:04:28 AM EDT
