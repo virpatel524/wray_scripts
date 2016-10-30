@@ -14,6 +14,8 @@ for subdir, dirs, files in os.walk(rootdir):
 	tmp = list(csv.reader(open(os.path.join(subdir, sortedfles[0])),delimiter='\t'))
 	holder = sortedfles[0][:-7].split('_')[-2:]
 	chrom_file_search = '_'.join(holder)
+	fastaname = sortedfles[0][:-7] + '.fasta'
+	print fastaname
 	gene='_'.join(sortedfles[0].split('_')[:2])
 	exonnums = []
 	tmplst = []
