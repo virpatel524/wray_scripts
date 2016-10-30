@@ -5,7 +5,8 @@ for alpha in ${iterarray[@]}; do
 			cd /home/vdp5/data/cdna_analysis_SAMEA2376790/vir_genes
 			IFS=/ read -ra newarray <<< $delta
 			IFS=fasta read -ra newerarray <<< ${newarray[-1]}
-			echo ${newerarray[0]}
+			fullname=${newerarray[0]}
+			echo $fullname
 			IFS=_ read -ra chromarray <<< ${newerarray[0]}
 			chrom=${chromarray[-1]}
 			# mkdir ${newerarray[0]}
