@@ -3,7 +3,7 @@ for alpha in ${iterarray[@]}; do
 	for beta in /home/vdp5/data/gene_finder/vir_bychrom_ASM241v2/*/; do
 		for delta in $beta*; do
 
-			if [[ $deleta == *"\*"* ]]
+			if [[ $deleta == *"fuck"* ]]
 			then
 				continue
 			fi
