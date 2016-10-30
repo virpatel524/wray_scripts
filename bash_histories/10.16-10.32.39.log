@@ -16611,3 +16611,67 @@ cbash: l: command not found
 [38;5;27mPVX_004539_NC_009911.1[0m  [38;5;27mPVX_088800_NC_009910.1[0m  [38;5;27mPVX_096930_NC_009907.1[0m  [38;5;27mPVX_103145_NC_009908.2[0m  [38;5;27mPVX_124720_NC_009916.1[0m
 [38;5;27mPVX_005045_NC_009912.1[0m  [38;5;27mPVX_088805_NC_009910.1[0m  [38;5;27mPVX_096935_NC_009907.1[0m  [38;5;27mPVX_103150_NC_009908.2[0m
 ]0;vdp5@wraylab01:~/data/cdna_analysis_ASM241_v2/vir_genes[vdp5@wraylab01 vir_genes]$ cd PXV[K[KVX_00020[K[K[K[K[K[K[K[K[KPVX_000020_NC_009908.2
+]0;vdp5@wraylab01:~/data/cdna_analysis_ASM241_v2/vir_genes/PVX_000020_NC_009908.2[vdp5@wraylab01 PVX_000020_NC_009908.2]$ ls
+PVX_000020_NC_009908.2_splign  splign.log
+]0;vdp5@wraylab01:~/data/cdna_analysis_ASM241_v2/vir_genes/PVX_000020_NC_009908.2[vdp5@wraylab01 PVX_000020_NC_009908.2]$ cay [K[Kt PVX_000020_NC_009908.2_splign 
+
+>+1	PVX_000020(+)	NC_009908.2(-)
+
+ Exon 1 (1-49,978898-978850) Len = 49 Identity = 1
+           M  L  N  F  F  M  V  F  F  S  T  I  F  F  F  H       
+        1 ATGCTAAATTTTTTTATGGTTTTTTTTTCTACTATTTTTTTCTTCCATA.....
+          |||||||||||||||||||||||||||||||||||||||||||||||||     
+   978898 ATGCTAAATTTTTTTATGGTTTTTTTTTCTACTATTTTTTTCTTCCATAGTATA
+
+ Exon 2 (50-644,978727-978133) Len = 595 Identity = 1
+               K  Q  G  S  Q  E  C  F  R  K  V  C  S  K  V  K  N  Y  L  N  Y  V  K  V  N  
+       50 .....AGCAGGGTAGCCAAGAATGTTTTAGGAAGGTGTGTTCAAAAGTTAAGAACTACTTAAATTATGTAAAAGTAAATT
+               |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   978732 TGTAGAGCAGGGTAGCCAAGAATGTTTTAGGAAGGTGTGTTCAAAAGTTAAGAACTACTTAAATTATGTAAAAGTAAATT
+
+          S  E  S  L  D  I  P  K  C  C  K  Y  L  N  Y  L  L  Y  D  Q  A  I  Y  N  L  L  S 
+      125 CTGAATCCCTTGATATACCAAAATGTTGTAAATACTTAAACTACTTGTTATATGACCAAGCAATTTATAATTTACTTTCT
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   978652 CTGAATCCCTTGATATACCAAAATGTTGTAAATACTTAAACTACTTGTTATATGACCAAGCAATTTATAATTTACTTTCT
+
+           G  Y  T  T  L  S  L  Y  I  E  L  Q  K  L  Y  D  E  H  N  F  D  L  V  I  C  N  E
+      205 GGTTACACTACATTATCACTGTACATTGAACTTCAAAAATTGTATGATGAGCATAATTTCGATTTGGTAATATGTAATGA
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   978572 GGTTACACTACATTATCACTGTACATTGAACTTCAAAAATTGTATGATGAGCATAATTTCGATTTGGTAATATGTAATGA
+
+            H  K  E  D  V  N  Y  E  T  Y  K  K  L  N  E  L  I  T  L  Y  K  D  F  D  T  Y  
+      285 GCATAAAGAGGACGTTAATTATGAAACTTATAAAAAACTTAATGAACTAATTACACTATACAAGGATTTTGATACATATA
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   978492 GCATAAAGAGGACGTTAATTATGAAACTTATAAAAAACTTAATGAACTAATTACACTATACAAGGATTTTGATACATATA
+
+          K  A  S  S  D  P  K  E  N  N  E  C  K  C  V  R  K  C  A  N  S  Y  K  T  Y  I  K 
+      365 AAGCATCAAGTGATCCAAAAGAGAATAATGAATGTAAATGTGTTCGAAAATGTGCAAATTCATATAAAACGTACATAAAG
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   978412 AAGCATCAAGTGATCCAAAAGAGAATAATGAATGTAAATGTGTTCGAAAATGTGCAAATTCATATAAAACGTACATAAAG
+
+           K  C  E  D  G  T  Q  R  N  Y  C  E  A  L  E  E  F  R  N  T  Y  N  Q  H  M  Q  N
+      445 AAATGTGAAGATGGCACTCAACGAAATTATTGTGAAGCACTAGAAGAATTTAGAAATACATATAATCAACATATGCAAAA
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   978332 AAATGTGAAGATGGCACTCAACGAAATTATTGTGAAGCACTAGAAGAATTTAGAAATACATATAATCAACATATGCAAAA
+
+            G  T  N  C  N  N  V  D  I  Y  L  P  S  T  K  K  V  N  I  I  V  L  I  T  I  P  
+      525 TGGAACTAATTGTAACAATGTAGACATATACTTACCATCCACAAAAAAAGTTAACATCATTGTTCTTATTACAATTCCGT
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   978252 TGGAACTAATTGTAACAATGTAGACATATACTTACCATCCACAAAAAAAGTTAACATCATTGTTCTTATTACAATTCCGT
+
+          S  I  I  I  L  T  F  C  F  L  L  F  I  L     
+      605 CTATTATTATATTAACCTTTTGTTTCCTTTTATTTATTCT.....
+          ||||||||||||||||||||||||||||||||||||||||     
+   978172 CTATTATTATATTAACCTTTTGTTTCCTTTTATTTATTCTGTATA
+
+ Exon 3 (645-705,977990-977930) Len = 61 Identity = 1
+                 V  L  M  H  K  C  S  K  R  E  E  K  K  Y  E  G  K  F  K  * 
+      645 .....TGTGCTCATGCATAAATGCTCAAAAAGGGAAGAGAAAAAATATGAAGGAAAGTTTAAATAA
+               |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   977995 TACAGTGTGCTCATGCATAAATGCTCAAAAAGGGAAGAGAAAAAATATGAAGGAAAGTTTAAATAA
+]0;vdp5@wraylab01:~/data/cdna_analysis_ASM241_v2/vir_genes/PVX_000020_NC_009908.2[vdp5@wraylab01 PVX_000020_NC_009908.2]$ d[Kcd
+]0;vdp5@wraylab01:~[vdp5@wraylab01 ~]$ ls
+[0m[38;5;27mbin[0m  [38;5;27mdata[0m  [38;5;51mdiana_hmm[0m  [38;5;27mexecutables[0m  [38;5;27mfigures[0m  [38;5;27mother[0m  [38;5;27mscripts[0m  [38;5;27msource_code[0m  [38;5;27mtmp[0m
+]0;vdp5@wraylab01:~[vdp5@wraylab01 ~]$ cd data/cdna_analysis_
+bash: cd: data/cdna_analysis_: No such file or directory
+]0;vdp5@wraylab01:~[vdp5@wraylab01 ~]$ cd data/cdna_analysis_A
