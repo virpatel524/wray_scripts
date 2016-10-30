@@ -28,7 +28,7 @@ for filename in os.listdir('/home/vdp5/data/gene_finder/ASM241v2_genbank/'):
 				# prottrans = tmp['translation'][0]
 				# print prottrans
 				output_fle = open('%s_%s.fasta' %(tmp['locus_tag'][0], chromname), 'w')
-				output_fle_prot = open('%s_%s_prot.fasta' %(tmp['locus_tag'][0], chromname), 'w')
+				# output_fle_prot = open('%s_%s_prot.fasta' %(tmp['locus_tag'][0], chromname), 'w')
 
 				output_fle.write('>%s | %s\n' %(tmp['locus_tag'][0], chromname))
 				output_fle.write('%s\n' %(sequence))
