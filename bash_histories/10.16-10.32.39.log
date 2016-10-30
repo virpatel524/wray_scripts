@@ -6775,4 +6775,523 @@ gff_parse_ASM241v2.sh
 ]0;vdp5@wraylab01:~/scripts[vdp5@wraylab01 scripts]$ bash runallvir_bycrhom_ASM241v2.sh 
 ]0;vdp5@wraylab01:~/scripts[vdp5@wraylab01 scripts]$ bash runallvir_bycrhom_ASM241v2.sh 
 runallvir_bycrhom_ASM241v2.sh: /home/vdp5/executables/e: /usr/bin/ruby: bad interpreter: No such file or directory
-]0;vdp5@wraylab01:~/scripts[vdp5@wraylab01 scripts]$ 
+]0;vdp5@wraylab01:~/scripts[vdp5@wraylab01 scripts]$ bash runallvir_bycrhom_ASM241v2.sh 
+USAGE
+  /home/vdp5/executables/splign [-hits hits] [-comps comps] [-mklds mklds]
+    [-blastdb blastdb] [-ldsdir ldsdir] [-genbank] [-query query]
+    [-query_id query_id] [-subj subj] [-subj_id subj_id] [-disc]
+    [-W mbwordsize] [-type type] [-match_score match_score]
+    [-mismatch_score mismatch_score] [-gap_opening_score gap_opening_score]
+    [-gap_extension_score gap_extension_score]
+    [-gt_ag_splice_score gt_ag_splice_score]
+    [-gc_ag_splice_score gc_ag_splice_score]
+    [-at_ac_splice_score at_ac_splice_score]
+    [-non_consensus_splice_score non_consensus_splice_score]
+    [-compartment_penalty compartment_penalty]
+    [-min_compartment_idty min_compartment_identity]
+    [-min_singleton_idty min_singleton_identity]
+    [-min_singleton_idty_bps min_singleton_identity_bps]
+    [-min_exon_idty identity] [-min_polya_ext_idty identity]
+    [-min_polya_len min_polya_len] [-max_intron max_intron]
+    [-max_space max_space] [-test test_mode] [-direction direction] [-log log]
+    [-asn asn] [-aln aln]
+
+DESCRIPTION
+   Splign: 2.0.8
+
+Use '-help' to print detailed descriptions of command line arguments
+========================================================================
+
+Error: Argument "subj". File is not accessible:  `/home/vdp5/data/cdna_analysis_SAMEA2376790/fasta_PV01/009906.fasta'
+Error: Application's execution failed
+USAGE
+  /home/vdp5/executables/splign [-hits hits] [-comps comps] [-mklds mklds]
+    [-blastdb blastdb] [-ldsdir ldsdir] [-genbank] [-query query]
+    [-query_id query_id] [-subj subj] [-subj_id subj_id] [-disc]
+    [-W mbwordsize] [-type type] [-match_score match_score]
+    [-mismatch_score mismatch_score] [-gap_opening_score gap_opening_score]
+    [-gap_extension_score gap_extension_score]
+    [-gt_ag_splice_score gt_ag_splice_score]
+    [-gc_ag_splice_score gc_ag_splice_score]
+    [-at_ac_splice_score at_ac_splice_score]
+    [-non_consensus_splice_score non_consensus_splice_score]
+    [-compartment_penalty compartment_penalty]
+    [-min_compartment_idty min_compartment_identity]
+    [-min_singleton_idty min_singleton_identity]
+    [-min_singleton_idty_bps min_singleton_identity_bps]
+    [-min_exon_idty identity] [-min_polya_ext_idty identity]
+    [-min_polya_len min_polya_len] [-max_intron max_intron]
+    [-max_space max_space] [-test test_mode] [-direction direction] [-log log]
+    [-asn asn] [-aln aln]
+
+DESCRIPTION
+   Splign: 2.0.8
+
+Use '-help' to print detailed descriptions of command line arguments
+========================================================================
+
+Error: Argument "subj". File is not accessible:  `/home/vdp5/data/cdna_analysis_SAMEA2376790/fasta_PV01/009906.fasta'
+Error: Application's execution failed
+USAGE
+  /home/vdp5/executables/splign [-hits hits] [-comps comps] [-mklds mklds]
+    [-blastdb blastdb] [-ldsdir ldsdir] [-genbank] [-query query]
+    [-query_id query_id] [-subj subj] [-subj_id subj_id] [-disc]
+    [-W mbwordsize] [-type type] [-match_score match_score]
+    [-mismatch_score mismatch_score] [-gap_opening_score gap_opening_score]
+    [-gap_extension_score gap_extension_score]
+    [-gt_ag_splice_score gt_ag_splice_score]
+    [-gc_ag_splice_score gc_ag_splice_score]
+    [-at_ac_splice_score at_ac_splice_score]
+    [-non_consensus_splice_score non_consensus_splice_score]
+    [-compartment_penalty compartment_penalty]
+    [-min_compartment_idty min_compartment_identity]
+    [-min_singleton_idty min_singleton_identity]
+    [-min_singleton_idty_bps min_singleton_identity_bps]
+    [-min_exon_idty identity] [-min_polya_ext_idty identity]
+    [-min_polya_len min_polya_len] [-max_intron max_intron]
+    [-max_space max_space] [-test test_mode] [-direction direction] [-log log]
+    [-asn asn] [-aln aln]
+
+DESCRIPTION
+   Splign: 2.0.8
+
+Use '-help' to print detailed descriptions of command line arguments
+========================================================================
+
+Error: Argument "subj". File is not accessible:  `/home/vdp5/data/cdna_analysis_SAMEA2376790/fasta_PV01/009906.fasta'
+Error: Application's execution failed
+USAGE
+  /home/vdp5/executables/splign [-hits hits] [-comps comps] [-mklds mklds]
+    [-blastdb blastdb] [-ldsdir ldsdir] [-genbank] [-query query]
+    [-query_id query_id] [-subj subj] [-subj_id subj_id] [-disc]
+    [-W mbwordsize] [-type type] [-match_score match_score]
+    [-mismatch_score mismatch_score] [-gap_opening_score gap_opening_score]
+    [-gap_extension_score gap_extension_score]
+    [-gt_ag_splice_score gt_ag_splice_score]
+    [-gc_ag_splice_score gc_ag_splice_score]
+    [-at_ac_splice_score at_ac_splice_score]
+    [-non_consensus_splice_score non_consensus_splice_score]
+    [-compartment_penalty compartment_penalty]
+    [-min_compartment_idty min_compartment_identity]
+    [-min_singleton_idty min_singleton_identity]
+    [-min_singleton_idty_bps min_singleton_identity_bps]
+    [-min_exon_idty identity] [-min_polya_ext_idty identity]
+    [-min_polya_len min_polya_len] [-max_intron max_intron]
+    [-max_space max_space] [-test test_mode] [-direction direction] [-log log]
+    [-asn asn] [-aln aln]
+
+DESCRIPTION
+   Splign: 2.0.8
+
+Use '-help' to print detailed descriptions of command line arguments
+========================================================================
+
+Error: Argument "subj". File is not accessible:  `/home/vdp5/data/cdna_analysis_SAMEA2376790/fasta_PV01/009906.fasta'
+Error: Application's execution failed
+USAGE
+  /home/vdp5/executables/splign [-hits hits] [-comps comps] [-mklds mklds]
+    [-blastdb blastdb] [-ldsdir ldsdir] [-genbank] [-query query]
+    [-query_id query_id] [-subj subj] [-subj_id subj_id] [-disc]
+    [-W mbwordsize] [-type type] [-match_score match_score]
+    [-mismatch_score mismatch_score] [-gap_opening_score gap_opening_score]
+    [-gap_extension_score gap_extension_score]
+    [-gt_ag_splice_score gt_ag_splice_score]
+    [-gc_ag_splice_score gc_ag_splice_score]
+    [-at_ac_splice_score at_ac_splice_score]
+    [-non_consensus_splice_score non_consensus_splice_score]
+    [-compartment_penalty compartment_penalty]
+    [-min_compartment_idty min_compartment_identity]
+    [-min_singleton_idty min_singleton_identity]
+    [-min_singleton_idty_bps min_singleton_identity_bps]
+    [-min_exon_idty identity] [-min_polya_ext_idty identity]
+    [-min_polya_len min_polya_len] [-max_intron max_intron]
+    [-max_space max_space] [-test test_mode] [-direction direction] [-log log]
+    [-asn asn] [-aln aln]
+
+DESCRIPTION
+   Splign: 2.0.8
+
+Use '-help' to print detailed descriptions of command line arguments
+========================================================================
+
+Error: Argument "subj". File is not accessible:  `/home/vdp5/data/cdna_analysis_SAMEA2376790/fasta_PV01/009906.fasta'
+Error: Application's execution failed
+USAGE
+  /home/vdp5/executables/splign [-hits hits] [-comps comps] [-mklds mklds]
+    [-blastdb blastdb] [-ldsdir ldsdir] [-genbank] [-query query]
+    [-query_id query_id] [-subj subj] [-subj_id subj_id] [-disc]
+    [-W mbwordsize] [-type type] [-match_score match_score]
+    [-mismatch_score mismatch_score] [-gap_opening_score gap_opening_score]
+    [-gap_extension_score gap_extension_score]
+    [-gt_ag_splice_score gt_ag_splice_score]
+    [-gc_ag_splice_score gc_ag_splice_score]
+    [-at_ac_splice_score at_ac_splice_score]
+    [-non_consensus_splice_score non_consensus_splice_score]
+    [-compartment_penalty compartment_penalty]
+    [-min_compartment_idty min_compartment_identity]
+    [-min_singleton_idty min_singleton_identity]
+    [-min_singleton_idty_bps min_singleton_identity_bps]
+    [-min_exon_idty identity] [-min_polya_ext_idty identity]
+    [-min_polya_len min_polya_len] [-max_intron max_intron]
+    [-max_space max_space] [-test test_mode] [-direction direction] [-log log]
+    [-asn asn] [-aln aln]
+
+DESCRIPTION
+   Splign: 2.0.8
+
+Use '-help' to print detailed descriptions of command line arguments
+========================================================================
+
+Error: Argument "subj". File is not accessible:  `/home/vdp5/data/cdna_analysis_SAMEA2376790/fasta_PV01/009907.fasta'
+Error: Application's execution failed
+USAGE
+  /home/vdp5/executables/splign [-hits hits] [-comps comps] [-mklds mklds]
+    [-blastdb blastdb] [-ldsdir ldsdir] [-genbank] [-query query]
+    [-query_id query_id] [-subj subj] [-subj_id subj_id] [-disc]
+    [-W mbwordsize] [-type type] [-match_score match_score]
+    [-mismatch_score mismatch_score] [-gap_opening_score gap_opening_score]
+    [-gap_extension_score gap_extension_score]
+    [-gt_ag_splice_score gt_ag_splice_score]
+    [-gc_ag_splice_score gc_ag_splice_score]
+    [-at_ac_splice_score at_ac_splice_score]
+    [-non_consensus_splice_score non_consensus_splice_score]
+    [-compartment_penalty compartment_penalty]
+    [-min_compartment_idty min_compartment_identity]
+    [-min_singleton_idty min_singleton_identity]
+    [-min_singleton_idty_bps min_singleton_identity_bps]
+    [-min_exon_idty identity] [-min_polya_ext_idty identity]
+    [-min_polya_len min_polya_len] [-max_intron max_intron]
+    [-max_space max_space] [-test test_mode] [-direction direction] [-log log]
+    [-asn asn] [-aln aln]
+
+DESCRIPTION
+   Splign: 2.0.8
+
+Use '-help' to print detailed descriptions of command line arguments
+========================================================================
+
+Error: Argument "subj". File is not accessible:  `/home/vdp5/data/cdna_analysis_SAMEA2376790/fasta_PV01/009907.fasta'
+Error: Application's execution failed
+USAGE
+  /home/vdp5/executables/splign [-hits hits] [-comps comps] [-mklds mklds]
+    [-blastdb blastdb] [-ldsdir ldsdir] [-genbank] [-query query]
+    [-query_id query_id] [-subj subj] [-subj_id subj_id] [-disc]
+    [-W mbwordsize] [-type type] [-match_score match_score]
+    [-mismatch_score mismatch_score] [-gap_opening_score gap_opening_score]
+    [-gap_extension_score gap_extension_score]
+    [-gt_ag_splice_score gt_ag_splice_score]
+    [-gc_ag_splice_score gc_ag_splice_score]
+    [-at_ac_splice_score at_ac_splice_score]
+    [-non_consensus_splice_score non_consensus_splice_score]
+    [-compartment_penalty compartment_penalty]
+    [-min_compartment_idty min_compartment_identity]
+    [-min_singleton_idty min_singleton_identity]
+    [-min_singleton_idty_bps min_singleton_identity_bps]
+    [-min_exon_idty identity] [-min_polya_ext_idty identity]
+    [-min_polya_len min_polya_len] [-max_intron max_intron]
+    [-max_space max_space] [-test test_mode] [-direction direction] [-log log]
+    [-asn asn] [-aln aln]
+
+DESCRIPTION
+   Splign: 2.0.8
+
+Use '-help' to print detailed descriptions of command line arguments
+========================================================================
+
+Error: Argument "subj". File is not accessible:  `/home/vdp5/data/cdna_analysis_SAMEA2376790/fasta_PV01/009907.fasta'
+Error: Application's execution failed
+USAGE
+  /home/vdp5/executables/splign [-hits hits] [-comps comps] [-mklds mklds]
+    [-blastdb blastdb] [-ldsdir ldsdir] [-genbank] [-query query]
+    [-query_id query_id] [-subj subj] [-subj_id subj_id] [-disc]
+    [-W mbwordsize] [-type type] [-match_score match_score]
+    [-mismatch_score mismatch_score] [-gap_opening_score gap_opening_score]
+    [-gap_extension_score gap_extension_score]
+    [-gt_ag_splice_score gt_ag_splice_score]
+    [-gc_ag_splice_score gc_ag_splice_score]
+    [-at_ac_splice_score at_ac_splice_score]
+    [-non_consensus_splice_score non_consensus_splice_score]
+    [-compartment_penalty compartment_penalty]
+    [-min_compartment_idty min_compartment_identity]
+    [-min_singleton_idty min_singleton_identity]
+    [-min_singleton_idty_bps min_singleton_identity_bps]
+    [-min_exon_idty identity] [-min_polya_ext_idty identity]
+    [-min_polya_len min_polya_len] [-max_intron max_intron]
+    [-max_space max_space] [-test test_mode] [-direction direction] [-log log]
+    [-asn asn] [-aln aln]
+
+DESCRIPTION
+   Splign: 2.0.8
+
+Use '-help' to print detailed descriptions of command line arguments
+========================================================================
+
+Error: Argument "subj". File is not accessible:  `/home/vdp5/data/cdna_analysis_SAMEA2376790/fasta_PV01/009907.fasta'
+Error: Application's execution failed
+USAGE
+  /home/vdp5/executables/splign [-hits hits] [-comps comps] [-mklds mklds]
+    [-blastdb blastdb] [-ldsdir ldsdir] [-genbank] [-query query]
+    [-query_id query_id] [-subj subj] [-subj_id subj_id] [-disc]
+    [-W mbwordsize] [-type type] [-match_score match_score]
+    [-mismatch_score mismatch_score] [-gap_opening_score gap_opening_score]
+    [-gap_extension_score gap_extension_score]
+    [-gt_ag_splice_score gt_ag_splice_score]
+    [-gc_ag_splice_score gc_ag_splice_score]
+    [-at_ac_splice_score at_ac_splice_score]
+    [-non_consensus_splice_score non_consensus_splice_score]
+    [-compartment_penalty compartment_penalty]
+    [-min_compartment_idty min_compartment_identity]
+    [-min_singleton_idty min_singleton_identity]
+    [-min_singleton_idty_bps min_singleton_identity_bps]
+    [-min_exon_idty identity] [-min_polya_ext_idty identity]
+    [-min_polya_len min_polya_len] [-max_intron max_intron]
+    [-max_space max_space] [-test test_mode] [-direction direction] [-log log]
+    [-asn asn] [-aln aln]
+
+DESCRIPTION
+   Splign: 2.0.8
+
+Use '-help' to print detailed descriptions of command line arguments
+========================================================================
+
+Error: Argument "subj". File is not accessible:  `/home/vdp5/data/cdna_analysis_SAMEA2376790/fasta_PV01/009907.fasta'
+Error: Application's execution failed
+USAGE
+  /home/vdp5/executables/splign [-hits hits] [-comps comps] [-mklds mklds]
+    [-blastdb blastdb] [-ldsdir ldsdir] [-genbank] [-query query]
+    [-query_id query_id] [-subj subj] [-subj_id subj_id] [-disc]
+    [-W mbwordsize] [-type type] [-match_score match_score]
+    [-mismatch_score mismatch_score] [-gap_opening_score gap_opening_score]
+    [-gap_extension_score gap_extension_score]
+    [-gt_ag_splice_score gt_ag_splice_score]
+    [-gc_ag_splice_score gc_ag_splice_score]
+    [-at_ac_splice_score at_ac_splice_score]
+    [-non_consensus_splice_score non_consensus_splice_score]
+    [-compartment_penalty compartment_penalty]
+    [-min_compartment_idty min_compartment_identity]
+    [-min_singleton_idty min_singleton_identity]
+    [-min_singleton_idty_bps min_singleton_identity_bps]
+    [-min_exon_idty identity] [-min_polya_ext_idty identity]
+    [-min_polya_len min_polya_len] [-max_intron max_intron]
+    [-max_space max_space] [-test test_mode] [-direction direction] [-log log]
+    [-asn asn] [-aln aln]
+
+DESCRIPTION
+   Splign: 2.0.8
+
+Use '-help' to print detailed descriptions of command line arguments
+========================================================================
+
+Error: Argument "subj". File is not accessible:  `/home/vdp5/data/cdna_analysis_SAMEA2376790/fasta_PV01/009907.fasta'
+Error: Application's execution failed
+USAGE
+  /home/vdp5/executables/splign [-hits hits] [-comps comps] [-mklds mklds]
+    [-blastdb blastdb] [-ldsdir ldsdir] [-genbank] [-query query]
+    [-query_id query_id] [-subj subj] [-subj_id subj_id] [-disc]
+    [-W mbwordsize] [-type type] [-match_score match_score]
+    [-mismatch_score mismatch_score] [-gap_opening_score gap_opening_score]
+    [-gap_extension_score gap_extension_score]
+    [-gt_ag_splice_score gt_ag_splice_score]
+    [-gc_ag_splice_score gc_ag_splice_score]
+    [-at_ac_splice_score at_ac_splice_score]
+    [-non_consensus_splice_score non_consensus_splice_score]
+    [-compartment_penalty compartment_penalty]
+    [-min_compartment_idty min_compartment_identity]
+    [-min_singleton_idty min_singleton_identity]
+    [-min_singleton_idty_bps min_singleton_identity_bps]
+    [-min_exon_idty identity] [-min_polya_ext_idty identity]
+    [-min_polya_len min_polya_len] [-max_intron max_intron]
+    [-max_space max_space] [-test test_mode] [-direction direction] [-log log]
+    [-asn asn] [-aln aln]
+
+DESCRIPTION
+   Splign: 2.0.8
+
+Use '-help' to print detailed descriptions of command line arguments
+========================================================================
+
+Error: Argument "subj". File is not accessible:  `/home/vdp5/data/cdna_analysis_SAMEA2376790/fasta_PV01/009907.fasta'
+Error: Application's execution failed
+USAGE
+  /home/vdp5/executables/splign [-hits hits] [-comps comps] [-mklds mklds]
+    [-blastdb blastdb] [-ldsdir ldsdir] [-genbank] [-query query]
+    [-query_id query_id] [-subj subj] [-subj_id subj_id] [-disc]
+    [-W mbwordsize] [-type type] [-match_score match_score]
+    [-mismatch_score mismatch_score] [-gap_opening_score gap_opening_score]
+    [-gap_extension_score gap_extension_score]
+    [-gt_ag_splice_score gt_ag_splice_score]
+    [-gc_ag_splice_score gc_ag_splice_score]
+    [-at_ac_splice_score at_ac_splice_score]
+    [-non_consensus_splice_score non_consensus_splice_score]
+    [-compartment_penalty compartment_penalty]
+    [-min_compartment_idty min_compartment_identity]
+    [-min_singleton_idty min_singleton_identity]
+    [-min_singleton_idty_bps min_singleton_identity_bps]
+    [-min_exon_idty identity] [-min_polya_ext_idty identity]
+    [-min_polya_len min_polya_len] [-max_intron max_intron]
+    [-max_space max_space] [-test test_mode] [-direction direction] [-log log]
+    [-asn asn] [-aln aln]
+
+DESCRIPTION
+   Splign: 2.0.8
+
+Use '-help' to print detailed descriptions of command line arguments
+========================================================================
+
+Error: Argument "subj". File is not accessible:  `/home/vdp5/data/cdna_analysis_SAMEA2376790/fasta_PV01/009907.fasta'
+Error: Application's execution failed
+USAGE
+  /home/vdp5/executables/splign [-hits hits] [-comps comps] [-mklds mklds]
+    [-blastdb blastdb] [-ldsdir ldsdir] [-genbank] [-query query]
+    [-query_id query_id] [-subj subj] [-subj_id subj_id] [-disc]
+    [-W mbwordsize] [-type type] [-match_score match_score]
+    [-mismatch_score mismatch_score] [-gap_opening_score gap_opening_score]
+    [-gap_extension_score gap_extension_score]
+    [-gt_ag_splice_score gt_ag_splice_score]
+    [-gc_ag_splice_score gc_ag_splice_score]
+    [-at_ac_splice_score at_ac_splice_score]
+    [-non_consensus_splice_score non_consensus_splice_score]
+    [-compartment_penalty compartment_penalty]
+    [-min_compartment_idty min_compartment_identity]
+    [-min_singleton_idty min_singleton_identity]
+    [-min_singleton_idty_bps min_singleton_identity_bps]
+    [-min_exon_idty identity] [-min_polya_ext_idty identity]
+    [-min_polya_len min_polya_len] [-max_intron max_intron]
+    [-max_space max_space] [-test test_mode] [-direction direction] [-log log]
+    [-asn asn] [-aln aln]
+
+DESCRIPTION
+   Splign: 2.0.8
+
+Use '-help' to print detailed descriptions of command line arguments
+========================================================================
+
+Error: Argument "subj". File is not accessible:  `/home/vdp5/data/cdna_analysis_SAMEA2376790/fasta_PV01/009907.fasta'
+Error: Application's execution failed
+USAGE
+  /home/vdp5/executables/splign [-hits hits] [-comps comps] [-mklds mklds]
+    [-blastdb blastdb] [-ldsdir ldsdir] [-genbank] [-query query]
+    [-query_id query_id] [-subj subj] [-subj_id subj_id] [-disc]
+    [-W mbwordsize] [-type type] [-match_score match_score]
+    [-mismatch_score mismatch_score] [-gap_opening_score gap_opening_score]
+    [-gap_extension_score gap_extension_score]
+    [-gt_ag_splice_score gt_ag_splice_score]
+    [-gc_ag_splice_score gc_ag_splice_score]
+    [-at_ac_splice_score at_ac_splice_score]
+    [-non_consensus_splice_score non_consensus_splice_score]
+    [-compartment_penalty compartment_penalty]
+    [-min_compartment_idty min_compartment_identity]
+    [-min_singleton_idty min_singleton_identity]
+    [-min_singleton_idty_bps min_singleton_identity_bps]
+    [-min_exon_idty identity] [-min_polya_ext_idty identity]
+    [-min_polya_len min_polya_len] [-max_intron max_intron]
+    [-max_space max_space] [-test test_mode] [-direction direction] [-log log]
+    [-asn asn] [-aln aln]
+
+DESCRIPTION
+   Splign: 2.0.8
+
+Use '-help' to print detailed descriptions of command line arguments
+========================================================================
+
+Error: Argument "subj". File is not accessible:  `/home/vdp5/data/cdna_analysis_SAMEA2376790/fasta_PV01/009907.fasta'
+Error: Application's execution failed
+USAGE
+  /home/vdp5/executables/splign [-hits hits] [-comps comps] [-mklds mklds]
+    [-blastdb blastdb] [-ldsdir ldsdir] [-genbank] [-query query]
+    [-query_id query_id] [-subj subj] [-subj_id subj_id] [-disc]
+    [-W mbwordsize] [-type type] [-match_score match_score]
+    [-mismatch_score mismatch_score] [-gap_opening_score gap_opening_score]
+    [-gap_extension_score gap_extension_score]
+    [-gt_ag_splice_score gt_ag_splice_score]
+    [-gc_ag_splice_score gc_ag_splice_score]
+    [-at_ac_splice_score at_ac_splice_score]
+    [-non_consensus_splice_score non_consensus_splice_score]
+    [-compartment_penalty compartment_penalty]
+    [-min_compartment_idty min_compartment_identity]
+    [-min_singleton_idty min_singleton_identity]
+    [-min_singleton_idty_bps min_singleton_identity_bps]
+    [-min_exon_idty identity] [-min_polya_ext_idty identity]
+    [-min_polya_len min_polya_len] [-max_intron max_intron]
+    [-max_space max_space] [-test test_mode] [-direction direction] [-log log]
+    [-asn asn] [-aln aln]
+
+DESCRIPTION
+   Splign: 2.0.8
+
+Use '-help' to print detailed descriptions of command line arguments
+========================================================================
+
+Error: Argument "subj". File is not accessible:  `/home/vdp5/data/cdna_analysis_SAMEA2376790/fasta_PV01/009907.fasta'
+Error: Application's execution failed
+^C
+]0;vdp5@wraylab01:~/scripts[vdp5@wraylab01 scripts]$ ^C
+]0;vdp5@wraylab01:~/scripts[vdp5@wraylab01 scripts]$ ^C
+]0;vdp5@wraylab01:~/scripts[vdp5@wraylab01 scripts]$ bash runallvir_bycrhom_ASM241v2.sh 
+009906
+009906
+009906
+009906
+009906
+009907
+009907
+009907
+009907
+009907
+009907
+009907
+009907
+009907
+009907
+009907
+009908
+009908
+009908
+009908
+009908
+009908
+009908
+009908
+009908
+009908
+009908
+009909
+009909
+009909
+009909
+009909
+009909
+009909
+009909
+009909
+009909
+009910
+009910
+009910
+009910
+009910
+009910
+009910
+009910
+009910
+009911
+009911
+009911
+009911
+009911
+009911
+009911
+009911
+009911
+009912
+009912
+009912
+009912
+009912
+009912
+009912
+009912
+009912
+009913
+009913
+009913
