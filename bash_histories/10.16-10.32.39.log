@@ -16907,4 +16907,17 @@ bash: cd: ASM241v2_gen: No such file or directory
 ]0;vdp5@wraylab01:~/data/gene_finder/ASM241v2_genbank[vdp5@wraylab01 ASM241v2_genbank]$ ls
 NC_009906.1.gb  NC_009908.2.gb  NC_009910.1.gb  NC_009912.1.gb  NC_009914.1.gb  NC_009916.1.gb  NC_009918.1.gb
 NC_009907.1.gb  NC_009909.1.gb  NC_009911.1.gb  NC_009913.1.gb  NC_009915.1.gb  NC_009917.1.gb  NC_009919.1.gb
+]0;vdp5@wraylab01:~/data/gene_finder/ASM241v2_genbank[vdp5@wraylab01 ASM241v2_genbank]$ cp ~/other/scp/
+GCA_000002415.2_ASM241v2_genomic.gb                     pvivaxp01.gff3
+GCA_000002415.2_ASM241v2_genomic_originalchromid.fasta  q3porting.xml
+GCF_000002415.2_ASM241v2_genomic_originalchromid.gff    
+[vdp5@wraylab01 ASM241v2_genbank]$ cp ~/other/scp/GCA_000002415.2_ASM241v2_genomic
+GCA_000002415.2_ASM241v2_genomic.gb                     GCA_000002415.2_ASM241v2_genomic_originalchromid.fasta
+[vdp5@wraylab01 ASM241v2_genbank]$ cp ~/other/scp/GCA_000002415.2_ASM241v2_genomic.gb .
+l ]0;vdp5@wraylab01:~/data/gene_finder/ASM241v2_genbank[vdp5@wraylab01 ASM241v2_genbank]$ ls
+GCA_000002415.2_ASM241v2_genomic.gb  NC_009908.2.gb  NC_009911.1.gb  NC_009914.1.gb  NC_009917.1.gb
+NC_009906.1.gb                       NC_009909.1.gb  NC_009912.1.gb  NC_009915.1.gb  NC_009918.1.gb
+NC_009907.1.gb                       NC_009910.1.gb  NC_009913.1.gb  NC_009916.1.gb  NC_009919.1.gb
+]0;vdp5@wraylab01:~/data/gene_finder/ASM241v2_genbank[vdp5@wraylab01 ASM241v2_genbank]$ readlinj [K[Kk -f GCA_000002415.2_ASM241v2_genomic.gb 
+/home/vdp5/data/gene_finder/ASM241v2_genbank/GCA_000002415.2_ASM241v2_genomic.gb
 ]0;vdp5@wraylab01:~/data/gene_finder/ASM241v2_genbank[vdp5@wraylab01 ASM241v2_genbank]$ 
