@@ -24,7 +24,7 @@ for subdir, dirs, files in os.walk(rootdir):
 	holder = sortedfles[0][:-7].split('_')[-2:]
 	chrom_file_search = '_'.join(holder)
 	fastaname = sortedfles[0][:-7] + '.fasta'
-	create_indexable(chrom_file_search, fastaname)
+	chrombyindex = create_indexable(chrom_file_search, fastaname)
 	gene='_'.join(sortedfles[0].split('_')[:2])
 	exonnums = []
 	tmplst = []
@@ -34,7 +34,7 @@ for subdir, dirs, files in os.walk(rootdir):
 			data = alpha[0].split(' ')
 			if float(data[-1]) < 0.95:
 				continue
-			print data 
+			print data[3].split('(')[-1].split(',')[0].split('-') 
 			tmplst.append('exon{}:{}'.format(data[2], data[3].split('(')[-1].split(',')[0]))
 
 			exonnums.append(int(data[2]))
