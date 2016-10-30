@@ -10,10 +10,9 @@ for alpha in ${iterarray[@]}; do
 			IFS=_ read -ra chromarray <<< ${newerarray[0]}
 			chrom=${chromarray[-2]}_${chromarray[-1]}
 			chrom=${chrom::-1}
-			echo $chrom
-			# mkdir ${newerarray[0]}
-			# cd ${newerarray[0]}
-			# splign -query $delta -subj /home/vdp5/data/cdna_analysis_SAMEA2376790/fasta_PV01/$chrom.fasta -aln ${newerarray[0]}_splign
+			mkdir ${fullname}
+			cd ${fullname}
+			splign -query $delta -subj /home/vdp5/data/cdna_analysis_ASM241_v2/fasta_ASM241_v2/$chrom.fasta -aln ${}_splign
 		done
 	done
 done
