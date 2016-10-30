@@ -940,4 +940,5 @@ grep: git_data: Is a directory
 [35m[Krunallvir_bychrom.sh[m[K[36m[K:[m[K		[01;31m[Ksplign[m[K -query $beta -subj /home/vdp5/data/cdna_analysis_SAMEA2376790/fasta_PV01/$chrom.fasta -aln ${newerarray[0]}_[01;31m[Ksplign[m[K
 grep: salvador_align_scripts: Is a directory
 ]0;vdp5@wraylab01:~/scripts[vdp5@wraylab01 scripts]$ cp runvi[K[K[K[K[K[K[K[Kcp run[Knallvir_bychrom.sh runallvir_bychrom.sh [K[K[K[K_SAE.sh
-]0;vdp5@wraylab01:~/scripts[vdp5@wraylab01 scripts]$ cp runallvir_bychrom_SAE.sh [K[K[K[K[K[K[K[K[Km.sh runallvir_bycrhom_ASM241.[K
+]0;vdp5@wraylab01:~/scripts[vdp5@wraylab01 scripts]$ cp runallvir_bychrom_SAE.sh [K[K[K[K[K[K[K[K[Km.sh runallvir_bycrhom_ASM241.[Kv2.sh
+]0;vdp5@wraylab01:~/scripts[vdp5@wraylab01 scripts]$ 
