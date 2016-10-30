@@ -3,4 +3,13 @@ Script started on Sun 30 Oct 2016 10:10:10 AM EDT
 gitscripts.sh  screendatetime.sh
 ]0;vdp5@wraylab01:~/other/housekeeping[vdp5@wraylab01 housekeeping]$ ls
 gitscripts.sh  screendatetime.sh
-]0;vdp5@wraylab01:~/other/housekeeping[vdp5@wraylab01 housekeeping]$ 
+]0;vdp5@wraylab01:~/other/housekeeping[vdp5@wraylab01 housekeeping]$ cd
+]0;vdp5@wraylab01:~[vdp5@wraylab01 ~]$ ls
+[0m[38;5;27mbin[0m  [38;5;27mdata[0m  [38;5;51mdiana_hmm[0m  [38;5;27mexecutables[0m  [38;5;27mfigures[0m  [38;5;27mother[0m  [38;5;27mscripts[0m  [38;5;27msource_code[0m  [38;5;27mtmp[0m
+]0;vdp5@wraylab01:~[vdp5@wraylab01 ~]$ ls
+[0m[38;5;27mbin[0m  [38;5;27mdata[0m  [38;5;51mdiana_hmm[0m  [38;5;27mexecutables[0m  [38;5;27mfigures[0m  [38;5;27mother[0m  [38;5;27mscripts[0m  [38;5;27msource_code[0m  [38;5;27mtmp[0m
+]0;vdp5@wraylab01:~[vdp5@wraylab01 ~]$ cat diana_hmm/
+cat: diana_hmm/: Is a directory
+]0;vdp5@wraylab01:~[vdp5@wraylab01 ~]$ fjdklsakfl
+bash: fjdklsakfl: command not found
+]0;vdp5@wraylab01:~[vdp5@wraylab01 ~]$ 

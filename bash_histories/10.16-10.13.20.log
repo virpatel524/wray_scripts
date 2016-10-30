@@ -1,0 +1,27 @@
+Script started on Sun 30 Oct 2016 10:13:20 AM EDT
+]0;vdp5@wraylab01:~[?1034h[vdp5@wraylab01 ~]$ ls
+[0m[38;5;27mbin[0m  [38;5;27mdata[0m  [38;5;51mdiana_hmm[0m  [38;5;27mexecutables[0m  [38;5;27mfigures[0m  [38;5;27mother[0m  [38;5;27mscripts[0m  [38;5;27msource_code[0m  [38;5;27mtmp[0m
+]0;vdp5@wraylab01:~[vdp5@wraylab01 ~]$ upda[K[K[K[Kb[Kupdate
+update-alternatives      update-ca-trust          update-gtk-immodules     update-mime-database
+update_blastdb.pl        update-desktop-database  update_java_home.sh      
+[vdp5@wraylab01 ~]$ update
+update-alternatives      update-ca-trust          update-gtk-immodules     update-mime-database
+update_blastdb.pl        update-desktop-database  update_java_home.sh      
+[vdp5@wraylab01 ~]$ update
+update-alternatives      update-ca-trust          update-gtk-immodules     update-mime-database
+update_blastdb.pl        update-desktop-database  update_java_home.sh      
+[vdp5@wraylab01 ~]$ update
+update-alternatives      update-ca-trust          update-gtk-immodules     update-mime-database
+update_blastdb.pl        update-desktop-database  update_java_home.sh      
+[vdp5@wraylab01 ~]$ update^C
+]0;vdp5@wraylab01:~[vdp5@wraylab01 ~]$ ls
+[0m[38;5;27mbin[0m  [38;5;27mdata[0m  [38;5;51mdiana_hmm[0m  [38;5;27mexecutables[0m  [38;5;27mfigures[0m  [38;5;27mother[0m  [38;5;27mscripts[0m  [38;5;27msource_code[0m  [38;5;27mtmp[0m
+]0;vdp5@wraylab01:~[vdp5@wraylab01 ~]$ source bas[K[K[K.bash_profile 
+ls  Script started, file is /home/vdp5/scripts/bash_histories/10.16-10.15.12.log
+]0;vdp5@wraylab01:~[?1034h[vdp5@wraylab01 ~]$ exit
+exit
+Script done, file is /home/vdp5/scripts/bash_histories/10.16-10.15.12.log
+]0;vdp5@wraylab01:~[vdp5@wraylab01 ~]$ exit
+exit
+
+Script done on Sun 30 Oct 2016 10:15:29 AM EDT
