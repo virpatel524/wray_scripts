@@ -206,4 +206,1633 @@ building '_heapq' extension
 gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/_heapqmodule.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_heapqmodule.o
 gcc -pthread -shared build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_heapqmodule.o -L/home/vdp5/bin/lib -L/usr/local/lib -o build/lib.linux-x86_64-3.4/_heapq.cpython-34m.so
 building '_pickle' extension
-gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/_pickle.c -o build/temp.linux-x86_6
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/_pickle.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_pickle.o
+gcc -pthread -shared build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_pickle.o -L/home/vdp5/bin/lib -L/usr/local/lib -o build/lib.linux-x86_64-3.4/_pickle.cpython-34m.so
+building '_json' extension
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/_json.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_json.o
+gcc -pthread -shared build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_json.o -L/home/vdp5/bin/lib -L/usr/local/lib -o build/lib.linux-x86_64-3.4/_json.cpython-34m.so
+building '_testcapi' extension
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/_testcapimodule.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_testcapimodule.o
+gcc -pthread -shared build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_testcapimodule.o -L/home/vdp5/bin/lib -L/usr/local/lib -o build/lib.linux-x86_64-3.4/_testcapi.cpython-34m.so
+building '_testbuffer' extension
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/_testbuffer.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_testbuffer.o
+gcc -pthread -shared build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_testbuffer.o -L/home/vdp5/bin/lib -L/usr/local/lib -o build/lib.linux-x86_64-3.4/_testbuffer.cpython-34m.so
+building '_testimportmultiple' extension
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/_testimportmultiple.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_testimportmultiple.o
+gcc -pthread -shared build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_testimportmultiple.o -L/home/vdp5/bin/lib -L/usr/local/lib -o build/lib.linux-x86_64-3.4/_testimportmultiple.cpython-34m.so
+building '_lsprof' extension
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/_lsprof.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_lsprof.o
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/rotatingtree.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/rotatingtree.o
+gcc -pthread -shared build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_lsprof.o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/rotatingtree.o -L/home/vdp5/bin/lib -L/usr/local/lib -o build/lib.linux-x86_64-3.4/_lsprof.cpython-34m.so
+building 'unicodedata' extension
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/unicodedata.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/unicodedata.o
+gcc -pthread -shared build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/unicodedata.o -L/home/vdp5/bin/lib -L/usr/local/lib -o build/lib.linux-x86_64-3.4/unicodedata.cpython-34m.so
+building '_opcode' extension
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/_opcode.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_opcode.o
+gcc -pthread -shared build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_opcode.o -L/home/vdp5/bin/lib -L/usr/local/lib -o build/lib.linux-x86_64-3.4/_opcode.cpython-34m.so
+building 'fcntl' extension
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/fcntlmodule.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/fcntlmodule.o
+gcc -pthread -shared build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/fcntlmodule.o -L/home/vdp5/bin/lib -L/usr/local/lib -o build/lib.linux-x86_64-3.4/fcntl.cpython-34m.so
+building 'grp' extension
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/grpmodule.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/grpmodule.o
+gcc -pthread -shared build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/grpmodule.o -L/home/vdp5/bin/lib -L/usr/local/lib -o build/lib.linux-x86_64-3.4/grp.cpython-34m.so
+building 'spwd' extension
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/spwdmodule.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/spwdmodule.o
+gcc -pthread -shared build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/spwdmodule.o -L/home/vdp5/bin/lib -L/usr/local/lib -o build/lib.linux-x86_64-3.4/spwd.cpython-34m.so
+building 'select' extension
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/selectmodule.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/selectmodule.o
+gcc -pthread -shared build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/selectmodule.o -L/home/vdp5/bin/lib -L/usr/local/lib -o build/lib.linux-x86_64-3.4/select.cpython-34m.so
+building 'parser' extension
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/parsermodule.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/parsermodule.o
+gcc -pthread -shared build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/parsermodule.o -L/home/vdp5/bin/lib -L/usr/local/lib -o build/lib.linux-x86_64-3.4/parser.cpython-34m.so
+building 'mmap' extension
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/mmapmodule.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/mmapmodule.o
+gcc -pthread -shared build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/mmapmodule.o -L/home/vdp5/bin/lib -L/usr/local/lib -o build/lib.linux-x86_64-3.4/mmap.cpython-34m.so
+building 'syslog' extension
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/syslogmodule.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/syslogmodule.o
+gcc -pthread -shared build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/syslogmodule.o -L/home/vdp5/bin/lib -L/usr/local/lib -o build/lib.linux-x86_64-3.4/syslog.cpython-34m.so
+building 'audioop' extension
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/audioop.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/audioop.o
+gcc -pthread -shared build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/audioop.o -L/home/vdp5/bin/lib -L/usr/local/lib -o build/lib.linux-x86_64-3.4/audioop.cpython-34m.so
+building '_crypt' extension
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/_cryptmodule.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_cryptmodule.o
+gcc -pthread -shared build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_cryptmodule.o -L/home/vdp5/bin/lib -L/usr/local/lib -lcrypt -o build/lib.linux-x86_64-3.4/_crypt.cpython-34m.so
+building '_csv' extension
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/_csv.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_csv.o
+gcc -pthread -shared build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_csv.o -L/home/vdp5/bin/lib -L/usr/local/lib -o build/lib.linux-x86_64-3.4/_csv.cpython-34m.so
+building '_posixsubprocess' extension
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/_posixsubprocess.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_posixsubprocess.o
+gcc -pthread -shared build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_posixsubprocess.o -L/home/vdp5/bin/lib -L/usr/local/lib -o build/lib.linux-x86_64-3.4/_posixsubprocess.cpython-34m.so
+building '_socket' extension
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/socketmodule.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/socketmodule.o
+gcc -pthread -shared build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/socketmodule.o -L/home/vdp5/bin/lib -L/usr/local/lib -o build/lib.linux-x86_64-3.4/_socket.cpython-34m.so
+building '_sha256' extension
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/sha256module.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/sha256module.o
+gcc -pthread -shared build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/sha256module.o -L/home/vdp5/bin/lib -L/usr/local/lib -o build/lib.linux-x86_64-3.4/_sha256.cpython-34m.so
+building '_sha512' extension
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/sha512module.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/sha512module.o
+gcc -pthread -shared build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/sha512module.o -L/home/vdp5/bin/lib -L/usr/local/lib -o build/lib.linux-x86_64-3.4/_sha512.cpython-34m.so
+building '_md5' extension
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/md5module.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/md5module.o
+gcc -pthread -shared build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/md5module.o -L/home/vdp5/bin/lib -L/usr/local/lib -o build/lib.linux-x86_64-3.4/_md5.cpython-34m.so
+building '_sha1' extension
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/sha1module.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/sha1module.o
+gcc -pthread -shared build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/sha1module.o -L/home/vdp5/bin/lib -L/usr/local/lib -o build/lib.linux-x86_64-3.4/_sha1.cpython-34m.so
+building '_dbm' extension
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -DHAVE_NDBM_H -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/_dbmmodule.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_dbmmodule.o
+gcc -pthread -shared build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_dbmmodule.o -L/home/vdp5/bin/lib -L/usr/local/lib -lgdbm_compat -o build/lib.linux-x86_64-3.4/_dbm.cpython-34m.so
+building '_gdbm' extension
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/_gdbmmodule.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_gdbmmodule.o
+gcc -pthread -shared build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_gdbmmodule.o -L/home/vdp5/bin/lib -L/usr/local/lib -lgdbm -o build/lib.linux-x86_64-3.4/_gdbm.cpython-34m.so
+building 'termios' extension
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/termios.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/termios.o
+gcc -pthread -shared build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/termios.o -L/home/vdp5/bin/lib -L/usr/local/lib -o build/lib.linux-x86_64-3.4/termios.cpython-34m.so
+building 'resource' extension
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/resource.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/resource.o
+gcc -pthread -shared build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/resource.o -L/home/vdp5/bin/lib -L/usr/local/lib -o build/lib.linux-x86_64-3.4/resource.cpython-34m.so
+building 'nis' extension
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/nismodule.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/nismodule.o
+gcc -pthread -shared build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/nismodule.o -L/home/vdp5/bin/lib -L/usr/local/lib -lnsl -o build/lib.linux-x86_64-3.4/nis.cpython-34m.so
+building '_curses' extension
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -DHAVE_NCURSESW=1 -I/usr/include/ncursesw -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/_cursesmodule.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_cursesmodule.o
+gcc -pthread -shared build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_cursesmodule.o -L/home/vdp5/bin/lib -L/usr/local/lib -lncursesw -o build/lib.linux-x86_64-3.4/_curses.cpython-34m.so
+building '_curses_panel' extension
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -DHAVE_NCURSESW=1 -I/usr/include/ncursesw -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/_curses_panel.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_curses_panel.o
+gcc -pthread -shared build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_curses_panel.o -L/home/vdp5/bin/lib -L/usr/local/lib -lpanelw -lncursesw -o build/lib.linux-x86_64-3.4/_curses_panel.cpython-34m.so
+building 'zlib' extension
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/zlibmodule.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/zlibmodule.o
+gcc -pthread -shared build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/zlibmodule.o -L/home/vdp5/bin/lib -L/usr/local/lib -lz -o build/lib.linux-x86_64-3.4/zlib.cpython-34m.so
+building 'binascii' extension
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/binascii.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/binascii.o -DUSE_ZLIB_CRC32
+gcc -pthread -shared build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/binascii.o -L/home/vdp5/bin/lib -L/usr/local/lib -lz -o build/lib.linux-x86_64-3.4/binascii.cpython-34m.so
+building '_bz2' extension
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/_bz2module.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_bz2module.o
+gcc -pthread -shared build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_bz2module.o -L/home/vdp5/bin/lib -L/usr/local/lib -lbz2 -o build/lib.linux-x86_64-3.4/_bz2.cpython-34m.so
+building '_lzma' extension
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/_lzmamodule.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_lzmamodule.o
+gcc -pthread -shared build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_lzmamodule.o -L/home/vdp5/bin/lib -L/usr/local/lib -llzma -o build/lib.linux-x86_64-3.4/_lzma.cpython-34m.so
+building 'pyexpat' extension
+creating build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/expat
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -DHAVE_EXPAT_CONFIG_H=1 -DUSE_PYEXPAT_CAPI -I/home/vdp5/source_code/Python-3.4.5/Modules/expat -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/pyexpat.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/pyexpat.o
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -DHAVE_EXPAT_CONFIG_H=1 -DUSE_PYEXPAT_CAPI -I/home/vdp5/source_code/Python-3.4.5/Modules/expat -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/expat/xmlparse.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/expat/xmlparse.o
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -DHAVE_EXPAT_CONFIG_H=1 -DUSE_PYEXPAT_CAPI -I/home/vdp5/source_code/Python-3.4.5/Modules/expat -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/expat/xmlrole.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/expat/xmlrole.o
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -DHAVE_EXPAT_CONFIG_H=1 -DUSE_PYEXPAT_CAPI -I/home/vdp5/source_code/Python-3.4.5/Modules/expat -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/expat/xmltok.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/expat/xmltok.o
+gcc -pthread -shared build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/pyexpat.o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/expat/xmlparse.o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/expat/xmlrole.o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/expat/xmltok.o -L/home/vdp5/bin/lib -L/usr/local/lib -o build/lib.linux-x86_64-3.4/pyexpat.cpython-34m.so
+building '_elementtree' extension
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -DHAVE_EXPAT_CONFIG_H=1 -DUSE_PYEXPAT_CAPI -I/home/vdp5/source_code/Python-3.4.5/Modules/expat -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/_elementtree.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_elementtree.o
+gcc -pthread -shared build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_elementtree.o -L/home/vdp5/bin/lib -L/usr/local/lib -o build/lib.linux-x86_64-3.4/_elementtree.cpython-34m.so
+building '_multibytecodec' extension
+creating build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/cjkcodecs
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/cjkcodecs/multibytecodec.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/cjkcodecs/multibytecodec.o
+gcc -pthread -shared build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/cjkcodecs/multibytecodec.o -L/home/vdp5/bin/lib -L/usr/local/lib -o build/lib.linux-x86_64-3.4/_multibytecodec.cpython-34m.so
+building '_codecs_kr' extension
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/cjkcodecs/_codecs_kr.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/cjkcodecs/_codecs_kr.o
+gcc -pthread -shared build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/cjkcodecs/_codecs_kr.o -L/home/vdp5/bin/lib -L/usr/local/lib -o build/lib.linux-x86_64-3.4/_codecs_kr.cpython-34m.so
+building '_codecs_jp' extension
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/cjkcodecs/_codecs_jp.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/cjkcodecs/_codecs_jp.o
+gcc -pthread -shared build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/cjkcodecs/_codecs_jp.o -L/home/vdp5/bin/lib -L/usr/local/lib -o build/lib.linux-x86_64-3.4/_codecs_jp.cpython-34m.so
+building '_codecs_cn' extension
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/cjkcodecs/_codecs_cn.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/cjkcodecs/_codecs_cn.o
+gcc -pthread -shared build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/cjkcodecs/_codecs_cn.o -L/home/vdp5/bin/lib -L/usr/local/lib -o build/lib.linux-x86_64-3.4/_codecs_cn.cpython-34m.so
+building '_codecs_tw' extension
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/cjkcodecs/_codecs_tw.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/cjkcodecs/_codecs_tw.o
+gcc -pthread -shared build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/cjkcodecs/_codecs_tw.o -L/home/vdp5/bin/lib -L/usr/local/lib -o build/lib.linux-x86_64-3.4/_codecs_tw.cpython-34m.so
+building '_codecs_hk' extension
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/cjkcodecs/_codecs_hk.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/cjkcodecs/_codecs_hk.o
+gcc -pthread -shared build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/cjkcodecs/_codecs_hk.o -L/home/vdp5/bin/lib -L/usr/local/lib -o build/lib.linux-x86_64-3.4/_codecs_hk.cpython-34m.so
+building '_codecs_iso2022' extension
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/cjkcodecs/_codecs_iso2022.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/cjkcodecs/_codecs_iso2022.o
+gcc -pthread -shared build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/cjkcodecs/_codecs_iso2022.o -L/home/vdp5/bin/lib -L/usr/local/lib -o build/lib.linux-x86_64-3.4/_codecs_iso2022.cpython-34m.so
+building '_decimal' extension
+creating build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_decimal
+creating build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_decimal/libmpdec
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -DCONFIG_64=1 -DASM=1 -I/home/vdp5/source_code/Python-3.4.5/Modules/_decimal/libmpdec -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/_decimal/_decimal.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_decimal/_decimal.o -Wextra -Wno-missing-field-initializers
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -DCONFIG_64=1 -DASM=1 -I/home/vdp5/source_code/Python-3.4.5/Modules/_decimal/libmpdec -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/_decimal/libmpdec/basearith.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_decimal/libmpdec/basearith.o -Wextra -Wno-missing-field-initializers
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -DCONFIG_64=1 -DASM=1 -I/home/vdp5/source_code/Python-3.4.5/Modules/_decimal/libmpdec -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/_decimal/libmpdec/constants.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_decimal/libmpdec/constants.o -Wextra -Wno-missing-field-initializers
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -DCONFIG_64=1 -DASM=1 -I/home/vdp5/source_code/Python-3.4.5/Modules/_decimal/libmpdec -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/_decimal/libmpdec/context.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_decimal/libmpdec/context.o -Wextra -Wno-missing-field-initializers
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -DCONFIG_64=1 -DASM=1 -I/home/vdp5/source_code/Python-3.4.5/Modules/_decimal/libmpdec -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/_decimal/libmpdec/convolute.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_decimal/libmpdec/convolute.o -Wextra -Wno-missing-field-initializers
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -DCONFIG_64=1 -DASM=1 -I/home/vdp5/source_code/Python-3.4.5/Modules/_decimal/libmpdec -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/_decimal/libmpdec/crt.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_decimal/libmpdec/crt.o -Wextra -Wno-missing-field-initializers
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -DCONFIG_64=1 -DASM=1 -I/home/vdp5/source_code/Python-3.4.5/Modules/_decimal/libmpdec -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/_decimal/libmpdec/difradix2.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_decimal/libmpdec/difradix2.o -Wextra -Wno-missing-field-initializers
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -DCONFIG_64=1 -DASM=1 -I/home/vdp5/source_code/Python-3.4.5/Modules/_decimal/libmpdec -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/_decimal/libmpdec/fnt.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_decimal/libmpdec/fnt.o -Wextra -Wno-missing-field-initializers
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -DCONFIG_64=1 -DASM=1 -I/home/vdp5/source_code/Python-3.4.5/Modules/_decimal/libmpdec -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/_decimal/libmpdec/fourstep.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_decimal/libmpdec/fourstep.o -Wextra -Wno-missing-field-initializers
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -DCONFIG_64=1 -DASM=1 -I/home/vdp5/source_code/Python-3.4.5/Modules/_decimal/libmpdec -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/_decimal/libmpdec/io.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_decimal/libmpdec/io.o -Wextra -Wno-missing-field-initializers
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -DCONFIG_64=1 -DASM=1 -I/home/vdp5/source_code/Python-3.4.5/Modules/_decimal/libmpdec -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/_decimal/libmpdec/memory.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_decimal/libmpdec/memory.o -Wextra -Wno-missing-field-initializers
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -DCONFIG_64=1 -DASM=1 -I/home/vdp5/source_code/Python-3.4.5/Modules/_decimal/libmpdec -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/_decimal/libmpdec/mpdecimal.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_decimal/libmpdec/mpdecimal.o -Wextra -Wno-missing-field-initializers
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -DCONFIG_64=1 -DASM=1 -I/home/vdp5/source_code/Python-3.4.5/Modules/_decimal/libmpdec -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/_decimal/libmpdec/numbertheory.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_decimal/libmpdec/numbertheory.o -Wextra -Wno-missing-field-initializers
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -DCONFIG_64=1 -DASM=1 -I/home/vdp5/source_code/Python-3.4.5/Modules/_decimal/libmpdec -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/_decimal/libmpdec/sixstep.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_decimal/libmpdec/sixstep.o -Wextra -Wno-missing-field-initializers
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -DCONFIG_64=1 -DASM=1 -I/home/vdp5/source_code/Python-3.4.5/Modules/_decimal/libmpdec -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/_decimal/libmpdec/transpose.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_decimal/libmpdec/transpose.o -Wextra -Wno-missing-field-initializers
+gcc -pthread -shared build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_decimal/_decimal.o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_decimal/libmpdec/basearith.o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_decimal/libmpdec/constants.o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_decimal/libmpdec/context.o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_decimal/libmpdec/convolute.o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_decimal/libmpdec/crt.o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_decimal/libmpdec/difradix2.o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_decimal/libmpdec/fnt.o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_decimal/libmpdec/fourstep.o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_decimal/libmpdec/io.o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_decimal/libmpdec/memory.o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_decimal/libmpdec/mpdecimal.o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_decimal/libmpdec/numbertheory.o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_decimal/libmpdec/sixstep.o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_decimal/libmpdec/transpose.o -L/home/vdp5/bin/lib -L/usr/local/lib -o build/lib.linux-x86_64-3.4/_decimal.cpython-34m.so
+building '_multiprocessing' extension
+creating build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_multiprocessing
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -IModules/_multiprocessing -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/_multiprocessing/multiprocessing.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_multiprocessing/multiprocessing.o
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -IModules/_multiprocessing -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/_multiprocessing/semaphore.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_multiprocessing/semaphore.o
+gcc -pthread -shared build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_multiprocessing/multiprocessing.o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_multiprocessing/semaphore.o -L/home/vdp5/bin/lib -L/usr/local/lib -o build/lib.linux-x86_64-3.4/_multiprocessing.cpython-34m.so
+building 'ossaudiodev' extension
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/ossaudiodev.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/ossaudiodev.o
+gcc -pthread -shared build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/ossaudiodev.o -L/home/vdp5/bin/lib -L/usr/local/lib -o build/lib.linux-x86_64-3.4/ossaudiodev.cpython-34m.so
+building '_tkinter' extension
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -DWITH_APPINIT=1 -I/usr/X11/include -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/_tkinter.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_tkinter.o
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -DWITH_APPINIT=1 -I/usr/X11/include -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/tkappinit.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/tkappinit.o
+gcc -pthread -shared build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_tkinter.o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/tkappinit.o -L/usr/X11/lib -L/home/vdp5/bin/lib -L/usr/local/lib -ltk8.5 -ltcl8.5 -lX11 -o build/lib.linux-x86_64-3.4/_tkinter.cpython-34m.so
+building 'xxlimited' extension
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -DPy_LIMITED_API=0x03040000 -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/xxlimited.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/xxlimited.o
+gcc -pthread -shared build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/xxlimited.o -L/home/vdp5/bin/lib -L/usr/local/lib -o build/lib.linux-x86_64-3.4/xxlimited.cpython-34m.so
+creating build/temp.linux-x86_64-3.4/libffi
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking target system type... x86_64-unknown-linux-gnu
+checking for gsed... sed
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking for gcc... gcc -pthread
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc -pthread accepts -g... yes
+checking for gcc -pthread option to accept ISO C89... none needed
+checking for style of include used by make... GNU
+checking dependency style of gcc -pthread... gcc3
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking dependency style of g++... gcc3
+checking dependency style of gcc -pthread... gcc3
+checking whether gcc -pthread and cc understand -c and -o together... yes
+checking how to print strings... printf
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by gcc -pthread... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc -pthread object... ok
+checking for sysroot... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking how to run the C preprocessor... gcc -pthread -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc -pthread supports -fno-rtti -fno-exceptions... no
+checking for gcc -pthread option to produce PIC... -fPIC -DPIC
+checking if gcc -pthread PIC flag -fPIC -DPIC works... yes
+checking if gcc -pthread static flag -static works... no
+checking if gcc -pthread supports -c -o file.o... yes
+checking if gcc -pthread supports -c -o file.o... (cached) yes
+checking whether the gcc -pthread linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking how to run the C++ preprocessor... g++ -E
+checking for ld used by g++... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking for g++ option to produce PIC... -fPIC -DPIC
+checking if g++ PIC flag -fPIC -DPIC works... yes
+checking if g++ static flag -static works... no
+checking if g++ supports -c -o file.o... yes
+checking if g++ supports -c -o file.o... (cached) yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking size of size_t... 8
+checking for C compiler vendor... gnu
+checking CFLAGS for maximum warnings... -Wall
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking sys/mman.h usability... yes
+checking sys/mman.h presence... yes
+checking for sys/mman.h... yes
+checking for mmap... yes
+checking for sys/mman.h... (cached) yes
+checking for mmap... (cached) yes
+checking whether read-only mmap of a plain file works... yes
+checking whether mmap from /dev/zero works... yes
+checking for MAP_ANON(YMOUS)... yes
+checking whether mmap with MAP_ANON(YMOUS) works... yes
+checking for ANSI C header files... (cached) yes
+checking for memcpy... yes
+checking for size_t... yes
+checking for working alloca.h... yes
+checking for alloca... yes
+checking size of double... 8
+checking size of long double... 16
+checking whether byte ordering is bigendian... no
+checking assembler .cfi pseudo-op support... yes
+checking assembler supports pc related relocs... yes
+checking assembler .ascii pseudo-op support... yes
+checking assembler .string pseudo-op support... yes
+checking for _ prefix in compiled symbols... no
+checking toolchain supports unwind section type... yes
+checking whether .eh_frame section should be read-only... yes
+checking for __attribute__((visibility("hidden")))... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating include/Makefile
+config.status: creating include/ffi.h
+config.status: creating Makefile
+config.status: creating testsuite/Makefile
+config.status: creating man/Makefile
+config.status: creating libffi.pc
+config.status: creating fficonfig.py
+config.status: creating fficonfig.h
+config.status: linking /home/vdp5/source_code/Python-3.4.5/Modules/_ctypes/libffi/src/x86/ffitarget.h to include/ffitarget.h
+config.status: linking /home/vdp5/source_code/Python-3.4.5/Modules/_ctypes/libffi/include/ffi_common.h to include/ffi_common.h
+config.status: executing buildir commands
+config.status: skipping top_srcdir/Makefile - not created
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing include commands
+config.status: executing src commands
+building '_ctypes' extension
+creating build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_ctypes/libffi
+creating build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_ctypes/libffi/src
+creating build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_ctypes/libffi/src/x86
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -Ibuild/temp.linux-x86_64-3.4/libffi/include -Ibuild/temp.linux-x86_64-3.4/libffi -I/home/vdp5/source_code/Python-3.4.5/Modules/_ctypes/libffi/src -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/_ctypes/_ctypes.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_ctypes/_ctypes.o -Wall -fexceptions
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -Ibuild/temp.linux-x86_64-3.4/libffi/include -Ibuild/temp.linux-x86_64-3.4/libffi -I/home/vdp5/source_code/Python-3.4.5/Modules/_ctypes/libffi/src -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/_ctypes/callbacks.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_ctypes/callbacks.o -Wall -fexceptions
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -Ibuild/temp.linux-x86_64-3.4/libffi/include -Ibuild/temp.linux-x86_64-3.4/libffi -I/home/vdp5/source_code/Python-3.4.5/Modules/_ctypes/libffi/src -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/_ctypes/callproc.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_ctypes/callproc.o -Wall -fexceptions
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -Ibuild/temp.linux-x86_64-3.4/libffi/include -Ibuild/temp.linux-x86_64-3.4/libffi -I/home/vdp5/source_code/Python-3.4.5/Modules/_ctypes/libffi/src -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/_ctypes/stgdict.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_ctypes/stgdict.o -Wall -fexceptions
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -Ibuild/temp.linux-x86_64-3.4/libffi/include -Ibuild/temp.linux-x86_64-3.4/libffi -I/home/vdp5/source_code/Python-3.4.5/Modules/_ctypes/libffi/src -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/_ctypes/cfield.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_ctypes/cfield.o -Wall -fexceptions
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -Ibuild/temp.linux-x86_64-3.4/libffi/include -Ibuild/temp.linux-x86_64-3.4/libffi -I/home/vdp5/source_code/Python-3.4.5/Modules/_ctypes/libffi/src -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/_ctypes/libffi/src/prep_cif.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_ctypes/libffi/src/prep_cif.o -Wall -fexceptions
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -Ibuild/temp.linux-x86_64-3.4/libffi/include -Ibuild/temp.linux-x86_64-3.4/libffi -I/home/vdp5/source_code/Python-3.4.5/Modules/_ctypes/libffi/src -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/_ctypes/libffi/src/closures.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_ctypes/libffi/src/closures.o -Wall -fexceptions
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -Ibuild/temp.linux-x86_64-3.4/libffi/include -Ibuild/temp.linux-x86_64-3.4/libffi -I/home/vdp5/source_code/Python-3.4.5/Modules/_ctypes/libffi/src -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/_ctypes/libffi/src/x86/ffi64.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_ctypes/libffi/src/x86/ffi64.o -Wall -fexceptions
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -Ibuild/temp.linux-x86_64-3.4/libffi/include -Ibuild/temp.linux-x86_64-3.4/libffi -I/home/vdp5/source_code/Python-3.4.5/Modules/_ctypes/libffi/src -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/_ctypes/libffi/src/x86/unix64.S -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_ctypes/libffi/src/x86/unix64.o -Wall -fexceptions
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -Ibuild/temp.linux-x86_64-3.4/libffi/include -Ibuild/temp.linux-x86_64-3.4/libffi -I/home/vdp5/source_code/Python-3.4.5/Modules/_ctypes/libffi/src -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/_ctypes/libffi/src/x86/ffi.c -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_ctypes/libffi/src/x86/ffi.o -Wall -fexceptions
+gcc -pthread -fPIC -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Werror=declaration-after-statement -Ibuild/temp.linux-x86_64-3.4/libffi/include -Ibuild/temp.linux-x86_64-3.4/libffi -I/home/vdp5/source_code/Python-3.4.5/Modules/_ctypes/libffi/src -I./Include -I/home/vdp5/bin/include -I. -IInclude -I/usr/local/include -I/home/vdp5/source_code/Python-3.4.5/Include -I/home/vdp5/source_code/Python-3.4.5 -c /home/vdp5/source_code/Python-3.4.5/Modules/_ctypes/libffi/src/x86/sysv.S -o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_ctypes/libffi/src/x86/sysv.o -Wall -fexceptions
+gcc -pthread -shared build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_ctypes/_ctypes.o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_ctypes/callbacks.o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_ctypes/callproc.o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_ctypes/stgdict.o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_ctypes/cfield.o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_ctypes/libffi/src/prep_cif.o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_ctypes/libffi/src/closures.o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_ctypes/libffi/src/x86/ffi64.o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_ctypes/libffi/src/x86/unix64.o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_ctypes/libffi/src/x86/ffi.o build/temp.linux-x86_64-3.4/home/vdp5/source_code/Python-3.4.5/Modules/_ctypes/libffi/src/x86/sysv.o -L/home/vdp5/bin/lib -L/usr/local/lib -o build/lib.linux-x86_64-3.4/_ctypes.cpython-34m.so
+
+Python build finished successfully!
+The necessary bits to build these optional modules were not found:
+_sqlite3              _ssl                  readline           
+To find the necessary bits, look in setup.py in detect_modules() for the module's name.
+
+running build_scripts
+creating build/scripts-3.4
+copying and adjusting /home/vdp5/source_code/Python-3.4.5/Tools/scripts/pydoc3 -> build/scripts-3.4
+copying and adjusting /home/vdp5/source_code/Python-3.4.5/Tools/scripts/idle3 -> build/scripts-3.4
+copying and adjusting /home/vdp5/source_code/Python-3.4.5/Tools/scripts/2to3 -> build/scripts-3.4
+copying and adjusting /home/vdp5/source_code/Python-3.4.5/Tools/scripts/pyvenv -> build/scripts-3.4
+changing mode of build/scripts-3.4/pydoc3 from 644 to 755
+changing mode of build/scripts-3.4/idle3 from 644 to 755
+changing mode of build/scripts-3.4/2to3 from 644 to 755
+changing mode of build/scripts-3.4/pyvenv from 644 to 755
+renaming build/scripts-3.4/pydoc3 to build/scripts-3.4/pydoc3.4
+renaming build/scripts-3.4/idle3 to build/scripts-3.4/idle3.4
+renaming build/scripts-3.4/2to3 to build/scripts-3.4/2to3-3.4
+renaming build/scripts-3.4/pyvenv to build/scripts-3.4/pyvenv-3.4
+/usr/bin/install -c -m 644 ./Tools/gdb/libpython.py python-gdb.py
+gcc -pthread -c -Wno-unused-result -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes    -Werror=declaration-after-statement   -I. -IInclude -I./Include    -DPy_BUILD_CORE -o Modules/_testembed.o ./Modules/_testembed.c
+gcc -pthread   -Xlinker -export-dynamic -o Modules/_testembed Modules/_testembed.o libpython3.4m.a -lpthread -ldl  -lutil   -lm  
+# Substitution happens here, as the completely-expanded BINDIR
+# is not available in configure
+sed -e "s,@EXENAME@,/home/vdp5/bin/bin/python3.4m," < ./Misc/python-config.in >python-config.py
+# Replace makefile compat. variable references with shell script compat. ones;  -> 
+sed -e 's,\$(\([A-Za-z0-9_]*\)),\$\{\1\},g' < Misc/python-config.sh >python-config
+# On Darwin, always use the python version of the script, the shell
+# version doesn't use the compiler customizations that are provided
+# in python (_osx_support.py).
+if test `uname -s` = Darwin; then \
+	cp python-config.py python-config; \
+fi
+if test "no-framework" = "no-framework" ; then \
+	/usr/bin/install -c python /home/vdp5/bin/bin/python3.4m; \
+else \
+	/usr/bin/install -c -s Mac/pythonw /home/vdp5/bin/bin/python3.4m; \
+fi
+if test "3.4" != "3.4m"; then \
+	if test -f /home/vdp5/bin/bin/python3.4 -o -h /home/vdp5/bin/bin/python3.4; \
+	then rm -f /home/vdp5/bin/bin/python3.4; \
+	fi; \
+	(cd /home/vdp5/bin/bin; ln python3.4m python3.4); \
+fi
+if test -f libpython3.4m.a && test "no-framework" = "no-framework" ; then \
+	if test -n "" ; then \
+		/usr/bin/install -c -m 555  /home/vdp5/bin/bin; \
+	else \
+		/usr/bin/install -c -m 555 libpython3.4m.a /home/vdp5/bin/lib/libpython3.4m.a; \
+		if test libpython3.4m.a != libpython3.4m.a; then \
+			(cd /home/vdp5/bin/lib; ln -sf libpython3.4m.a libpython3.4m.a) \
+		fi \
+	fi; \
+	if test -n ""; then \
+		/usr/bin/install -c -m 555  /home/vdp5/bin/lib/; \
+	fi; \
+else	true; \
+fi
+if test "x" != "x" ; then \
+	rm -f /home/vdp5/bin/binpython3.4-32; \
+	lipo  \
+		-output /home/vdp5/bin/bin/python3.4-32 \
+		/home/vdp5/bin/bin/python3.4; \
+fi
+running build
+running build_ext
+
+Python build finished successfully!
+The necessary bits to build these optional modules were not found:
+_sqlite3              _ssl                  readline           
+To find the necessary bits, look in setup.py in detect_modules() for the module's name.
+
+running build_scripts
+copying and adjusting /home/vdp5/source_code/Python-3.4.5/Tools/scripts/pydoc3 -> build/scripts-3.4
+copying and adjusting /home/vdp5/source_code/Python-3.4.5/Tools/scripts/idle3 -> build/scripts-3.4
+copying and adjusting /home/vdp5/source_code/Python-3.4.5/Tools/scripts/2to3 -> build/scripts-3.4
+copying and adjusting /home/vdp5/source_code/Python-3.4.5/Tools/scripts/pyvenv -> build/scripts-3.4
+changing mode of build/scripts-3.4/pydoc3 from 644 to 755
+changing mode of build/scripts-3.4/idle3 from 644 to 755
+changing mode of build/scripts-3.4/2to3 from 644 to 755
+changing mode of build/scripts-3.4/pyvenv from 644 to 755
+renaming build/scripts-3.4/pydoc3 to build/scripts-3.4/pydoc3.4
+renaming build/scripts-3.4/idle3 to build/scripts-3.4/idle3.4
+renaming build/scripts-3.4/2to3 to build/scripts-3.4/2to3-3.4
+renaming build/scripts-3.4/pyvenv to build/scripts-3.4/pyvenv-3.4
+Creating directory /home/vdp5/bin/lib/python3.4
+Creating directory /home/vdp5/bin/lib/python3.4/tkinter
+Creating directory /home/vdp5/bin/lib/python3.4/tkinter/test
+Creating directory /home/vdp5/bin/lib/python3.4/tkinter/test/test_tkinter
+Creating directory /home/vdp5/bin/lib/python3.4/tkinter/test/test_ttk
+Creating directory /home/vdp5/bin/lib/python3.4/site-packages
+Creating directory /home/vdp5/bin/lib/python3.4/test
+Creating directory /home/vdp5/bin/lib/python3.4/test/audiodata
+Creating directory /home/vdp5/bin/lib/python3.4/test/capath
+Creating directory /home/vdp5/bin/lib/python3.4/test/data
+Creating directory /home/vdp5/bin/lib/python3.4/test/cjkencodings
+Creating directory /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+Creating directory /home/vdp5/bin/lib/python3.4/test/xmltestdata
+Creating directory /home/vdp5/bin/lib/python3.4/test/imghdrdata
+Creating directory /home/vdp5/bin/lib/python3.4/test/subprocessdata
+Creating directory /home/vdp5/bin/lib/python3.4/test/sndhdrdata
+Creating directory /home/vdp5/bin/lib/python3.4/test/support
+Creating directory /home/vdp5/bin/lib/python3.4/test/tracedmodules
+Creating directory /home/vdp5/bin/lib/python3.4/test/encoded_modules
+Creating directory /home/vdp5/bin/lib/python3.4/test/test_importlib/namespace_pkgs
+Creating directory /home/vdp5/bin/lib/python3.4/test/test_importlib/namespace_pkgs/both_portions
+Creating directory /home/vdp5/bin/lib/python3.4/test/test_importlib/namespace_pkgs/both_portions/foo
+Creating directory /home/vdp5/bin/lib/python3.4/test/test_importlib/namespace_pkgs/not_a_namespace_pkg
+Creating directory /home/vdp5/bin/lib/python3.4/test/test_importlib/namespace_pkgs/not_a_namespace_pkg/foo
+Creating directory /home/vdp5/bin/lib/python3.4/test/test_importlib/namespace_pkgs/portion1
+Creating directory /home/vdp5/bin/lib/python3.4/test/test_importlib/namespace_pkgs/portion1/foo
+Creating directory /home/vdp5/bin/lib/python3.4/test/test_importlib/namespace_pkgs/portion2
+Creating directory /home/vdp5/bin/lib/python3.4/test/test_importlib/namespace_pkgs/portion2/foo
+Creating directory /home/vdp5/bin/lib/python3.4/test/test_importlib/namespace_pkgs/project1
+Creating directory /home/vdp5/bin/lib/python3.4/test/test_importlib/namespace_pkgs/project1/parent
+Creating directory /home/vdp5/bin/lib/python3.4/test/test_importlib/namespace_pkgs/project1/parent/child
+Creating directory /home/vdp5/bin/lib/python3.4/test/test_importlib/namespace_pkgs/project2
+Creating directory /home/vdp5/bin/lib/python3.4/test/test_importlib/namespace_pkgs/project2/parent
+Creating directory /home/vdp5/bin/lib/python3.4/test/test_importlib/namespace_pkgs/project2/parent/child
+Creating directory /home/vdp5/bin/lib/python3.4/test/test_importlib/namespace_pkgs/project3
+Creating directory /home/vdp5/bin/lib/python3.4/test/test_importlib/namespace_pkgs/project3/parent
+Creating directory /home/vdp5/bin/lib/python3.4/test/test_importlib/namespace_pkgs/project3/parent/child
+Creating directory /home/vdp5/bin/lib/python3.4/test/test_importlib/namespace_pkgs/module_and_namespace_package
+Creating directory /home/vdp5/bin/lib/python3.4/test/test_importlib/namespace_pkgs/module_and_namespace_package/a_test
+Creating directory /home/vdp5/bin/lib/python3.4/asyncio
+Creating directory /home/vdp5/bin/lib/python3.4/test/test_asyncio
+Creating directory /home/vdp5/bin/lib/python3.4/collections
+Creating directory /home/vdp5/bin/lib/python3.4/concurrent
+Creating directory /home/vdp5/bin/lib/python3.4/concurrent/futures
+Creating directory /home/vdp5/bin/lib/python3.4/encodings
+Creating directory /home/vdp5/bin/lib/python3.4/email
+Creating directory /home/vdp5/bin/lib/python3.4/email/mime
+Creating directory /home/vdp5/bin/lib/python3.4/test/test_email
+Creating directory /home/vdp5/bin/lib/python3.4/test/test_email/data
+Creating directory /home/vdp5/bin/lib/python3.4/ensurepip
+Creating directory /home/vdp5/bin/lib/python3.4/ensurepip/_bundled
+Creating directory /home/vdp5/bin/lib/python3.4/html
+Creating directory /home/vdp5/bin/lib/python3.4/json
+Creating directory /home/vdp5/bin/lib/python3.4/test/test_json
+Creating directory /home/vdp5/bin/lib/python3.4/http
+Creating directory /home/vdp5/bin/lib/python3.4/dbm
+Creating directory /home/vdp5/bin/lib/python3.4/xmlrpc
+Creating directory /home/vdp5/bin/lib/python3.4/sqlite3
+Creating directory /home/vdp5/bin/lib/python3.4/sqlite3/test
+Creating directory /home/vdp5/bin/lib/python3.4/logging
+Creating directory /home/vdp5/bin/lib/python3.4/wsgiref
+Creating directory /home/vdp5/bin/lib/python3.4/urllib
+Creating directory /home/vdp5/bin/lib/python3.4/lib2to3
+Creating directory /home/vdp5/bin/lib/python3.4/lib2to3/fixes
+Creating directory /home/vdp5/bin/lib/python3.4/lib2to3/pgen2
+Creating directory /home/vdp5/bin/lib/python3.4/lib2to3/tests
+Creating directory /home/vdp5/bin/lib/python3.4/lib2to3/tests/data
+Creating directory /home/vdp5/bin/lib/python3.4/lib2to3/tests/data/fixers
+Creating directory /home/vdp5/bin/lib/python3.4/lib2to3/tests/data/fixers/myfixes
+Creating directory /home/vdp5/bin/lib/python3.4/ctypes
+Creating directory /home/vdp5/bin/lib/python3.4/ctypes/test
+Creating directory /home/vdp5/bin/lib/python3.4/ctypes/macholib
+Creating directory /home/vdp5/bin/lib/python3.4/idlelib
+Creating directory /home/vdp5/bin/lib/python3.4/idlelib/Icons
+Creating directory /home/vdp5/bin/lib/python3.4/idlelib/idle_test
+Creating directory /home/vdp5/bin/lib/python3.4/distutils
+Creating directory /home/vdp5/bin/lib/python3.4/distutils/command
+Creating directory /home/vdp5/bin/lib/python3.4/distutils/tests
+Creating directory /home/vdp5/bin/lib/python3.4/xml
+Creating directory /home/vdp5/bin/lib/python3.4/xml/dom
+Creating directory /home/vdp5/bin/lib/python3.4/xml/etree
+Creating directory /home/vdp5/bin/lib/python3.4/xml/parsers
+Creating directory /home/vdp5/bin/lib/python3.4/xml/sax
+Creating directory /home/vdp5/bin/lib/python3.4/importlib
+Creating directory /home/vdp5/bin/lib/python3.4/test/test_importlib/builtin
+Creating directory /home/vdp5/bin/lib/python3.4/test/test_importlib/extension
+Creating directory /home/vdp5/bin/lib/python3.4/test/test_importlib/frozen
+Creating directory /home/vdp5/bin/lib/python3.4/test/test_importlib/import_
+Creating directory /home/vdp5/bin/lib/python3.4/test/test_importlib/source
+Creating directory /home/vdp5/bin/lib/python3.4/turtledemo
+Creating directory /home/vdp5/bin/lib/python3.4/multiprocessing
+Creating directory /home/vdp5/bin/lib/python3.4/multiprocessing/dummy
+Creating directory /home/vdp5/bin/lib/python3.4/unittest
+Creating directory /home/vdp5/bin/lib/python3.4/unittest/test
+Creating directory /home/vdp5/bin/lib/python3.4/unittest/test/testmock
+Creating directory /home/vdp5/bin/lib/python3.4/venv
+Creating directory /home/vdp5/bin/lib/python3.4/venv/scripts
+Creating directory /home/vdp5/bin/lib/python3.4/venv/scripts/posix
+Creating directory /home/vdp5/bin/lib/python3.4/curses
+Creating directory /home/vdp5/bin/lib/python3.4/pydoc_data
+Creating directory /home/vdp5/bin/lib/python3.4/plat-linux
+/usr/bin/install -c -m 644 ./Lib/abc.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/aifc.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/antigravity.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/argparse.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/ast.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/asynchat.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/asyncore.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c ./Lib/base64.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/bdb.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/binhex.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/bisect.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/_bootlocale.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/bz2.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/calendar.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c ./Lib/cgi.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/cgitb.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/chunk.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/cmd.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/codecs.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/codeop.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/code.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/_collections_abc.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/colorsys.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/_compat_pickle.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/compileall.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/configparser.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/contextlib.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/copy.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/copyreg.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c ./Lib/cProfile.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/crypt.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/csv.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/datetime.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/decimal.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/difflib.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/dis.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/doctest.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/dummy_threading.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/_dummy_thread.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/enum.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/filecmp.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/fileinput.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/fnmatch.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/formatter.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/fractions.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/ftplib.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/functools.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/__future__.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/genericpath.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/getopt.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/getpass.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/gettext.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/glob.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/gzip.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/hashlib.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/heapq.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/hmac.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/imaplib.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/imghdr.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/imp.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/inspect.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/io.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/ipaddress.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c ./Lib/keyword.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/linecache.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/locale.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/lzma.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/macpath.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/macurl2path.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/mailbox.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/mailcap.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/_markupbase.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/mimetypes.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/modulefinder.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/netrc.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/nntplib.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/ntpath.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/nturl2path.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/numbers.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/opcode.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/operator.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/optparse.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/os.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/_osx_support.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/pathlib.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c ./Lib/pdb.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/__phello__.foo.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/pickle.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/pickletools.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/pipes.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/pkgutil.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c ./Lib/platform.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/plistlib.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/poplib.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/posixpath.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/pprint.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c ./Lib/profile.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/pstats.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/pty.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/pyclbr.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/py_compile.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c ./Lib/pydoc.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/_pyio.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/queue.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c ./Lib/quopri.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/random.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/reprlib.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/re.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/rlcompleter.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/runpy.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/sched.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/selectors.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/shelve.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/shlex.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/shutil.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/_sitebuiltins.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/site.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c ./Lib/smtpd.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c ./Lib/smtplib.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/sndhdr.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/socket.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/socketserver.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/sre_compile.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/sre_constants.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/sre_parse.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/ssl.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/statistics.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/stat.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/stringprep.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/string.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/_strptime.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/struct.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/subprocess.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/sunau.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c ./Lib/symbol.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/symtable.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/sysconfig.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c ./Lib/tabnanny.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c ./Lib/tarfile.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/telnetlib.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/tempfile.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/textwrap.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/this.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/_threading_local.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/threading.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c ./Lib/timeit.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/tokenize.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/token.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/traceback.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/tracemalloc.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c ./Lib/trace.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/tty.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/turtle.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/types.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/uuid.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c ./Lib/uu.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/warnings.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/wave.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/weakref.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/_weakrefset.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c ./Lib/webbrowser.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/xdrlib.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/zipfile.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 build/lib.linux-x86_64-3.4/_sysconfigdata.py /home/vdp5/bin/lib/python3.4
+/usr/bin/install -c -m 644 ./Lib/tkinter/colorchooser.py /home/vdp5/bin/lib/python3.4/tkinter
+/usr/bin/install -c -m 644 ./Lib/tkinter/commondialog.py /home/vdp5/bin/lib/python3.4/tkinter
+/usr/bin/install -c -m 644 ./Lib/tkinter/constants.py /home/vdp5/bin/lib/python3.4/tkinter
+/usr/bin/install -c -m 644 ./Lib/tkinter/dialog.py /home/vdp5/bin/lib/python3.4/tkinter
+/usr/bin/install -c -m 644 ./Lib/tkinter/dnd.py /home/vdp5/bin/lib/python3.4/tkinter
+/usr/bin/install -c -m 644 ./Lib/tkinter/filedialog.py /home/vdp5/bin/lib/python3.4/tkinter
+/usr/bin/install -c -m 644 ./Lib/tkinter/_fix.py /home/vdp5/bin/lib/python3.4/tkinter
+/usr/bin/install -c -m 644 ./Lib/tkinter/font.py /home/vdp5/bin/lib/python3.4/tkinter
+/usr/bin/install -c -m 644 ./Lib/tkinter/__init__.py /home/vdp5/bin/lib/python3.4/tkinter
+/usr/bin/install -c -m 644 ./Lib/tkinter/__main__.py /home/vdp5/bin/lib/python3.4/tkinter
+/usr/bin/install -c -m 644 ./Lib/tkinter/messagebox.py /home/vdp5/bin/lib/python3.4/tkinter
+/usr/bin/install -c -m 644 ./Lib/tkinter/scrolledtext.py /home/vdp5/bin/lib/python3.4/tkinter
+/usr/bin/install -c -m 644 ./Lib/tkinter/simpledialog.py /home/vdp5/bin/lib/python3.4/tkinter
+/usr/bin/install -c -m 644 ./Lib/tkinter/tix.py /home/vdp5/bin/lib/python3.4/tkinter
+/usr/bin/install -c -m 644 ./Lib/tkinter/ttk.py /home/vdp5/bin/lib/python3.4/tkinter
+/usr/bin/install -c -m 644 ./Lib/tkinter/test/__init__.py /home/vdp5/bin/lib/python3.4/tkinter/test
+/usr/bin/install -c -m 644 ./Lib/tkinter/test/README /home/vdp5/bin/lib/python3.4/tkinter/test
+/usr/bin/install -c -m 644 ./Lib/tkinter/test/runtktests.py /home/vdp5/bin/lib/python3.4/tkinter/test
+/usr/bin/install -c -m 644 ./Lib/tkinter/test/support.py /home/vdp5/bin/lib/python3.4/tkinter/test
+/usr/bin/install -c -m 644 ./Lib/tkinter/test/widget_tests.py /home/vdp5/bin/lib/python3.4/tkinter/test
+/usr/bin/install -c -m 644 ./Lib/tkinter/test/test_tkinter/__init__.py /home/vdp5/bin/lib/python3.4/tkinter/test/test_tkinter
+/usr/bin/install -c -m 644 ./Lib/tkinter/test/test_tkinter/test_font.py /home/vdp5/bin/lib/python3.4/tkinter/test/test_tkinter
+/usr/bin/install -c -m 644 ./Lib/tkinter/test/test_tkinter/test_geometry_managers.py /home/vdp5/bin/lib/python3.4/tkinter/test/test_tkinter
+/usr/bin/install -c -m 644 ./Lib/tkinter/test/test_tkinter/test_images.py /home/vdp5/bin/lib/python3.4/tkinter/test/test_tkinter
+/usr/bin/install -c -m 644 ./Lib/tkinter/test/test_tkinter/test_loadtk.py /home/vdp5/bin/lib/python3.4/tkinter/test/test_tkinter
+/usr/bin/install -c -m 644 ./Lib/tkinter/test/test_tkinter/test_misc.py /home/vdp5/bin/lib/python3.4/tkinter/test/test_tkinter
+/usr/bin/install -c -m 644 ./Lib/tkinter/test/test_tkinter/test_text.py /home/vdp5/bin/lib/python3.4/tkinter/test/test_tkinter
+/usr/bin/install -c -m 644 ./Lib/tkinter/test/test_tkinter/test_variables.py /home/vdp5/bin/lib/python3.4/tkinter/test/test_tkinter
+/usr/bin/install -c -m 644 ./Lib/tkinter/test/test_tkinter/test_widgets.py /home/vdp5/bin/lib/python3.4/tkinter/test/test_tkinter
+/usr/bin/install -c -m 644 ./Lib/tkinter/test/test_ttk/__init__.py /home/vdp5/bin/lib/python3.4/tkinter/test/test_ttk
+/usr/bin/install -c -m 644 ./Lib/tkinter/test/test_ttk/test_extensions.py /home/vdp5/bin/lib/python3.4/tkinter/test/test_ttk
+/usr/bin/install -c -m 644 ./Lib/tkinter/test/test_ttk/test_functions.py /home/vdp5/bin/lib/python3.4/tkinter/test/test_ttk
+/usr/bin/install -c -m 644 ./Lib/tkinter/test/test_ttk/test_style.py /home/vdp5/bin/lib/python3.4/tkinter/test/test_ttk
+/usr/bin/install -c -m 644 ./Lib/tkinter/test/test_ttk/test_widgets.py /home/vdp5/bin/lib/python3.4/tkinter/test/test_ttk
+/usr/bin/install -c -m 644 ./Lib/site-packages/README /home/vdp5/bin/lib/python3.4/site-packages
+/usr/bin/install -c -m 644 ./Lib/test/185test.db /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/audiotest.au /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/audiotests.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/autotest.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/badcert.pem /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/bad_coding2.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/bad_coding.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/badkey.pem /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/badsyntax_3131.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/badsyntax_future10.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/badsyntax_future3.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/badsyntax_future4.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/badsyntax_future5.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/badsyntax_future6.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/badsyntax_future7.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/badsyntax_future8.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/badsyntax_future9.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/badsyntax_pep3120.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/buffer_tests.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/bytecode_helper.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/cfgparser.1 /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/cfgparser.2 /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/cfgparser.3 /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/check_soundcard.vbs /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/cmath_testcases.txt /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/coding20731.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c ./Lib/test/curses_tests.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/datetimetester.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/dh1024.pem /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/dis_module.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/doctest_aliases.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/double_const.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/empty.vbs /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/exception_hierarchy.txt /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/final_a.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/final_b.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/floating_points.txt /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/fork_wait.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/formatfloat_testcases.txt /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/future_test1.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/future_test2.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/gdb_sample.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/ieee754.txt /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/__init__.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/inspect_fodder2.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/inspect_fodder.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/keycert2.pem /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/keycert3.pem /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/keycert4.pem /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/keycert.passwd.pem /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/keycert.pem /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/list_tests.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/lock_tests.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/mailcap.txt /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/__main__.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/make_ssl_certs.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/mapping_tests.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/math_testcases.txt /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/memory_watchdog.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/mime.types /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/mock_socket.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/mp_fork_bomb.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/multibytecodec_support.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/nokia.pem /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/nullbytecert.pem /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/nullcert.pem /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/outstanding_bugs.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/pickletester.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/profilee.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/pstats.pck /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/pycacert.pem /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/pycakey.pem /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/pyclbr_input.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/pydocfodder.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/pydoc_mod.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c ./Lib/test/pystone.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/randv2_32.pck /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/randv2_64.pck /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/randv3.pck /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c ./Lib/test/regrtest.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/relimport.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/reperf.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c ./Lib/test/re_tests.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/revocation.crl /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/sample_doctest_no_docstrings.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/sample_doctest_no_doctests.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/sample_doctest.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/script_helper.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/selfsigned_pythontestdotnet.pem /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/seq_tests.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/sgml_input.html /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/sha256.pem /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/Sine-1000Hz-300ms.aif /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/sortperf.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/ssl_cert.pem /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/ssl_key.passwd.pem /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/ssl_key.pem /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/ssl_servers.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/ssltests.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/string_tests.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_abc.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_abstract_numbers.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_aifc.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test___all__.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_argparse.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_array.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_ast.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_asynchat.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_asyncore.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_atexit.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_audioop.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_augassign.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_base64.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_bigaddrspace.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_bigmem.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_binascii.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_binhex.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_binop.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_bisect.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_bool.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_buffer.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_bufio.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_builtin.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_bytes.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_bz2.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_calendar.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_call.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_capi.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_cgi.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_cgitb.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_charmapcodec.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_class.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_cmath.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_cmd_line.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_cmd_line_script.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_cmd.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_codeccallbacks.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_codecencodings_cn.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_codecencodings_hk.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_codecencodings_iso2022.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_codecencodings_jp.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_codecencodings_kr.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_codecencodings_tw.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_codecmaps_cn.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_codecmaps_hk.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_codecmaps_jp.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_codecmaps_kr.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_codecmaps_tw.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/testcodec.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_codecs.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_code_module.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_codeop.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_code.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_collections.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_colorsys.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_compare.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_compileall.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_compile.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_complex.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_concurrent_futures.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_configparser.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_contains.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_contextlib.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_copy.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_copyreg.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_cprofile.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_crashers.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_crypt.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_csv.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_ctypes.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_curses.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_datetime.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_dbm_dumb.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_dbm_gnu.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_dbm_ndbm.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_dbm.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_decimal.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_decorators.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_defaultdict.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_deque.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_descr.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_descrtut.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_devpoll.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_dictcomps.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_dict.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_dictviews.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_difflib_expect.html /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_difflib.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_dis.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_distutils.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_doctest2.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_doctest2.txt /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_doctest3.txt /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_doctest4.txt /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_doctest.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_doctest.txt /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_docxmlrpc.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_dummy_threading.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_dummy_thread.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_dynamicclassattribute.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_dynamic.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_ensurepip.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_enumerate.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_enum.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_eof.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_epoll.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_errno.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_exceptions.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_exception_variations.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_extcall.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_faulthandler.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_fcntl.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_filecmp.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_file_eintr.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_fileinput.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_fileio.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_file.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_finalization.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_float.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_flufl.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_fnmatch.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_fork1.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_format.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_fractions.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_frame.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_ftplib.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_funcattrs.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_functools.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_future3.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_future4.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_future5.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test___future__.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_future.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_gc.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_gdb.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_generators.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_genericpath.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_genexps.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_getargs2.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_getopt.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_getpass.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_gettext.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_global.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_glob.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_grammar.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_grp.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_gzip.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_hashlib.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_hash.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_heapq.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_hmac.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_htmlparser.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_html.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_http_cookiejar.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_http_cookies.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_httplib.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_httpservers.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_idle.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_imaplib.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_imghdr.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_import.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_imp.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_index.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_inspect.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_int_literal.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_int.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_ioctl.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_io.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_ipaddress.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_isinstance.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_iterlen.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_iter.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_itertools.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_keywordonlyarg.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_keyword.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_kqueue.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_largefile.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_lib2to3.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_linecache.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_listcomps.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_list.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test__locale.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_locale.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_logging.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_longexp.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_long.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_lzma.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_macpath.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_macurl2path.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_mailbox.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_mailcap.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_marshal.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_math.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_memoryio.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_memoryview.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_metaclass.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_mimetypes.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_minidom.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_mmap.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_modulefinder.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_module.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_msilib.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_multibytecodec.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_multiprocessing_fork.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_multiprocessing_forkserver.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_multiprocessing_main_handling.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/_test_multiprocessing.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_multiprocessing_spawn.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_netrc.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_nis.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_nntplib.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_normalization.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_ntpath.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_numeric_tower.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test__opcode.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_opcodes.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_openpty.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_operator.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_optparse.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_ordered_dict.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_os.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_ossaudiodev.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_osx_env.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test__osx_support.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_parser.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_pathlib.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_pdb.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_peepholer.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_pep247.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_pep277.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_pep292.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_pep3120.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_pep3131.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_pep3151.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_pep352.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_pep380.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_pickle.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_pickletools.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_pipes.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_pkgimport.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_pkg.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_pkgutil.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_platform.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_plistlib.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_poll.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_popen.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_poplib.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_posixpath.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_posix.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_pow.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_pprint.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_print.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_profile.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_property.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_pstats.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_pty.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_pulldom.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_pwd.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_pyclbr.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_py_compile.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_pydoc.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_pyexpat.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_queue.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_quopri.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_raise.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_random.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_range.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_readline.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_regrtest.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_reprlib.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_re.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_resource.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_richcmp.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_rlcompleter.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_robotparser.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_runpy.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_sax.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_sched.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_scope.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_script_helper.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_selectors.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_select.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_setcomps.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_set.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_shelve.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_shlex.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_shutil.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_signal.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_site.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_slice.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_smtpd.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_smtplib.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_smtpnet.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_sndhdr.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_socket.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_socketserver.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_sort.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_source_encoding.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_spwd.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_sqlite.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_ssl.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_startfile.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_statistics.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_stat.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_strftime.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_stringprep.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_string.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_strlit.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_strptime.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_strtod.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_structmembers.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_struct.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_structseq.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_subprocess.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_sunau.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_sundry.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_super.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_support.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_symtable.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_syntax.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_sysconfig.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_syslog.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_sys.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_sys_setprofile.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_sys_settrace.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_tarfile.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/testtar.tar /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_tcl.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_telnetlib.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_tempfile.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_textwrap.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_threaded_import.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_threadedtempfile.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_threading_local.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_threading.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_thread.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_threadsignals.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_timeit.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_timeout.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_time.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_tk.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_tokenize.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_traceback.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_tracemalloc.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_trace.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_ttk_guionly.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_ttk_textonly.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_tuple.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_typechecks.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_types.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_ucn.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_unary.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_unicodedata.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_unicode_file.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_unicode.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_unittest.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_univnewlines.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_unpack_ex.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_unpack.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_urllib2_localnet.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_urllib2net.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_urllib2.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_urllibnet.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_urllib.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_urllib_response.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_urlparse.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_userdict.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_userlist.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_userstring.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_uuid.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_uu.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_venv.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_wait3.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_wait4.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_warnings.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_wave.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_weakref.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_weakset.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_webbrowser.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_winreg.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_winsound.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_with.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_wsgiref.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_xdrlib.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_xml_dom_minicompat.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_xml_etree_c.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_xml_etree.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_xmlrpc_net.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_xmlrpc.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_zipfile64.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_zipfile.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_zipimport.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_zipimport_support.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/test_zlib.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/tf_inherit_check.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/threaded_import_hangers.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/time_hashlib.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/tokenize_tests-latin1-coding-cookie-and-utf8-bom-sig.txt /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/tokenize_tests-no-coding-cookie-and-utf8-bom-sig-only.txt /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/tokenize_tests.txt /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/tokenize_tests-utf8-coding-cookie-and-no-utf8-bom-sig.txt /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/tokenize_tests-utf8-coding-cookie-and-utf8-bom-sig.txt /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/warning_tests.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/win_console_handler.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/xmltests.py /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/zip_cp437_header.zip /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/zipdir.zip /home/vdp5/bin/lib/python3.4/test
+/usr/bin/install -c -m 644 ./Lib/test/audiodata/pluck-alaw.aifc /home/vdp5/bin/lib/python3.4/test/audiodata
+/usr/bin/install -c -m 644 ./Lib/test/audiodata/pluck-pcm16.aiff /home/vdp5/bin/lib/python3.4/test/audiodata
+/usr/bin/install -c -m 644 ./Lib/test/audiodata/pluck-pcm16.au /home/vdp5/bin/lib/python3.4/test/audiodata
+/usr/bin/install -c -m 644 ./Lib/test/audiodata/pluck-pcm16.wav /home/vdp5/bin/lib/python3.4/test/audiodata
+/usr/bin/install -c -m 644 ./Lib/test/audiodata/pluck-pcm24.aiff /home/vdp5/bin/lib/python3.4/test/audiodata
+/usr/bin/install -c -m 644 ./Lib/test/audiodata/pluck-pcm24.au /home/vdp5/bin/lib/python3.4/test/audiodata
+/usr/bin/install -c -m 644 ./Lib/test/audiodata/pluck-pcm24.wav /home/vdp5/bin/lib/python3.4/test/audiodata
+/usr/bin/install -c -m 644 ./Lib/test/audiodata/pluck-pcm32.aiff /home/vdp5/bin/lib/python3.4/test/audiodata
+/usr/bin/install -c -m 644 ./Lib/test/audiodata/pluck-pcm32.au /home/vdp5/bin/lib/python3.4/test/audiodata
+/usr/bin/install -c -m 644 ./Lib/test/audiodata/pluck-pcm32.wav /home/vdp5/bin/lib/python3.4/test/audiodata
+/usr/bin/install -c -m 644 ./Lib/test/audiodata/pluck-pcm8.aiff /home/vdp5/bin/lib/python3.4/test/audiodata
+/usr/bin/install -c -m 644 ./Lib/test/audiodata/pluck-pcm8.au /home/vdp5/bin/lib/python3.4/test/audiodata
+/usr/bin/install -c -m 644 ./Lib/test/audiodata/pluck-pcm8.wav /home/vdp5/bin/lib/python3.4/test/audiodata
+/usr/bin/install -c -m 644 ./Lib/test/audiodata/pluck-ulaw.aifc /home/vdp5/bin/lib/python3.4/test/audiodata
+/usr/bin/install -c -m 644 ./Lib/test/audiodata/pluck-ulaw.au /home/vdp5/bin/lib/python3.4/test/audiodata
+/usr/bin/install -c -m 644 ./Lib/test/capath/0e4015b9.0 /home/vdp5/bin/lib/python3.4/test/capath
+/usr/bin/install -c -m 644 ./Lib/test/capath/4e1295a3.0 /home/vdp5/bin/lib/python3.4/test/capath
+/usr/bin/install -c -m 644 ./Lib/test/capath/5ed36f99.0 /home/vdp5/bin/lib/python3.4/test/capath
+/usr/bin/install -c -m 644 ./Lib/test/capath/6e88d7b8.0 /home/vdp5/bin/lib/python3.4/test/capath
+/usr/bin/install -c -m 644 ./Lib/test/capath/99d0fa06.0 /home/vdp5/bin/lib/python3.4/test/capath
+/usr/bin/install -c -m 644 ./Lib/test/capath/ce7b8643.0 /home/vdp5/bin/lib/python3.4/test/capath
+/usr/bin/install -c -m 644 ./Lib/test/data/README /home/vdp5/bin/lib/python3.4/test/data
+/usr/bin/install -c -m 644 ./Lib/test/cjkencodings/big5hkscs.txt /home/vdp5/bin/lib/python3.4/test/cjkencodings
+/usr/bin/install -c -m 644 ./Lib/test/cjkencodings/big5hkscs-utf8.txt /home/vdp5/bin/lib/python3.4/test/cjkencodings
+/usr/bin/install -c -m 644 ./Lib/test/cjkencodings/big5.txt /home/vdp5/bin/lib/python3.4/test/cjkencodings
+/usr/bin/install -c -m 644 ./Lib/test/cjkencodings/big5-utf8.txt /home/vdp5/bin/lib/python3.4/test/cjkencodings
+/usr/bin/install -c -m 644 ./Lib/test/cjkencodings/cp949.txt /home/vdp5/bin/lib/python3.4/test/cjkencodings
+/usr/bin/install -c -m 644 ./Lib/test/cjkencodings/cp949-utf8.txt /home/vdp5/bin/lib/python3.4/test/cjkencodings
+/usr/bin/install -c -m 644 ./Lib/test/cjkencodings/euc_jisx0213.txt /home/vdp5/bin/lib/python3.4/test/cjkencodings
+/usr/bin/install -c -m 644 ./Lib/test/cjkencodings/euc_jisx0213-utf8.txt /home/vdp5/bin/lib/python3.4/test/cjkencodings
+/usr/bin/install -c -m 644 ./Lib/test/cjkencodings/euc_jp.txt /home/vdp5/bin/lib/python3.4/test/cjkencodings
+/usr/bin/install -c -m 644 ./Lib/test/cjkencodings/euc_jp-utf8.txt /home/vdp5/bin/lib/python3.4/test/cjkencodings
+/usr/bin/install -c -m 644 ./Lib/test/cjkencodings/euc_kr.txt /home/vdp5/bin/lib/python3.4/test/cjkencodings
+/usr/bin/install -c -m 644 ./Lib/test/cjkencodings/euc_kr-utf8.txt /home/vdp5/bin/lib/python3.4/test/cjkencodings
+/usr/bin/install -c -m 644 ./Lib/test/cjkencodings/gb18030.txt /home/vdp5/bin/lib/python3.4/test/cjkencodings
+/usr/bin/install -c -m 644 ./Lib/test/cjkencodings/gb18030-utf8.txt /home/vdp5/bin/lib/python3.4/test/cjkencodings
+/usr/bin/install -c -m 644 ./Lib/test/cjkencodings/gb2312.txt /home/vdp5/bin/lib/python3.4/test/cjkencodings
+/usr/bin/install -c -m 644 ./Lib/test/cjkencodings/gb2312-utf8.txt /home/vdp5/bin/lib/python3.4/test/cjkencodings
+/usr/bin/install -c -m 644 ./Lib/test/cjkencodings/gbk.txt /home/vdp5/bin/lib/python3.4/test/cjkencodings
+/usr/bin/install -c -m 644 ./Lib/test/cjkencodings/gbk-utf8.txt /home/vdp5/bin/lib/python3.4/test/cjkencodings
+/usr/bin/install -c -m 644 ./Lib/test/cjkencodings/hz.txt /home/vdp5/bin/lib/python3.4/test/cjkencodings
+/usr/bin/install -c -m 644 ./Lib/test/cjkencodings/hz-utf8.txt /home/vdp5/bin/lib/python3.4/test/cjkencodings
+/usr/bin/install -c -m 644 ./Lib/test/cjkencodings/iso2022_jp.txt /home/vdp5/bin/lib/python3.4/test/cjkencodings
+/usr/bin/install -c -m 644 ./Lib/test/cjkencodings/iso2022_jp-utf8.txt /home/vdp5/bin/lib/python3.4/test/cjkencodings
+/usr/bin/install -c -m 644 ./Lib/test/cjkencodings/iso2022_kr.txt /home/vdp5/bin/lib/python3.4/test/cjkencodings
+/usr/bin/install -c -m 644 ./Lib/test/cjkencodings/iso2022_kr-utf8.txt /home/vdp5/bin/lib/python3.4/test/cjkencodings
+/usr/bin/install -c -m 644 ./Lib/test/cjkencodings/johab.txt /home/vdp5/bin/lib/python3.4/test/cjkencodings
+/usr/bin/install -c -m 644 ./Lib/test/cjkencodings/johab-utf8.txt /home/vdp5/bin/lib/python3.4/test/cjkencodings
+/usr/bin/install -c -m 644 ./Lib/test/cjkencodings/shift_jis.txt /home/vdp5/bin/lib/python3.4/test/cjkencodings
+/usr/bin/install -c -m 644 ./Lib/test/cjkencodings/shift_jis-utf8.txt /home/vdp5/bin/lib/python3.4/test/cjkencodings
+/usr/bin/install -c -m 644 ./Lib/test/cjkencodings/shift_jisx0213.txt /home/vdp5/bin/lib/python3.4/test/cjkencodings
+/usr/bin/install -c -m 644 ./Lib/test/cjkencodings/shift_jisx0213-utf8.txt /home/vdp5/bin/lib/python3.4/test/cjkencodings
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/abs.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/add.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/and.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/base.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/clamp.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/class.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/compare.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/comparetotal.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/comparetotmag.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/copyabs.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/copy.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/copynegate.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/copysign.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/ddAbs.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/ddAdd.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/ddAnd.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/ddBase.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/ddCanonical.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/ddClass.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/ddCompare.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/ddCompareSig.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/ddCompareTotal.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/ddCompareTotalMag.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/ddCopyAbs.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/ddCopy.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/ddCopyNegate.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/ddCopySign.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/ddDivide.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/ddDivideInt.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/ddEncode.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/ddFMA.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/ddInvert.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/ddLogB.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/ddMax.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/ddMaxMag.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/ddMin.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/ddMinMag.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/ddMinus.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/ddMultiply.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/ddNextMinus.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/ddNextPlus.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/ddNextToward.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/ddOr.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/ddPlus.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/ddQuantize.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/ddReduce.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/ddRemainder.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/ddRemainderNear.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/ddRotate.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/ddSameQuantum.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/ddScaleB.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/ddShift.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/ddSubtract.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/ddToIntegral.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/ddXor.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/decDouble.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/decQuad.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/decSingle.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/divide.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/divideint.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/dqAbs.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/dqAdd.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/dqAnd.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/dqBase.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/dqCanonical.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/dqClass.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/dqCompare.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/dqCompareSig.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/dqCompareTotal.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/dqCompareTotalMag.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/dqCopyAbs.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/dqCopy.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/dqCopyNegate.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/dqCopySign.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/dqDivide.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/dqDivideInt.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/dqEncode.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/dqFMA.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/dqInvert.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/dqLogB.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/dqMax.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/dqMaxMag.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/dqMin.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/dqMinMag.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/dqMinus.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/dqMultiply.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/dqNextMinus.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/dqNextPlus.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/dqNextToward.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/dqOr.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/dqPlus.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/dqQuantize.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/dqReduce.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/dqRemainder.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/dqRemainderNear.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/dqRotate.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/dqSameQuantum.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/dqScaleB.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/dqShift.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/dqSubtract.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/dqToIntegral.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/dqXor.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/dsBase.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/dsEncode.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/exp.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/extra.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/fma.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/inexact.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/invert.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/ln.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/log10.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/logb.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/max.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/maxmag.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/min.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/minmag.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/minus.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/multiply.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/nextminus.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/nextplus.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/nexttoward.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/or.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/plus.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/power.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/powersqrt.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/quantize.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/randomBound32.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/randoms.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/reduce.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/remainder.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/remainderNear.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/rescale.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/rotate.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/rounding.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/samequantum.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/scaleb.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/shift.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/squareroot.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/subtract.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/testall.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/tointegral.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/tointegralx.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/decimaltestdata/xor.decTest /home/vdp5/bin/lib/python3.4/test/decimaltestdata
+/usr/bin/install -c -m 644 ./Lib/test/xmltestdata/simple-ns.xml /home/vdp5/bin/lib/python3.4/test/xmltestdata
+/usr/bin/install -c -m 644 ./Lib/test/xmltestdata/simple.xml /home/vdp5/bin/lib/python3.4/test/xmltestdata
+/usr/bin/install -c -m 644 ./Lib/test/xmltestdata/test.xml /home/vdp5/bin/lib/python3.4/test/xmltestdata
+/usr/bin/install -c -m 644 ./Lib/test/xmltestdata/test.xml.out /home/vdp5/bin/lib/python3.4/test/xmltestdata
+/usr/bin/install -c -m 644 ./Lib/test/imghdrdata/python.bmp /home/vdp5/bin/lib/python3.4/test/imghdrdata
+/usr/bin/install -c -m 644 ./Lib/test/imghdrdata/python.gif /home/vdp5/bin/lib/python3.4/test/imghdrdata
+/usr/bin/install -c -m 644 ./Lib/test/imghdrdata/python.jpg /home/vdp5/bin/lib/python3.4/test/imghdrdata
+/usr/bin/install -c -m 644 ./Lib/test/imghdrdata/python.pbm /home/vdp5/bin/lib/python3.4/test/imghdrdata
+/usr/bin/install -c -m 644 ./Lib/test/imghdrdata/python.pgm /home/vdp5/bin/lib/python3.4/test/imghdrdata
+/usr/bin/install -c -m 644 ./Lib/test/imghdrdata/python.png /home/vdp5/bin/lib/python3.4/test/imghdrdata
+/usr/bin/install -c -m 644 ./Lib/test/imghdrdata/python.ppm /home/vdp5/bin/lib/python3.4/test/imghdrdata
+/usr/bin/install -c -m 644 ./Lib/test/imghdrdata/python.ras /home/vdp5/bin/lib/python3.4/test/imghdrdata
+/usr/bin/install -c -m 644 ./Lib/test/imghdrdata/python.sgi /home/vdp5/bin/lib/python3.4/test/imghdrdata
+/usr/bin/install -c -m 644 ./Lib/test/imghdrdata/python.tiff /home/vdp5/bin/lib/python3.4/test/imghdrdata
+/usr/bin/install -c -m 644 ./Lib/test/imghdrdata/python.xbm /home/vdp5/bin/lib/python3.4/test/imghdrdata
+/usr/bin/install -c -m 644 ./Lib/test/subprocessdata/fd_status.py /home/vdp5/bin/lib/python3.4/test/subprocessdata
+/usr/bin/install -c -m 644 ./Lib/test/subprocessdata/input_reader.py /home/vdp5/bin/lib/python3.4/test/subprocessdata
+/usr/bin/install -c -m 644 ./Lib/test/subprocessdata/qcat.py /home/vdp5/bin/lib/python3.4/test/subprocessdata
+/usr/bin/install -c -m 644 ./Lib/test/subprocessdata/qgrep.py /home/vdp5/bin/lib/python3.4/test/subprocessdata
+/usr/bin/install -c -m 644 ./Lib/test/subprocessdata/sigchild_ignore.py /home/vdp5/bin/lib/python3.4/test/subprocessdata
+/usr/bin/install -c -m 644 ./Lib/test/sndhdrdata/README /home/vdp5/bin/lib/python3.4/test/sndhdrdata
+/usr/bin/install -c -m 644 ./Lib/test/sndhdrdata/sndhdr.8svx /home/vdp5/bin/lib/python3.4/test/sndhdrdata
+/usr/bin/install -c -m 644 ./Lib/test/sndhdrdata/sndhdr.aifc /home/vdp5/bin/lib/python3.4/test/sndhdrdata
+/usr/bin/install -c -m 644 ./Lib/test/sndhdrdata/sndhdr.aiff /home/vdp5/bin/lib/python3.4/test/sndhdrdata
+/usr/bin/install -c -m 644 ./Lib/test/sndhdrdata/sndhdr.au /home/vdp5/bin/lib/python3.4/test/sndhdrdata
+/usr/bin/install -c -m 644 ./Lib/test/sndhdrdata/sndhdr.hcom /home/vdp5/bin/lib/python3.4/test/sndhdrdata
+/usr/bin/install -c -m 644 ./Lib/test/sndhdrdata/sndhdr.sndt /home/vdp5/bin/lib/python3.4/test/sndhdrdata
+/usr/bin/install -c -m 644 ./Lib/test/sndhdrdata/sndhdr.voc /home/vdp5/bin/lib/python3.4/test/sndhdrdata
+/usr/bin/install -c -m 644 ./Lib/test/sndhdrdata/sndhdr.wav /home/vdp5/bin/lib/python3.4/test/sndhdrdata
+/usr/bin/install -c -m 644 ./Lib/test/support/__init__.py /home/vdp5/bin/lib/python3.4/test/support
+/usr/bin/install -c -m 644 ./Lib/test/tracedmodules/__init__.py /home/vdp5/bin/lib/python3.4/test/tracedmodules
+/usr/bin/install -c -m 644 ./Lib/test/tracedmodules/testmod.py /home/vdp5/bin/lib/python3.4/test/tracedmodules
+/usr/bin/install -c -m 644 ./Lib/test/encoded_modules/__init__.py /home/vdp5/bin/lib/python3.4/test/encoded_modules
+/usr/bin/install -c -m 644 ./Lib/test/encoded_modules/module_iso_8859_1.py /home/vdp5/bin/lib/python3.4/test/encoded_modules
+/usr/bin/install -c -m 644 ./Lib/test/encoded_modules/module_koi8_r.py /home/vdp5/bin/lib/python3.4/test/encoded_modules
+/usr/bin/install -c -m 644 ./Lib/test/test_importlib/namespace_pkgs/missing_directory.zip /home/vdp5/bin/lib/python3.4/test/test_importlib/namespace_pkgs
+/usr/bin/install -c -m 644 ./Lib/test/test_importlib/namespace_pkgs/nested_portion1.zip /home/vdp5/bin/lib/python3.4/test/test_importlib/namespace_pkgs
+/usr/bin/install -c -m 644 ./Lib/test/test_importlib/namespace_pkgs/top_level_portion1.zip /home/vdp5/bin/lib/python3.4/test/test_importlib/namespace_pkgs
+/usr/bin/install -c -m 644 ./Lib/test/test_importlib/namespace_pkgs/both_portions/foo/one.py /home/vdp5/bin/lib/python3.4/test/test_importlib/namespace_pkgs/both_portions/foo
+/usr/bin/install -c -m 644 ./Lib/test/test_importlib/namespace_pkgs/both_portions/foo/two.py /home/vdp5/bin/lib/python3.4/test/test_importlib/namespace_pkgs/both_portions/foo
+/usr/bin/install -c -m 644 ./Lib/test/test_importlib/namespace_pkgs/not_a_namespace_pkg/foo/__init__.py /home/vdp5/bin/lib/python3.4/test/test_importlib/namespace_pkgs/not_a_namespace_pkg/foo
+/usr/bin/install -c -m 644 ./Lib/test/test_importlib/namespace_pkgs/not_a_namespace_pkg/foo/one.py /home/vdp5/bin/lib/python3.4/test/test_importlib/namespace_pkgs/not_a_namespace_pkg/foo
+/usr/bin/install -c -m 644 ./Lib/test/test_importlib/namespace_pkgs/portion1/foo/one.py /home/vdp5/bin/lib/python3.4/test/test_importlib/namespace_pkgs/portion1/foo
+/usr/bin/install -c -m 644 ./Lib/test/test_importlib/namespace_pkgs/portion2/foo/two.py /home/vdp5/bin/lib/python3.4/test/test_importlib/namespace_pkgs/portion2/foo
+/usr/bin/install -c -m 644 ./Lib/test/test_importlib/namespace_pkgs/project1/parent/child/one.py /home/vdp5/bin/lib/python3.4/test/test_importlib/namespace_pkgs/project1/parent/child
+/usr/bin/install -c -m 644 ./Lib/test/test_importlib/namespace_pkgs/project2/parent/child/two.py /home/vdp5/bin/lib/python3.4/test/test_importlib/namespace_pkgs/project2/parent/child
+/usr/bin/install -c -m 644 ./Lib/test/test_importlib/namespace_pkgs/project3/parent/child/three.py /home/vdp5/bin/lib/python3.4/test/test_importlib/namespace_pkgs/project3/parent/child
+/usr/bin/install -c -m 644 ./Lib/test/test_importlib/namespace_pkgs/module_and_namespace_package/a_test.py /home/vdp5/bin/lib/python3.4/test/test_importlib/namespace_pkgs/module_and_namespace_package
+/usr/bin/install -c -m 644 ./Lib/test/test_importlib/namespace_pkgs/module_and_namespace_package/a_test/empty /home/vdp5/bin/lib/python3.4/test/test_importlib/namespace_pkgs/module_and_namespace_package/a_test
+/usr/bin/install -c -m 644 ./Lib/asyncio/base_events.py /home/vdp5/bin/lib/python3.4/asyncio
+/usr/bin/install -c -m 644 ./Lib/asyncio/base_subprocess.py /home/vdp5/bin/lib/python3.4/asyncio
+/usr/bin/install -c -m 644 ./Lib/asyncio/compat.py /home/vdp5/bin/lib/python3.4/asyncio
+/usr/bin/install -c -m 644 ./Lib/asyncio/constants.py /home/vdp5/bin/lib/python3.4/asyncio
+/usr/bin/install -c -m 644 ./Lib/asyncio/coroutines.py /home/vdp5/bin/lib/python3.4/asyncio
+/usr/bin/install -c -m 644 ./Lib/asyncio/events.py /home/vdp5/bin/lib/python3.4/asyncio
+/usr/bin/install -c -m 644 ./Lib/asyncio/futures.py /home/vdp5/bin/lib/python3.4/asyncio
+/usr/bin/install -c -m 644 ./Lib/asyncio/__init__.py /home/vdp5/bin/lib/python3.4/asyncio
+/usr/bin/install -c -m 644 ./Lib/asyncio/locks.py /home/vdp5/bin/lib/python3.4/asyncio
+/usr/bin/install -c -m 644 ./Lib/asyncio/log.py /home/vdp5/bin/lib/python3.4/asyncio
+/usr/bin/install -c -m 644 ./Lib/asyncio/proactor_events.py /home/vdp5/bin/lib/python3.4/asyncio
+/usr/bin/install -c -m 644 ./Lib/asyncio/protocols.py /home/vdp5/bin/lib/python3.4/asyncio
+/usr/bin/install -c -m 644 ./Lib/asyncio/queues.py /home/vdp5/bin/lib/python3.4/asyncio
+/usr/bin/install -c -m 644 ./Lib/asyncio/selector_events.py /home/vdp5/bin/lib/python3.4/asyncio
+/usr/bin/install -c -m 644 ./Lib/asyncio/sslproto.py /home/vdp5/bin/lib/python3.4/asyncio
+/usr/bin/install -c -m 644 ./Lib/asyncio/streams.py /home/vdp5/bin/lib/python3.4/asyncio
+/usr/bin/install -c -m 644 ./Lib/asyncio/subprocess.py /home/vdp5/bin/lib/python3.4/asyncio
+/usr/bin/install -c -m 644 ./Lib/asyncio/tasks.py /home/vdp5/bin/lib/python3.4/asyncio
+/usr/bin/install -c -m 644 ./Lib/asyncio/test_utils.py /home/vdp5/bin/lib/python3.4/asyncio
+/usr/bin/install -c -m 644 ./Lib/asyncio/transports.py /home/vdp5/bin/lib/python3.4/asyncio
+/usr/bin/install -c -m 644 ./Lib/asyncio/unix_events.py /home/vdp5/bin/lib/python3.4/asyncio
+/usr/bin/install -c -m 644 ./Lib/asyncio/windows_events.py /home/vdp5/bin/lib/python3.4/asyncio
+/usr/bin/install -c -m 644 ./Lib/asyncio/windows_utils.py /home/vdp5/bin/lib/python3.4/asyncio
+/usr/bin/install -c -m 644 ./Lib/test/test_asyncio/echo2.py /home/vdp5/bin/lib/python3.4/test/test_asyncio
+/usr/bin/install -c -m 644 ./Lib/test/test_asyncio/echo3.py /home/vdp5/bin/lib/python3.4/test/test_asyncio
+/usr/bin/install -c -m 644 ./Lib/test/test_asyncio/echo.py /home/vdp5/bin/lib/python3.4/test/test_asyncio
+/usr/bin/install -c -m 644 ./Lib/test/test_asyncio/__init__.py /home/vdp5/bin/lib/python3.4/test/test_asyncio
+/usr/bin/install -c -m 644 ./Lib/test/test_asyncio/keycert3.pem /home/vdp5/bin/lib/python3.4/test/test_asyncio
+/usr/bin/install -c -m 644 ./Lib/test/test_asyncio/__main__.py /home/vdp5/bin/lib/python3.4/test/test_asyncio
+/usr/bin/install -c -m 644 ./Lib/test/test_asyncio/pycacert.pem /home/vdp5/bin/lib/python3.4/test/test_asyncio
+/usr/bin/install -c -m 644 ./Lib/test/test_asyncio/ssl_cert.pem /home/vdp5/bin/lib/python3.4/test/test_asyncio
+/usr/bin/install -c -m 644 ./Lib/test/test_asyncio/ssl_key.pem /home/vdp5/bin/lib/python3.4/test/test_asyncio
+/usr/bin/install -c -m 644 ./Lib/test/test_asyncio/test_base_events.py /home/vdp5/bin/lib/python3.4/test/test_asyncio
+/usr/bin/install -c -m 644 ./Lib/test/test_asyncio/test_events.py /home/vdp5/bin/lib/python3.4/test/test_asyncio
+/usr/bin/install -c -m 644 ./Lib/test/test_asyncio/test_futures.py /home/vdp5/bin/lib/python3.4/test/test_asyncio
+/usr/bin/install -c -m 644 ./Lib/test/test_asyncio/test_locks.py /home/vdp5/bin/lib/python3.4/test/test_asyncio
+/usr/bin/install -c -m 644 ./Lib/test/test_asyncio/test_proactor_events.py /home/vdp5/bin/lib/python3.4/test/test_asyncio
+/usr/bin/install -c -m 644 ./Lib/test/test_asyncio/test_queues.py /home/vdp5/bin/lib/python3.4/test/test_asyncio
+/usr/bin/install -c -m 644 ./Lib/test/test_asyncio/test_selector_events.py /home/vdp5/bin/lib/python3.4/test/test_asyncio
+/usr/bin/install -c -m 644 ./Lib/test/test_asyncio/test_sslproto.py /home/vdp5/bin/lib/python3.4/test/test_asyncio
+/usr/bin/install -c -m 644 ./Lib/test/test_asyncio/test_streams.py /home/vdp5/bin/lib/python3.4/test/test_asyncio
+/usr/bin/install -c -m 644 ./Lib/test/test_asyncio/test_subprocess.py /home/vdp5/bin/lib/python3.4/test/test_asyncio
+/usr/bin/install -c -m 644 ./Lib/test/test_asyncio/test_tasks.py /home/vdp5/bin/lib/python3.4/test/test_asyncio
+/usr/bin/install -c -m 644 ./Lib/test/test_asyncio/test_transports.py /home/vdp5/bin/lib/python3.4/test/test_asyncio
+/usr/bin/install -c -m 644 ./Lib/test/test_asyncio/test_unix_events.py /home/vdp5/bin/lib/python3.4/test/test_asyncio
+/usr/bin/install -c -m 644 ./Lib/test/test_asyncio/test_windows_events.py /home/vdp5/bin/lib/python3.4/test/test_asyncio
+/usr/bin/install -c -m 644 ./Lib/test/test_asyncio/test_windows_utils.py /home/vdp5/bin/lib/python3.4/test/test_asyncio
+/usr/bin/install -c -m 644 ./Lib/collections/abc.py /home/vdp5/bin/lib/python3.4/collections
+/usr/bin/install -c -m 644 ./Lib/collections/__init__.py /home/vdp5/bin/lib/python3.4/collections
+/usr/bin/install -c -m 644 ./Lib/collections/__main__.py /home/vdp5/bin/lib/python3.4/collections
+/usr/bin/install -c -m 644 ./Lib/concurrent/__init__.py /home/vdp5/bin/lib/python3.4/concurrent
+/usr/bin/install -c -m 644 ./Lib/concurrent/futures/_base.py /home/vdp5/bin/lib/python3.4/concurrent/futures
+/usr/bin/install -c -m 644 ./Lib/concurrent/futures/__init__.py /home/vdp5/bin/lib/python3.4/concurrent/futures
+/usr/bin/install -c -m 644 ./Lib/concurrent/futures/process.py /home/vdp5/bin/lib/python3.4/concurrent/futures
+/usr/bin/install -c -m 644 ./Lib/concurrent/futures/thread.py /home/vdp5/bin/lib/python3.4/concurrent/futures
+/usr/bin/install -c -m 644 ./Lib/encodings/aliases.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/ascii.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/base64_codec.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/big5hkscs.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/big5.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/bz2_codec.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/charmap.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/cp037.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/cp1006.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/cp1026.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/cp1125.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/cp1140.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/cp1250.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/cp1251.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/cp1252.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/cp1253.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/cp1254.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/cp1255.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/cp1256.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/cp1257.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/cp1258.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/cp273.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/cp424.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/cp437.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/cp500.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/cp65001.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/cp720.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/cp737.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/cp775.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/cp850.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/cp852.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/cp855.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/cp856.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/cp857.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/cp858.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/cp860.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/cp861.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/cp862.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/cp863.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/cp864.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/cp865.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/cp866.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/cp869.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/cp874.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/cp875.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/cp932.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/cp949.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/cp950.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/euc_jis_2004.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/euc_jisx0213.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/euc_jp.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/euc_kr.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/gb18030.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/gb2312.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/gbk.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/hex_codec.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/hp_roman8.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/hz.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/idna.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/__init__.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/iso2022_jp_1.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/iso2022_jp_2004.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/iso2022_jp_2.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/iso2022_jp_3.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/iso2022_jp_ext.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/iso2022_jp.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/iso2022_kr.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/iso8859_10.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/iso8859_11.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/iso8859_13.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/iso8859_14.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/iso8859_15.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/iso8859_16.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/iso8859_1.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/iso8859_2.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/iso8859_3.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/iso8859_4.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/iso8859_5.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/iso8859_6.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/iso8859_7.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/iso8859_8.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/iso8859_9.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/johab.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/koi8_r.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/koi8_u.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/latin_1.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/mac_arabic.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/mac_centeuro.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/mac_croatian.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/mac_cyrillic.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/mac_farsi.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/mac_greek.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/mac_iceland.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/mac_latin2.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/mac_romanian.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/mac_roman.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/mac_turkish.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/mbcs.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/palmos.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/ptcp154.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/punycode.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/quopri_codec.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/raw_unicode_escape.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c ./Lib/encodings/rot_13.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/shift_jis_2004.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/shift_jis.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/shift_jisx0213.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/tis_620.py /home/vdp5/bin/lib/python3.4/encodings
+/usr/bin/install -c -m 644 ./Lib/encodings/undefined.py /home/vdp5/bin/lib/python3.4/encodings
+/usr
