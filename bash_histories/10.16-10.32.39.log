@@ -16576,4 +16576,38 @@ grep: git_data: Is a directory
 [35m[Krunallvir_bychrom.sh[m[K[36m[K:[m[K		cd /home/vdp5/data/cdna_analysis_SAMEA2376790/[01;31m[Kvir_genes[m[K
 [35m[Krunallvir_bycrhom_ASM241v2.sh[m[K[36m[K:[m[K			cd /home/vdp5/data/cdna_analysis_ASM241_v2/[01;31m[Kvir_genes[m[K
 grep: salvador_align_scripts: Is a directory
-]0;vdp5@wraylab01:~/scripts[vdp5@wraylab01 scripts]$ cp create_exonic_directory.py create_
+]0;vdp5@wraylab01:~/scripts[vdp5@wraylab01 scripts]$ cp create_exonic_directory.py create_exonic_directory.py [K[K[K[K_ASM241v2[K[K_v2.py
+]0;vdp5@wraylab01:~/scripts[vdp5@wraylab01 scripts]$ cd
+]0;vdp5@wraylab01:~[vdp5@wraylab01 ~]$ ls
+c[0m[38;5;27mbin[0m  [38;5;27mdata[0m  [38;5;51mdiana_hmm[0m  [38;5;27mexecutables[0m  [38;5;27mfigures[0m  [38;5;27mother[0m  [38;5;27mscripts[0m  [38;5;27msource_code[0m  [38;5;27mtmp[0m
+]0;vdp5@wraylab01:~[vdp5@wraylab01 ~]$ cd data/
+]0;vdp5@wraylab01:~/data[vdp5@wraylab01 data]$ l
+cbash: l: command not found
+]0;vdp5@wraylab01:~/data[vdp5@wraylab01 data]$ cd [K[K[Kls
+[0m[38;5;27mblast_results[0m     [38;5;27mcdna_analysis_ASM241_v2[0m     [38;5;27mgene_finder[0m  [38;5;27mhmm_meme[0m  [38;5;27mother_data[0m                [38;5;27mtmp[0m
+[38;5;27mcambodia_samples[0m  [38;5;27mcdna_analysis_SAMEA2376790[0m  [38;5;27mgff_data[0m     [38;5;27mlog[0m       [38;5;27msalvador_vivax_asia_2016[0m  [38;5;27mvivax_2009[0m
+]0;vdp5@wraylab01:~/data[vdp5@wraylab01 data]$ cd cd[K[Kcdna_analysis_S[KASM241_v2/
+]0;vdp5@wraylab01:~/data/cdna_analysis_ASM241_v2[vdp5@wraylab01 cdna_analysis_ASM241_v2]$ ls
+[0m[38;5;27mfasta_ASM241_v2[0m  [38;5;27mvir_genes[0m
+]0;vdp5@wraylab01:~/data/cdna_analysis_ASM241_v2[vdp5@wraylab01 cdna_analysis_ASM241_v2]$ cd vir_genes/
+]0;vdp5@wraylab01:~/data/cdna_analysis_ASM241_v2/vir_genes[vdp5@wraylab01 vir_genes]$ ls
+[0m[38;5;27mPVX_000020_NC_009908.2[0m  [38;5;27mPVX_005047_NC_009912.1[0m  [38;5;27mPVX_090290_NC_009910.1[0m  [38;5;27mPVX_096940_NC_009907.1[0m  [38;5;27mPVX_103155_NC_009908.2[0m
+[38;5;27mPVX_001610_NC_009911.1[0m  [38;5;27mPVX_005060_NC_009912.1[0m  [38;5;27mPVX_090305_NC_009910.1[0m  [38;5;27mPVX_096945_NC_009907.1[0m  [38;5;27mPVX_103160_NC_009908.2[0m
+[38;5;27mPVX_001615_NC_009911.1[0m  [38;5;27mPVX_081850_NC_009907.1[0m  [38;5;27mPVX_090315_NC_009910.1[0m  [38;5;27mPVX_096970_NC_009907.1[0m  [38;5;27mPVX_106210_NC_009909.1[0m
+[38;5;27mPVX_001625_NC_009911.1[0m  [38;5;27mPVX_083575_NC_009917.1[0m  [38;5;27mPVX_090335_NC_009910.1[0m  [38;5;27mPVX_096980_NC_009907.1[0m  [38;5;27mPVX_106220_NC_009909.1[0m
+[38;5;27mPVX_001645_NC_009911.1[0m  [38;5;27mPVX_083580_NC_009917.1[0m  [38;5;27mPVX_093705_NC_009906.1[0m  [38;5;27mPVX_096985_NC_009907.1[0m  [38;5;27mPVX_110295_NC_009908.2[0m
+[38;5;27mPVX_002480_NC_009909.1[0m  [38;5;27mPVX_083585_NC_009917.1[0m  [38;5;27mPVX_093710_NC_009906.1[0m  [38;5;27mPVX_097525_NC_009915.1[0m  [38;5;27mPVX_110300_NC_009908.2[0m
+[38;5;27mPVX_002485_NC_009909.1[0m  [38;5;27mPVX_083590_NC_009917.1[0m  [38;5;27mPVX_093715_NC_009906.1[0m  [38;5;27mPVX_097530_NC_009915.1[0m  [38;5;27mPVX_110305_NC_009908.2[0m
+[38;5;27mPVX_002490_NC_009909.1[0m  [38;5;27mPVX_086350_NC_009918.1[0m  [38;5;27mPVX_093720_NC_009906.1[0m  [38;5;27mPVX_097540_NC_009915.1[0m  [38;5;27mPVX_113230_NC_009916.1[0m
+[38;5;27mPVX_002495_NC_009909.1[0m  [38;5;27mPVX_086850_NC_009912.1[0m  [38;5;27mPVX_093725_NC_009906.1[0m  [38;5;27mPVX_097545_NC_009915.1[0m  [38;5;27mPVX_115475_NC_009916.1[0m
+[38;5;27mPVX_003485_NC_009909.1[0m  [38;5;27mPVX_086855_NC_009912.1[0m  [38;5;27mPVX_094240_NC_009913.1[0m  [38;5;27mPVX_097555_NC_009915.1[0m  [38;5;27mPVX_115480_NC_009916.1[0m
+[38;5;27mPVX_003495_NC_009909.1[0m  [38;5;27mPVX_086860_NC_009912.1[0m  [38;5;27mPVX_094245_NC_009913.1[0m  [38;5;27mPVX_101560_NC_009919.1[0m  [38;5;27mPVX_115485_NC_009916.1[0m
+[38;5;27mPVX_003505_NC_009909.1[0m  [38;5;27mPVX_086875_NC_009912.1[0m  [38;5;27mPVX_095995_NC_009908.2[0m  [38;5;27mPVX_101565_NC_009919.1[0m  [38;5;27mPVX_119210_NC_009913.1[0m
+[38;5;27mPVX_003510_NC_009909.1[0m  [38;5;27mPVX_086880_NC_009912.1[0m  [38;5;27mPVX_096000_NC_009908.2[0m  [38;5;27mPVX_101570_NC_009919.1[0m  [38;5;27mPVX_121855_NC_009919.1[0m
+[38;5;27mPVX_004510_NC_009911.1[0m  [38;5;27mPVX_086890_NC_009912.1[0m  [38;5;27mPVX_096005_NC_009908.2[0m  [38;5;27mPVX_101600_NC_009919.1[0m  [38;5;27mPVX_124705_NC_009916.1[0m
+[38;5;27mPVX_004520_NC_009911.1[0m  [38;5;27mPVX_088780_NC_009910.1[0m  [38;5;27mPVX_096910_NC_009907.1[0m  [38;5;27mPVX_101615_NC_009919.1[0m  [38;5;27mPVX_124710_NC_009916.1[0m
+[38;5;27mPVX_004525_NC_009911.1[0m  [38;5;27mPVX_088785_NC_009910.1[0m  [38;5;27mPVX_096915_NC_009907.1[0m  [38;5;27mPVX_101620_NC_009919.1[0m  [38;5;27mPVX_124712_NC_009916.1[0m
+[38;5;27mPVX_004535_NC_009911.1[0m  [38;5;27mPVX_088790_NC_009910.1[0m  [38;5;27mPVX_096920_NC_009907.1[0m  [38;5;27mPVX_101625_NC_009919.1[0m  [38;5;27mPVX_124715_NC_009916.1[0m
+[38;5;27mPVX_004539_NC_009911.1[0m  [38;5;27mPVX_088800_NC_009910.1[0m  [38;5;27mPVX_096930_NC_009907.1[0m  [38;5;27mPVX_103145_NC_009908.2[0m  [38;5;27mPVX_124720_NC_009916.1[0m
+[38;5;27mPVX_005045_NC_009912.1[0m  [38;5;27mPVX_088805_NC_009910.1[0m  [38;5;27mPVX_096935_NC_009907.1[0m  [38;5;27mPVX_103150_NC_009908.2[0m
+]0;vdp5@wraylab01:~/data/cdna_analysis_ASM241_v2/vir_genes[vdp5@wraylab01 vir_genes]$ cd PXV[K[KVX_00020[K[K[K[K[K[K[K[K[KPVX_000020_NC_009908.2
