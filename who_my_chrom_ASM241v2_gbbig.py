@@ -46,7 +46,6 @@ for gene in gene2seq:
 	print process.stdout.read()
 
 
-	print output2
 
 	break
 
