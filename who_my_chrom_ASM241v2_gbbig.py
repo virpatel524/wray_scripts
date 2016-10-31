@@ -17,6 +17,6 @@ for index, alpah in enumerate(data):
 
 gene2chromfle = open('/home/vdp5/data/gene_finder/ASM241v2_genes_exons/gene2chrom.txt','w')
 
-
+os.chdir('/home/vdp5/data/cdna_analysis_ASM241_v2/fasta_ASM241_v2')
 for gene in gene2seq:
-	
+	bash_process = 'grep -i -r -l '
