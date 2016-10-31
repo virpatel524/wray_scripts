@@ -9,7 +9,8 @@ masterfle_prot = open('/home/vdp5/data/gene_finder/vir_all_ASM241v2/allgenes_pro
 
 
 gb_file_test = '/home/vdp5/data/gene_finder/ASM241v2_genbank/GCA_000002415.2_ASM241v2_genomic.gb'
-data = SeqIO.read(open(gb_file_test,"r"), "genbank")
+data = SeqIO.parse(gb_file_test, "genbank")
+print next(data).features
 # for alpha in data.features:
 # 	tmp =  alpha.qualifiers
 # 	if 'product' in tmp:
