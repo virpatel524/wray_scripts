@@ -25,6 +25,7 @@ while 5 < 6:
 					newfle = open('/home/vdp5/data/gene_finder/vir_all_ASM241v2/all_split/{}.fasta'.format(tmp['locus_tag'][0]),'w')
 					newfle.write('>%s_%s\n' %(tmp['locus_tag'][0],'nochromid'))
 					newfle.write('%s\n' %(sequence))
+					newfle.close()
 					counter += 1
 
 
