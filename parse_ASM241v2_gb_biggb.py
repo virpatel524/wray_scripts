@@ -20,7 +20,8 @@ while 5 < 6:
 			if 'product' in tmp:
 				if 'Vir' in tmp['product'][0]:
 					sequence =  alpha.extract(beta.seq)
-					print sequence
+					masterfle.write('>%s_%s vir %d \n' %(tmp['locus_tag'][0], chromname, counter))
+
 	except:
 		break
 
