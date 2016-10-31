@@ -2,8 +2,8 @@ import Bio
 from Bio import SeqIO
 import os
 counter = 1
-masterfle = open('/home/vdp5/data/gene_finder/vir_bychrom_ASM241v2/allgenes.txt', 'w')
-masterfle_prot = open('/home/vdp5/data/gene_finder/vir_bychrom_ASM241v2/allgenes_prot.txt', 'w')
+masterfle = open('/home/vdp5/data/gene_finder/vir_all_ASM241v2/allgenes.txt', 'w')
+masterfle_prot = open('/home/vdp5/data/gene_finder/vir_all_ASM241v2/allgenes_prot.txt', 'w')
 
 
 
