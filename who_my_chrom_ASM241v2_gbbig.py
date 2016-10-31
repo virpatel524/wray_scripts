@@ -28,7 +28,7 @@ for gene in gene2seq:
 	bash_process_forward = 'grep -i -r -l "{}" *'.format(seqinq)
 	bash_process_reverse = 'grep -i -r -l "{}" *'.format(seqinqr)
 
-	print subprocess.call(["echo", "pwd"], shell=True)
+	data = subprocess.call("pwd", shell=True)
 
 
 
