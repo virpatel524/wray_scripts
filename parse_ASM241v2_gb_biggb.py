@@ -15,7 +15,11 @@ while 5 < 6:
 	starter = next(data).features
 	for alpha in starter:
 		tmp = alpha.qualifiers
-		print tmp
+		if 'product' in tmp:
+			if 'Vir' in tmp['product'][0]:
+				sequence =  alpha.extract(data.seq)
+				print sequence
+
 # for alpha in data.features:
 # 	tmp =  alpha.qualifiers
 # 	if 'product' in tmp:
