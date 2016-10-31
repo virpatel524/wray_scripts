@@ -34,16 +34,15 @@ for gene in gene2seq:
 	bash_process_forward = 'grep -i -r -l {} *'.format(seqinq)
 	bash_process_reverse = 'grep -i -r -l {} *'.format(seqinqr)
 
-try:
-	output1 =subprocess.check_output(bash_process_forward,shell=True)
-except CalledProcessError as e:
-    print e.output
+	try:
+		output1 =subprocess.check_output(bash_process_forward,shell=True)
+	except CalledProcessError as e:
+	    print e.output
 
 
-output2= subprocess.check_output(bash_process_reverse,shell=True)
-
-	print output2
+	output2= subprocess.check_output(bash_process_reverse,shell=True)
 
 	break
+
 
 
