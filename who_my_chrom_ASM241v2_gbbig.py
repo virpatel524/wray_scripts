@@ -13,7 +13,7 @@ for index, alpah in enumerate(data):
 	if index % 2 != 0:
 		continue
 	else:
-		gene2seq[alpah[1:]] = seq(absdata[index + 1], generic_dna)
+		gene2seq[alpah[1:]] = Seq(data[index + 1], generic_dna)
 
 
 gene2chromfle = open('/home/vdp5/data/gene_finder/ASM241v2_genes_exons/gene2chrom.txt','w')
@@ -23,5 +23,7 @@ for gene in gene2seq:
 	seqinq = str(gene2seq[gene])
 	seqinqr = str(gene2seq[gene].reverse_complement())
 	print seqinqr
-	bash_process = 'grep -i -r -l "{}" *'.format()
+	bash_process_forward = 'grep -i -r -l "{}" *'.format(seqinq)
+	bash_process_reverse = 'grep -i -r -l "{}" *'.format(seqinqr)
+
 
