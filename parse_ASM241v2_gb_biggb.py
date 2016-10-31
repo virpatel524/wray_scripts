@@ -22,11 +22,13 @@ while 5 < 6:
 					sequence =  alpha.extract(beta.seq)
 					masterfle.write('>%s_%s\n' %(tmp['locus_tag'][0],'nochromid'))
 					masterfle.write('%s\n' %(sequence))
+					counter += 1
 
 
 	except:
 		break
 
+print counter
 # for alpha in data.features:
 # 	tmp =  alpha.qualifiers
 # 	if 'product' in tmp:
