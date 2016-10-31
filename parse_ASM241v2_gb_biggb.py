@@ -12,7 +12,10 @@ gb_file_test = '/home/vdp5/data/gene_finder/ASM241v2_genbank/GCA_000002415.2_ASM
 data = SeqIO.parse(gb_file_test, "genbank")
 
 while 5 < 6:
-	print next(data).features
+	starter = next(data).features
+	for alpha in starter:
+		tmp = alpha.qualifiers
+		print tmp
 # for alpha in data.features:
 # 	tmp =  alpha.qualifiers
 # 	if 'product' in tmp:
