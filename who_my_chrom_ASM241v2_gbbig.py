@@ -36,7 +36,7 @@ for gene in gene2seq:
 
 	process = subprocess.Popen(bash_process_forward,shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
 	returncode = process.wait()
-	print '{0}'.format(returncode)
+	print returncode
 	print process.stdout.read()
 
 
