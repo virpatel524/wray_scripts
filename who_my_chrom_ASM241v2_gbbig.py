@@ -1,4 +1,4 @@
-import os, csv, sys
+import os, csv, sys,glob
 
 import Bio
 from Bio.Seq import Seq
@@ -34,15 +34,9 @@ for gene in gene2seq:
 	bash_process_forward = 'grep -i -r -l {} *'.format(seqinq)
 	bash_process_reverse = 'grep -i -r -l {} *'.format(seqinqr)
 
+	print glob.glob(bash_process_forward)
 
-	output1 = subprocess.Popen(bash_process_forward, shell=True,
-                                    stdout=subprocess.PIPE,
-                                    stderr=subprocess.PIPE)
-	output2 = subprocess.Popen(bash_process_reverse, shell=True,
-                                    stdout=subprocess.PIPE,
-                                    stderr=subprocess.PIPE)
-
-	print output2
+	
 
 
 	break
