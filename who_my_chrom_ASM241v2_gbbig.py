@@ -15,5 +15,8 @@ for index, alpah in enumerate(data):
 		gene2seq[alpah[1:]] = data[index + 1]
 
 
+gene2chromfle = open('/home/vdp5/data/gene_finder/ASM241v2_genes_exons/gene2chrom.txt','w')
 
 
+for gene in gene2seq:
+	
