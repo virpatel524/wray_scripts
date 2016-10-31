@@ -22,6 +22,9 @@ while 5 < 6:
 					sequence =  alpha.extract(beta.seq)
 					masterfle.write('>%s_%s\n' %(tmp['locus_tag'][0],'nochromid'))
 					masterfle.write('%s\n' %(sequence))
+					newfle = open('/home/vdp5/data/gene_finder/vir_all_ASM241v2/all_split/{}.fasta'.format(tmp['locus_tag'][0]),'w')
+					newfle.write('>%s_%s\n' %(tmp['locus_tag'][0],'nochromid'))
+					newfle.write('%s\n' %(sequence))
 					counter += 1
 
 
