@@ -21,6 +21,8 @@ for index, alpah in enumerate(data):
 
 gene2chromfle = open('/home/vdp5/data/gene_finder/ASM241v2_genes_exons/gene2chrom.txt','w')
 
+newlst = []
+
 os.chdir('/home/vdp5/data/cdna_analysis_ASM241_v2/fasta_ASM241_v2')
 for gene in gene2seq:
 	seqinq = str(gene2seq[gene])
@@ -28,7 +30,7 @@ for gene in gene2seq:
 	bash_process_forward = 'grep -i -r -l "{}" *'.format(seqinq)
 	bash_process_reverse = 'grep -i -r -l "{}" *'.format(seqinqr)
 
-	data = subprocess.call("pwd", shell=True)
+	output = subprocess.check_output("pwd", shell=True)
+	newlst.append(data)
 
-
-
+print newlst
