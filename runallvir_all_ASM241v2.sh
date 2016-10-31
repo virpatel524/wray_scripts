@@ -1,5 +1,5 @@
 for delta in /home/vdp5/data/gene_finder/vir_all_ASM241v2/all_split/*; do
-	cd /home/vdp5/data/cdna_analysis_ASM241_v2/vir_genes
+	cd /home/vdp5/data/cdna_analysis_ASM241_v2/prechromidsplign/spliceoutput
 	IFS=/ read -ra newarray <<< $delta
 	IFS=fasta read -ra newerarray <<< ${newarray[-1]}
 	fullname=${newerarray[0]}
