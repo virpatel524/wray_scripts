@@ -36,7 +36,7 @@ for gene in gene2seq:
 
 	try:
 		output1 =subprocess.check_output(bash_process_forward,shell=True)
-	except CalledProcessError as e:
+	except subprocess.CalledProcessError as e:
 	    print e.output
 
 
