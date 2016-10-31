@@ -31,8 +31,8 @@ os.chdir('/home/vdp5/data/cdna_analysis_ASM241_v2/fasta_ASM241_v2')
 for gene in gene2seq:
 	seqinq = str(gene2seq[gene])
 	seqinqr = str(gene2seq[gene].reverse_complement())
-	bash_process_forward = 'grep -i -r -l "{}" *'.format(seqinq)
-	bash_process_reverse = 'grep -i -r -l "{}" *'.format(seqinqr)
+	bash_process_forward = 'grep -i -r -l {} *'.format(seqinq)
+	bash_process_reverse = 'grep -i -r -l {} *'.format(seqinqr)
 
 	output = subprocess.check_output(bash_process_forward, shell=True)
 	output = subprocess.check_output(bash_process_reverse, shell=True)
