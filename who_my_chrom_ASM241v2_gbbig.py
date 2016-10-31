@@ -34,7 +34,12 @@ for gene in gene2seq:
 	bash_process_forward = 'grep -i -r -l {} *'.format(seqinq)
 	bash_process_reverse = 'grep -i -r -l {} *'.format(seqinqr)
 
-	output1 =subprocess.Popen(bash_process_forward,shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+	process = subprocess.Popen(bash_process_forward,shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+	returncode = process.wait()
+	print '{0}'.format(returncode)
+	print process.stdout.read()
+
+
 	output2= subprocess.check_output(bash_process_reverse,shell=True)
 
 	print output2
