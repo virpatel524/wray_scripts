@@ -20,6 +20,6 @@ gene2chromfle = open('/home/vdp5/data/gene_finder/ASM241v2_genes_exons/gene2chro
 
 os.chdir('/home/vdp5/data/cdna_analysis_ASM241_v2/fasta_ASM241_v2')
 for gene in gene2seq:
-	seqinq = gene2seq[gene]
-	seqinqr = 
+	seqinq = str(gene2seq[gene])
+	seqinqr = str(gene2seq[gene].reverse_complement())
 	bash_process = 'grep -i -r -l "{}" *'.format()
