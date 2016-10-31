@@ -4,6 +4,9 @@ import Bio
 from Bio.Seq import Seq
 from Bio.Alphabet import generic_dna
 
+import subprocess
+
+
 
 data = list(csv.reader(open('/home/vdp5/data/gene_finder/vir_all_ASM241v2/allgenes.txt'),delimiter='\t'))
 
@@ -22,8 +25,10 @@ os.chdir('/home/vdp5/data/cdna_analysis_ASM241_v2/fasta_ASM241_v2')
 for gene in gene2seq:
 	seqinq = str(gene2seq[gene])
 	seqinqr = str(gene2seq[gene].reverse_complement())
-	print seqinqr
 	bash_process_forward = 'grep -i -r -l "{}" *'.format(seqinq)
 	bash_process_reverse = 'grep -i -r -l "{}" *'.format(seqinqr)
+
+	print subprocess.call(["echo", "pwd"], shell=True)
+
 
 
