@@ -31,6 +31,6 @@ for gene in gene2seq:
 	bash_process_reverse = 'grep -i -r -l "{}" *'.format(seqinqr)
 
 	output = subprocess.check_output("pwd", shell=True)
-	newlst.append(data)
+	newlst.append(output)
 
 print newlst
