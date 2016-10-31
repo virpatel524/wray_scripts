@@ -36,6 +36,7 @@ for gene in gene2seq:
 
 	output = subprocess.call(bash_process_forward, shell=True)
 	output = subprocess.call(bash_process_reverse, shell=True)
+	print output
 
 
 	break
