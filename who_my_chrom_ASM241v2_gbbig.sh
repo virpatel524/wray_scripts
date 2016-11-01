@@ -5,5 +5,5 @@ for alpha in /home/vdp5/data/gene_finder/vir_all_ASM241v2/all_split/*; do
 	cd /home/vdp5/data/cdna_analysis_ASM241_v2/fasta_ASM241_v2
 	forwardgrep=$(grep -i -r -l $forward *)
 	reversegrep=$(grep -i -r -l $reverse *)
-	printf "%s\t%s\t%s\n"
+	printf "%s\t%s\t%s\n" "$forwardgrep" "$reversegrep"
 done
