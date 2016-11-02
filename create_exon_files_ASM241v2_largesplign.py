@@ -8,4 +8,5 @@ outputfle = open('/home/vdp5/data/gene_finder/ASM241v2_genes_exons/ASM214v2_gene
 
 
 for subdir, dirs, files in os.walk(input_dir):
-	print files
+	for alpha in files:
+		tmp = list(csv.reader(open(os.path.join(input_dir, alpha)),delimiter='\t'))
