@@ -2,7 +2,7 @@ import os, sys, csv
 
 
 data = list(csv.reader(open('/home/vdp5/data/vivax_2009/GCA_000002415.2_ASM241v2_genomic_edited_originalchromid.fasta'),delimiter='\t')) 
-
+ouputfle = open('/home/vdp5/data/cdna_analysis_ASM241_v2/fasta_full_exon_determine.fasta', 'w')
 dnabank = ''
 
 for index, alpha in enumerate(data):
@@ -12,4 +12,3 @@ for index, alpha in enumerate(data):
 		newstr = alpha[0].upper()
 		dnabank += newstr
 
-print len(dnabank)
