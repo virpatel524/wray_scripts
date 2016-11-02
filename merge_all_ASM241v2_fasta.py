@@ -11,3 +11,5 @@ for index, alpha in enumerate(data):
 	else:
 		newstr = alpha[0].upper()
 		dnabank += newstr
+
+print len(dnabank)
