@@ -15,6 +15,7 @@ def process_data(alpha_data):
 		if len(alpha) == 0: continue
 		if 'Exon' in alpha[0]:
 			data = alpha[0].split(' ')
+			print data[-1]
 			if float(data[-1]) < 0.95:
 				return 'nope', 'nope'
 			tmplst.append('exon{}:{}'.format(data[2], data[3].split('(')[-1].split(',')[0]))
@@ -26,13 +27,12 @@ def process_data(alpha_data):
 
 counter = 0
 for subdir, dirs, files in os.walk(input_dir):
-	outerloop: 
 	for splignout in files:
 		tmp = list(csv.reader(open(os.path.join(input_dir, splignout)),delimiter='\t'))
 		gene='_'.join(splignout.split('_')[:2])
-		tmplst, exonnums = process_data(alpha)
-
-
+		tmplst, exonnums = process_data(tmp)
+		if tmplst == 'nope':
+			continue
 		tmplst = sorted(tmplst)
 		if len(tmplst) != len(list(set(exonnums))):
 			flag_file.write('{}\n'.format(gene))
