@@ -2,11 +2,11 @@ import csv
 import os
 import sys
 
-
+flag_file = open('/home/vdp5/data/cdna_analysis_SAMEA2376790/flagged_genes.txt', 'w')
 input_dir = '/home/vdp5/data/cdna_analysis_ASM241_v2/vir_genes'
 outputfle = open('/home/vdp5/data/gene_finder/ASM241v2_genes_exons/ASM214v2_genesexons.fasta', 'w')
 
-
+counter = 0
 for subdir, dirs, files in os.walk(input_dir):
 	for splignout in files:
 		tmp = list(csv.reader(open(os.path.join(input_dir, splignout)),delimiter='\t'))
@@ -28,5 +28,10 @@ for subdir, dirs, files in os.walk(input_dir):
 			continue
 		exitfle.write('>{}\n'.format(gene))
 		exitfle.write('{}\n'.format('\n'.join(tmplst)))
+		counter += 1
 
 
+flag_file.close()
+outputfle.close()
+
+print counter
