@@ -12,3 +12,7 @@ for index, alpha in enumerate(data):
 		newstr = alpha[0].upper()
 		dnabank += newstr
 
+ouputfle.write('>fullthing\n')
+ouputfle.write(dnabank + '\n')
+
+ouputfle.close()
