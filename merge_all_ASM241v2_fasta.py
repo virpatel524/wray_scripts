@@ -9,4 +9,5 @@ for index, alpha in enumerate(data):
 	if alpha[0][0] == '>':
 		continue
 	else:
-		print alpha
+		newstr = alpha[0].upper()
+		print newstr
