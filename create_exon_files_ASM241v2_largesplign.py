@@ -4,7 +4,7 @@ import sys
 
 flag_file = open('/home/vdp5/data/cdna_analysis_SAMEA2376790/flagged_genes.txt', 'w')
 input_dir = '/home/vdp5/data/cdna_analysis_ASM241_v2/vir_genes'
-outputfle = open('/home/vdp5/data/gene_finder/ASM241v2_genes_exons/ASM214v2_genesexons.fasta', 'w')
+exitfle = open('/home/vdp5/data/gene_finder/ASM241v2_genes_exons/ASM214v2_genesexons.fasta', 'w')
 
 counter = 0
 for subdir, dirs, files in os.walk(input_dir):
@@ -17,7 +17,7 @@ for subdir, dirs, files in os.walk(input_dir):
 			if len(alpha) == 0: continue
 			if 'Exon' in alpha[0]:
 				data = alpha[0].split(' ')
-				if float(data[-1]) < 0.95:
+				if float(data[-1]) < 0:
 					continue 
 				tmplst.append('exon{}:{}'.format(data[2], data[3].split('(')[-1].split(',')[0]))
 
@@ -32,6 +32,6 @@ for subdir, dirs, files in os.walk(input_dir):
 
 
 flag_file.close()
-outputfle.close()
+exitfle.close()
 
 print counter
