@@ -10,4 +10,4 @@ for index, alpha in enumerate(data):
 		continue
 	else:
 		newstr = alpha[0].upper()
-		print newstr
+		dnabank += newstr
