@@ -17,7 +17,7 @@ for subdir, dirs, files in os.walk(input_dir):
 			if len(alpha) == 0: continue
 			if 'Exon' in alpha[0]:
 				data = alpha[0].split(' ')
-				if data < 0.95: continue
+				if float(data[-1]) < 0.0: continue
 				tmplst.append('exon{}:{}'.format(data[2], data[3].split('(')[-1].split(',')[0]))
 
 				exonnums.append(int(data[2]))
