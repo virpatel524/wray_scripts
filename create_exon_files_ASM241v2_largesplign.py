@@ -15,9 +15,6 @@ def process_data(alpha_data):
 		if len(alpha) == 0: continue
 		if 'Exon' in alpha[0]:
 			data = alpha[0].split(' ')
-			print data[-1]
-			if float(data[-1]) < 0.95:
-				return 'nope', 'nope'
 			tmplst.append('exon{}:{}'.format(data[2], data[3].split('(')[-1].split(',')[0]))
 			exonnums.append(int(data[2]))
 	return tmplst, exonnums
@@ -39,8 +36,6 @@ for subdir, dirs, files in os.walk(input_dir):
 			continue
 		exitfle.write('>{}\n'.format(gene))
 		exitfle.write('{}\n'.format('\n'.join(tmplst)))
-		counter += 1
-
 
 flag_file.close()
 exitfle.close()
