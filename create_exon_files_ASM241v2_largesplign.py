@@ -24,12 +24,11 @@ def process_data(alpha_data):
 
 counter = 0
 for subdir, dirs, files in os.walk(input_dir):
+	print len(files)
 	for splignout in files:
 		tmp = list(csv.reader(open(os.path.join(input_dir, splignout)),delimiter='\t'))
 		gene='_'.join(splignout.split('_')[:2])
 		tmplst, exonnums = process_data(tmp)
-		if tmplst == 'nope':
-			continue
 		tmplst = sorted(tmplst)
 		if len(tmplst) != len(list(set(exonnums))):
 			flag_file.write('{}\n'.format(gene))
