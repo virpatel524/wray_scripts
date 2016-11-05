@@ -27,5 +27,6 @@ outdir = args['outdir']
 for gene in chrom2items:
 	tmp = str(os.path.join(outdir + '/' +  gene[1:]))
 	newfle = open(tmp, 'w')
+	newfle.write(gene + '\n')
+	newfle.write(chrom2items[gene] + '\n')
 	
-
