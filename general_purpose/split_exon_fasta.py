@@ -1,4 +1,4 @@
-import csv, os, args, sys
+import csv, os, argparse, sys
 
 
 #currently adapated for space between exon nama 
