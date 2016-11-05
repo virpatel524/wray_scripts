@@ -1,8 +1,12 @@
-import sys, os, argparse, csv
+import sys, os, argparse, csv, shutil
 
 
 
 def make_bash_file(temperatures, exonsraw, targetprotrwaw, outputdir):
+	try: 
+		shutil.rmtree(outputdir)
+	except:
+		pass
 	try:
 		os.mkdir(outputdir)
 	except:
@@ -10,6 +14,8 @@ def make_bash_file(temperatures, exonsraw, targetprotrwaw, outputdir):
 
 	for index, file in enumerate(exonsraw):
 		os.mkdir(os.path.join(outputdir, 'exon{}'.format(index)))
+
+	
 
 
 parser = argparse.ArgumentParser();
