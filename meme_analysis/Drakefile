@@ -25,4 +25,4 @@ mast_analysis()
 	mast -oc /home/vdp5/data/hhmm_data/mast_gfamilyall_protmast_testonitself $INPUT0 $INPUT1
 	
 /home/vdp5/data/gene_finder/ASM241v2_genes_exons/orthofinder_exon2_gfamily.txt <- /home/vdp5/data/gene_finder/ASM241v2_genes_exons/gfamily_exon2.fasta
-	
+	orthofinder -f $INPUT
