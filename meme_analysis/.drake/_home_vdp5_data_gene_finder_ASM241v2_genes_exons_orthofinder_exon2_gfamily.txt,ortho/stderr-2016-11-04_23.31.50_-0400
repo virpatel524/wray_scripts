@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "orthofinder/orthofinder.py", line 1179, in <module>
+  File "orthofinder/orthofinder.py", line 649, in Stats
+ZeroDivisionError: float division by zero
+Failed to execute script orthofinder
