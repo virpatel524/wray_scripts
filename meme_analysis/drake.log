@@ -607,3 +607,9 @@
 2016-11-05 12:29:25,325 INFO --- 14. Running (missing output): %dreme_analysis1_protonly_falc_exon2_10, /home/vdp5/scripts/meme_analysis/././stampcomplete/dreme_analysis1_protonly_falc_exon2_10.log <- /home/vdp5/data/falc_analysis_pacbio/diana_falc_var_exonsplit/exon2.fasta
 2016-11-05 12:30:07,995 INFO --- 14: %dreme_analysis1_protonly_falc_exon2_10, /home/vdp5/scripts/meme_analysis/././stampcomplete/dreme_analysis1_protonly_falc_exon2_10.log <- /home/vdp5/data/falc_analysis_pacbio/diana_falc_var_exonsplit/exon2.fasta -> done in 42.62s
 2016-11-05 12:30:08,007 INFO Done (2 steps run).
+2016-11-05 12:37:04,572 ERROR drake: parse error at line 70, column 205: illegal syntax starting with "P" for step definition
+2016-11-05 12:37:24,465 INFO Running 1 steps with concurrence of 1...
+2016-11-05 12:37:24,490 INFO 
+2016-11-05 12:37:24,492 INFO --- 16. Running (missing output): %mast_analysis3_newplasmodb13_exon2_dreme, /home/vdp5/scripts/meme_analysis/././stampcomplete/mast_analysis3_newplasmodb13_exon2_dreme.log <- /home/vdp5/data/hhmm_data/dreme_analysis1_protonly_falc_exon2_10/dreme.xml, /home/vdp5/data/cambodia_samples/falcipurum_wray/plasmodb13_transcript_readable.fasta
+2016-11-05 12:37:33,670 INFO --- 16: %mast_analysis3_newplasmodb13_exon2_dreme, /home/vdp5/scripts/meme_analysis/././stampcomplete/mast_analysis3_newplasmodb13_exon2_dreme.log <- /home/vdp5/data/hhmm_data/dreme_analysis1_protonly_falc_exon2_10/dreme.xml, /home/vdp5/data/cambodia_samples/falcipurum_wray/plasmodb13_transcript_readable.fasta -> done in 9.12s
+2016-11-05 12:37:33,680 INFO Done (1 steps run).
