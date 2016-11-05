@@ -43,4 +43,10 @@ mast_analysis()
 	echo "complete" > stampcomplete/mast_falc_annotated_10_var_protexon2.log
 
 %mast_analysis1_newplasmodb13_exon1_10, stampcomplete/mast_analysis1_newplasmodb13_exon1_10.log <- /home/vdp5/data/hhmm_data/meme_falc_annotated_10_var_protexon1/meme.xml, /home/vdp5/data/cambodia_samples/falcipurum_wray/plasmodb13_transcript_readable.fasta [shell timecheck:true +async]
-	
+	mast -oc /home/vdp5/data/hhmm_data/mast_analysis1_newplasmodb13_exon1_10 $INPUT0 $INPUT1
+	echo "complete" > stampcomplete/mast_analysis1_newplasmodb13_exon1_10.log
+
+
+%mast_analysis1_newplasmodb13_exon2_10, stampcomplete/mast_analysis1_newplasmodb13_exon2_10.log <- /home/vdp5/data/hhmm_data/meme_falc_annotated_10_var_protexon2/meme.xml, /home/vdp5/data/cambodia_samples/falcipurum_wray/plasmodb13_transcript_readable.fasta [shell timecheck:true +async]
+	mast -oc /home/vdp5/data/hhmm_data/mast_analysis1_newplasmodb13_exon2_10 $INPUT0 $INPUT1
+	echo "complete" > stampcomplete/mast_analysis1_newplasmodb13_exon2_10.log

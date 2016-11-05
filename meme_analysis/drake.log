@@ -558,3 +558,6 @@
 2016-11-05 11:20:13,718 INFO --- 8. Running (missing output): %mast_falc_annotated_10_var_protexon2, /home/vdp5/scripts/meme_analysis/././stampcomplete/mast_falc_annotated_10_var_protexon2.log <- /home/vdp5/data/hhmm_data/meme_falc_annotated_10_var_protexon2/meme.xml, /nfs/wraycompute/diana/var/exon2_aa.fa
 2016-11-05 11:20:15,655 INFO --- 8: %mast_falc_annotated_10_var_protexon2, /home/vdp5/scripts/meme_analysis/././stampcomplete/mast_falc_annotated_10_var_protexon2.log <- /home/vdp5/data/hhmm_data/meme_falc_annotated_10_var_protexon2/meme.xml, /nfs/wraycompute/diana/var/exon2_aa.fa -> done in 1.90s
 2016-11-05 11:20:15,660 INFO Done (2 steps run).
+2016-11-05 11:25:35,599 INFO Running 2 steps with concurrence of 1...
+2016-11-05 11:25:35,630 INFO 
+2016-11-05 11:25:35,631 INFO --- 9. Running (missing output): %mast_analysis1_newplasmodb13_exon1_10, /home/vdp5/scripts/meme_analysis/././stampcomplete/mast_analysis1_newplasmodb13_exon1_10.log <- /home/vdp5/data/hhmm_data/meme_falc_annotated_10_var_protexon1/meme.xml, /home/vdp5/data/cambodia_samples/falcipurum_wray/plasmodb13_transcript_readable.fasta
