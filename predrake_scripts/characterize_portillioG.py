@@ -8,6 +8,7 @@ import csv, os, sys
 # import seaborn as sns
 
 input_data = list(csv.reader(open('/home/vdp5/data/gene_finder/ASM241v2_genes_exons/ASM214v2_genesexons.fasta'),delimiter='\t'))
+print input_data
 portillo_g = zip(*list(csv.reader(open('/home/vdp5/data/other_data/portillo_Gfamily.txt'),delimiter='\t')))[0]
 
 portillodata = {}
@@ -17,6 +18,7 @@ portillodata = {}
 gene2numexon = {}
 
 for index, data in enumerate(input_data):
+	print data
 	if data[0][0] != '>':
 		continue
 	for gene in portillo_g:
@@ -58,6 +60,7 @@ for name in sorted(portillodata):
 # plt.close()
 
 output_data = open('/home/vdp5/data/gene_finder/ASM241v2_genes_exons/portillog_exons.fasta', 'w')
+
 
 for line in sorted(portillodata.keys()):
 	output_data.write('{}\n{}\n'.format(line, portillodata[line]))

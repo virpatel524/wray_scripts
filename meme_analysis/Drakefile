@@ -1,0 +1,26 @@
+method_initalmeme()
+	sleep 1
+
+mast_analysis()
+	sleep 1
+
+%meme10_allg_dna <- /home/vdp5/data/gene_finder/vir_all_ASM241v2/portillo_g_all_dna.fasta [shell timecheck:true method:method_initalmeme method-mode:replace +async]
+	meme $INPUT -dna -oc /home/vdp5/data/hhmm_data/gfamily_all_10motif -maxsize 150000 -mod zoops -nmotifs 10 -minw 15 -maxw 200
+
+%meme10_allg_prot <- /home/vdp5/data/gene_finder/vir_all_ASM241v2/portillo_g_all_prot.fasta [shell timecheck:true method:method_initalmeme method-mode:replace +async]
+	meme $INPUT -protein -oc /home/vdp5/data/hhmm_data/gfamily_all_10motif_prot -maxsize 150000 -mod zoops -nmotifs 10 -minw 15 -maxw 200
+
+%meme_falc_annotated_10_var_protexon1 <- /nfs/wraycompute/diana/var/exon1_aa.fa [shell timecheck:true method:method_initalmeme method-mode:replace +async]
+	meme $INPUT -protein -oc /home/vdp5/data/hhmm_data/meme_falc_annotated_10_var_protexon1 -maxsize 150000 -mod zoops -nmotifs 10 -minw 15 -maxw 200
+
+%meme_falc_annotated_10_var_protexon2 <- /nfs/wraycompute/diana/var/exon2_aa.fa [shell timecheck:true method:method_initalmeme method-mode:replace +async]
+	meme $INPUT -protein -oc /home/vdp5/data/hhmm_data/meme_falc_annotated_10_var_protexon2 -maxsize 150000 -mod zoops -nmotifs 10 -minw 15 -maxw 200
+
+
+%gfamilyall_dnamast_testonitself <- /home/vdp5/data/hhmm_data/gfamily_all_10motif/meme.xml, /home/vdp5/data/gene_finder/vir_all_ASM241v2/portillo_g_all_dna.fasta [shell timecheck:true +async]
+	mast -oc /home/vdp5/data/hhmm_data/mast_gfamilyall_dnamast_testonitself $INPUT0 $INPUT1
+
+
+%gfamilyall_protmast_testonitself <- /home/vdp5/data/hhmm_data/gfamily_all_10motif_prot/meme.xml, /home/vdp5/data/gene_finder/vir_all_ASM241v2/portillo_g_all_prot.fasta [shell timecheck:true +async]
+	mast -oc /home/vdp5/data/hhmm_data/mast_gfamilyall_dnamast_testonitself $INPUT0 $INPUT1
+	

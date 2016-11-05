@@ -1,0 +1,278 @@
+2016-11-04 20:53:44,370 ERROR drake: cannot find file or directory: /home/vdp5/scripts/meme_analysis/./Drakefile (use --help for documentation)
+2016-11-04 20:56:33,597 INFO Running 1 steps with concurrence of 1...
+2016-11-04 20:56:33,635 INFO 
+2016-11-04 20:56:33,635 INFO --- 0. Running (via tag): %meme10_allg_dna <- /home/vdp5/data/gene_finder/vir_all_ASM241v2/portillo_g_all_dna.fasta
+2016-11-04 20:58:56,365 INFO Running 1 steps with concurrence of 1...
+2016-11-04 20:58:56,391 INFO 
+2016-11-04 20:58:56,391 INFO --- 0. Running (via tag): %meme10_allg_dna <- /home/vdp5/data/gene_finder/vir_all_ASM241v2/portillo_g_all_dna.fasta
+2016-11-04 21:02:38,356 INFO Running 1 steps with concurrence of 1...
+2016-11-04 21:02:38,384 INFO 
+2016-11-04 21:02:38,385 INFO --- 1. Running (via tag): %meme10_allg_prot <- /home/vdp5/data/gene_finder/vir_all_ASM241v2/portillo_g_all_prot.fasta
+2016-11-04 21:02:39,225 INFO Done (0 steps run).
+2016-11-04 21:02:39,229 ERROR clojure.lang.ExceptionInfo: shell command failed with exit code 1 {:file "meme $INPUT -dna -oc /home/vdp5/data/hhmm_data/gfamily_all_10motif_prot -maxsize 150000 -mod zoops -nmotifs 10 -minw 15 -maxw 200\n", :msg "shell command failed with exit code 1", :cmd ("/bin/bash" "/home/vdp5/scripts/meme_analysis/./.drake/shell-f2b71599003fa034dc84f2d6006a7d38.bat"), :opts {:die true, :no-stdin nil, :err [#<PrintStream java.io.PrintStream@1d0ce2c8> #<BufferedWriter java.io.BufferedWriter@5860f23b>], :exec-dir nil, :out [#<PrintStream java.io.PrintStream@640c13a3> #<BufferedWriter java.io.BufferedWriter@1c44110c>]}, :exit-code 1}
+	at clojure.core$ex_info.invoke(core.clj:4403)
+	at drake.shell$shell.doInvoke(shell.clj:150)
+	at clojure.lang.RestFn.applyTo(RestFn.java:137)
+	at clojure.core$apply.invoke(core.clj:624)
+	at drake.protocol$run_interpreter.invoke(protocol.clj:86)
+	at drake.protocol_interpreters$register_interpreter_BANG_$reify__4753.run(protocol_interpreters.clj:14)
+	at drake.core$run_step.invoke(core.clj:367)
+	at drake.core$attempt_run_step.invoke(core.clj:479)
+	at drake.core$function_for_step$fn__5091.invoke(core.clj:502)
+	at drake.core$trigger_futures_helper$fn__5102.invoke(core.clj:540)
+	at clojure.core$binding_conveyor_fn$fn__4145.invoke(core.clj:1910)
+	at clojure.lang.AFn.call(AFn.java:18)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-11-04 21:03:15,638 INFO Running 1 steps with concurrence of 1...
+2016-11-04 21:03:15,663 INFO 
+2016-11-04 21:03:15,664 INFO --- 1. Running (via tag): %meme10_allg_prot <- /home/vdp5/data/gene_finder/vir_all_ASM241v2/portillo_g_all_prot.fasta
+2016-11-04 21:03:16,492 INFO Done (0 steps run).
+2016-11-04 21:03:16,495 ERROR clojure.lang.ExceptionInfo: shell command failed with exit code 1 {:file "meme $INPUT -prot -oc /home/vdp5/data/hhmm_data/gfamily_all_10motif_prot -maxsize 150000 -mod zoops -nmotifs 10 -minw 15 -maxw 200\n", :msg "shell command failed with exit code 1", :cmd ("/bin/bash" "/home/vdp5/scripts/meme_analysis/./.drake/shell-12ea3815f982f11889a81a4bec9bb493.bat"), :opts {:die true, :no-stdin nil, :err [#<PrintStream java.io.PrintStream@3b27d28> #<BufferedWriter java.io.BufferedWriter@6385cff3>], :exec-dir nil, :out [#<PrintStream java.io.PrintStream@57417093> #<BufferedWriter java.io.BufferedWriter@2b2383be>]}, :exit-code 1}
+	at clojure.core$ex_info.invoke(core.clj:4403)
+	at drake.shell$shell.doInvoke(shell.clj:150)
+	at clojure.lang.RestFn.applyTo(RestFn.java:137)
+	at clojure.core$apply.invoke(core.clj:624)
+	at drake.protocol$run_interpreter.invoke(protocol.clj:86)
+	at drake.protocol_interpreters$register_interpreter_BANG_$reify__4753.run(protocol_interpreters.clj:14)
+	at drake.core$run_step.invoke(core.clj:367)
+	at drake.core$attempt_run_step.invoke(core.clj:479)
+	at drake.core$function_for_step$fn__5091.invoke(core.clj:502)
+	at drake.core$trigger_futures_helper$fn__5102.invoke(core.clj:540)
+	at clojure.core$binding_conveyor_fn$fn__4145.invoke(core.clj:1910)
+	at clojure.lang.AFn.call(AFn.java:18)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-11-04 21:06:38,088 ERROR drake: target not found: j
+2016-11-04 21:07:11,526 INFO Running 2 steps with concurrence of 5...
+2016-11-04 21:07:11,564 INFO 
+2016-11-04 21:07:11,564 INFO 
+2016-11-04 21:07:11,566 INFO --- 0. Running (via tag): %meme10_allg_dna <- /home/vdp5/data/gene_finder/vir_all_ASM241v2/portillo_g_all_dna.fasta
+2016-11-04 21:07:11,567 INFO --- 1. Running (via tag): %meme10_allg_prot <- /home/vdp5/data/gene_finder/vir_all_ASM241v2/portillo_g_all_prot.fasta
+2016-11-04 21:16:33,645 INFO --- 0: %meme10_allg_dna <- /home/vdp5/data/gene_finder/vir_all_ASM241v2/portillo_g_all_dna.fasta -> done in 562.03s
+2016-11-04 21:16:33,650 INFO Done (1 steps run).
+2016-11-04 21:16:33,660 ERROR clojure.lang.ExceptionInfo: shell command failed with exit code 1 {:file "meme $INPUT -prot -oc /home/vdp5/data/hhmm_data/gfamily_all_10motif_prot -maxsize 150000 -mod zoops -nmotifs 10 -minw 15 -maxw 200\n", :msg "shell command failed with exit code 1", :cmd ("/bin/bash" "/home/vdp5/scripts/meme_analysis/./.drake/shell-12ea3815f982f11889a81a4bec9bb493.bat"), :opts {:die true, :no-stdin true, :err [#<PrintStream java.io.PrintStream@46879f1d> #<BufferedWriter java.io.BufferedWriter@7a538bd5>], :exec-dir nil, :out [#<PrintStream java.io.PrintStream@320697f6> #<BufferedWriter java.io.BufferedWriter@512136f2>]}, :exit-code 1}
+	at clojure.core$ex_info.invoke(core.clj:4403)
+	at drake.shell$shell.doInvoke(shell.clj:150)
+	at clojure.lang.RestFn.applyTo(RestFn.java:137)
+	at clojure.core$apply.invoke(core.clj:624)
+	at drake.protocol$run_interpreter.invoke(protocol.clj:86)
+	at drake.protocol_interpreters$register_interpreter_BANG_$reify__4753.run(protocol_interpreters.clj:14)
+	at drake.core$run_step.invoke(core.clj:367)
+	at drake.core$attempt_run_step.invoke(core.clj:479)
+	at drake.core$function_for_step$fn__5091.invoke(core.clj:502)
+	at drake.core$trigger_futures_helper$fn__5102.invoke(core.clj:540)
+	at clojure.core$binding_conveyor_fn$fn__4145.invoke(core.clj:1910)
+	at clojure.lang.AFn.call(AFn.java:18)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-11-04 21:37:36,881 INFO Running 1 steps with concurrence of 1...
+2016-11-04 21:37:36,910 INFO 
+2016-11-04 21:37:36,912 INFO --- 1. Running (via tag): %meme10_allg_prot <- /home/vdp5/data/gene_finder/vir_all_ASM241v2/portillo_g_all_prot.fasta
+2016-11-04 21:39:44,133 INFO --- 1: %meme10_allg_prot <- /home/vdp5/data/gene_finder/vir_all_ASM241v2/portillo_g_all_prot.fasta -> done in 127.17s
+2016-11-04 21:39:44,154 INFO Done (1 steps run).
+2016-11-04 21:47:22,248 ERROR drake: parse error at line 1, column 99: illegal syntax starting with "[-timecheck]" for step definition
+2016-11-04 21:47:31,142 ERROR drake: parse error at line 1, column 99: illegal syntax starting with "[-timecheck]" for step definition
+2016-11-04 21:55:35,028 ERROR drake: parse error at line 1, column 99: illegal syntax starting with "[timecheck:true]" for step definition
+2016-11-04 21:56:32,094 ERROR drake: parse error at line 1, column 99: illegal syntax starting with "[timecheck]" for step definition
+2016-11-04 21:56:58,461 ERROR drake: parse error at line 1, column 99: illegal syntax starting with "[timecheck]" for step definition
+2016-11-04 21:57:22,317 ERROR drake: parse error at line 1, column 99: illegal syntax starting with "[-timestamp]" for step definition
+2016-11-04 21:58:15,664 INFO Running 2 steps with concurrence of 1...
+2016-11-04 21:58:15,698 INFO 
+2016-11-04 21:58:15,701 INFO --- 2. Running (via tag): %meme_falc_annotated_10_var_protexon1 <- /nfs/wraycompute/diana/var/exon1_aa.fa
+2016-11-04 21:59:28,561 ERROR drake: parse error at line null, column null: option "protocol" cannot have multiple values.
+2016-11-04 21:59:56,814 INFO Nothing to do.
+2016-11-04 22:00:30,672 INFO Running 2 steps with concurrence of 1...
+2016-11-04 22:00:30,697 INFO 
+2016-11-04 22:00:30,699 INFO --- 3. Running (via tag): %meme_falc_annotated_10_var_protexon2 <- /nfs/wraycompute/diana/var/exon2_aa.fa
+2016-11-04 22:04:40,197 INFO --- 3: %meme_falc_annotated_10_var_protexon2 <- /nfs/wraycompute/diana/var/exon2_aa.fa -> done in 249.44s
+2016-11-04 22:04:40,233 INFO 
+2016-11-04 22:04:40,234 INFO --- 2. Running (via tag): %meme_falc_annotated_10_var_protexon1 <- /nfs/wraycompute/diana/var/exon1_aa.fa
+2016-11-04 22:09:59,305 INFO Nothing to do.
+2016-11-04 22:15:50,248 ERROR drake: parse error at line 10, column 94: illegal syntax starting with "[shell" for option
+2016-11-04 22:16:31,436 INFO Nothing to do.
+2016-11-04 22:17:07,680 INFO Running 2 steps with concurrence of 1...
+2016-11-04 22:17:07,711 INFO 
+2016-11-04 22:17:07,713 INFO --- 4. Running (via method): %gfamilyall_dnamast_testonitself <- /home/vdp5/data/hhmm_data/gfamily_all_10motif/meme.xml, /home/vdp5/data/gene_finder/vir_all_ASM241v2/portillo_g_all_dna.fasta
+2016-11-04 22:17:08,552 INFO 
+2016-11-04 22:17:08,553 INFO --- 5. Running (via method): %gfamilyall_protmast_testonitself <- /home/vdp5/data/hhmm_data/gfamily_all_10motif_prot/meme.xml, /home/vdp5/data/gene_finder/vir_all_ASM241v2/portillo_g_all_prot.fasta
+2016-11-04 22:17:09,284 INFO Done (0 steps run).
+2016-11-04 22:17:09,291 ERROR clojure.lang.ExceptionInfo: shell command failed with exit code 1 {:file "mast -oc /home/vdp5/data/hhmm_data/mast_gfamilyall_dnamast_testonitself $INPUT1 $INPUT2\n", :msg "shell command failed with exit code 1", :cmd ("/bin/bash" "/home/vdp5/scripts/meme_analysis/./.drake/shell-9ada045bb0fcc30516e629b6b6240e81.bat"), :opts {:die true, :no-stdin nil, :err [#<PrintStream java.io.PrintStream@3fc7adc3> #<BufferedWriter java.io.BufferedWriter@395124ab>], :exec-dir nil, :out [#<PrintStream java.io.PrintStream@6c46409f> #<BufferedWriter java.io.BufferedWriter@6a765bc3>]}, :exit-code 1}
+	at clojure.core$ex_info.invoke(core.clj:4403)
+	at drake.shell$shell.doInvoke(shell.clj:150)
+	at clojure.lang.RestFn.applyTo(RestFn.java:137)
+	at clojure.core$apply.invoke(core.clj:624)
+	at drake.protocol$run_interpreter.invoke(protocol.clj:86)
+	at drake.protocol_interpreters$register_interpreter_BANG_$reify__4753.run(protocol_interpreters.clj:14)
+	at drake.core$run_step.invoke(core.clj:367)
+	at drake.core$attempt_run_step.invoke(core.clj:479)
+	at drake.core$function_for_step$fn__5091.invoke(core.clj:502)
+	at drake.core$trigger_futures_helper$fn__5102.invoke(core.clj:540)
+	at clojure.core$binding_conveyor_fn$fn__4145.invoke(core.clj:1910)
+	at clojure.lang.AFn.call(AFn.java:18)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-11-04 22:18:21,280 INFO Running 2 steps with concurrence of 1...
+2016-11-04 22:18:21,306 INFO 
+2016-11-04 22:18:21,308 INFO --- 4. Running (via method): %gfamilyall_dnamast_testonitself <- /home/vdp5/data/hhmm_data/gfamily_all_10motif/meme.xml, /home/vdp5/data/gene_finder/vir_all_ASM241v2/portillo_g_all_dna.fasta
+2016-11-04 22:18:22,139 INFO 
+2016-11-04 22:18:22,140 INFO --- 5. Running (via method): %gfamilyall_protmast_testonitself <- /home/vdp5/data/hhmm_data/gfamily_all_10motif_prot/meme.xml, /home/vdp5/data/gene_finder/vir_all_ASM241v2/portillo_g_all_prot.fasta
+2016-11-04 22:18:22,902 INFO Done (0 steps run).
+2016-11-04 22:18:22,909 ERROR clojure.lang.ExceptionInfo: shell command failed with exit code 1 {:file "echo $INPUT1\nmast -oc /home/vdp5/data/hhmm_data/mast_gfamilyall_dnamast_testonitself $INPUT1 $INPUT2\n", :msg "shell command failed with exit code 1", :cmd ("/bin/bash" "/home/vdp5/scripts/meme_analysis/./.drake/shell-7ebf3ab514b361182f4d90e2f676032d.bat"), :opts {:die true, :no-stdin nil, :err [#<PrintStream java.io.PrintStream@445f30b> #<BufferedWriter java.io.BufferedWriter@29c352f9>], :exec-dir nil, :out [#<PrintStream java.io.PrintStream@2d3828b4> #<BufferedWriter java.io.BufferedWriter@1cc96a54>]}, :exit-code 1}
+	at clojure.core$ex_info.invoke(core.clj:4403)
+	at drake.shell$shell.doInvoke(shell.clj:150)
+	at clojure.lang.RestFn.applyTo(RestFn.java:137)
+	at clojure.core$apply.invoke(core.clj:624)
+	at drake.protocol$run_interpreter.invoke(protocol.clj:86)
+	at drake.protocol_interpreters$register_interpreter_BANG_$reify__4753.run(protocol_interpreters.clj:14)
+	at drake.core$run_step.invoke(core.clj:367)
+	at drake.core$attempt_run_step.invoke(core.clj:479)
+	at drake.core$function_for_step$fn__5091.invoke(core.clj:502)
+	at drake.core$trigger_futures_helper$fn__5102.invoke(core.clj:540)
+	at clojure.core$binding_conveyor_fn$fn__4145.invoke(core.clj:1910)
+	at clojure.lang.AFn.call(AFn.java:18)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-11-04 22:19:36,090 INFO Running 2 steps with concurrence of 1...
+2016-11-04 22:19:36,123 INFO 
+2016-11-04 22:19:36,126 INFO --- 4. Running (via method): %gfamilyall_dnamast_testonitself <- /home/vdp5/data/hhmm_data/gfamily_all_10motif/meme.xml, /home/vdp5/data/gene_finder/vir_all_ASM241v2/portillo_g_all_dna.fasta
+2016-11-04 22:19:36,954 INFO 
+2016-11-04 22:19:36,954 INFO --- 5. Running (via method): %gfamilyall_protmast_testonitself <- /home/vdp5/data/hhmm_data/gfamily_all_10motif_prot/meme.xml, /home/vdp5/data/gene_finder/vir_all_ASM241v2/portillo_g_all_prot.fasta
+2016-11-04 22:19:37,673 INFO Done (0 steps run).
+2016-11-04 22:19:37,680 ERROR clojure.lang.ExceptionInfo: shell command failed with exit code 1 {:file "echo $INPUT2\nmast -oc /home/vdp5/data/hhmm_data/mast_gfamilyall_dnamast_testonitself $INPUT1 $INPUT2\n", :msg "shell command failed with exit code 1", :cmd ("/bin/bash" "/home/vdp5/scripts/meme_analysis/./.drake/shell-84de43595ac4509658564e60bd679c7a.bat"), :opts {:die true, :no-stdin nil, :err [#<PrintStream java.io.PrintStream@51c720b7> #<BufferedWriter java.io.BufferedWriter@179d73e5>], :exec-dir nil, :out [#<PrintStream java.io.PrintStream@427c55cf> #<BufferedWriter java.io.BufferedWriter@2f9efddb>]}, :exit-code 1}
+	at clojure.core$ex_info.invoke(core.clj:4403)
+	at drake.shell$shell.doInvoke(shell.clj:150)
+	at clojure.lang.RestFn.applyTo(RestFn.java:137)
+	at clojure.core$apply.invoke(core.clj:624)
+	at drake.protocol$run_interpreter.invoke(protocol.clj:86)
+	at drake.protocol_interpreters$register_interpreter_BANG_$reify__4753.run(protocol_interpreters.clj:14)
+	at drake.core$run_step.invoke(core.clj:367)
+	at drake.core$attempt_run_step.invoke(core.clj:479)
+	at drake.core$function_for_step$fn__5091.invoke(core.clj:502)
+	at drake.core$trigger_futures_helper$fn__5102.invoke(core.clj:540)
+	at clojure.core$binding_conveyor_fn$fn__4145.invoke(core.clj:1910)
+	at clojure.lang.AFn.call(AFn.java:18)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-11-04 22:20:43,199 ERROR drake: parse error at line 26, column 7: illegal syntax starting with "$INPUT2" for option
+2016-11-04 22:21:01,670 ERROR drake: parse error at line 25, column 11: illegal syntax starting with "/home/vdp5/data/hhmm_data/mast_gfamilyall_protmast_testonitself" for option
+2016-11-04 22:21:19,498 INFO Running 1 steps with concurrence of 1...
+2016-11-04 22:21:19,522 INFO 
+2016-11-04 22:21:19,524 INFO --- 4. Running (via tag): %gfamilyall_dnamast_testonitself <- /home/vdp5/data/hhmm_data/gfamily_all_10motif/meme.xml, /home/vdp5/data/gene_finder/vir_all_ASM241v2/portillo_g_all_dna.fasta
+2016-11-04 22:21:20,319 INFO Done (0 steps run).
+2016-11-04 22:21:20,322 ERROR clojure.lang.ExceptionInfo: shell command failed with exit code 1 {:file "mast -oc /home/vdp5/data/hhmm_data/mast_gfamilyall_dnamast_testonitself $INPUT1 $INPUT2\n", :msg "shell command failed with exit code 1", :cmd ("/bin/bash" "/home/vdp5/scripts/meme_analysis/./.drake/shell-9ada045bb0fcc30516e629b6b6240e81.bat"), :opts {:die true, :no-stdin nil, :err [#<PrintStream java.io.PrintStream@5da96ba3> #<BufferedWriter java.io.BufferedWriter@42bd2dec>], :exec-dir nil, :out [#<PrintStream java.io.PrintStream@738e8edd> #<BufferedWriter java.io.BufferedWriter@30608d0f>]}, :exit-code 1}
+	at clojure.core$ex_info.invoke(core.clj:4403)
+	at drake.shell$shell.doInvoke(shell.clj:150)
+	at clojure.lang.RestFn.applyTo(RestFn.java:137)
+	at clojure.core$apply.invoke(core.clj:624)
+	at drake.protocol$run_interpreter.invoke(protocol.clj:86)
+	at drake.protocol_interpreters$register_interpreter_BANG_$reify__4753.run(protocol_interpreters.clj:14)
+	at drake.core$run_step.invoke(core.clj:367)
+	at drake.core$attempt_run_step.invoke(core.clj:479)
+	at drake.core$function_for_step$fn__5091.invoke(core.clj:502)
+	at drake.core$trigger_futures_helper$fn__5102.invoke(core.clj:540)
+	at clojure.core$binding_conveyor_fn$fn__4145.invoke(core.clj:1910)
+	at clojure.lang.AFn.call(AFn.java:18)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-11-04 22:21:38,321 INFO Running 1 steps with concurrence of 1...
+2016-11-04 22:21:38,344 INFO 
+2016-11-04 22:21:38,346 INFO --- 4. Running (via tag): %gfamilyall_dnamast_testonitself <- /home/vdp5/data/hhmm_data/gfamily_all_10motif/meme.xml, /home/vdp5/data/gene_finder/vir_all_ASM241v2/portillo_g_all_dna.fasta
+2016-11-04 22:21:39,143 INFO Done (0 steps run).
+2016-11-04 22:21:39,148 ERROR clojure.lang.ExceptionInfo: shell command failed with exit code 1 {:file "mast -oc /home/vdp5/data/hhmm_data/mast_gfamilyall_dnamast_testonitself $INPUT1 $INPUT2\n", :msg "shell command failed with exit code 1", :cmd ("/bin/bash" "/home/vdp5/scripts/meme_analysis/./.drake/shell-9ada045bb0fcc30516e629b6b6240e81.bat"), :opts {:die true, :no-stdin nil, :err [#<PrintStream java.io.PrintStream@3fc7adc3> #<BufferedWriter java.io.BufferedWriter@395124ab>], :exec-dir nil, :out [#<PrintStream java.io.PrintStream@6c46409f> #<BufferedWriter java.io.BufferedWriter@6a765bc3>]}, :exit-code 1}
+	at clojure.core$ex_info.invoke(core.clj:4403)
+	at drake.shell$shell.doInvoke(shell.clj:150)
+	at clojure.lang.RestFn.applyTo(RestFn.java:137)
+	at clojure.core$apply.invoke(core.clj:624)
+	at drake.protocol$run_interpreter.invoke(protocol.clj:86)
+	at drake.protocol_interpreters$register_interpreter_BANG_$reify__4753.run(protocol_interpreters.clj:14)
+	at drake.core$run_step.invoke(core.clj:367)
+	at drake.core$attempt_run_step.invoke(core.clj:479)
+	at drake.core$function_for_step$fn__5091.invoke(core.clj:502)
+	at drake.core$trigger_futures_helper$fn__5102.invoke(core.clj:540)
+	at clojure.core$binding_conveyor_fn$fn__4145.invoke(core.clj:1910)
+	at clojure.lang.AFn.call(AFn.java:18)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-11-04 22:22:17,471 ERROR drake: target not found: gfamilyall_protmast_testonitself
+2016-11-04 22:22:27,770 INFO Running 1 steps with concurrence of 1...
+2016-11-04 22:22:27,799 INFO 
+2016-11-04 22:22:27,801 INFO --- 5. Running (via tag): %gfamilyall_protmast_testonitself <- /home/vdp5/data/hhmm_data/gfamily_all_10motif_prot/meme.xml, /home/vdp5/data/gene_finder/vir_all_ASM241v2/portillo_g_all_prot.fasta
+2016-11-04 22:22:28,034 INFO --- 5: %gfamilyall_protmast_testonitself <- /home/vdp5/data/hhmm_data/gfamily_all_10motif_prot/meme.xml, /home/vdp5/data/gene_finder/vir_all_ASM241v2/portillo_g_all_prot.fasta -> done in 0.19s
+2016-11-04 22:22:28,039 INFO Done (1 steps run).
+2016-11-04 22:25:49,200 INFO Running 1 steps with concurrence of 1...
+2016-11-04 22:25:49,229 INFO 
+2016-11-04 22:25:49,230 INFO --- 5. Running (via tag): %gfamilyall_protmast_testonitself <- /home/vdp5/data/hhmm_data/gfamily_all_10motif_prot/meme.xml, /home/vdp5/data/gene_finder/vir_all_ASM241v2/portillo_g_all_prot.fasta
+2016-11-04 22:25:50,023 INFO Done (0 steps run).
+2016-11-04 22:25:50,027 ERROR clojure.lang.ExceptionInfo: shell command failed with exit code 1 {:file "mast -oc /home/vdp5/data/hhmm_data/mast_gfamilyall_dnamast_testonitself $INPUT1 $INPUT2\n", :msg "shell command failed with exit code 1", :cmd ("/bin/bash" "/home/vdp5/scripts/meme_analysis/./.drake/shell-9ada045bb0fcc30516e629b6b6240e81.bat"), :opts {:die true, :no-stdin nil, :err [#<PrintStream java.io.PrintStream@57b7fa44> #<BufferedWriter java.io.BufferedWriter@5ddcb6ee>], :exec-dir nil, :out [#<PrintStream java.io.PrintStream@2be10736> #<BufferedWriter java.io.BufferedWriter@64f2e708>]}, :exit-code 1}
+	at clojure.core$ex_info.invoke(core.clj:4403)
+	at drake.shell$shell.doInvoke(shell.clj:150)
+	at clojure.lang.RestFn.applyTo(RestFn.java:137)
+	at clojure.core$apply.invoke(core.clj:624)
+	at drake.protocol$run_interpreter.invoke(protocol.clj:86)
+	at drake.protocol_interpreters$register_interpreter_BANG_$reify__4753.run(protocol_interpreters.clj:14)
+	at drake.core$run_step.invoke(core.clj:367)
+	at drake.core$attempt_run_step.invoke(core.clj:479)
+	at drake.core$function_for_step$fn__5091.invoke(core.clj:502)
+	at drake.core$trigger_futures_helper$fn__5102.invoke(core.clj:540)
+	at clojure.core$binding_conveyor_fn$fn__4145.invoke(core.clj:1910)
+	at clojure.lang.AFn.call(AFn.java:18)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-11-04 22:26:22,847 INFO Running 1 steps with concurrence of 1...
+2016-11-04 22:26:22,875 INFO 
+2016-11-04 22:26:22,877 INFO --- 5. Running (via tag): %gfamilyall_protmast_testonitself <- /home/vdp5/data/hhmm_data/gfamily_all_10motif_prot/meme.xml, /home/vdp5/data/gene_finder/vir_all_ASM241v2/portillo_g_all_prot.fasta
+2016-11-04 22:26:23,663 INFO Done (0 steps run).
+2016-11-04 22:26:23,667 ERROR clojure.lang.ExceptionInfo: shell command failed with exit code 1 {:file "mast -oc /home/vdp5/data/hhmm_data/mast_gfamilyall_dnamast_testonitself $INPUT1 $INPUT2\n", :msg "shell command failed with exit code 1", :cmd ("/bin/bash" "/home/vdp5/scripts/meme_analysis/./.drake/shell-9ada045bb0fcc30516e629b6b6240e81.bat"), :opts {:die true, :no-stdin nil, :err [#<PrintStream java.io.PrintStream@1343a56b> #<BufferedWriter java.io.BufferedWriter@30a33116>], :exec-dir nil, :out [#<PrintStream java.io.PrintStream@473dbf88> #<BufferedWriter java.io.BufferedWriter@66bfa93f>]}, :exit-code 1}
+	at clojure.core$ex_info.invoke(core.clj:4403)
+	at drake.shell$shell.doInvoke(shell.clj:150)
+	at clojure.lang.RestFn.applyTo(RestFn.java:137)
+	at clojure.core$apply.invoke(core.clj:624)
+	at drake.protocol$run_interpreter.invoke(protocol.clj:86)
+	at drake.protocol_interpreters$register_interpreter_BANG_$reify__4753.run(protocol_interpreters.clj:14)
+	at drake.core$run_step.invoke(core.clj:367)
+	at drake.core$attempt_run_step.invoke(core.clj:479)
+	at drake.core$function_for_step$fn__5091.invoke(core.clj:502)
+	at drake.core$trigger_futures_helper$fn__5102.invoke(core.clj:540)
+	at clojure.core$binding_conveyor_fn$fn__4145.invoke(core.clj:1910)
+	at clojure.lang.AFn.call(AFn.java:18)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-11-04 22:29:17,213 INFO Running 2 steps with concurrence of 1...
+2016-11-04 22:29:17,237 INFO 
+2016-11-04 22:29:17,239 INFO --- 5. Running (via tag): %gfamilyall_protmast_testonitself <- /home/vdp5/data/hhmm_data/gfamily_all_10motif_prot/meme.xml, /home/vdp5/data/gene_finder/vir_all_ASM241v2/portillo_g_all_prot.fasta
+2016-11-04 22:29:19,362 INFO --- 5: %gfamilyall_protmast_testonitself <- /home/vdp5/data/hhmm_data/gfamily_all_10motif_prot/meme.xml, /home/vdp5/data/gene_finder/vir_all_ASM241v2/portillo_g_all_prot.fasta -> done in 2.08s
+2016-11-04 22:29:19,369 INFO 
+2016-11-04 22:29:19,370 INFO --- 4. Running (via tag): %gfamilyall_dnamast_testonitself <- /home/vdp5/data/hhmm_data/gfamily_all_10motif/meme.xml, /home/vdp5/data/gene_finder/vir_all_ASM241v2/portillo_g_all_dna.fasta
+2016-11-04 22:29:21,360 INFO --- 4: %gfamilyall_dnamast_testonitself <- /home/vdp5/data/hhmm_data/gfamily_all_10motif/meme.xml, /home/vdp5/data/gene_finder/vir_all_ASM241v2/portillo_g_all_dna.fasta -> done in 1.95s
+2016-11-04 22:29:21,363 INFO Done (2 steps run).

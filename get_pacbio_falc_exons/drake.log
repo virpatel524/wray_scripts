@@ -1,0 +1,52 @@
+2016-11-04 21:23:09,872 INFO Running 1 steps with concurrence of 1...
+2016-11-04 21:23:09,911 INFO 
+2016-11-04 21:23:09,912 INFO --- 0. Running (missing output): %convertexons, /home/vdp5/data/falc_analysis_pacbio/all_exons_plasmodb13.fasta <- 
+2016-11-04 21:23:10,948 INFO Done (0 steps run).
+2016-11-04 21:23:10,952 ERROR clojure.lang.ExceptionInfo: shell command failed with exit code 1 {:file "python /home/vdp5/scripts/get_pacbio_falc_exons/create_exon_files.py\n", :msg "shell command failed with exit code 1", :cmd ("/bin/bash" "/home/vdp5/scripts/get_pacbio_falc_exons/./.drake/shell-61a973e2228ef3d52fec4d5dda985d6f.bat"), :opts {:die true, :no-stdin nil, :err [#<PrintStream java.io.PrintStream@36c873df> #<BufferedWriter java.io.BufferedWriter@6a06861f>], :exec-dir nil, :out [#<PrintStream java.io.PrintStream@30ad9d72> #<BufferedWriter java.io.BufferedWriter@6c719294>]}, :exit-code 1}
+	at clojure.core$ex_info.invoke(core.clj:4403)
+	at drake.shell$shell.doInvoke(shell.clj:150)
+	at clojure.lang.RestFn.applyTo(RestFn.java:137)
+	at clojure.core$apply.invoke(core.clj:624)
+	at drake.protocol$run_interpreter.invoke(protocol.clj:86)
+	at drake.protocol_interpreters$register_interpreter_BANG_$reify__4753.run(protocol_interpreters.clj:14)
+	at drake.core$run_step.invoke(core.clj:367)
+	at drake.core$attempt_run_step.invoke(core.clj:479)
+	at drake.core$function_for_step$fn__5091.invoke(core.clj:502)
+	at drake.core$trigger_futures_helper$fn__5102.invoke(core.clj:540)
+	at clojure.core$binding_conveyor_fn$fn__4145.invoke(core.clj:1910)
+	at clojure.lang.AFn.call(AFn.java:18)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-11-04 21:24:12,890 INFO Running 1 steps with concurrence of 1...
+2016-11-04 21:24:12,916 INFO 
+2016-11-04 21:24:12,918 INFO --- 0. Running (no-input step): %convertexons, /home/vdp5/data/falc_analysis_pacbio/all_exons_plasmodb13.fasta <- 
+2016-11-04 21:30:20,545 INFO Done (0 steps run).
+2016-11-04 21:30:20,552 ERROR clojure.lang.ExceptionInfo: shell command failed with exit code 1 {:file "python /home/vdp5/scripts/get_pacbio_falc_exons/create_exon_files.py\n", :msg "shell command failed with exit code 1", :cmd ("/bin/bash" "/home/vdp5/scripts/get_pacbio_falc_exons/./.drake/shell-61a973e2228ef3d52fec4d5dda985d6f.bat"), :opts {:die true, :no-stdin nil, :err [#<PrintStream java.io.PrintStream@724103b4> #<BufferedWriter java.io.BufferedWriter@180cd9b>], :exec-dir nil, :out [#<PrintStream java.io.PrintStream@8e76296> #<BufferedWriter java.io.BufferedWriter@3b9ec92c>]}, :exit-code 1}
+	at clojure.core$ex_info.invoke(core.clj:4403)
+	at drake.shell$shell.doInvoke(shell.clj:150)
+	at clojure.lang.RestFn.applyTo(RestFn.java:137)
+	at clojure.core$apply.invoke(core.clj:624)
+	at drake.protocol$run_interpreter.invoke(protocol.clj:86)
+	at drake.protocol_interpreters$register_interpreter_BANG_$reify__4753.run(protocol_interpreters.clj:14)
+	at drake.core$run_step.invoke(core.clj:367)
+	at drake.core$attempt_run_step.invoke(core.clj:479)
+	at drake.core$function_for_step$fn__5091.invoke(core.clj:502)
+	at drake.core$trigger_futures_helper$fn__5102.invoke(core.clj:540)
+	at clojure.core$binding_conveyor_fn$fn__4145.invoke(core.clj:1910)
+	at clojure.lang.AFn.call(AFn.java:18)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-11-04 21:32:03,800 INFO Running 1 steps with concurrence of 1...
+2016-11-04 21:32:03,844 INFO 
+2016-11-04 21:32:03,846 INFO --- 0. Running (no-input step): %convertexons, /home/vdp5/data/falc_analysis_pacbio/all_exons_plasmodb13.fasta <- 
+2016-11-04 21:37:53,137 INFO --- 0: %convertexons, /home/vdp5/data/falc_analysis_pacbio/all_exons_plasmodb13.fasta <-  -> done in 349.25s
+2016-11-04 21:37:53,145 INFO Done (1 steps run).
+2016-11-04 21:38:16,326 INFO Aborted.
+2016-11-04 21:42:21,619 INFO Nothing to do.
+2016-11-04 21:49:40,470 INFO Nothing to do.

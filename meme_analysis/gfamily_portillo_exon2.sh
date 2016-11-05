@@ -1,0 +1,1 @@
+meme  -protein /home/vdp5/data/gene_finder/ASM241v2_genes_exons/gfamily_exon2.fasta -oc /home/vdp5/data/hhmm_data/gfamily_exon2_analysis/meme -maxsize 450000 -mod zoops -nmotifs 50 -minw 3 -maxw 200

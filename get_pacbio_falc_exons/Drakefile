@@ -1,0 +1,2 @@
+/home/vdp5/data/falc_analysis_pacbio/all_exons_plasmodb13.fasta, %convertexons <- [-timecheck]
+	python /home/vdp5/scripts/get_pacbio_falc_exons/create_exon_files.py

@@ -1,0 +1,2 @@
+meme  -dna /home/vdp5/data/gene_finder/vir_all_ASM241v2/portillo_g_all_dna.fasta -oc /home/vdp5/data/hhmm_data/gfamily_all_dna_analysis/meme -maxsize 450000 -mod zoops -nmotifs 50 -minw 3 -maxw 200
+meme  -protein /home/vdp5/data/gene_finder/vir_all_ASM241v2/portillo_g_all_prot.fasta -oc /home/vdp5/data/hhmm_data/gfamily_all_dna_analysis/meme -maxsize 450000 -mod zoops -nmotifs 50 -minw 3 -maxw 200

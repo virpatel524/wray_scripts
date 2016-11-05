@@ -1,0 +1,41 @@
+Sequence file not specified
+
+Usage: mast [options] <motif file> <sequence file>
+
+   Options:
+     -bfile <bf>    read background frequencies from <bf>
+     -dblist        the file specified as database contains a list of databases
+     -o <dir>       directory to output mast results
+     -oc <dir>      directory to output mast results with overwriting allowed
+     -hit_list      print only a list of non-overlapping hits to stdout
+     -remcorr       remove highly correlated motifs from query
+     -m <id>        use only motif(s) named <id> (overrides -mev);
+                      can be repeated
+     -mi <m>        use only motif(s) numbered <m> (overrides -mev);
+                      can be repeated
+     -c <count>     only use the first <count> motifs or all motifs
+                      when <count> is zero
+     -mev <mev>     use only motifs with E-values less than <mev>
+     -diag <diag>   nominal order and spacing of motifs
+     -norc          do not score reverse complement DNA strand
+     -sep           score reverse complement DNA strand as a separate sequence
+     -dna           translate DNA sequences to protein
+     -comp          adjust p-values and E-values for sequence composition
+     -ev <ev>       print results for sequences with E-value < <ev>;
+                      default: 0.0001
+     -mt <mt>       show motif matches with p-value < mt; default: 9.53282e-130
+     -w             show weak matches (mt < p-value < mt*10) in angle brackets
+     -best          include only the best motif in diagrams;
+                      hit_list mode only
+     -seqp          use SEQUENCE p-values for motif thresholds
+                      default: use POSITION p-values
+     -mv <mf>       in results use <mf> as motif file name
+     -df <df>       in results use <df> as database name; ignored when
+                      option -dblist is specified
+     -dl <dl>       in results use <dl> as link to search sequence names;
+                      ignored when -dblist specified
+     -minseqs <ms>  lower bound on number of sequences in db
+     -nostatus      do not print progress report
+     -notext        do not generate text output
+     -nohtml        do not generate html output
+     -version       print the version and exit
