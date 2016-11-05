@@ -163,3 +163,11 @@ mast_analysis()
 %glam2_analysis2_exon2_tempalter_0.4, stampcomplete/glam2_analysis2_exon2_tempalter_0.4 <- /nfs/wraycompute/diana/var/exon2_aa.fa [shell timecheck:true +async]
 	glam2 -O /home/vdp5/data/hhmm_data/glam2_analysis2_exon2_tempalter_0.4 -t 0.4 -2 p $INPUT0
 	echo "complete" > stampcomplete/glam2_analysis2_exon2_tempalter_0.4.log
+
+%glam2_analysis2_exon1_tempalter_0.11, stampcomplete/glam2_analysis2_exon1_tempalter_0.11 <- /nfs/wraycompute/diana/var/exon1_aa.fa [shell timecheck:true +async]
+	glam2 -O /home/vdp5/data/hhmm_data/glam2_analysis2_exon1_tempalter_0.11 -t 0.11 -2 p $INPUT0
+	echo "complete" > stampcomplete/glam2_analysis2_exon1_tempalter_0.11.log
+
+%glam2_analysis2_exon2_tempalter_0.11, stampcomplete/glam2_analysis2_exon2_tempalter_0.11 <- /nfs/wraycompute/diana/var/exon2_aa.fa [shell timecheck:true +async]
+	glam2 -O /home/vdp5/data/hhmm_data/glam2_analysis2_exon2_tempalter_0.11 -t 0.11 -2 p $INPUT0
+	echo "complete" > stampcomplete/glam2_analysis2_exon2_tempalter_0.11.log
