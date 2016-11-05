@@ -599,3 +599,9 @@
 2016-11-05 12:27:30,609 INFO --- 15. Running (via tag): %diana_var_exonsplit, /home/vdp5/scripts/meme_analysis/././stampcomplete/diana_var_exonsplit.log <- /nfs/wraycompute/diana/var/var_falciparum_cds.fa
 2016-11-05 12:27:31,021 INFO --- 15: %diana_var_exonsplit, /home/vdp5/scripts/meme_analysis/././stampcomplete/diana_var_exonsplit.log <- /nfs/wraycompute/diana/var/var_falciparum_cds.fa -> done in 0.37s
 2016-11-05 12:27:31,029 INFO Done (1 steps run).
+2016-11-05 12:29:22,888 INFO Running 2 steps with concurrence of 1...
+2016-11-05 12:29:22,916 INFO 
+2016-11-05 12:29:22,919 INFO --- 13. Running (missing output): %dreme_analysis1_protonly_falc_exon1_10, /home/vdp5/scripts/meme_analysis/././stampcomplete/dreme_analysis1_protonly_falc_exon1_10.log <- /home/vdp5/data/falc_analysis_pacbio/diana_falc_var_exonsplit/exon1.fasta
+2016-11-05 12:29:25,316 INFO --- 13: %dreme_analysis1_protonly_falc_exon1_10, /home/vdp5/scripts/meme_analysis/././stampcomplete/dreme_analysis1_protonly_falc_exon1_10.log <- /home/vdp5/data/falc_analysis_pacbio/diana_falc_var_exonsplit/exon1.fasta -> done in 2.35s
+2016-11-05 12:29:25,324 INFO 
+2016-11-05 12:29:25,325 INFO --- 14. Running (missing output): %dreme_analysis1_protonly_falc_exon2_10, /home/vdp5/scripts/meme_analysis/././stampcomplete/dreme_analysis1_protonly_falc_exon2_10.log <- /home/vdp5/data/falc_analysis_pacbio/diana_falc_var_exonsplit/exon2.fasta
