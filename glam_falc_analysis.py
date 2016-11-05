@@ -16,9 +16,9 @@ def make_bash_file(temperatures, exonsraw, targetprotrwaw, outputdir):
 		os.mkdir(os.path.join(outputdir, 'exon{}'.format(index)))
 
 	newfle = open(os.path.join(outputdir, 'runscript.sh'), 'w')
-
+	counter = 0
 	for index, file in enumerate(exonsraw):
-		fle.write('')
+		fle.write('glam2 -O {} -2 p {}\n'.format(os.path.join(outputdir, 'exon{}'.format(index), )))
 
 
 parser = argparse.ArgumentParser();
