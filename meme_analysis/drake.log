@@ -952,3 +952,6 @@
 2016-11-05 16:13:44,443 INFO --- 21: %glam2_analysis1_exon2_30iter, /home/vdp5/scripts/meme_analysis/././stampcomplete/glam2_analysis1_exon2_30iter <- /nfs/wraycompute/diana/var/exon2_aa.fa -> done in 272.09s
 2016-11-05 16:13:57,145 INFO --- 28: %glam2_analysis2_exon1_tempalter_1.5, /home/vdp5/scripts/meme_analysis/././stampcomplete/glam2_analysis2_exon1_tempalter_1.5 <- /nfs/wraycompute/diana/var/exon1_aa.fa -> done in 284.81s
 2016-11-05 16:14:26,812 INFO --- 30: %glam2_analysis2_exon1_tempalter_1, /home/vdp5/scripts/meme_analysis/././stampcomplete/glam2_analysis2_exon1_tempalter_1 <- /nfs/wraycompute/diana/var/exon1_aa.fa -> done in 314.52s
+2016-11-05 16:15:44,027 INFO Running 1 steps with concurrence of 1...
+2016-11-05 16:15:44,050 INFO 
+2016-11-05 16:15:44,052 INFO --- 39. Running (via tag): %glam2scan_exon2_dianafalc_0.11temp, /home/vdp5/data/hhmm_data/glam2scan_exon2_dianafalc_0.11temp <- /home/vdp5/data/hhmm_data/glam2_analysis2_exon2_tempalter_0.11/glam2.html, /home/vdp5/data/cambodia_samples/falcipurum_wray/Results/Pfalciparum3D7_proteins.fasta
