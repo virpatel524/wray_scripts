@@ -7,7 +7,7 @@ parser.add_argument('-outdir')
 args = parser.parse_args()
 args = vars(args)
 
-fulldata = list(csv.reader(open(args['seq']),delimiter='\t'))
+fulldata = list(csv.reader(open(args['seqfile']),delimiter='\t'))
 
 curchrom = 'none'
 
@@ -25,6 +25,7 @@ for alpha in fulldata:
 
 outdir = args['outdir']
 for gene in chrom2items:
-	tmp = str(os.path.join(outdir + gene[1:]))
-	print tmp
+	tmp = str(os.path.join(outdir + '/' +  gene[1:]))
+	newfle = open(tmp, 'w')
+	
 
