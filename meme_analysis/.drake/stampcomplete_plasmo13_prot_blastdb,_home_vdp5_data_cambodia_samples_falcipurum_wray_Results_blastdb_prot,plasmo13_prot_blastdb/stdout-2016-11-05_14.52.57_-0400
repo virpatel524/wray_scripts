@@ -1,0 +1,10 @@
+
+
+Building a new DB, current time: 11/05/2016 15:22:02
+New DB name:   /home/vdp5/data/cambodia_samples/falcipurum_wray/Results/Pfalciparum3D7_proteins.fasta
+New DB title:  /home/vdp5/data/cambodia_samples/falcipurum_wray/Results/Pfalciparum3D7_proteins.fasta
+Sequence type: Protein
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 6848 sequences in 1.40908 seconds.

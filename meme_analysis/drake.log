@@ -693,3 +693,25 @@
 2016-11-05 14:58:33,275 INFO --- 30: %glam2_analysis2_exon1_tempalter_1, /home/vdp5/scripts/meme_analysis/././stampcomplete/glam2_analysis2_exon1_tempalter_1 <- /nfs/wraycompute/diana/var/exon1_aa.fa -> done in 312.69s
 2016-11-05 15:11:52,377 INFO --- 20: %glam2_analysis1_exon1_30iter, /home/vdp5/scripts/meme_analysis/././stampcomplete/glam2_analysis1_exon1_30iter <- /nfs/wraycompute/diana/var/exon1_aa.fa -> done in 1134.28s
 2016-11-05 15:11:52,379 INFO Done (18 steps run).
+2016-11-05 15:22:02,475 INFO Running 1 steps with concurrence of 1...
+2016-11-05 15:22:02,502 INFO 
+2016-11-05 15:22:02,504 INFO --- 38. Running (via tag): %plasmo13_prot_blastdb, /home/vdp5/scripts/meme_analysis/././stampcomplete/plasmo13_prot_blastdb, /home/vdp5/data/cambodia_samples/falcipurum_wray/Results/blastdb_prot <- /home/vdp5/data/cambodia_samples/falcipurum_wray/Results/Pfalciparum3D7_proteins.fasta
+2016-11-05 15:22:05,128 INFO Done (0 steps run).
+2016-11-05 15:22:05,130 ERROR clojure.lang.ExceptionInfo: shell command failed with exit code 1 {:file "cd $OUTPUT2\nmakeblastdb -in $INPUT0 -parse_seqids -dbtype prot\necho \"complete\" > stampcomplete/plasmo13_prot_blastdb.log\n", :msg "shell command failed with exit code 1", :cmd ("/bin/bash" "/home/vdp5/scripts/meme_analysis/./.drake/shell-8e1091e8660ee4903ce9588293c5c3e4.bat"), :opts {:die true, :no-stdin nil, :err [#<PrintStream java.io.PrintStream@53e327bf> #<BufferedWriter java.io.BufferedWriter@2072ced>], :exec-dir nil, :out [#<PrintStream java.io.PrintStream@234d438c> #<BufferedWriter java.io.BufferedWriter@7226e5c>]}, :exit-code 1}
+	at clojure.core$ex_info.invoke(core.clj:4403)
+	at drake.shell$shell.doInvoke(shell.clj:150)
+	at clojure.lang.RestFn.applyTo(RestFn.java:137)
+	at clojure.core$apply.invoke(core.clj:624)
+	at drake.protocol$run_interpreter.invoke(protocol.clj:86)
+	at drake.protocol_interpreters$register_interpreter_BANG_$reify__4753.run(protocol_interpreters.clj:14)
+	at drake.core$run_step.invoke(core.clj:367)
+	at drake.core$attempt_run_step.invoke(core.clj:479)
+	at drake.core$function_for_step$fn__5091.invoke(core.clj:502)
+	at drake.core$trigger_futures_helper$fn__5102.invoke(core.clj:540)
+	at clojure.core$binding_conveyor_fn$fn__4145.invoke(core.clj:1910)
+	at clojure.lang.AFn.call(AFn.java:18)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
