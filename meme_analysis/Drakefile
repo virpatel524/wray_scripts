@@ -176,3 +176,6 @@ mast_analysis()
 	echo "complete" > stampcomplete/plasmo13_prot_blastdb
 	cd $OUTPUT2
 	makeblastdb -in $INPUT0 -parse_seqids -dbtype prot
+
+%plasmo13_prot_pblast_manual_seq_0.11exon2falc, /home/vdp5/data/other_data/plasmo13_prot_pblast_manual_seq_0.11exon2falc.results <- 
+
