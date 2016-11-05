@@ -812,3 +812,6 @@
 2016-11-05 15:41:01,207 INFO --- 31: %glam2_analysis2_exon2_tempalter_1, /home/vdp5/scripts/meme_analysis/././stampcomplete/glam2_analysis2_exon2_tempalter_1 <- /nfs/wraycompute/diana/var/exon2_aa.fa -> done in 91.52s
 2016-11-05 15:41:19,798 INFO --- 29: %glam2_analysis2_exon2_tempalter_1.5, /home/vdp5/scripts/meme_analysis/././stampcomplete/glam2_analysis2_exon2_tempalter_1.5 <- /nfs/wraycompute/diana/var/exon2_aa.fa -> done in 110.20s
 2016-11-05 15:41:42,595 INFO --- 27: %glam2_analysis2_exon2_tempalter_2, /home/vdp5/scripts/meme_analysis/././stampcomplete/glam2_analysis2_exon2_tempalter_2 <- /nfs/wraycompute/diana/var/exon2_aa.fa -> done in 132.98s
+2016-11-05 15:42:20,195 INFO --- 36: %glam2_analysis2_exon1_tempalter_0.11, /home/vdp5/scripts/meme_analysis/././stampcomplete/glam2_analysis2_exon1_tempalter_0.11 <- /nfs/wraycompute/diana/var/exon1_aa.fa -> done in 170.57s
+2016-11-05 15:42:25,817 INFO --- 34: %glam2_analysis2_exon1_tempalter_0.4, /home/vdp5/scripts/meme_analysis/././stampcomplete/glam2_analysis2_exon1_tempalter_0.4 <- /nfs/wraycompute/diana/var/exon1_aa.fa -> done in 176.20s
+2016-11-05 15:43:17,735 INFO --- 32: %glam2_analysis2_exon1_tempalter_0.7, /home/vdp5/scripts/meme_analysis/././stampcomplete/glam2_analysis2_exon1_tempalter_0.7 <- /nfs/wraycompute/diana/var/exon1_aa.fa -> done in 228.04s
