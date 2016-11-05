@@ -30,5 +30,6 @@ mast_analysis()
 ; this part makes the exon2 file easier for analysis
 
 /home/vdp5/data/gene_finder/ASM241v2_genes_exons/gfamily_exon2_orthofinder4 <-/home/vdp5/data/gene_finder/ASM241v2_genes_exons/gfamily_exon2.fasta [shell timecheck:true +async]
-	
+	python /home/vdp5/scripts/general_purpose/splitfasta.py -seq $INPUT -outdir home/vdp5/data/gene_finder/ASM241v2_genes_exons/gfamily_exon2_orthofinder4
+
 
