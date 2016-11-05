@@ -171,3 +171,7 @@ mast_analysis()
 %glam2_analysis2_exon2_tempalter_0.11, stampcomplete/glam2_analysis2_exon2_tempalter_0.11 <- /nfs/wraycompute/diana/var/exon2_aa.fa [shell timecheck:true +async]
 	glam2 -O /home/vdp5/data/hhmm_data/glam2_analysis2_exon2_tempalter_0.11 -t 0.11 -2 p $INPUT0
 	echo "complete" > stampcomplete/glam2_analysis2_exon2_tempalter_0.11.log
+
+%plasmo13_prot_blastdb, stampcomplete/plasmo13_prot_blastdb, /home/vdp5/data/cambodia_samples/falcipurum_wray/Results/blastdb_prot <- /home/vdp5/data/cambodia_samples/falcipurum_wray/Results/Pfalciparum3D7_proteins.fasta [shell timecheck:true +async]
+	makeblastdb -in mydb.fsa -parse_seqids -dbtype nucl
+	
