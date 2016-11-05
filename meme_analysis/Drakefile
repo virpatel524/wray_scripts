@@ -33,11 +33,11 @@ mast_analysis()
 
 
 
-%mast_falc_annotated_10_var_protexon1, stampcomplete/mast_falc_annotated_10_var_protexon1 <- /home/vdp5/data/hhmm_data/meme_falc_annotated_10_var_protexon1/meme.xml, /nfs/wraycompute/diana/var/exon1_aa.fa [shell timecheck:true +async]
+%mast_falc_annotated_10_var_protexon1, stampcomplete/mast_falc_annotated_10_var_protexon1.log <- /home/vdp5/data/hhmm_data/meme_falc_annotated_10_var_protexon1/meme.xml, /nfs/wraycompute/diana/var/exon1_aa.fa [shell timecheck:true +async]
 	mast -oc /home/vdp5/data/hhmm_data/mast_falc_annotated_10_var_protexon1_testonitself $INPUT0 $INPUT1
-	cat "complete" > stampcomplete/mast_falc_annotated_10_var_protexon1.log
+	echo "complete" > stampcomplete/mast_falc_annotated_10_var_protexon1.log
 
 
 %mast_falc_annotated_10_var_protexon2, stampcomplete/mast_falc_annotated_10_var_protexon2.log <- /home/vdp5/data/hhmm_data/meme_falc_annotated_10_var_protexon2/meme.xml, /nfs/wraycompute/diana/var/exon2_aa.fa [shell timecheck:true +async]
 	mast -oc /home/vdp5/data/hhmm_data/mast_falc_annotated_10_var_protexon2_testonitself $INPUT0 $INPUT1
-	cat "complete" > stampcomplete/mast_falc_annotated_10_var_protexon2.log
+	echo "complete" > stampcomplete/mast_falc_annotated_10_var_protexon2.log

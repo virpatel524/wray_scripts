@@ -534,3 +534,19 @@
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
 
+2016-11-05 11:19:13,961 INFO Running 1 steps with concurrence of 1...
+2016-11-05 11:19:13,990 INFO 
+2016-11-05 11:19:13,991 INFO --- 7. Running (missing output): %mast_falc_annotated_10_var_protexon1, /home/vdp5/scripts/meme_analysis/././stampcomplete/mast_falc_annotated_10_var_protexon1 <- /home/vdp5/data/hhmm_data/meme_falc_annotated_10_var_protexon1/meme.xml, /nfs/wraycompute/diana/var/exon1_aa.fa
+2016-11-05 11:19:16,454 INFO --- 7: %mast_falc_annotated_10_var_protexon1, /home/vdp5/scripts/meme_analysis/././stampcomplete/mast_falc_annotated_10_var_protexon1 <- /home/vdp5/data/hhmm_data/meme_falc_annotated_10_var_protexon1/meme.xml, /nfs/wraycompute/diana/var/exon1_aa.fa -> done in 2.42s
+2016-11-05 11:19:16,462 INFO Done (1 steps run).
+2016-11-05 11:19:23,952 INFO Running 1 steps with concurrence of 1...
+2016-11-05 11:19:23,983 INFO 
+2016-11-05 11:19:23,986 INFO --- 7. Running (missing output): %mast_falc_annotated_10_var_protexon1, /home/vdp5/scripts/meme_analysis/././stampcomplete/mast_falc_annotated_10_var_protexon1 <- /home/vdp5/data/hhmm_data/meme_falc_annotated_10_var_protexon1/meme.xml, /nfs/wraycompute/diana/var/exon1_aa.fa
+2016-11-05 11:19:26,308 INFO --- 7: %mast_falc_annotated_10_var_protexon1, /home/vdp5/scripts/meme_analysis/././stampcomplete/mast_falc_annotated_10_var_protexon1 <- /home/vdp5/data/hhmm_data/meme_falc_annotated_10_var_protexon1/meme.xml, /nfs/wraycompute/diana/var/exon1_aa.fa -> done in 2.29s
+2016-11-05 11:19:26,314 INFO Done (1 steps run).
+2016-11-05 11:19:52,692 INFO Running 1 steps with concurrence of 1...
+2016-11-05 11:19:52,728 INFO 
+2016-11-05 11:19:52,730 INFO --- 7. Running (missing output): %mast_falc_annotated_10_var_protexon1, /home/vdp5/scripts/meme_analysis/././stampcomplete/mast_falc_annotated_10_var_protexon1 <- /home/vdp5/data/hhmm_data/meme_falc_annotated_10_var_protexon1/meme.xml, /nfs/wraycompute/diana/var/exon1_aa.fa
+2016-11-05 11:19:55,208 INFO --- 7: %mast_falc_annotated_10_var_protexon1, /home/vdp5/scripts/meme_analysis/././stampcomplete/mast_falc_annotated_10_var_protexon1 <- /home/vdp5/data/hhmm_data/meme_falc_annotated_10_var_protexon1/meme.xml, /nfs/wraycompute/diana/var/exon1_aa.fa -> done in 2.44s
+2016-11-05 11:19:55,211 INFO Done (1 steps run).
+2016-11-05 11:19:57,663 INFO Nothing to do.
