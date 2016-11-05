@@ -40,7 +40,13 @@ for alpha in gene2seq:
 
 for alpha in exonnamedict:
 	newfle = open(os.path.join(alpha, alpha + '{}.fasta'.format(alpha)), 'w')
-	for gene in exonnamedict[alpha]
-	
+	for gene in exonnamedict[alpha]:
+		newfle.write(gene)
+		newfle.write(gene2seq[gene])
+
+	newfle.close()
+
+
+
 
 
