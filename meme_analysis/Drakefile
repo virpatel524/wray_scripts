@@ -67,7 +67,7 @@ mast_analysis()
 	echo "complete" > stampcomplete/dreme_analysis1_protonly_falc_exon1_10.log
 
 
-%dreme_analysis1_protonly_falc_exon2_10, stampcomplete/dreme_analysis1_protonly_falc_exon2_10.log <- /home/vdp5/data/falc_analysis_pacbio/diana_falc_var_exonsplit/exon2.fasta [shell timecheck:true +async]
+%dreme_analysis1_protonly_falc_exon2_10, stampcomplete/dreme_analysis1_protonly_falc_exon2_10.log <- /home/vdp5/data/falc_analysis_pacbio/diana_falc_var_exonsplit/exon2.fasta [shell timecheck:true +async]P
 	dreme -oc /home/vdp5/data/hhmm_data/dreme_analysis1_protonly_falc_exon2_10 -p $INPUT0 
 	echo "complete" > stampcomplete/dreme_analysis1_protonly_falc_exon2_10.log
 
@@ -78,5 +78,7 @@ mast_analysis()
 	echo "complete" > stampcomplete/diana_var_exonsplit.log
 
 
-
+%mast_analysis3_newplasmodb13_exon2, stampcomplete/mast_analysis3_newplasmodb13_exon2.log <- /home/vdp5/data/hhmm_data/meme_falc_annotated_10_var_protexon2/meme.xml, /home/vdp5/data/cambodia_samples/falcipurum_wray/plasmodb13_transcript_readable.fasta [shell timecheck:true +async]
+	mast -oc /home/vdp5/data/hhmm_data/mast_analysis1_newplasmodb13_exon2_10 $INPUT0 $INPUT1
+	echo "complete" > stampcomplete/mast_analysis3_newplasmodb13_exon2.log
 
