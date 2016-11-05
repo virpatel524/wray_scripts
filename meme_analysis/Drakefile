@@ -157,4 +157,5 @@ mast_analysis()
 %glam2scan_exon2_dianafalc_0.11temp, /home/vdp5/data/hhmm_data/glam2scan_exon2_dianafalc_0.11temp <- /home/vdp5/data/hhmm_data/glam2_analysis2_exon2_tempalter_0.11/glam2.html, /home/vdp5/data/cambodia_samples/falcipurum_wray/Results/Pfalciparum3D7_proteins.fasta
 	glam2scan -O $OUTPUT0 p $INPUT0 $INPUT1
 
-
+%glam2scan_exon2_dianafalc_5temp, /home/vdp5/data/hhmm_data/glam2scan_exon2_dianafalc_5temp <- /home/vdp5/data/hhmm_data/glam2_analysis2_exon2_tempalter_5/glam2.html, /home/vdp5/data/cambodia_samples/falcipurum_wray/Results/Pfalciparum3D7_proteins.fasta
+	glam2scan -O $OUTPUT0 p $INPUT0 $INPUT1
