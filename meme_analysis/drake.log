@@ -605,3 +605,5 @@
 2016-11-05 12:29:25,316 INFO --- 13: %dreme_analysis1_protonly_falc_exon1_10, /home/vdp5/scripts/meme_analysis/././stampcomplete/dreme_analysis1_protonly_falc_exon1_10.log <- /home/vdp5/data/falc_analysis_pacbio/diana_falc_var_exonsplit/exon1.fasta -> done in 2.35s
 2016-11-05 12:29:25,324 INFO 
 2016-11-05 12:29:25,325 INFO --- 14. Running (missing output): %dreme_analysis1_protonly_falc_exon2_10, /home/vdp5/scripts/meme_analysis/././stampcomplete/dreme_analysis1_protonly_falc_exon2_10.log <- /home/vdp5/data/falc_analysis_pacbio/diana_falc_var_exonsplit/exon2.fasta
+2016-11-05 12:30:07,995 INFO --- 14: %dreme_analysis1_protonly_falc_exon2_10, /home/vdp5/scripts/meme_analysis/././stampcomplete/dreme_analysis1_protonly_falc_exon2_10.log <- /home/vdp5/data/falc_analysis_pacbio/diana_falc_var_exonsplit/exon2.fasta -> done in 42.62s
+2016-11-05 12:30:08,007 INFO Done (2 steps run).
