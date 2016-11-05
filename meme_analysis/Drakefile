@@ -88,4 +88,5 @@ mast_analysis()
 	echo "complete" > stampcomplete/mast_analysis4_newplasmodb13_exon2_dreme_corradjust.log
 
 
-%glam2_analysis1_exon1, stampcomplete/glam2_analysis1_exon1 <- 
+%glam2_analysis1_exon1, stampcomplete/glam2_analysis1_exon1 <- /nfs/wraycompute/diana/var/exon1_aa.fa 
+	glam2 -O /home/vdp5/data/hhmm_data/glam2_analysis1_exon1 -2
