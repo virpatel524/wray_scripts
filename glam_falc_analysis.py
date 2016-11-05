@@ -41,3 +41,5 @@ targetprotrwaw = args['targetproteins']
 outputdir = args['outputdir']
 
 temperatures = [0.11, 0.2, 0.4, 0.7, 1, 1.2, 1.4, 1.7, 2, 3, 5]
+
+make_bash_file(temperatures, exonsraw, targetprotrwaw, outputdir)
