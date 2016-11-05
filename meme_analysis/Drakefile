@@ -24,3 +24,4 @@ mast_analysis()
 %gfamilyall_protmast_testonitself <- /home/vdp5/data/hhmm_data/gfamily_all_10motif_prot/meme.xml, /home/vdp5/data/gene_finder/vir_all_ASM241v2/portillo_g_all_prot.fasta [shell timecheck:true +async]
 	mast -oc /home/vdp5/data/hhmm_data/mast_gfamilyall_protmast_testonitself $INPUT0 $INPUT1
 	
+
