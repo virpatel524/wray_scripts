@@ -1,0 +1,1 @@
+blastp -db /home/vdp5/data/cambodia_samples/falcipurum_wray/Results/blastdb_prot/Pfalciparum3D7_proteins.fasta -query $INPUT0 >  /home/vdp5/data/other_data/plasmo13_prot_pblast_manual_seq_0.11exon2falc.results

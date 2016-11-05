@@ -755,3 +755,12 @@
 2016-11-05 15:36:46,692 INFO Running 19 steps with concurrence of 1...
 2016-11-05 15:36:46,721 INFO 
 2016-11-05 15:36:46,723 INFO --- 20. Running (missing output): %glam2_analysis1_exon1_30iter, /home/vdp5/scripts/meme_analysis/././stampcomplete/glam2_analysis1_exon1_30iter <- /nfs/wraycompute/diana/var/exon1_aa.fa
+2016-11-05 15:37:30,153 INFO Running 19 steps with concurrence of 1...
+2016-11-05 15:37:30,178 INFO 
+2016-11-05 15:37:30,180 INFO --- 20. Running (missing output): %glam2_analysis1_exon1_30iter, /home/vdp5/scripts/meme_analysis/././stampcomplete/glam2_analysis1_exon1_30iter <- /nfs/wraycompute/diana/var/exon1_aa.fa
+2016-11-05 15:37:49,627 INFO Aborted.
+2016-11-05 15:38:11,775 INFO Running 1 steps with concurrence of 1...
+2016-11-05 15:38:11,803 INFO 
+2016-11-05 15:38:11,805 INFO --- 39. Running (via tag): %plasmo13_prot_pblast_manual_seq_0.11exon2falc, /home/vdp5/data/other_data/plasmo13_prot_pblast_manual_seq_0.11exon2falc.results <- /home/vdp5/data/other_data/0.11_temp_exon2_falc_glam2.fasta
+2016-11-05 15:38:12,556 INFO --- 39: %plasmo13_prot_pblast_manual_seq_0.11exon2falc, /home/vdp5/data/other_data/plasmo13_prot_pblast_manual_seq_0.11exon2falc.results <- /home/vdp5/data/other_data/0.11_temp_exon2_falc_glam2.fasta -> done in 0.69s
+2016-11-05 15:38:12,560 INFO Done (1 steps run).
