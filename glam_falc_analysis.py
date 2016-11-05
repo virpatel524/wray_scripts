@@ -1,7 +1,7 @@
 import sys, os, argparse, csv
 
 parser = argparse.ArgumentParser();
-parser.add_argument('-exons')
+parser.add_argument('-exons', nargs='+')
 parser.add_argument('-targetproteins')
 args = parser.parse_args()  
 args = vars(args)
