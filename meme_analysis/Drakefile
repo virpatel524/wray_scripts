@@ -172,9 +172,7 @@ mast_analysis()
 	glam2 -O /home/vdp5/data/hhmm_data/glam2_analysis2_exon2_tempalter_0.11 -t 0.11 -2 p $INPUT0
 	echo "complete" > stampcomplete/glam2_analysis2_exon2_tempalter_0.11.log
 
-%plasmo13_prot_blastdb, stampcomplete/plasmo13_prot_blastdb, /home/vdp5/data/cambodia_samples/falcipurum_wray/Results/blastdb_prot <- /home/vdp5/data/cambodia_samples/falcipurum_wray/Results/Pfalciparum3D7_proteins.fasta [shell timecheck:true +async]
-	echo "complete" > stampcomplete/plasmo13_prot_blastdb
-	makeblastdb -in $INPUT0 -parse_seqids -dbtype prot
+
 
 %plasmo13_prot_pblast_manual_seq_0.11exon2falc, /home/vdp5/data/other_data/plasmo13_prot_pblast_manual_seq_0.11exon2falc.results <- /home/vdp5/data/other_data/0.11_temp_exon2_falc_glam2.fasta
 	blastp -db /home/vdp5/data/cambodia_samples/falcipurum_wray/Results/blastdb_prot/Pfalciparum3D7_proteins.fasta -query $INPUT0 >  /home/vdp5/data/other_data/plasmo13_prot_pblast_manual_seq_0.11exon2falc.results
