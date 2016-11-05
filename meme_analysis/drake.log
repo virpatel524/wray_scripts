@@ -691,3 +691,5 @@
 2016-11-05 14:57:36,743 INFO --- 28: %glam2_analysis2_exon1_tempalter_1.5, /home/vdp5/scripts/meme_analysis/././stampcomplete/glam2_analysis2_exon1_tempalter_1.5 <- /nfs/wraycompute/diana/var/exon1_aa.fa -> done in 278.40s
 2016-11-05 14:57:40,686 INFO --- 36: %glam2_analysis2_exon1_tempalter_0.11, /home/vdp5/scripts/meme_analysis/././stampcomplete/glam2_analysis2_exon1_tempalter_0.11 <- /nfs/wraycompute/diana/var/exon1_aa.fa -> done in 168.00s
 2016-11-05 14:58:33,275 INFO --- 30: %glam2_analysis2_exon1_tempalter_1, /home/vdp5/scripts/meme_analysis/././stampcomplete/glam2_analysis2_exon1_tempalter_1 <- /nfs/wraycompute/diana/var/exon1_aa.fa -> done in 312.69s
+2016-11-05 15:11:52,377 INFO --- 20: %glam2_analysis1_exon1_30iter, /home/vdp5/scripts/meme_analysis/././stampcomplete/glam2_analysis1_exon1_30iter <- /nfs/wraycompute/diana/var/exon1_aa.fa -> done in 1134.28s
+2016-11-05 15:11:52,379 INFO Done (18 steps run).
