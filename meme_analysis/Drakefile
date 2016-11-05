@@ -78,7 +78,7 @@ mast_analysis()
 	echo "complete" > stampcomplete/diana_var_exonsplit.log
 
 
-%mast_analysis3_newplasmodb13_exon2, stampcomplete/mast_analysis3_newplasmodb13_exon2.log <- /home/vdp5/data/hhmm_data/meme_falc_annotated_10_var_protexon2/meme.xml, /home/vdp5/data/cambodia_samples/falcipurum_wray/plasmodb13_transcript_readable.fasta [shell timecheck:true +async]
-	mast -oc /home/vdp5/data/hhmm_data/mast_analysis1_newplasmodb13_exon2_10 $INPUT0 $INPUT1
-	echo "complete" > stampcomplete/mast_analysis3_newplasmodb13_exon2.log
+%mast_analysis3_newplasmodb13_exon2_dreme, stampcomplete/mast_analysis3_newplasmodb13_exon2_dreme.log <- /home/vdp5/data/hhmm_data/dreme_analysis1_protonly_falc_exon2_10/dreme.xml, /home/vdp5/data/cambodia_samples/falcipurum_wray/plasmodb13_transcript_readable.fasta [shell timecheck:true +async]
+	mast -oc /home/vdp5/data/hhmm_data/mast_analysis3_newplasmodb13_exon2_dreme $INPUT0 $INPUT1
+	echo "complete" > stampcomplete/mast_analysis3_newplasmodb13_exon2_dreme.log
 
