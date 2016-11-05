@@ -24,5 +24,7 @@ for alpha in fulldata:
 
 
 outdir = args['outdir']
-for chrom in chrom2items:
+for gene in chrom2items:
+	tmp = str(os.path.join(outdir + gene[1:]))
+	print tmp
 
