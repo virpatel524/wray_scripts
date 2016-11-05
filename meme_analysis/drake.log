@@ -632,3 +632,5 @@
 2016-11-05 12:56:27,295 INFO --- 18: %glam2_analysis1_exon1, /home/vdp5/scripts/meme_analysis/././stampcomplete/glam2_analysis1_exon1 <- /nfs/wraycompute/diana/var/exon1_aa.fa -> done in 379.09s
 2016-11-05 12:56:27,333 INFO 
 2016-11-05 12:56:27,334 INFO --- 19. Running (missing output): %glam2_analysis1_exon2, /home/vdp5/scripts/meme_analysis/././stampcomplete/glam2_analysis1_exon2 <- /nfs/wraycompute/diana/var/exon2_aa.fa
+2016-11-05 12:58:06,733 INFO --- 19: %glam2_analysis1_exon2, /home/vdp5/scripts/meme_analysis/././stampcomplete/glam2_analysis1_exon2 <- /nfs/wraycompute/diana/var/exon2_aa.fa -> done in 99.35s
+2016-11-05 12:58:06,739 INFO Done (2 steps run).
