@@ -34,6 +34,11 @@ for alpha in gene2seq:
 	if 'exon' not in tmp:
 		continue
 	appropindex = tmp.index("exon")
+	exonname = 'exon{}'.format(tmp[appropindex + 1])
+	exonnamedict.setdefault(exonname, []).append(alpha)
+
+
+for alpha in exonnamedict:
 	
 
 
