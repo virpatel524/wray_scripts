@@ -178,5 +178,5 @@ mast_analysis()
 	makeblastdb -in $INPUT0 -parse_seqids -dbtype prot
 
 %plasmo13_prot_pblast_manual_seq_0.11exon2falc, /home/vdp5/data/other_data/plasmo13_prot_pblast_manual_seq_0.11exon2falc.results <- /home/vdp5/data/other_data/0.11_temp_exon2_falc_glam2.fasta
-	blastp -db /home/vdp5/data/cambodia_samples/falcipurum_wray/Results/blastdb_prot/Pfalciparum3D7_proteins.fasta 
+	blastp -db /home/vdp5/data/cambodia_samples/falcipurum_wray/Results/blastdb_prot/Pfalciparum3D7_proteins.fasta -query $INPUT1
 
