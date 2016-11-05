@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/vdp5/scripts/general_purpose/splitfasta.py", line 29, in <module>
+    newfle = open(tmp, 'w')
+IOError: [Errno 2] No such file or directory: 'home/vdp5/data/gene_finder/ASM241v2_genes_exons/gfamily_exon2_orthofinder4/PVX_012115_exon2'
