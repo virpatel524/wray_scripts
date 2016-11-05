@@ -9,4 +9,16 @@ fastadata = list(csv.reader(open(args['fasta']),delimiter='\t'))
 outdir = args['outdir']
 
 
+gene2seq = {}
+curgene = 'fadsjfkdsa'
+
+for alpha in fastadata:
+	if alpha[0][0] == '>':
+		curgene = alpha[0]
+	else:
+		gene2seq.setdefault(curgene, []).append(alpha[0])
+
+
+for gene in gene2seq:
+	
 
