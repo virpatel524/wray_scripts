@@ -26,6 +26,8 @@ def make_bash_file(temperatures, exonsraw, targetprotrwaw, outputdir):
 				newfle.write('wait\n\n')
 				counter = 0
 
+	return coolpaths
+
 
 
 
