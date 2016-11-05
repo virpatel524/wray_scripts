@@ -13,13 +13,13 @@ def make_bash_file(temperatures, exonsraw, targetprotrwaw, outputdir):
 		pass
 
 	for index, file in enumerate(exonsraw):
-		os.mkdir(os.path.join(outputdir, 'exon{}'.format(index)))
+		os.mkdir(os.path.join(outputdir, 'exon{}'.format(index + 1)))
 
 	newfle = open(os.path.join(outputdir, 'runscript.sh'), 'w')
 	counter = 0
 	for index, file in enumerate(exonsraw):
 		for temp in temperatures:
-			newfle.write('glam2 -O {}_{}temp -2 -r 20 -t {} p {}\n'.format(os.path.join(outputdir, 'exon{}'.format(index)), temp, temp, file))
+			newfle.write('glam2 -O {}_{}temp -2 -r 20 -t {} p {}\n'.format(os.path.join(outputdir, 'exon{}'.format(index + 1)), temp, temp, file))
 			if counter == 2:
 				newfle.write('wait\n\n')
 				counter = 0
