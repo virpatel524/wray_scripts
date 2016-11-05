@@ -39,7 +39,7 @@ for alpha in gene2seq:
 
 print exonnamedict.keys()
 for alpha in exonnamedict:
-	newfle = open(os.path.join(outdir +'/', alpha + '{}.fasta'.format(alpha)), 'w')
+	newfle = open(os.path.join(outdir +'/', '{}.fasta'.format(alpha)), 'w')
 	for gene in exonnamedict[alpha]:
 		newfle.write(gene)
 		newfle.write(gene2seq[gene])
