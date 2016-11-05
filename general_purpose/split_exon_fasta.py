@@ -35,6 +35,8 @@ for alpha in gene2seq:
 		continue
 	appropindex = tmp.index("exon")
 	exonname = 'exon{}'.format(tmp[appropindex + 1])
+	if exonname[-1] == ',':
+		exonname = exonname[:-1]
 	exonnamedict.setdefault(exonname, []).append(alpha)
 
 print exonnamedict.keys()
