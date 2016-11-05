@@ -88,54 +88,54 @@ mast_analysis()
 	echo "complete" > stampcomplete/mast_analysis4_newplasmodb13_exon2_dreme_corradjust.log
 
 
-%glam2_analysis1_exon1, stampcomplete/glam2_analysis1_exon1 <- /nfs/wraycompute/diana/var/exon1_aa.fa [shell timecheck:true +async]
+%glam2_analysis1_exon1 <- /nfs/wraycompute/diana/var/exon1_aa.fa [shell timecheck:true +async]
 	glam2 -O /home/vdp5/data/hhmm_data/glam2_analysis1_exon1 -2 p $INPUT0
 	echo "complete" > stampcomplete/glam2_analysis1_exon1.log
 
-%glam2_analysis1_exon2, stampcomplete/glam2_analysis1_exon2 <- /nfs/wraycompute/diana/var/exon2_aa.fa [shell timecheck:true +async]
+%glam2_analysis1_exon2 <- /nfs/wraycompute/diana/var/exon2_aa.fa [shell timecheck:true +async]
 	glam2 -O /home/vdp5/data/hhmm_data/glam2_analysis1_exon2 -2 p $INPUT0
 	echo "complete" > stampcomplete/glam2_analysis1_exon2.log
 
 
-%glam2_analysis1_exon1_30iter, stampcomplete/glam2_analysis1_exon1_30iter <- /nfs/wraycompute/diana/var/exon1_aa.fa [shell timecheck:true +async]
+%glam2_analysis1_exon1_30iter <- /nfs/wraycompute/diana/var/exon1_aa.fa [shell timecheck:true +async]
 	glam2 -O /home/vdp5/data/hhmm_data/glam2_analysis1_exon1_30iter -2 -r 30 p $INPUT0
 	echo "complete" > stampcomplete/glam2_analysis1_exon1_30iter.log
 
-%glam2_analysis1_exon2_30iter, stampcomplete/glam2_analysis1_exon2_30iter <- /nfs/wraycompute/diana/var/exon2_aa.fa [shell timecheck:true +async]
+%glam2_analysis1_exon2_30iter <- /nfs/wraycompute/diana/var/exon2_aa.fa [shell timecheck:true +async]
 	glam2 -O /home/vdp5/data/hhmm_data/glam2_analysis1_exon2_30iter -2 -r 30 p $INPUT0
 	echo "complete" > stampcomplete/glam2_analysis1_exon2_30iter.log
 
 
 
-%glam2_analysis2_exon1_tempalter_5, stampcomplete/glam2_analysis2_exon1_tempalter_5 <- /nfs/wraycompute/diana/var/exon1_aa.fa [shell timecheck:true +async]
+%glam2_analysis2_exon1_tempalter_5 <- /nfs/wraycompute/diana/var/exon1_aa.fa [shell timecheck:true +async]
 	glam2 -O /home/vdp5/data/hhmm_data/glam2_analysis2_exon1_tempalter_5 -t 5 -2 p $INPUT0
 	echo "complete" > stampcomplete/glam2_analysis2_exon1_tempalter_5.log
 
-%glam2_analysis2_exon2_tempalter_5, stampcomplete/glam2_analysis2_exon2_tempalter_5 <- /nfs/wraycompute/diana/var/exon2_aa.fa [shell timecheck:true +async]
+%glam2_analysis2_exon2_tempalter_5 <- /nfs/wraycompute/diana/var/exon2_aa.fa [shell timecheck:true +async]
 	glam2 -O /home/vdp5/data/hhmm_data/glam2_analysis2_exon2_tempalter_5 -t 5 -2 p $INPUT0
 	echo "complete" > stampcomplete/glam2_analysis2_exon2_tempalter_5.log
 
-%glam2_analysis2_exon1_tempalter_3, stampcomplete/glam2_analysis2_exon1_tempalter_3 <- /nfs/wraycompute/diana/var/exon1_aa.fa [shell timecheck:true +async]
+%glam2_analysis2_exon1_tempalter_3 <- /nfs/wraycompute/diana/var/exon1_aa.fa [shell timecheck:true +async]
 	glam2 -O /home/vdp5/data/hhmm_data/glam2_analysis2_exon1_tempalter_3 -t 3 -2 p $INPUT0
 	echo "complete" > stampcomplete/glam2_analysis2_exon1_tempalter_3.log
 
-%glam2_analysis2_exon2_tempalter_3, stampcomplete/glam2_analysis2_exon2_tempalter_3 <- /nfs/wraycompute/diana/var/exon2_aa.fa [shell timecheck:true +async]
+%glam2_analysis2_exon2_tempalter_3 <- /nfs/wraycompute/diana/var/exon2_aa.fa [shell timecheck:true +async]
 	glam2 -O /home/vdp5/data/hhmm_data/glam2_analysis2_exon2_tempalter_3 -t 3 -2 p $INPUT0
 	echo "complete" > stampcomplete/glam2_analysis2_exon2_tempalter_3.log
 
-%glam2_analysis2_exon1_tempalter_2, stampcomplete/glam2_analysis2_exon1_tempalter_2 <- /nfs/wraycompute/diana/var/exon1_aa.fa [shell timecheck:true +async]
+%glam2_analysis2_exon1_tempalter_2 <- /nfs/wraycompute/diana/var/exon1_aa.fa [shell timecheck:true +async]
 	glam2 -O /home/vdp5/data/hhmm_data/glam2_analysis2_exon1_tempalter_2 -t 2 -2 p $INPUT0
 	echo "complete" > stampcomplete/glam2_analysis2_exon1_tempalter_2.log
 
-%glam2_analysis2_exon2_tempalter_2, stampcomplete/glam2_analysis2_exon2_tempalter_2 <- /nfs/wraycompute/diana/var/exon2_aa.fa [shell timecheck:true +async]
+%glam2_analysis2_exon2_tempalter_2 <- /nfs/wraycompute/diana/var/exon2_aa.fa [shell timecheck:true +async]
 	glam2 -O /home/vdp5/data/hhmm_data/glam2_analysis2_exon2_tempalter_2 -t 2 -2 p $INPUT0
 	echo "complete" > stampcomplete/glam2_analysis2_exon2_tempalter_2.log
 
-%glam2_analysis2_exon1_tempalter_1.5, stampcomplete/glam2_analysis2_exon1_tempalter_1.5 <- /nfs/wraycompute/diana/var/exon1_aa.fa [shell timecheck:true +async]
+%glam2_analysis2_exon1_tempalter_1.5 <- /nfs/wraycompute/diana/var/exon1_aa.fa [shell timecheck:true +async]
 	glam2 -O /home/vdp5/data/hhmm_data/glam2_analysis2_exon1_tempalter_1.5 -t 1.5 -2 p $INPUT0
 	echo "complete" > stampcomplete/glam2_analysis2_exon1_tempalter_1.5.log
 
-%glam2_analysis2_exon2_tempalter_1.5, stampcomplete/glam2_analysis2_exon2_tempalter_1.5 <- /nfs/wraycompute/diana/var/exon2_aa.fa [shell timecheck:true +async]
+%glam2_analysis2_exon2_tempalter_1.5 <- /nfs/wraycompute/diana/var/exon2_aa.fa [shell timecheck:true +async]
 	glam2 -O /home/vdp5/data/hhmm_data/glam2_analysis2_exon2_tempalter_1.5 -t 1.5 -2 p $INPUT0
 	echo "complete" > stampcomplete/glam2_analysis2_exon2_tempalter_1.5.log
 
@@ -148,19 +148,19 @@ mast_analysis()
 	glam2 -O /home/vdp5/data/hhmm_data/glam2_analysis2_exon2_tempalter_1 -t 1 -2 p $INPUT0
 	echo "complete" > stampcomplete/glam2_analysis2_exon2_tempalter_1.log
 
-%glam2_analysis2_exon1_tempalter_0.7, stampcomplete/glam2_analysis2_exon1_tempalter_0.7 <- /nfs/wraycompute/diana/var/exon1_aa.fa [shell timecheck:true +async]
+%glam2_analysis2_exon1_tempalter_0.7 <- /nfs/wraycompute/diana/var/exon1_aa.fa [shell timecheck:true +async]
 	glam2 -O /home/vdp5/data/hhmm_data/glam2_analysis2_exon1_tempalter_0.7 -t 0.7 -2 p $INPUT0
 	echo "complete" > stampcomplete/glam2_analysis2_exon1_tempalter_0.7.log
 
-%glam2_analysis2_exon2_tempalter_0.7, stampcomplete/glam2_analysis2_exon2_tempalter_0.7 <- /nfs/wraycompute/diana/var/exon2_aa.fa [shell timecheck:true +async]
+%glam2_analysis2_exon2_tempalter_0.7 <- /nfs/wraycompute/diana/var/exon2_aa.fa [shell timecheck:true +async]
 	glam2 -O /home/vdp5/data/hhmm_data/glam2_analysis2_exon2_tempalter_0.7 -t 0.7 -2 p $INPUT0
 	echo "complete" > stampcomplete/glam2_analysis2_exon2_tempalter_0.7.log
 
-%glam2_analysis2_exon1_tempalter_0.4, stampcomplete/glam2_analysis2_exon1_tempalter_0.4 <- /nfs/wraycompute/diana/var/exon1_aa.fa [shell timecheck:true +async]
+%glam2_analysis2_exon1_tempalter_0.4 <- /nfs/wraycompute/diana/var/exon1_aa.fa [shell timecheck:true +async]
 	glam2 -O /home/vdp5/data/hhmm_data/glam2_analysis2_exon1_tempalter_0.4 -t 0.4 -2 p $INPUT0
 	echo "complete" > stampcomplete/glam2_analysis2_exon1_tempalter_0.4.log
 
-%glam2_analysis2_exon2_tempalter_0.4, stampcomplete/glam2_analysis2_exon2_tempalter_0.4 <- /nfs/wraycompute/diana/var/exon2_aa.fa [shell timecheck:true +async]
+%glam2_analysis2_exon2_tempalter_0.4 <- /nfs/wraycompute/diana/var/exon2_aa.fa [shell timecheck:true +async]
 	glam2 -O /home/vdp5/data/hhmm_data/glam2_analysis2_exon2_tempalter_0.4 -t 0.4 -2 p $INPUT0
 	echo "complete" > stampcomplete/glam2_analysis2_exon2_tempalter_0.4.log
 
@@ -176,6 +176,6 @@ mast_analysis()
 	blastp -db /home/vdp5/data/cambodia_samples/falcipurum_wray/Results/blastdb_prot/Pfalciparum3D7_proteins.fasta -query $INPUT0 >  /home/vdp5/data/other_data/plasmo13_prot_pblast_manual_seq_0.11exon2falc.results
 
 
-	
+
 
 
