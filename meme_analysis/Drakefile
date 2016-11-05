@@ -155,6 +155,6 @@ mast_analysis()
 	blastp -db /home/vdp5/data/cambodia_samples/falcipurum_wray/Results/blastdb_prot/Pfalciparum3D7_proteins.fasta -query $INPUT0 >  /home/vdp5/data/other_data/plasmo13_prot_pblast_manual_seq_0.11exon2falc.results
 
 %glam2scan_exon2_dianafalc_0.11temp, /home/vdp5/data/hhmm_data/glam2scan_exon2_dianafalc_0.11temp <- /home/vdp5/data/hhmm_data/glam2_analysis2_exon2_tempalter_0.11/glam2.html, /home/vdp5/data/cambodia_samples/falcipurum_wray/Results/Pfalciparum3D7_proteins.fasta
-	glam2scan -O $OUTPUT1 p $INPUT0 $INPUT1
+	glam2scan -O $OUTPUT0 p $INPUT0 $INPUT1
 
 

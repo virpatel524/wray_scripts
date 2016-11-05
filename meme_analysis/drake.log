@@ -996,3 +996,8 @@
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
 
+2016-11-05 16:16:57,757 INFO Running 1 steps with concurrence of 1...
+2016-11-05 16:16:57,782 INFO 
+2016-11-05 16:16:57,783 INFO --- 39. Running (via tag): %glam2scan_exon2_dianafalc_0.11temp, /home/vdp5/data/hhmm_data/glam2scan_exon2_dianafalc_0.11temp <- /home/vdp5/data/hhmm_data/glam2_analysis2_exon2_tempalter_0.11/glam2.html, /home/vdp5/data/cambodia_samples/falcipurum_wray/Results/Pfalciparum3D7_proteins.fasta
+2016-11-05 16:16:59,126 INFO --- 39: %glam2scan_exon2_dianafalc_0.11temp, /home/vdp5/data/hhmm_data/glam2scan_exon2_dianafalc_0.11temp <- /home/vdp5/data/hhmm_data/glam2_analysis2_exon2_tempalter_0.11/glam2.html, /home/vdp5/data/cambodia_samples/falcipurum_wray/Results/Pfalciparum3D7_proteins.fasta -> done in 1.31s
+2016-11-05 16:16:59,131 INFO Done (1 steps run).
