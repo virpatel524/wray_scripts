@@ -8,7 +8,9 @@ def make_bash_file(temperatures, exonsraw, targetprotrwaw, outputdir):
 	except:
 		pass
 
-	
+	for index, file in enumerate(exonsraw):
+		os.mkdir(os.path.join(outputdir, 'exon{}'.format(index)))
+
 
 parser = argparse.ArgumentParser();
 parser.add_argument('-exons', nargs='+')
