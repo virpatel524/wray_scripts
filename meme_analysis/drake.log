@@ -637,3 +637,39 @@
 2016-11-05 14:35:26,774 INFO Running 2 steps with concurrence of 1...
 2016-11-05 14:35:26,797 INFO 
 2016-11-05 14:35:26,800 INFO --- 20. Running (missing output): %glam2_analysis1_exon1_30iter, /home/vdp5/scripts/meme_analysis/././stampcomplete/glam2_analysis1_exon1_30iter <- /nfs/wraycompute/diana/var/exon1_aa.fa
+2016-11-05 14:52:57,529 INFO Running 18 steps with concurrence of 10...
+2016-11-05 14:52:57,561 INFO 
+2016-11-05 14:52:57,561 INFO 
+2016-11-05 14:52:57,561 INFO 
+2016-11-05 14:52:57,561 INFO 
+2016-11-05 14:52:57,561 INFO 
+2016-11-05 14:52:57,561 INFO 
+2016-11-05 14:52:57,563 INFO --- 22. Running (missing output): %glam2_analysis2_exon1_tempalter_5, /home/vdp5/scripts/meme_analysis/././stampcomplete/glam2_analysis2_exon1_tempalter_5 <- /nfs/wraycompute/diana/var/exon1_aa.fa
+2016-11-05 14:52:57,561 INFO 
+2016-11-05 14:52:57,561 INFO 
+2016-11-05 14:52:57,561 INFO 
+2016-11-05 14:52:57,561 INFO 
+2016-11-05 14:52:57,563 INFO --- 23. Running (missing output): %glam2_analysis2_exon2_tempalter_5, /home/vdp5/scripts/meme_analysis/././stampcomplete/glam2_analysis2_exon2_tempalter_5 <- /nfs/wraycompute/diana/var/exon2_aa.fa
+2016-11-05 14:52:57,563 INFO --- 26. Running (missing output): %glam2_analysis2_exon1_tempalter_2, /home/vdp5/scripts/meme_analysis/././stampcomplete/glam2_analysis2_exon1_tempalter_2 <- /nfs/wraycompute/diana/var/exon1_aa.fa
+2016-11-05 14:52:57,563 INFO --- 29. Running (missing output): %glam2_analysis2_exon2_tempalter_1.5, /home/vdp5/scripts/meme_analysis/././stampcomplete/glam2_analysis2_exon2_tempalter_1.5 <- /nfs/wraycompute/diana/var/exon2_aa.fa
+2016-11-05 14:52:57,566 INFO --- 21. Running (missing output): %glam2_analysis1_exon2_30iter, /home/vdp5/scripts/meme_analysis/././stampcomplete/glam2_analysis1_exon2_30iter <- /nfs/wraycompute/diana/var/exon2_aa.fa
+2016-11-05 14:52:57,566 INFO --- 28. Running (missing output): %glam2_analysis2_exon1_tempalter_1.5, /home/vdp5/scripts/meme_analysis/././stampcomplete/glam2_analysis2_exon1_tempalter_1.5 <- /nfs/wraycompute/diana/var/exon1_aa.fa
+2016-11-05 14:52:57,567 INFO --- 24. Running (missing output): %glam2_analysis2_exon1_tempalter_3, /home/vdp5/scripts/meme_analysis/././stampcomplete/glam2_analysis2_exon1_tempalter_3 <- /nfs/wraycompute/diana/var/exon1_aa.fa
+2016-11-05 14:52:57,567 INFO --- 20. Running (missing output): %glam2_analysis1_exon1_30iter, /home/vdp5/scripts/meme_analysis/././stampcomplete/glam2_analysis1_exon1_30iter <- /nfs/wraycompute/diana/var/exon1_aa.fa
+2016-11-05 14:52:57,567 INFO --- 27. Running (missing output): %glam2_analysis2_exon2_tempalter_2, /home/vdp5/scripts/meme_analysis/././stampcomplete/glam2_analysis2_exon2_tempalter_2 <- /nfs/wraycompute/diana/var/exon2_aa.fa
+2016-11-05 14:52:57,567 INFO --- 25. Running (missing output): %glam2_analysis2_exon2_tempalter_3, /home/vdp5/scripts/meme_analysis/././stampcomplete/glam2_analysis2_exon2_tempalter_3 <- /nfs/wraycompute/diana/var/exon2_aa.fa
+2016-11-05 14:53:20,523 INFO --- 23: %glam2_analysis2_exon2_tempalter_5, /home/vdp5/scripts/meme_analysis/././stampcomplete/glam2_analysis2_exon2_tempalter_5 <- /nfs/wraycompute/diana/var/exon2_aa.fa -> done in 22.42s
+2016-11-05 14:53:20,534 INFO 
+2016-11-05 14:53:20,534 INFO --- 30. Running (missing output): %glam2_analysis2_exon1_tempalter_1, /home/vdp5/scripts/meme_analysis/././stampcomplete/glam2_analysis2_exon1_tempalter_1 <- /nfs/wraycompute/diana/var/exon1_aa.fa
+2016-11-05 14:53:28,044 INFO --- 25: %glam2_analysis2_exon2_tempalter_3, /home/vdp5/scripts/meme_analysis/././stampcomplete/glam2_analysis2_exon2_tempalter_3 <- /nfs/wraycompute/diana/var/exon2_aa.fa -> done in 29.95s
+2016-11-05 14:53:28,061 INFO 
+2016-11-05 14:53:28,061 INFO --- 31. Running (missing output): %glam2_analysis2_exon2_tempalter_1, /home/vdp5/scripts/meme_analysis/././stampcomplete/glam2_analysis2_exon2_tempalter_1 <- /nfs/wraycompute/diana/var/exon2_aa.fa
+2016-11-05 14:53:32,263 INFO --- 22: %glam2_analysis2_exon1_tempalter_5, /home/vdp5/scripts/meme_analysis/././stampcomplete/glam2_analysis2_exon1_tempalter_5 <- /nfs/wraycompute/diana/var/exon1_aa.fa -> done in 34.17s
+2016-11-05 14:53:32,273 INFO 
+2016-11-05 14:53:32,273 INFO --- 32. Running (missing output): %glam2_analysis2_exon1_tempalter_0.7, /home/vdp5/scripts/meme_analysis/././stampcomplete/glam2_analysis2_exon1_tempalter_0.7 <- /nfs/wraycompute/diana/var/exon1_aa.fa
+2016-11-05 14:53:38,998 INFO --- 24: %glam2_analysis2_exon1_tempalter_3, /home/vdp5/scripts/meme_analysis/././stampcomplete/glam2_analysis2_exon1_tempalter_3 <- /nfs/wraycompute/diana/var/exon1_aa.fa -> done in 40.65s
+2016-11-05 14:53:39,009 INFO 
+2016-11-05 14:53:39,010 INFO --- 33. Running (missing output): %glam2_analysis2_exon2_tempalter_0.7, /home/vdp5/scripts/meme_analysis/././stampcomplete/glam2_analysis2_exon2_tempalter_0.7 <- /nfs/wraycompute/diana/var/exon2_aa.fa
+2016-11-05 14:54:05,088 INFO --- 26: %glam2_analysis2_exon1_tempalter_2, /home/vdp5/scripts/meme_analysis/././stampcomplete/glam2_analysis2_exon1_tempalter_2 <- /nfs/wraycompute/diana/var/exon1_aa.fa -> done in 66.98s
+2016-11-05 14:54:05,102 INFO 
+2016-11-05 14:54:05,103 INFO --- 34. Running (missing output): %glam2_analysis2_exon1_tempalter_0.4, /home/vdp5/scripts/meme_analysis/././stampcomplete/glam2_analysis2_exon1_tempalter_0.4 <- /nfs/wraycompute/diana/var/exon1_aa.fa
