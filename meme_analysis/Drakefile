@@ -173,5 +173,5 @@ mast_analysis()
 	echo "complete" > stampcomplete/glam2_analysis2_exon2_tempalter_0.11.log
 
 %plasmo13_prot_blastdb, stampcomplete/plasmo13_prot_blastdb, /home/vdp5/data/cambodia_samples/falcipurum_wray/Results/blastdb_prot <- /home/vdp5/data/cambodia_samples/falcipurum_wray/Results/Pfalciparum3D7_proteins.fasta [shell timecheck:true +async]
-	makeblastdb -in mydb.fsa -parse_seqids -dbtype nucl
-	
+	makeblastdb -in $INPUT0 -parse_seqids -dbtype prot
+	echo "complete" > stampcomplete/plasmo13_prot_blastdb.log
