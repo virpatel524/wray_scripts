@@ -574,3 +574,8 @@
 2016-11-05 11:30:06,191 INFO --- 12. Running (missing output): %mast_analysis2_protonly_newplasmodb13_exon2_10, /home/vdp5/scripts/meme_analysis/././stampcomplete/mast_analysis2_protonly_newplasmodb13_exon2_10.log <- /home/vdp5/data/hhmm_data/meme_falc_annotated_10_var_protexon2/meme.xml, /home/vdp5/data/cambodia_samples/falcipurum_wray/Results/Pfalciparum3D7_proteins.fasta
 2016-11-05 11:30:10,712 INFO --- 12: %mast_analysis2_protonly_newplasmodb13_exon2_10, /home/vdp5/scripts/meme_analysis/././stampcomplete/mast_analysis2_protonly_newplasmodb13_exon2_10.log <- /home/vdp5/data/hhmm_data/meme_falc_annotated_10_var_protexon2/meme.xml, /home/vdp5/data/cambodia_samples/falcipurum_wray/Results/Pfalciparum3D7_proteins.fasta -> done in 4.47s
 2016-11-05 11:30:10,718 INFO Done (2 steps run).
+2016-11-05 12:20:38,310 INFO Running 1 steps with concurrence of 1...
+2016-11-05 12:20:38,334 INFO 
+2016-11-05 12:20:38,336 INFO --- 15. Running (via tag): %diana_var_exonsplit, /home/vdp5/scripts/meme_analysis/././stampcomplete/diana_var_exonsplit.log <- /nfs/wraycompute/diana/var/var_falciparum_cds.fa
+2016-11-05 12:20:39,204 INFO --- 15: %diana_var_exonsplit, /home/vdp5/scripts/meme_analysis/././stampcomplete/diana_var_exonsplit.log <- /nfs/wraycompute/diana/var/var_falciparum_cds.fa -> done in 0.81s
+2016-11-05 12:20:39,211 INFO Done (1 steps run).
