@@ -73,7 +73,8 @@ mast_analysis()
 
 
 ; split fasta file of CDS var for appropriate usage in dreme
-
+stampcomplete/diana_var_exonsplit.log <- /nfs/wraycompute/diana/var/var_falciparum_cds.fa
+	python 
 
 
 
