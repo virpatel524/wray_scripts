@@ -955,3 +955,44 @@
 2016-11-05 16:15:44,027 INFO Running 1 steps with concurrence of 1...
 2016-11-05 16:15:44,050 INFO 
 2016-11-05 16:15:44,052 INFO --- 39. Running (via tag): %glam2scan_exon2_dianafalc_0.11temp, /home/vdp5/data/hhmm_data/glam2scan_exon2_dianafalc_0.11temp <- /home/vdp5/data/hhmm_data/glam2_analysis2_exon2_tempalter_0.11/glam2.html, /home/vdp5/data/cambodia_samples/falcipurum_wray/Results/Pfalciparum3D7_proteins.fasta
+2016-11-05 16:15:44,802 INFO Done (0 steps run).
+2016-11-05 16:15:44,805 ERROR clojure.lang.ExceptionInfo: shell command failed with exit code 1 {:file "glam2scan -O $OUTPUT1 p $INPUT0, $INPUT1\n", :msg "shell command failed with exit code 1", :cmd ("/bin/bash" "/home/vdp5/scripts/meme_analysis/./.drake/shell-74f709745091487c2266f197559d0cc9.bat"), :opts {:die true, :no-stdin nil, :err [#<PrintStream java.io.PrintStream@2a05b995> #<BufferedWriter java.io.BufferedWriter@c453b80>], :exec-dir nil, :out [#<PrintStream java.io.PrintStream@6dd4d6a7> #<BufferedWriter java.io.BufferedWriter@234dd7a1>]}, :exit-code 1}
+	at clojure.core$ex_info.invoke(core.clj:4403)
+	at drake.shell$shell.doInvoke(shell.clj:150)
+	at clojure.lang.RestFn.applyTo(RestFn.java:137)
+	at clojure.core$apply.invoke(core.clj:624)
+	at drake.protocol$run_interpreter.invoke(protocol.clj:86)
+	at drake.protocol_interpreters$register_interpreter_BANG_$reify__4753.run(protocol_interpreters.clj:14)
+	at drake.core$run_step.invoke(core.clj:367)
+	at drake.core$attempt_run_step.invoke(core.clj:479)
+	at drake.core$function_for_step$fn__5091.invoke(core.clj:502)
+	at drake.core$trigger_futures_helper$fn__5102.invoke(core.clj:540)
+	at clojure.core$binding_conveyor_fn$fn__4145.invoke(core.clj:1910)
+	at clojure.lang.AFn.call(AFn.java:18)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-11-05 16:16:49,921 INFO Running 1 steps with concurrence of 1...
+2016-11-05 16:16:49,952 INFO 
+2016-11-05 16:16:49,954 INFO --- 39. Running (via tag): %glam2scan_exon2_dianafalc_0.11temp, /home/vdp5/data/hhmm_data/glam2scan_exon2_dianafalc_0.11temp <- /home/vdp5/data/hhmm_data/glam2_analysis2_exon2_tempalter_0.11/glam2.html, /home/vdp5/data/cambodia_samples/falcipurum_wray/Results/Pfalciparum3D7_proteins.fasta
+2016-11-05 16:16:50,757 INFO Done (0 steps run).
+2016-11-05 16:16:50,761 ERROR clojure.lang.ExceptionInfo: shell command failed with exit code 1 {:file "glam2scan -O $OUTPUT1 p $INPUT0 $INPUT1\n", :msg "shell command failed with exit code 1", :cmd ("/bin/bash" "/home/vdp5/scripts/meme_analysis/./.drake/shell-b39eeb1c45b4d6aeca40a358650da7dc.bat"), :opts {:die true, :no-stdin nil, :err [#<PrintStream java.io.PrintStream@122412de> #<BufferedWriter java.io.BufferedWriter@4357d1de>], :exec-dir nil, :out [#<PrintStream java.io.PrintStream@5a6deb2a> #<BufferedWriter java.io.BufferedWriter@55e5c873>]}, :exit-code 1}
+	at clojure.core$ex_info.invoke(core.clj:4403)
+	at drake.shell$shell.doInvoke(shell.clj:150)
+	at clojure.lang.RestFn.applyTo(RestFn.java:137)
+	at clojure.core$apply.invoke(core.clj:624)
+	at drake.protocol$run_interpreter.invoke(protocol.clj:86)
+	at drake.protocol_interpreters$register_interpreter_BANG_$reify__4753.run(protocol_interpreters.clj:14)
+	at drake.core$run_step.invoke(core.clj:367)
+	at drake.core$attempt_run_step.invoke(core.clj:479)
+	at drake.core$function_for_step$fn__5091.invoke(core.clj:502)
+	at drake.core$trigger_futures_helper$fn__5102.invoke(core.clj:540)
+	at clojure.core$binding_conveyor_fn$fn__4145.invoke(core.clj:1910)
+	at clojure.lang.AFn.call(AFn.java:18)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+

@@ -1,0 +1,1 @@
+glam2scan -O $OUTPUT1 p $INPUT0 $INPUT1
