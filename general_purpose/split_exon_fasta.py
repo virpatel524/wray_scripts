@@ -1,5 +1,8 @@
 import csv, os, args, sys
 
+
+#currently adapated for space between exon nama 
+
 parser = argparse.ArgumentParser();
 parser.add_argument('-fasta')
 parser.add_argument('-outdir')
@@ -21,5 +24,16 @@ for alpha in fastadata:
 
 for gene in gene2seq:
 	gene2seq[gene] = ''.join(gene2seq[gene]) + '\n'
+
+
+
+exonnamedict = {}
+
+for alpha in gene2seq:
+	tmp = alpha.split(' ')
+	if 'exon' not in tmp:
+		continue
+	appropindex = tmp.index("exon")
+	
 
 
