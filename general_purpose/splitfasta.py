@@ -2,8 +2,8 @@ import os, sys, csv, argparse
 
 
 parser = argparse.ArgumentParser();
-parser.add_argument('-seq')
-parser.add_argument('-outfile')
+parser.add_argument('-seqfile')
+parser.add_argument('-outdir')
 args = parser.parse_args()
 args = vars(args)
 
@@ -21,15 +21,8 @@ for alpha in fulldata:
 	else:
 		chrom2items.setdefault(curchrom, []).append(alpha[0])
 
-outfile = open(args['outfile'], 'w')
-
-fullseq = ''
-
-for key in chrom2items:
-	seq = chrom2items[key]
-	new = ''.join(seq)
-	fullseq += new
 
 
-outfile.write('>plasmodb13_splign_full\n')
-outfile.write('{}\n'.format(fullseq))
+outdir = args['outdir']
+for chrom in chrom2items:
+
