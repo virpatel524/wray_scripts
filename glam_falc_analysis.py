@@ -11,5 +11,10 @@ exon1fle = list(csv.reader(open(args['exon1']),delimiter='\t'))
 exon2fle = list(csv.reader(open(args['exon2']),delimiter='\t'))
 targetprotfle = list(csv.reader(open(args['targetprotiens']),delimiter='\t'))
 
+exon1raw = args['exon1']
+exon2raw = args['exon2']
+exon3raw = args['exon3']
+
+
 
 
