@@ -589,3 +589,8 @@
 2016-11-05 12:21:53,677 INFO --- 15. Running (via tag): %diana_var_exonsplit, /home/vdp5/scripts/meme_analysis/././stampcomplete/diana_var_exonsplit.log <- /nfs/wraycompute/diana/var/var_falciparum_cds.fa
 2016-11-05 12:21:54,076 INFO --- 15: %diana_var_exonsplit, /home/vdp5/scripts/meme_analysis/././stampcomplete/diana_var_exonsplit.log <- /nfs/wraycompute/diana/var/var_falciparum_cds.fa -> done in 0.36s
 2016-11-05 12:21:54,080 INFO Done (1 steps run).
+2016-11-05 12:23:15,213 INFO Running 1 steps with concurrence of 1...
+2016-11-05 12:23:15,238 INFO 
+2016-11-05 12:23:15,240 INFO --- 15. Running (via tag): %diana_var_exonsplit, /home/vdp5/scripts/meme_analysis/././stampcomplete/diana_var_exonsplit.log <- /nfs/wraycompute/diana/var/var_falciparum_cds.fa
+2016-11-05 12:23:15,664 INFO --- 15: %diana_var_exonsplit, /home/vdp5/scripts/meme_analysis/././stampcomplete/diana_var_exonsplit.log <- /nfs/wraycompute/diana/var/var_falciparum_cds.fa -> done in 0.38s
+2016-11-05 12:23:15,671 INFO Done (1 steps run).
