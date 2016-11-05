@@ -1,0 +1,1 @@
+orthofinder -f $INPUT > $OUTPUT

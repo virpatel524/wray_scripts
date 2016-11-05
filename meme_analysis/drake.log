@@ -292,3 +292,25 @@
 2016-11-04 22:36:52,709 INFO --- 5. Running (via tag): %gfamilyall_protmast_testonitself <- /home/vdp5/data/hhmm_data/gfamily_all_10motif_prot/meme.xml, /home/vdp5/data/gene_finder/vir_all_ASM241v2/portillo_g_all_prot.fasta
 2016-11-04 22:36:54,176 INFO --- 5: %gfamilyall_protmast_testonitself <- /home/vdp5/data/hhmm_data/gfamily_all_10motif_prot/meme.xml, /home/vdp5/data/gene_finder/vir_all_ASM241v2/portillo_g_all_prot.fasta -> done in 1.43s
 2016-11-04 22:36:54,180 INFO Done (1 steps run).
+2016-11-04 23:06:34,027 INFO Running 1 steps with concurrence of 1...
+2016-11-04 23:06:34,053 INFO 
+2016-11-04 23:06:34,055 INFO --- 6. Running (missing output): /home/vdp5/data/gene_finder/ASM241v2_genes_exons/orthofinder_exon2_gfamily.txt <- /home/vdp5/data/gene_finder/ASM241v2_genes_exons/gfamily_exon2.fasta
+2016-11-04 23:06:43,591 INFO Done (0 steps run).
+2016-11-04 23:06:43,598 ERROR clojure.lang.ExceptionInfo: shell command failed with exit code 255 {:file "orthofinder -f $INPUT > $OUTPUT\n", :msg "shell command failed with exit code 255", :cmd ("/bin/bash" "/home/vdp5/scripts/meme_analysis/./.drake/shell-41f4b7ebf2b3db1d4d1cc6141b24bdf4.bat"), :opts {:die true, :no-stdin nil, :err [#<PrintStream java.io.PrintStream@3fc7adc3> #<BufferedWriter java.io.BufferedWriter@395124ab>], :exec-dir nil, :out [#<PrintStream java.io.PrintStream@6c46409f> #<BufferedWriter java.io.BufferedWriter@6a765bc3>]}, :exit-code 255}
+	at clojure.core$ex_info.invoke(core.clj:4403)
+	at drake.shell$shell.doInvoke(shell.clj:150)
+	at clojure.lang.RestFn.applyTo(RestFn.java:137)
+	at clojure.core$apply.invoke(core.clj:624)
+	at drake.protocol$run_interpreter.invoke(protocol.clj:86)
+	at drake.protocol_interpreters$register_interpreter_BANG_$reify__4753.run(protocol_interpreters.clj:14)
+	at drake.core$run_step.invoke(core.clj:367)
+	at drake.core$attempt_run_step.invoke(core.clj:479)
+	at drake.core$function_for_step$fn__5091.invoke(core.clj:502)
+	at drake.core$trigger_futures_helper$fn__5102.invoke(core.clj:540)
+	at clojure.core$binding_conveyor_fn$fn__4145.invoke(core.clj:1910)
+	at clojure.lang.AFn.call(AFn.java:18)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+

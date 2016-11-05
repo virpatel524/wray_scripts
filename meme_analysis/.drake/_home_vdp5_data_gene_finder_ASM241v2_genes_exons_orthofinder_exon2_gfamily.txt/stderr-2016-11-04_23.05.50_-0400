@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "orthofinder/orthofinder.py", line 1011, in <module>
+  File "orthofinder/scripts/util.py", line 195, in CreateNewWorkingDirectory
+OSError: [Errno 20] Not a directory: '/home/vdp5/data/gene_finder/ASM241v2_genes_exons/gfamily_exon2.fasta/Results_Nov04/'
+Failed to execute script orthofinder
