@@ -33,9 +33,9 @@ mast_analysis()
 
 
 
-%mast_falc_annotated_10_var_protexon1 <- /home/vdp5/data/hhmm_data/meme_falc_annotated_10_var_protexon1/meme.xml, /home/vdp5/data/gene_finder/vir_all_ASM241v2/portillo_g_all_dna.fasta [shell timecheck:true +async]
-	mast -oc /home/vdp5/data/hhmm_data/mast_gfamilyall_dnamast_testonitself $INPUT0 $INPUT1
+%mast_falc_annotated_10_var_protexon1 <- /home/vdp5/data/hhmm_data/meme_falc_annotated_10_var_protexon1/meme.xml, /nfs/wraycompute/diana/var/exon1_aa.fa [shell timecheck:true +async]
+	mast -oc /home/vdp5/data/hhmm_data/mast_falc_annotated_10_var_protexon1_testonitself $INPUT0 $INPUT1
 
 
-%mast_falc_annotated_10_var_protexon2 <- /home/vdp5/data/hhmm_data/gfamily_all_10motif_prot/meme.xml, /home/vdp5/data/gene_finder/vir_all_ASM241v2/portillo_g_all_prot.fasta [shell timecheck:true +async]
-	mast -oc /home/vdp5/data/hhmm_data/mast_gfamilyall_protmast_testonitself $INPUT0 $INPUT1
+%mast_falc_annotated_10_var_protexon2 <- /home/vdp5/data/hhmm_data/meme_falc_annotated_10_var_protexon2/meme.xml, /nfs/wraycompute/diana/var/exon2_aa.fa [shell timecheck:true +async]
+	mast -oc /home/vdp5/data/hhmm_data/mast_falc_annotated_10_var_protexon2_testonitself $INPUT0 $INPUT1
