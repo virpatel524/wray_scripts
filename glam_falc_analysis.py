@@ -19,9 +19,9 @@ def make_bash_file(temperatures, exonsraw, targetprotrwaw, outputdir):
 	counter = 0
 	for index, file in enumerate(exonsraw):
 		for temp in temperatures:
-			fle.write('glam2 -O {}_{}temp -2 -r 20 p {}\n'.format(os.path.join(outputdir, 'exon{}'.format(index)), temp), file)
+			newfle.write('glam2 -O {}_{}temp -2 -r 20 p {}\n'.format(os.path.join(outputdir, 'exon{}'.format(index)), temp, file))
 			if counter == 2:
-				fle.write('wait\n\n')
+				newfle.write('wait\n\n')
 				counter = 0
 
 
