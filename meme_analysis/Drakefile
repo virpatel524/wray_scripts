@@ -62,12 +62,12 @@ mast_analysis()
 	mast -oc /home/vdp5/data/hhmm_data/mast_analysis2_protonly_newplasmodb13_exon2_10 $INPUT0 $INPUT1
 	echo "complete" > stampcomplete/mast_analysis2_protonly_newplasmodb13_exon2_10.log
 
-%dreme_analysis1_protonly_falc_exon1_10, stampcomplete/dreme_analysis1_protonly_falc_exon1_10.log <- /nfs/wraycompute/diana/var/exon1_aa.fa [shell timecheck:true +async]
+%dreme_analysis1_protonly_falc_exon1_10, stampcomplete/dreme_analysis1_protonly_falc_exon1_10.log <- /home/vdp5/data/falc_analysis_pacbio/diana_falc_var_exonsplit/exon1.fasta [shell timecheck:true +async]
 	dreme -oc /home/vdp5/data/hhmm_data/dreme_analysis1_protonly_falc_exon1_10 -p $INPUT0 
 	echo "complete" > stampcomplete/dreme_analysis1_protonly_falc_exon1_10.log
 
 
-%dreme_analysis1_protonly_falc_exon2_10, stampcomplete/dreme_analysis1_protonly_falc_exon2_10.log <- /nfs/wraycompute/diana/var/exon2_aa.fa [shell timecheck:true +async]
+%dreme_analysis1_protonly_falc_exon2_10, stampcomplete/dreme_analysis1_protonly_falc_exon2_10.log <- /home/vdp5/data/falc_analysis_pacbio/diana_falc_var_exonsplit/exon2.fasta [shell timecheck:true +async]
 	dreme -oc /home/vdp5/data/hhmm_data/dreme_analysis1_protonly_falc_exon2_10 -p $INPUT0 
 	echo "complete" > stampcomplete/dreme_analysis1_protonly_falc_exon2_10.log
 
