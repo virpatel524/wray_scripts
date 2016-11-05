@@ -1,0 +1,4 @@
+  File "/home/vdp5/scripts/general_purpose/splitfasta.py", line 28
+    tmp = str(os.path.join('/' + outdir + '/' +  gene[1:][] + '.fasta'))
+                                                          ^
+SyntaxError: invalid syntax

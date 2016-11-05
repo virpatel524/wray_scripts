@@ -437,3 +437,48 @@
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
 
+2016-11-04 23:30:52,384 INFO Running 1 steps with concurrence of 1...
+2016-11-04 23:30:52,413 INFO 
+2016-11-04 23:30:52,415 INFO --- 7. Running (via tag): %splitexon2fasta, /home/vdp5/data/gene_finder/ASM241v2_genes_exons/gfamily_exon2_orthofinder4 <- /home/vdp5/data/gene_finder/ASM241v2_genes_exons/gfamily_exon2.fasta
+2016-11-04 23:30:53,303 INFO Done (0 steps run).
+2016-11-04 23:30:53,308 ERROR clojure.lang.ExceptionInfo: shell command failed with exit code 1 {:file "python /home/vdp5/scripts/general_purpose/splitfasta.py -seqfile $INPUT -outdir home/vdp5/data/gene_finder/ASM241v2_genes_exons/gfamily_exon2_orthofinder4\n", :msg "shell command failed with exit code 1", :cmd ("/bin/bash" "/home/vdp5/scripts/meme_analysis/./.drake/shell-124144fecf130ab20e6cd50c710bafe4.bat"), :opts {:die true, :no-stdin nil, :err [#<PrintStream java.io.PrintStream@1343a56b> #<BufferedWriter java.io.BufferedWriter@30a33116>], :exec-dir nil, :out [#<PrintStream java.io.PrintStream@473dbf88> #<BufferedWriter java.io.BufferedWriter@66bfa93f>]}, :exit-code 1}
+	at clojure.core$ex_info.invoke(core.clj:4403)
+	at drake.shell$shell.doInvoke(shell.clj:150)
+	at clojure.lang.RestFn.applyTo(RestFn.java:137)
+	at clojure.core$apply.invoke(core.clj:624)
+	at drake.protocol$run_interpreter.invoke(protocol.clj:86)
+	at drake.protocol_interpreters$register_interpreter_BANG_$reify__4753.run(protocol_interpreters.clj:14)
+	at drake.core$run_step.invoke(core.clj:367)
+	at drake.core$attempt_run_step.invoke(core.clj:479)
+	at drake.core$function_for_step$fn__5091.invoke(core.clj:502)
+	at drake.core$trigger_futures_helper$fn__5102.invoke(core.clj:540)
+	at clojure.core$binding_conveyor_fn$fn__4145.invoke(core.clj:1910)
+	at clojure.lang.AFn.call(AFn.java:18)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-11-04 23:31:32,605 INFO Running 1 steps with concurrence of 1...
+2016-11-04 23:31:32,636 INFO 
+2016-11-04 23:31:32,639 INFO --- 7. Running (via tag): %splitexon2fasta, /home/vdp5/data/gene_finder/ASM241v2_genes_exons/gfamily_exon2_orthofinder4 <- /home/vdp5/data/gene_finder/ASM241v2_genes_exons/gfamily_exon2.fasta
+2016-11-04 23:31:33,433 INFO Done (0 steps run).
+2016-11-04 23:31:33,437 ERROR clojure.lang.ExceptionInfo: shell command failed with exit code 1 {:file "python /home/vdp5/scripts/general_purpose/splitfasta.py -seqfile $INPUT -outdir home/vdp5/data/gene_finder/ASM241v2_genes_exons/gfamily_exon2_orthofinder4\n", :msg "shell command failed with exit code 1", :cmd ("/bin/bash" "/home/vdp5/scripts/meme_analysis/./.drake/shell-124144fecf130ab20e6cd50c710bafe4.bat"), :opts {:die true, :no-stdin nil, :err [#<PrintStream java.io.PrintStream@570a19a8> #<BufferedWriter java.io.BufferedWriter@b6252f6>], :exec-dir nil, :out [#<PrintStream java.io.PrintStream@58fc3242> #<BufferedWriter java.io.BufferedWriter@4fc662a3>]}, :exit-code 1}
+	at clojure.core$ex_info.invoke(core.clj:4403)
+	at drake.shell$shell.doInvoke(shell.clj:150)
+	at clojure.lang.RestFn.applyTo(RestFn.java:137)
+	at clojure.core$apply.invoke(core.clj:624)
+	at drake.protocol$run_interpreter.invoke(protocol.clj:86)
+	at drake.protocol_interpreters$register_interpreter_BANG_$reify__4753.run(protocol_interpreters.clj:14)
+	at drake.core$run_step.invoke(core.clj:367)
+	at drake.core$attempt_run_step.invoke(core.clj:479)
+	at drake.core$function_for_step$fn__5091.invoke(core.clj:502)
+	at drake.core$trigger_futures_helper$fn__5102.invoke(core.clj:540)
+	at clojure.core$binding_conveyor_fn$fn__4145.invoke(core.clj:1910)
+	at clojure.lang.AFn.call(AFn.java:18)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-11-04 23:31:41,144 ERROR drake: target not found: a
