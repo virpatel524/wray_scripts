@@ -276,3 +276,8 @@
 2016-11-04 22:29:19,370 INFO --- 4. Running (via tag): %gfamilyall_dnamast_testonitself <- /home/vdp5/data/hhmm_data/gfamily_all_10motif/meme.xml, /home/vdp5/data/gene_finder/vir_all_ASM241v2/portillo_g_all_dna.fasta
 2016-11-04 22:29:21,360 INFO --- 4: %gfamilyall_dnamast_testonitself <- /home/vdp5/data/hhmm_data/gfamily_all_10motif/meme.xml, /home/vdp5/data/gene_finder/vir_all_ASM241v2/portillo_g_all_dna.fasta -> done in 1.95s
 2016-11-04 22:29:21,363 INFO Done (2 steps run).
+2016-11-04 22:36:08,592 INFO Running 1 steps with concurrence of 1...
+2016-11-04 22:36:08,618 INFO 
+2016-11-04 22:36:08,620 INFO --- 5. Running (via tag): %gfamilyall_protmast_testonitself <- /home/vdp5/data/hhmm_data/gfamily_all_10motif_prot/meme.xml, /home/vdp5/data/gene_finder/vir_all_ASM241v2/portillo_g_all_prot.fasta
+2016-11-04 22:36:10,676 INFO --- 5: %gfamilyall_protmast_testonitself <- /home/vdp5/data/hhmm_data/gfamily_all_10motif_prot/meme.xml, /home/vdp5/data/gene_finder/vir_all_ASM241v2/portillo_g_all_prot.fasta -> done in 2.01s
+2016-11-04 22:36:10,681 INFO Done (1 steps run).
