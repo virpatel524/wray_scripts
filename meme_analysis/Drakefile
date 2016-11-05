@@ -72,5 +72,8 @@ mast_analysis()
 	echo "complete" > stampcomplete/dreme_analysis1_protonly_falc_exon2_10.log
 
 
+; split fasta file of CDS var for appropriate usage in dreme
+
+
 
 
