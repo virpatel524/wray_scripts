@@ -33,41 +33,41 @@ mast_analysis()
 
 
 
-%mast_falc_annotated_10_var_protexon1, stampcomplete/mast_falc_annotated_10_var_protexon1.log <- /home/vdp5/data/hhmm_data/meme_falc_annotated_10_var_protexon1/meme.xml, /nfs/wraycompute/diana/var/exon1_aa.fa [shell timecheck:true +async]
+%mast_falc_annotated_10_var_protexon1 <- /home/vdp5/data/hhmm_data/meme_falc_annotated_10_var_protexon1/meme.xml, /nfs/wraycompute/diana/var/exon1_aa.fa [shell timecheck:true +async]
 	mast -oc /home/vdp5/data/hhmm_data/mast_falc_annotated_10_var_protexon1_testonitself $INPUT0 $INPUT1
 	echo "complete" > stampcomplete/mast_falc_annotated_10_var_protexon1.log
 
 
-%mast_falc_annotated_10_var_protexon2, stampcomplete/mast_falc_annotated_10_var_protexon2.log <- /home/vdp5/data/hhmm_data/meme_falc_annotated_10_var_protexon2/meme.xml, /nfs/wraycompute/diana/var/exon2_aa.fa [shell timecheck:true +async]
+%mast_falc_annotated_10_var_protexon2  <- /home/vdp5/data/hhmm_data/meme_falc_annotated_10_var_protexon2/meme.xml, /nfs/wraycompute/diana/var/exon2_aa.fa [shell timecheck:true +async]
 	mast -oc /home/vdp5/data/hhmm_data/mast_falc_annotated_10_var_protexon2_testonitself $INPUT0 $INPUT1
 	echo "complete" > stampcomplete/mast_falc_annotated_10_var_protexon2.log
 
-%mast_analysis1_newplasmodb13_exon1_10, stampcomplete/mast_analysis1_newplasmodb13_exon1_10.log <- /home/vdp5/data/hhmm_data/meme_falc_annotated_10_var_protexon1/meme.xml, /home/vdp5/data/cambodia_samples/falcipurum_wray/plasmodb13_transcript_readable.fasta [shell timecheck:true +async]
+%mast_analysis1_newplasmodb13_exon1_10  <- /home/vdp5/data/hhmm_data/meme_falc_annotated_10_var_protexon1/meme.xml, /home/vdp5/data/cambodia_samples/falcipurum_wray/plasmodb13_transcript_readable.fasta [shell timecheck:true +async]
 	mast -oc /home/vdp5/data/hhmm_data/mast_analysis1_newplasmodb13_exon1_10 $INPUT0 $INPUT1
 	echo "complete" > stampcomplete/mast_analysis1_newplasmodb13_exon1_10.log
 
 
-%mast_analysis1_newplasmodb13_exon2_10, stampcomplete/mast_analysis1_newplasmodb13_exon2_10.log <- /home/vdp5/data/hhmm_data/meme_falc_annotated_10_var_protexon2/meme.xml, /home/vdp5/data/cambodia_samples/falcipurum_wray/plasmodb13_transcript_readable.fasta [shell timecheck:true +async]
+%mast_analysis1_newplasmodb13_exon2_10 <- /home/vdp5/data/hhmm_data/meme_falc_annotated_10_var_protexon2/meme.xml, /home/vdp5/data/cambodia_samples/falcipurum_wray/plasmodb13_transcript_readable.fasta [shell timecheck:true +async]
 	mast -oc /home/vdp5/data/hhmm_data/mast_analysis1_newplasmodb13_exon2_10 $INPUT0 $INPUT1
 	echo "complete" > stampcomplete/mast_analysis1_newplasmodb13_exon2_10.log
 
 
 
-%mast_analysis2_protonly_newplasmodb13_exon1_10, stampcomplete/mast_analysis2_protonly_newplasmodb13_exon1_10.log <- /home/vdp5/data/hhmm_data/meme_falc_annotated_10_var_protexon1/meme.xml, /home/vdp5/data/cambodia_samples/falcipurum_wray/Results/Pfalciparum3D7_proteins.fasta [shell timecheck:true +async]
+%mast_analysis2_protonly_newplasmodb13_exon1_10 <- /home/vdp5/data/hhmm_data/meme_falc_annotated_10_var_protexon1/meme.xml, /home/vdp5/data/cambodia_samples/falcipurum_wray/Results/Pfalciparum3D7_proteins.fasta [shell timecheck:true +async]
 	mast -oc /home/vdp5/data/hhmm_data/mast_analysis2_protonly_newplasmodb13_exon1_10 $INPUT0 $INPUT1
 	echo "complete" > stampcomplete/mast_analysis2_protonly_newplasmodb13_exon1_10.log
 
 
-%mast_analysis2_protonly_newplasmodb13_exon2_10, stampcomplete/mast_analysis2_protonly_newplasmodb13_exon2_10.log <- /home/vdp5/data/hhmm_data/meme_falc_annotated_10_var_protexon2/meme.xml, /home/vdp5/data/cambodia_samples/falcipurum_wray/Results/Pfalciparum3D7_proteins.fasta [shell timecheck:true +async]
+%mast_analysis2_protonly_newplasmodb13_exon2_10 <- /home/vdp5/data/hhmm_data/meme_falc_annotated_10_var_protexon2/meme.xml, /home/vdp5/data/cambodia_samples/falcipurum_wray/Results/Pfalciparum3D7_proteins.fasta [shell timecheck:true +async]
 	mast -oc /home/vdp5/data/hhmm_data/mast_analysis2_protonly_newplasmodb13_exon2_10 $INPUT0 $INPUT1
 	echo "complete" > stampcomplete/mast_analysis2_protonly_newplasmodb13_exon2_10.log
 
-%dreme_analysis1_protonly_falc_exon1_10, stampcomplete/dreme_analysis1_protonly_falc_exon1_10.log <- /home/vdp5/data/falc_analysis_pacbio/diana_falc_var_exonsplit/exon1.fasta [shell timecheck:true +async]
+%dreme_analysis1_protonly_falc_exon1_10 <- /home/vdp5/data/falc_analysis_pacbio/diana_falc_var_exonsplit/exon1.fasta [shell timecheck:true +async]
 	dreme -oc /home/vdp5/data/hhmm_data/dreme_analysis1_protonly_falc_exon1_10 -p $INPUT0 
 	echo "complete" > stampcomplete/dreme_analysis1_protonly_falc_exon1_10.log
 
 
-%dreme_analysis1_protonly_falc_exon2_10, stampcomplete/dreme_analysis1_protonly_falc_exon2_10.log <- /home/vdp5/data/falc_analysis_pacbio/diana_falc_var_exonsplit/exon2.fasta [shell timecheck:true +async]
+%dreme_analysis1_protonly_falc_exon2_10 <- /home/vdp5/data/falc_analysis_pacbio/diana_falc_var_exonsplit/exon2.fasta [shell timecheck:true +async]
 	dreme -oc /home/vdp5/data/hhmm_data/dreme_analysis1_protonly_falc_exon2_10 -p $INPUT0 
 	echo "complete" > stampcomplete/dreme_analysis1_protonly_falc_exon2_10.log
 
@@ -78,12 +78,12 @@ mast_analysis()
 	echo "complete" > stampcomplete/diana_var_exonsplit.log
 
 
-%mast_analysis3_newplasmodb13_exon2_dreme, stampcomplete/mast_analysis3_newplasmodb13_exon2_dreme.log <- /home/vdp5/data/hhmm_data/dreme_analysis1_protonly_falc_exon2_10/dreme.xml, /home/vdp5/data/cambodia_samples/falcipurum_wray/plasmodb13_transcript_readable.fasta [shell timecheck:true +async]
+%mast_analysis3_newplasmodb13_exon2_dreme <- /home/vdp5/data/hhmm_data/dreme_analysis1_protonly_falc_exon2_10/dreme.xml, /home/vdp5/data/cambodia_samples/falcipurum_wray/plasmodb13_transcript_readable.fasta [shell timecheck:true +async]
 	mast -oc /home/vdp5/data/hhmm_data/mast_analysis3_newplasmodb13_exon2_dreme $INPUT0 $INPUT1
 	echo "complete" > stampcomplete/mast_analysis3_newplasmodb13_exon2_dreme.log
 
 
-%mast_analysis4_newplasmodb13_exon2_dreme_corradjust, stampcomplete/mast_analysis4_newplasmodb13_exon2_dreme_corradjust.log <- /home/vdp5/data/hhmm_data/dreme_analysis1_protonly_falc_exon2_10/dreme.xml, /home/vdp5/data/cambodia_samples/falcipurum_wray/plasmodb13_transcript_readable.fasta [shell timecheck:true +async]
+%mast_analysis4_newplasmodb13_exon2_dreme_corradjust <- /home/vdp5/data/hhmm_data/dreme_analysis1_protonly_falc_exon2_10/dreme.xml, /home/vdp5/data/cambodia_samples/falcipurum_wray/plasmodb13_transcript_readable.fasta [shell timecheck:true +async]
 	mast -remcorr -oc /home/vdp5/data/hhmm_data/mast_analysis4_newplasmodb13_exon2_dreme_corradjust $INPUT0 $INPUT1
 	echo "complete" > stampcomplete/mast_analysis4_newplasmodb13_exon2_dreme_corradjust.log
 
