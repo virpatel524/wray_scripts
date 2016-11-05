@@ -623,3 +623,9 @@
 2016-11-05 12:41:27,489 INFO --- 17. Running (via tag): %mast_analysis4_newplasmodb13_exon2_dreme_corradjust, /home/vdp5/scripts/meme_analysis/././stampcomplete/mast_analysis4_newplasmodb13_exon2_dreme_corradjust.log <- /home/vdp5/data/hhmm_data/dreme_analysis1_protonly_falc_exon2_10/dreme.xml, /home/vdp5/data/cambodia_samples/falcipurum_wray/plasmodb13_transcript_readable.fasta
 2016-11-05 12:41:33,841 INFO --- 17: %mast_analysis4_newplasmodb13_exon2_dreme_corradjust, /home/vdp5/scripts/meme_analysis/././stampcomplete/mast_analysis4_newplasmodb13_exon2_dreme_corradjust.log <- /home/vdp5/data/hhmm_data/dreme_analysis1_protonly_falc_exon2_10/dreme.xml, /home/vdp5/data/cambodia_samples/falcipurum_wray/plasmodb13_transcript_readable.fasta -> done in 6.32s
 2016-11-05 12:41:33,852 INFO Done (1 steps run).
+2016-11-05 12:49:40,547 INFO Running 2 steps with concurrence of 1...
+2016-11-05 12:49:40,575 INFO 
+2016-11-05 12:49:40,576 INFO --- 18. Running (missing output): %glam2_analysis1_exon1, /home/vdp5/scripts/meme_analysis/././stampcomplete/glam2_analysis1_exon1 <- /nfs/wraycompute/diana/var/exon1_aa.fa
+2016-11-05 12:50:08,118 INFO Running 2 steps with concurrence of 1...
+2016-11-05 12:50:08,144 INFO 
+2016-11-05 12:50:08,146 INFO --- 18. Running (missing output): %glam2_analysis1_exon1, /home/vdp5/scripts/meme_analysis/././stampcomplete/glam2_analysis1_exon1 <- /nfs/wraycompute/diana/var/exon1_aa.fa
