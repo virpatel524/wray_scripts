@@ -4,7 +4,11 @@ import sys, os, argparse, csv
 
 def make_bash_file(temperatures, exonsraw, targetprotrwaw, outputdir):
 	try:
-		os.mkdir('')
+		os.mkdir(outputdir)
+	except:
+		pass
+
+	
 
 parser = argparse.ArgumentParser();
 parser.add_argument('-exons', nargs='+')
