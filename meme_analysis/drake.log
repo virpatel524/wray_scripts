@@ -613,3 +613,8 @@
 2016-11-05 12:37:24,492 INFO --- 16. Running (missing output): %mast_analysis3_newplasmodb13_exon2_dreme, /home/vdp5/scripts/meme_analysis/././stampcomplete/mast_analysis3_newplasmodb13_exon2_dreme.log <- /home/vdp5/data/hhmm_data/dreme_analysis1_protonly_falc_exon2_10/dreme.xml, /home/vdp5/data/cambodia_samples/falcipurum_wray/plasmodb13_transcript_readable.fasta
 2016-11-05 12:37:33,670 INFO --- 16: %mast_analysis3_newplasmodb13_exon2_dreme, /home/vdp5/scripts/meme_analysis/././stampcomplete/mast_analysis3_newplasmodb13_exon2_dreme.log <- /home/vdp5/data/hhmm_data/dreme_analysis1_protonly_falc_exon2_10/dreme.xml, /home/vdp5/data/cambodia_samples/falcipurum_wray/plasmodb13_transcript_readable.fasta -> done in 9.12s
 2016-11-05 12:37:33,680 INFO Done (1 steps run).
+2016-11-05 12:40:12,633 INFO Running 1 steps with concurrence of 1...
+2016-11-05 12:40:12,661 INFO 
+2016-11-05 12:40:12,663 INFO --- 17. Running (missing output): %mast_analysis4_newplasmodb13_exon2_dreme_corradjust, /home/vdp5/scripts/meme_analysis/././stampcomplete/mast_analysis4_newplasmodb13_exon2_dreme_corradjust.log <- /home/vdp5/data/hhmm_data/dreme_analysis1_protonly_falc_exon2_10/dreme.xml, /home/vdp5/data/cambodia_samples/falcipurum_wray/plasmodb13_transcript_readable.fasta
+2016-11-05 12:40:22,612 INFO --- 17: %mast_analysis4_newplasmodb13_exon2_dreme_corradjust, /home/vdp5/scripts/meme_analysis/././stampcomplete/mast_analysis4_newplasmodb13_exon2_dreme_corradjust.log <- /home/vdp5/data/hhmm_data/dreme_analysis1_protonly_falc_exon2_10/dreme.xml, /home/vdp5/data/cambodia_samples/falcipurum_wray/plasmodb13_transcript_readable.fasta -> done in 9.89s
+2016-11-05 12:40:22,620 INFO Done (1 steps run).

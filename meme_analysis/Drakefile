@@ -84,5 +84,5 @@ mast_analysis()
 
 
 %mast_analysis4_newplasmodb13_exon2_dreme_corradjust, stampcomplete/mast_analysis4_newplasmodb13_exon2_dreme_corradjust.log <- /home/vdp5/data/hhmm_data/dreme_analysis1_protonly_falc_exon2_10/dreme.xml, /home/vdp5/data/cambodia_samples/falcipurum_wray/plasmodb13_transcript_readable.fasta [shell timecheck:true +async]
-	mast -oc /home/vdp5/data/hhmm_data/mast_analysis4_newplasmodb13_exon2_dreme_corradjust $INPUT0 $INPUT1
+	mast -remcorr -oc /home/vdp5/data/hhmm_data/mast_analysis4_newplasmodb13_exon2_dreme_corradjust $INPUT0 $INPUT1
 	echo "complete" > stampcomplete/mast_analysis4_newplasmodb13_exon2_dreme_corradjust.log
