@@ -1,0 +1,11 @@
+FATAL: Usage: glam2scan [options] alphabet my_motif.glam2 my_seqs.fa
+Main alphabets: p = proteins, n = nucleotides
+Main options (default settings):
+-h: show all options and their default settings
+-o: output directory; will not clobber existing files
+-O: output directory (glam2scan_out); allow clobbering
+-t: output text only to stdout
+-n: number of alignments to report (25)
+-2: examine both strands - forward and reverse complement
+-v: print version and exit (also accepts --version)
+
