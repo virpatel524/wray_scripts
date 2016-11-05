@@ -482,3 +482,11 @@
 	at java.lang.Thread.run(Thread.java:745)
 
 2016-11-04 23:31:41,144 ERROR drake: target not found: a
+2016-11-04 23:31:49,153 INFO Running 1 steps with concurrence of 1...
+2016-11-04 23:31:49,179 INFO 
+2016-11-04 23:31:49,182 INFO --- 7. Running (via tag): %splitexon2fasta, /home/vdp5/data/gene_finder/ASM241v2_genes_exons/gfamily_exon2_orthofinder4 <- /home/vdp5/data/gene_finder/ASM241v2_genes_exons/gfamily_exon2.fasta
+2016-11-04 23:31:50,238 INFO --- 7: %splitexon2fasta, /home/vdp5/data/gene_finder/ASM241v2_genes_exons/gfamily_exon2_orthofinder4 <- /home/vdp5/data/gene_finder/ASM241v2_genes_exons/gfamily_exon2.fasta -> done in 1.02s
+2016-11-04 23:31:50,243 INFO Done (1 steps run).
+2016-11-04 23:32:49,827 INFO Running 1 steps with concurrence of 1...
+2016-11-04 23:32:49,867 INFO 
+2016-11-04 23:32:49,870 INFO --- 7. Running (timestamped): %ortho, /home/vdp5/data/gene_finder/ASM241v2_genes_exons/orthofinder_exon2_gfamily.txt <- /home/vdp5/data/gene_finder/ASM241v2_genes_exons/gfamily_exon2_orthofinder4/

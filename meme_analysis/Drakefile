@@ -24,8 +24,7 @@ mast_analysis()
 %gfamilyall_protmast_testonitself <- /home/vdp5/data/hhmm_data/gfamily_all_10motif_prot/meme.xml, /home/vdp5/data/gene_finder/vir_all_ASM241v2/portillo_g_all_prot.fasta [shell timecheck:true +async]
 	mast -oc /home/vdp5/data/hhmm_data/mast_gfamilyall_protmast_testonitself $INPUT0 $INPUT1
 	
-%ortho, /home/vdp5/data/gene_finder/ASM241v2_genes_exons/orthofinder_exon2_gfamily.txt <- /home/vdp5/data/gene_finder/ASM241v2_genes_exons/gfamily_exon2_orthofinder4/ [shell timecheck:true +async]
-	orthofinder -f $INPUT > $OUTPUT
+
 
 ; this part makes the exon2 file easier for analysis
 
@@ -33,3 +32,5 @@ mast_analysis()
 	python /home/vdp5/scripts/general_purpose/splitfasta.py -seqfile $INPUT -outdir home/vdp5/data/gene_finder/ASM241v2_genes_exons/gfamily_exon2_orthofinder4
 
 
+%ortho, /home/vdp5/data/gene_finder/ASM241v2_genes_exons/orthofinder_exon2_gfamily.txt <- /home/vdp5/data/gene_finder/ASM241v2_genes_exons/gfamily_exon2_orthofinder4/ [shell timecheck:true +async]
+	orthofinder -f $INPUT > $OUTPUT
