@@ -32,16 +32,6 @@ def parse_motif_file(dirpath):
 	return
 
 
-
-
-
-
-
-
-
-
-
-
 def make_bash_file(temperatures, exonsraw, targetprotrwaw, outputdir):
 	coolpaths = []
 	try: 
@@ -69,7 +59,10 @@ def make_bash_file(temperatures, exonsraw, targetprotrwaw, outputdir):
 	return coolpaths
 
 
-def 
+def make_glam2scan_bash(coolpaths):
+	for path in coolpaths:
+		
+
 
 
 
