@@ -1,6 +1,12 @@
 import sys, os, argparse, csv, shutil
 
 
+def parse_motif_file(dirpath):
+	motif_file = list(csv.reader(open(os.path.join(dirpath, 'glam2.txt')),delimiter='\t'))
+	
+
+
+
 
 def make_bash_file(temperatures, exonsraw, targetprotrwaw, outputdir):
 	coolpaths = []
@@ -47,3 +53,5 @@ outputdir = args['outputdir']
 temperatures = [0.11, 0.2, 0.4, 0.7, 1, 1.2, 1.4, 1.7, 2, 3, 5]
 
 make_bash_file(temperatures, exonsraw, targetprotrwaw, outputdir)
+
+
