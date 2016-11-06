@@ -11,6 +11,8 @@ def parse_motif_file(dirpath):
 	motif2vals = {}
 
 	for line in motiffile:
+		if line[0] == 'S':
+			curscore = line
 		
 
 
