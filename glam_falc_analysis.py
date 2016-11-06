@@ -4,9 +4,8 @@ import sys, os, argparse, csv, shutil
 
 def parse_motif_file(dirpath):
 
-	tmp = dirpath.split('/')
-
-
+	relmotifbase = dirpath.split('/')[-1]
+	
 	curmotif = 'nope'
 	fle = open(dirpath, 'r')
 	motiffile = fle.readlines()
