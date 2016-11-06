@@ -3,17 +3,25 @@ import sys, os, argparse, csv, shutil
 
 
 def parse_motif_file(dirpath):
-	curscore = 'f'
+
+	tmp = dirpath.split('/')
+
+
+	curmotif = 'nope'
 	fle = open(dirpath, 'r')
 	motiffile = fle.readlines()
 	fle.close()
 
 	motif2vals = {}
-
+	counter = 1
 	for line in motiffile:
-		if line[0] == 'S':
+		if line[0:5] == 'Score':
 			curscore = line
-		
+		else:
+
+
+
+
 
 
 
