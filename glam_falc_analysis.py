@@ -92,6 +92,8 @@ def inter_results(coolpaths, outputdir):
 				for line in readerdata:
 					if line[0] == ' ':
 						continue
+					if line == '\n':
+						continue
 
 
 
