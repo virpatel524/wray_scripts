@@ -15,13 +15,17 @@ def parse_motif_file(dirpath):
 	counter = 1
 	for line in motiffile:
 		if line[0:5] == 'Score':
-			curmotif = relmotifbase + 'number_{}'.format(counter)
+			curmotif = relmotifbase + '_motifnumber_{}'.format(counter)
 			motif2vals.setdefault(curmotif, []).append(line)
 			counter+=1;
 		else:
 			motif2vals.setdefault(curmotif, []).append(line)
 
-	
+	for motif in motif2vals:
+		if motif == 'none':
+			continue
+		else:
+			newfle = open(os.path.join(dirpath, motif))
 
 
 
