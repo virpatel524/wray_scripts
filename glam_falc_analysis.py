@@ -59,7 +59,7 @@ def make_bash_file(temperatures, exonsraw, targetprotrwaw, outputdir):
 	return coolpaths
 
 
-def make_glam2scan_bash(coolpaths, outputdir):
+def make_glam2scan_bash(coolpaths, outputdir, targetprot):
 
 	newfle = open(os.path.join(outputdir, 'runglam2scan.sh'), 'w')
 	counter = 1
@@ -75,7 +75,7 @@ def make_glam2scan_bash(coolpaths, outputdir):
 					os.mkdir(os.path.join(path, newname + 'glam2scan'))
 				except:
 					pass
-				new
+				newfle.write('glam2scan -O {} p {} {}'.format())
 
 
 
