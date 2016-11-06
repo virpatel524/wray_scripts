@@ -4,7 +4,15 @@ import sys, os, argparse, csv, shutil
 
 def parse_motif_file(dirpath):
 	curscore = 'f'
-	fle = open('')
+	fle = open(dirpath, 'r')
+	motiffile = fle.readlines()
+	fle.close()
+
+	motif2vals = {}
+
+	for line in motiffile:
+		
+
 
 
 
