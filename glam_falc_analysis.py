@@ -14,8 +14,9 @@ def parse_motif_file(dirpath, allmotiffle):
 	counter = 1
 	for line in motiffile:
 		if line[0:5] == 'Score':
+			score = lines.split(' ')[1]
 			curmotif = 'motifnumber_{}'.format(counter) + relmotifbase + '.motif'
-			allmotiffle.write('{}\t{}\n'.format('motifnumber_{}'.format(counter) + relmotifbase, ))
+			allmotiffle.write('{}\t{}\n'.format('motifnumber_{}'.format(counter) + relmotifbase, score))
 			motif2vals.setdefault(curmotif, []).append(line)
 			counter+=1;
 		else:
@@ -97,6 +98,8 @@ def inter_results(coolpaths, outputdir):
 						continue
 					linesplit = line.split(' ')[0]
 					masterdict.setdefault(linesplit, []).append(newname)
+
+	
 
 
 
