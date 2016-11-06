@@ -2,7 +2,7 @@ import sys, os, argparse, csv, shutil
 import subprocess
 
 
-def parse_motif_file(dirpath):
+def parse_motif_file(dirpath, outdir):
 
 	relmotifbase = dirpath.split('/')[-1]
 
@@ -96,7 +96,8 @@ def inter_results(coolpaths, outputdir):
 					if line == '\n':
 						continue
 					linesplit = line.split(' ')[0]
-					
+					masterdict.setdefault(linesplit, []).append(newname)
+
 
 
 
@@ -126,7 +127,7 @@ processrun = subprocess.Popen(['bash {}'.format(os.path.join(outputdir, 'runscri
 processrun.wait() 
 
 for path in relevantpaths:
-	parse_motif_file(path)
+	parse_motif_file(path, outdir)
 
 
 
