@@ -25,8 +25,10 @@ def parse_motif_file(dirpath):
 		if motif == 'none':
 			continue
 		else:
-			newfle = open(os.path.join(dirpath, motif))
+			newfle = open(os.path.join(dirpath, motif), 'w')
 			
+
+
 
 
 
