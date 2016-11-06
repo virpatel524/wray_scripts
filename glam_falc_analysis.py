@@ -75,7 +75,9 @@ def make_glam2scan_bash(coolpaths, outputdir, targetprot):
 					os.mkdir(os.path.join(path, newname + 'glam2scan'))
 				except:
 					pass
-				newfle.write('glam2scan -O {} p {} {}'.format(os.path.join(path, newname + 'glam2scan'), filename, targetprot))
+				newfle.write('glam2scan -O {} p {} {}\n &'.format(os.path.join(path, newname + 'glam2scan'), filename, targetprot))
+
+	processrun = subprocess.Popen(['bash {}'.format()])
 
 
 
