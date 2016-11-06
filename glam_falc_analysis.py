@@ -3,7 +3,6 @@ import subprocess
 
 
 def parse_motif_file(dirpath, outdir):
-
 	relmotifbase = dirpath.split('/')[-1]
 
 	curmotif = 'nope'
