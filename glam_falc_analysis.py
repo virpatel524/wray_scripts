@@ -68,7 +68,10 @@ def make_glam2scan_bash(coolpaths, outputdir):
 			if filename.endswith('.motif'):
 				newname = filename.split('/')[-1].split('.')[0]
 				try: 
-					shutil.rmtree(outputdir)
+					shutil.rmtree(os.path.join(path, newname + 'glam2scan'))
+				except:
+					pass
+				
 
 
 
