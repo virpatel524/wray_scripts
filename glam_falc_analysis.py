@@ -15,7 +15,7 @@ def parse_motif_file(dirpath):
 	counter = 1
 	for line in motiffile:
 		if line[0:5] == 'Score':
-			curmotif = relmotifbase + '_motifnumber_{}'.format(counter)
+			curmotif = 'motifnumber_{}'.format(counter) + relmotifbase
 			motif2vals.setdefault(curmotif, []).append(line)
 			counter+=1;
 		else:
@@ -26,6 +26,7 @@ def parse_motif_file(dirpath):
 			continue
 		else:
 			newfle = open(os.path.join(dirpath, motif))
+			
 
 
 
