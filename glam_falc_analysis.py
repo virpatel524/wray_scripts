@@ -77,18 +77,8 @@ def make_glam2scan_bash(coolpaths, outputdir, targetprot):
 					pass
 				newfle.write('glam2scan -O {} p {} {}\n &'.format(os.path.join(path, newname + 'glam2scan'), filename, targetprot))
 
-	processrun = subprocess.Popen(['bash {}'.format()])
-
-
-
-
-
-
-
-
-
-
-
+	processrun = subprocess.Popen(['bash {}'.format(os.path.join(outputdir, 'runglam2scan.sh'))])
+	processrun.wait() 
 
 parser = argparse.ArgumentParser();
 parser.add_argument('-exons', nargs='+')
