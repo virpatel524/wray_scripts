@@ -26,7 +26,10 @@ def parse_motif_file(dirpath):
 			continue
 		else:
 			newfle = open(os.path.join(dirpath, motif), 'w')
-			
+			for line in motif2vals[motif]:
+				newfle.write(line)
+
+	return
 
 
 
@@ -83,6 +86,6 @@ outputdir = args['outputdir']
 
 temperatures = [0.11, 0.2, 0.4, 0.7, 1, 1.2, 1.4, 1.7, 2, 3, 5]
 
-make_bash_file(temperatures, exonsraw, targetprotrwaw, outputdir)
+relevantpaths = make_bash_file(temperatures, exonsraw, targetprotrwaw, outputdir)
 
 
