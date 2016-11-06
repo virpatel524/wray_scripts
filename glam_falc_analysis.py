@@ -86,7 +86,8 @@ def inter_results(coolpaths, outputdir):
 		for filename in os.listdir(path):
 			if filename.endswith('.motif'):
 				newname = filename.split('/')[-1].split('.')[0]
-				readerdata = list(csv.reader(open(os.path.join(path, newname + 'glam2scan', )),delimiter='\t'))
+				readerdata = list(csv.reader(open(os.path.join(path, newname + 'glam2scan', 'glam2scan.txt')),delimiter='\t'))
+				
 
 
 
