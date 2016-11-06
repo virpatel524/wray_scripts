@@ -90,8 +90,6 @@ relevantpaths = make_bash_file(temperatures, exonsraw, targetprotrwaw, outputdir
 processrun = subprocess.Popen(['bash {}'.format(os.path.join(outputdir, 'runscript.sh'))])
 processrun.wait() 
 
-
-
 for path in relevantpaths:
 	parse_motif_file(path)
 
