@@ -53,6 +53,7 @@ def make_bash_file(temperatures, exonsraw, targetprotrwaw, outputdir):
 		for temp in temperatures:
 			newfle.write('glam2 -O {}_{}temp -2 -r 20 -t {} p {} &\n'.format(os.path.join(outputdir, 'exon{}'.format(index + 1)), temp, temp, file))
 			coolpaths.append('{}_{}temp'.format(os.path.join(outputdir, 'exon{}'.format(index + 1)), temp))
+			counter += 1;
 			if counter == 2:
 				newfle.write('wait\n\n')
 				counter = 0
