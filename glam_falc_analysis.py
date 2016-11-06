@@ -142,7 +142,8 @@ allmotiffle = open(os.path.join(outputdir, 'allmotifs_scores.txt'), 'w')
 for path in relevantpaths:
 	parse_motif_file(path, allmotiffle)
 
-allmotiffle.close()
+make_glam2scan_bash(coolpaths, outputdir, targetprotrwaw)
+inter_results(coolpaths, outputdir)
 
 
 
