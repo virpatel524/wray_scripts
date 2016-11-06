@@ -99,7 +99,10 @@ def inter_results(coolpaths, outputdir):
 					linesplit = line.split(' ')[0]
 					masterdict.setdefault(linesplit, []).append(newname)
 
-	
+	masterdictfle = open(os.path.join(outputdir, 'glam2scan_results_full.txt'), 'w')
+
+	for gene in masterdict:
+		masterdict.write()
 
 
 
