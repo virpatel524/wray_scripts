@@ -82,7 +82,8 @@ def make_glam2scan_bash(coolpaths, outputdir, targetprot):
 
 def inter_results(coolpaths, outputdir):
 	motifrnafile = open(os.path.join(outputdir, ))
-	for path in 
+	for path in coolpaths:
+		
 
 
 
