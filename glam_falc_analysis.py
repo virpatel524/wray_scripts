@@ -94,6 +94,8 @@ def inter_results(coolpaths, outputdir):
 						continue
 					if line == '\n':
 						continue
+					linesplit = line.split(' ')[0]
+					
 
 
 
