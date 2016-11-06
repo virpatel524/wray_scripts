@@ -5,7 +5,7 @@ import sys, os, argparse, csv, shutil
 def parse_motif_file(dirpath):
 
 	relmotifbase = dirpath.split('/')[-1]
-	
+
 	curmotif = 'nope'
 	fle = open(dirpath, 'r')
 	motiffile = fle.readlines()
@@ -15,8 +15,10 @@ def parse_motif_file(dirpath):
 	counter = 1
 	for line in motiffile:
 		if line[0:5] == 'Score':
-			curscore = line
+			curmotif = relmotifbase + 'number_{}'.format(counter)
+			counter+=1;
 		else:
+			
 
 
 
