@@ -69,6 +69,9 @@ def make_bash_file(temperatures, exonsraw, targetprotrwaw, outputdir):
 	return coolpaths
 
 
+def 
+
+
 
 
 
