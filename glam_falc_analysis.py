@@ -63,7 +63,9 @@ def make_glam2scan_bash(coolpaths, outputdir):
 	newfle = open(os.path.join(outputdir, 'runglam2scan.sh'), 'w')
 	for path in coolpaths:
 		for filename in os.listdir(path):
-			if filename.endswith('.motif')
+			if filename.endswith('.motif'):
+				counter = 0
+
 
 
 
