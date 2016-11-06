@@ -1,5 +1,5 @@
 import sys, os, argparse, csv, shutil
-
+import subprocess
 
 
 def parse_motif_file(dirpath):
@@ -88,7 +88,10 @@ temperatures = [0.11, 0.2, 0.4, 0.7, 1, 1.2, 1.4, 1.7, 2, 3, 5]
 
 relevantpaths = make_bash_file(temperatures, exonsraw, targetprotrwaw, outputdir)
 
+
+
 for path in relevantpaths:
-	
+	parse_motif_file(path)
+
 
 
