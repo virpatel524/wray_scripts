@@ -89,6 +89,9 @@ def inter_results(coolpaths, outputdir):
 				readertmp = open(os.path.join(path, newname + 'glam2scan', 'glam2scan.txt'))
 				readerdata = readertmp.readlines()[4:]
 				readertmp.close()
+				for line in readerdata:
+					if line[0] == ' ':
+						continue
 
 
 
