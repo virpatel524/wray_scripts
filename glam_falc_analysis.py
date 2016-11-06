@@ -102,7 +102,10 @@ def inter_results(coolpaths, outputdir):
 	masterdictfle = open(os.path.join(outputdir, 'glam2scan_results_full.txt'), 'w')
 
 	for gene in masterdict:
-		masterdict.write()
+		masterdictfle.write('{}\t'.format(gene))
+		masterdictfle.write('{}\n'.format('\t'.join(masterdict[gene])))
+
+	masterdictfle.close()
 
 
 
