@@ -15,7 +15,7 @@ def parse_motif_file(dirpath):
 	counter = 1
 	for line in motiffile:
 		if line[0:5] == 'Score':
-			curmotif = 'motifnumber_{}'.format(counter) + relmotifbase
+			curmotif = 'motifnumber_{}'.format(counter) + relmotifbase + '.motif'
 			motif2vals.setdefault(curmotif, []).append(line)
 			counter+=1;
 		else:
@@ -61,7 +61,9 @@ def make_bash_file(temperatures, exonsraw, targetprotrwaw, outputdir):
 
 def make_glam2scan_bash(coolpaths):
 	for path in coolpaths:
-		
+		for filename in os.listdir(path):
+			
+
 
 
 
