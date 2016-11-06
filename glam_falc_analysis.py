@@ -2,7 +2,7 @@ import sys, os, argparse, csv, shutil
 import subprocess
 
 
-def parse_motif_file(dirpath, outdir):
+def parse_motif_file(dirpath, allmotiffle):
 	relmotifbase = dirpath.split('/')[-1]
 
 	curmotif = 'nope'
@@ -125,8 +125,13 @@ relevantpaths = make_bash_file(temperatures, exonsraw, targetprotrwaw, outputdir
 processrun = subprocess.Popen(['bash {}'.format(os.path.join(outputdir, 'runscript.sh'))])
 processrun.wait() 
 
+
+allmotiffle = open(os.path.join(outputdir, 'allmotifs_scores.txt'), 'w')
+
 for path in relevantpaths:
-	parse_motif_file(path, outdir)
+	parse_motif_file(path, allmotiffle)
+
+allmotiffle.close()
 
 
 
