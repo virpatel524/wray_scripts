@@ -61,10 +61,12 @@ def make_bash_file(temperatures, exonsraw, targetprotrwaw, outputdir):
 
 def make_glam2scan_bash(coolpaths, outputdir):
 	newfle = open(os.path.join(outputdir, 'runglam2scan.sh'), 'w')
+	counter = 1
 	for path in coolpaths:
 		for filename in os.listdir(path):
 			if filename.endswith('.motif'):
-				counter = 0
+				newname = filename.split('/')[-1].split('.')
+
 
 
 
