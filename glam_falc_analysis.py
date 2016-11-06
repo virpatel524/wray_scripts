@@ -1,9 +1,12 @@
 import sys, os, argparse, csv, shutil
 
 
+
 def parse_motif_file(dirpath):
+	curscore = 'f'
 	motif_file = list(csv.reader(open(os.path.join(dirpath, 'glam2.txt')),delimiter='\t'))
 	
+
 
 
 
