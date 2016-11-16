@@ -1,0 +1,11 @@
+# bwa mem -B 1 /home/vdp5/data/salvador_vivax_asia_2016/first-SAMEA2376790/pvivax_sal1_SAMEA2376790.fasta /home/vdp5/data/cambodia_samples/sequences_gz/OM339-BiooBarcode43_TACAGC_R1.fastq.gz /home/vdp5/data/cambodia_samples/sequences_gz/OM339-BiooBarcode43_TACAGC_R2.fastq.gz | samtools view  -Sb - | samtools sort - /home/vdp5/data/optimize_alignment_tests/OM339_b1.sorted
+# bwa mem -B 2 /home/vdp5/data/salvador_vivax_asia_2016/first-SAMEA2376790/pvivax_sal1_SAMEA2376790.fasta /home/vdp5/data/cambodia_samples/sequences_gz/OM339-BiooBarcode43_TACAGC_R1.fastq.gz /home/vdp5/data/cambodia_samples/sequences_gz/OM339-BiooBarcode43_TACAGC_R2.fastq.gz | samtools view  -Sb - | samtools sort - /home/vdp5/data/optimize_alignment_tests/OM339_b2.sorted
+# bwa mem -B 3 /home/vdp5/data/salvador_vivax_asia_2016/first-SAMEA2376790/pvivax_sal1_SAMEA2376790.fasta /home/vdp5/data/cambodia_samples/sequences_gz/OM339-BiooBarcode43_TACAGC_R1.fastq.gz /home/vdp5/data/cambodia_samples/sequences_gz/OM339-BiooBarcode43_TACAGC_R2.fastq.gz | samtools view  -Sb - | samtools sort - /home/vdp5/data/optimize_alignment_tests/OM339_b3.sorted
+
+# qualimap bamqc -bam /home/vdp5/data/optimize_alignment_tests/OM339_b1.sorted.bam -outdir /home/vdp5/data/optimize_alignment_test/OM339 -outfile B1.analysis.pdf -outformat pdf
+# qualimap bamqc -bam /home/vdp5/data/optimize_alignment_tests/OM339_b2.sorted.bam -outdir /home/vdp5/data/optimize_alignment_test/OM339 -outfile B2.analysis.pdf -outformat pdf
+# qualimap bamqc -bam /home/vdp5/data/optimize_alignment_tests/OM339_b3.sorted.bam -outdir /home/vdp5/data/optimize_alignment_test/OM339 -outfile B3.analysis.pdf -outformat pdf
+
+
+bwa mem /home/vdp5/data/vivax_2009/GCA_000002415.2_ASM241v2_genomic_edited_originalchromid.fasta /home/vdp5/data/cambodia_samples/sequences_gz/OM339-BiooBarcode43_TACAGC_R1.fastq.gz /home/vdp5/data/cambodia_samples/sequences_gz/OM339-BiooBarcode43_TACAGC_R2.fastq.gz | samtools view  -Sb - | samtools sort - /home/vdp5/data/optimize_alignment_tests/OM339_salvador.sorted
+qualimap bamqc -bam /home/vdp5/data/optimize_alignment_tests/OM339_salvador.sorted.bam -outdir /home/vdp5/data/optimize_alignment_test/OM339 -outfile salvador.analysis.pdf -outformat pdf

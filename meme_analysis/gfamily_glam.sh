@@ -1,0 +1,4 @@
+python /home/vdp5/bin/glam_falc_analysis.py -seq_type p -outputdir /home/vdp5/data/hhmm_data/vir_gfamily_toitself -exons /home/vdp5/data/gene_finder/vir_all_ASM241v2/portillo_g_all_prot.fasta -targetproteins /home/vdp5/data/gene_finder/vir_all_ASM241v2/portillo_g_all_prot.fasta &
+python /home/vdp5/bin/glam_falc_analysis.py -seq_type p -outputdir /home/vdp5/data/hhmm_data/vir_gfamily_allvir -exons /home/vdp5/data/gene_finder/vir_all_ASM241v2/portillo_g_all_prot.fasta -targetproteins /home/vdp5/data/gene_finder/vir_all_ASM241v2/allgenes_prot.txt &
+python /home/vdp5/bin/glam_falc_analysis.py -seq_type p -outputdir /home/vdp5/data/hhmm_data/vir_gfamily_allprotein_SAE -exons /home/vdp5/data/gene_finder/vir_all_ASM241v2/portillo_g_all_prot.fasta -targetproteins /home/vdp5/data/salvador_vivax_asia_2016/first-SAMEA2376790/PvivaxP01.prot.fasta &
+

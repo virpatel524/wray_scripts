@@ -2,6 +2,10 @@ import Bio
 from Bio import SeqIO
 import os
 counter = 1
+
+
+from Bio.Seq import Seq
+from Bio.Alphabet import generic_dna
 masterfle = open('/home/vdp5/data/gene_finder/vir_all_ASM241v2/allgenes.txt', 'w')
 masterfle_prot = open('/home/vdp5/data/gene_finder/vir_all_ASM241v2/allgenes_prot.txt', 'w')
 
@@ -12,27 +16,24 @@ gb_file_test = '/home/vdp5/data/gene_finder/ASM241v2_genbank/GCA_000002415.2_ASM
 data = SeqIO.parse(gb_file_test, "genbank")
 
 while 5 < 6:
-	try:
-		beta = next(data)
-		starter = beta.features
-		for alpha in starter:
-			tmp = alpha.qualifiers
-			if 'product' in tmp:
-				if 'Vir' in tmp['product'][0]:
-					sequence =  alpha.extract(beta.seq)
-					masterfle.write('>%s_%s\n' %(tmp['locus_tag'][0],'nochromid'))
-					masterfle.write('%s\n' %(sequence))
-					newfle = open('/home/vdp5/data/gene_finder/vir_all_ASM241v2/all_split/{}.fasta'.format(tmp['locus_tag'][0]),'w')
-					newfle.write('>%s_%s\n' %(tmp['locus_tag'][0],'nochromid'))
-					newfle.write('%s\n' %(sequence))
-					newfle.close()
-					counter += 1
 
+	beta = next(data)
+	starter = beta.features
+	for alpha in starter:
+		tmp = alpha.qualifiers
+		if 'product' in tmp:
+			if 'Vir' in tmp['product'][0]:
+				sequence =  alpha.extract(beta.seq)
+				masterfle.write('>%s_%s\n' %(tmp['locus_tag'][0],'nochromid'))
+				masterfle.write('%s\n' %(sequence))
+				masterfle_prot.write('>%s_%s\n' %(tmp['locus_tag'][0],'nochromid'))
+				masterfle_prot.write('%s\n' %(sequence.translate()))
+				newfle = open('/home/vdp5/data/gene_finder/vir_all_ASM241v2/all_split/{}.fasta'.format(tmp['locus_tag'][0]),'w')
+				newfle.write('>%s_%s\n' %(tmp['locus_tag'][0],'nochromid'))
+				newfle.write('%s\n' %(sequence))
+				newfle.close()
+				counter += 1
 
-	except:
-		break
-
-print counter
 # for alpha in data.features:
 # 	tmp =  alpha.qualifiers
 # 	if 'product' in tmp:

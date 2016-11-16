@@ -1,0 +1,2 @@
+glam_falc_analysis.py -seq_type p -exons /nfs/wraycompute/diana/var/var_falciparum_aa.fa -outputdir /home/vdp5/data/hhmm_data/diana_analysis_var_prot_toitself -targetproteins /nfs/wraycompute/diana/var/var_falciparum_aa.fa
+glam_falc_analysis.py -seq_type p -exons /nfs/wraycompute/diana/var/var_falciparum_aa.fa -outputdir /home/vdp5/data/hhmm_data/diana_analysis_var_prot_plasmodb -targetproteins /home/vdp5/data/cambodia_samples/falcipurum_wray/Results/Pfalciparum3D7_proteins.fasta
