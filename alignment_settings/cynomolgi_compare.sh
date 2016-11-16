@@ -1,0 +1,2 @@
+bwa mem -t 5 /home/vdp5/data/other_data/cynomologi/GCF_000321355.1_PcynB_1.0_genomic.fna /home/vdp5/data/cambodia_samples/sequences_gz/OM339-BiooBarcode43_TACAGC_R1.fastq.gz /home/vdp5/data/cambodia_samples/sequences_gz/OM339-BiooBarcode43_TACAGC_R2.fastq.gz | samtools view  -Sb - | samtools sort - /home/vdp5/data/optimize_alignment_tests/OM399_cynomologi_align.sorted
+qualimap bamqc -bam /home/vdp5/data/optimize_alignment_tests/OM399_cynomologi_align.sorted.bam -outdir /home/vdp5/data/optimize_alignment_tests/OM399 -outfile OM399.cymologi.pdf -outformat pdf
