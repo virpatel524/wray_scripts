@@ -1,3 +1,2 @@
-Warning -- argument to option '-T' starts with '-'
 
-stampy: Error: TestMap: please provide one or two input files
+stampy: Error: File /home/vdp5/data/salvador_vivax_asia_2016/first-SAMEA2376790/pvivax_sal1_SAMEA2376790.fasta.stidx does not exist
